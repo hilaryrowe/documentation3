@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_v5n_vjt_st">
-  <title>Defect Auto-Inspection</title>
+  <title>Automated Inspection</title>
   <body>
-    <p>Your machine can tell you when to eject a defect. If your machine can produce a signal to
+    <p>Sight Machine can create defects directly from automated inspection machines data. If your machine can produce a signal to
       indicate detection of a defect, Sight Machine can track the detections automatically and
       generate defect models. </p>
     <p>Each time a defect is reported by a machine's signal, it is automatically recorded in the
-      Sight Machine application. If your machine's signal is a camera that takes a picture when
+      Sight Machine application. These defects can include rich information, such as a picture of the defect, when
       something goes wrong, Sight Machine grabs that image along with any other captured data.</p>
     <p>You can view auto-inspected defects as a summary from the Dashboard tab or in detail on the
       Data tab.</p>
-    <p>
-      <note>Auto-tracking of defects can take place only when Sight Machine is running.</note>
-    </p>
     <section>
       <title>Auto-Inspected Defects on the Dashboard Tab</title>
-      <p>The Quality subtab on the Dashboard tab provides a high-level view of auto-inspected
-        defects.</p>
       <p><image href="images/autoDefect5.png" id="image_z4h_sjb_tt" width="700px"/></p>
       <p>Click one of the Quality links (1, 2, or 3 above) to display the Data tab with detailed
         defect information.</p>
@@ -29,8 +24,7 @@
       <p><image href="images/updatePaneDataTab.png" width="200" id="image_i3w_xmn_5t"/></p>
       <p>Click any column header to sort the defect entries in ascending order by that column. </p>
       <p><image href="images/autoDefect3.png" id="image_smk_fgb_tt" width="700px"/></p>
-      <p>A defect reported by a machine with a camera might produce an etnry similar to the
-        following.</p>
+      <p>Sight Machine can track defects that occur from automated inspection systems, including image data and measurement overlays for later review.</p>
       <p><image href="images/autoDefectImage.png" width="700" id="image_vcg_2kf_5t"/></p>
     </section>
   </body>

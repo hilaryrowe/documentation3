@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Three Ways to Input Defects in Sight Machine</title>
+ <title>QuickStart: Defect Entry</title>
  <topicref href="enterDefectsIntro.dita"/>
  <topicref href="manualDefect.dita"/>
  <topicref href="singleEntryDefect.dita"/>
