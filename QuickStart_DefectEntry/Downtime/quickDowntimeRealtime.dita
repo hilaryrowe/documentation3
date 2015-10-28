@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_h5g_y3g_5t">
+  <title>Real-Time Downtime Entry</title>
+  <body>
+    <p>A line operator might use a tablet to enter a single downtime at the same time it is
+      detected. This real-time downtime entry does not require a working Internet connection. If the
+      Internet connection goes down, the line operator will still be able to add downtime.</p>
+    <p>Consider the example of a line operator responsibile for identifying machine downtime for a
+      machine that produces lock mechanisms. If that machine goes down for any variety of reasons,
+      that line operator would follow these instructions to record that machine's downtime.<note>The
+        images below are only examples and your tablet display will appear differently, with
+        downtime reasons unique to your facility and product.</note></p>
+    <p>
+      <ol id="ol_pxy_lxt_st">
+        <li>Select a machine from the Machine drop-down list.<p><image
+              href="images/realtimeDowntimeEntry.png" width="700" id="image_iyp_bsk_5t"/></p></li>
+        <li>Select the particular machine part that resulted in the downtime. Select the More
+          drop-down list to see more machine part options.<p><image
+              href="images/realDowntimeEntry2.png" width="700" id="image_px5_dsk_5t"/></p></li>
+        <li> Select the Add Downtime button to display the "Select a Reason" screen and select one
+          of the available buttons to select the downtime reason and automatically return to the
+          Downtime Entry screen. <p><image href="images/realDowntimeEntry3.png" width="700"
+              id="image_ypx_2sk_5t"/></p></li>
+      </ol>
+    </p>
+  </body>
+</topic>

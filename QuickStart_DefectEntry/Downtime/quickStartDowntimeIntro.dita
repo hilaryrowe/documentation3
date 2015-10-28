@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_jzh_h3g_5t">
+  <title>Three Ways to Enter Downtime</title>
+  <body>
+      <p>There are three ways to input manufacturing downtime into Sight Machine. Each of these
+      three ways is used by a different role at your organization.<ol id="ol_icv_njt_st">
+        <li>Managers and QA lab technicians: Batch downtime entry on the Sight Machine Data Tab</li>
+        <li>Line Operators: Manual real-time, downtime entry using a tablet</li>
+        <li>Automated Downtime Inspection: Through machine input automated inspection</li>
+      </ol></p>
+      <note>While downtime input is done in essentially the three above ways no matter the product,
+      the Sight Machine application is flexible enough to consume input from virtually any input
+      device. Whether you're measuring downtime for machines that build steering column lock
+      assemblies or top-stitching on soccer shoes, Sight Machine has a way to input that downtime
+      and to view it in the application.</note>
+  </body>
+</topic>

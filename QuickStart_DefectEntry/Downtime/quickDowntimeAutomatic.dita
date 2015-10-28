@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_nft_1jg_5t">
+  <title>Downtime Auto-Inspection</title>
+  <body>
+    <p>Your machine can tell you when it goes down unexpectedly. If your machine can produce a
+      signal to indicate detection of donwtime, Sight Machine can track the detections automatically
+      and generate downtime models. </p>
+    <p>Each time downtime is reported by a machine's signal, it is automatically recorded in the
+      Sight Machine application. </p>
+    <p>
+      <note>Auto-tracking of downtime can take place only when Sight Machine is running.</note>
+    </p>
+    <p>You can view auto-inspected downtime as a summary from the Dashboard tab, which includes
+      links to more detailed information on the Analysis, Data, and Timeline tabs.</p>
+    <section>
+      <title>Auto-Detected Downtime on the Dashboard Tab</title>
+      <p>The Operational plot and subtab on the Dashboard tab provide a high-level view of
+        auto-detected downtime.</p>
+    </section>
+    <section>
+      <p><image href="images/downtimeAutoInspect1.png" width="700" id="image_mdn_smk_5t"/></p>
+      <p>Click one of the Operational links (1, 2, 3, or 4 above) to display detailed downtime
+        information in various tabs.<ul id="ul_yjw_rvq_5t">
+          <li>Click the OEE Summary pane's Operational link to display the Data tab with data for
+            all downtimes.</li>
+          <li>Click any of the bars in the bar chart or the line plot in the OEE Details pane to
+            display the Analysis tab to display details about downtime by reason.</li>
+          <li>Click the "Longest Periods of Unplanned Downtime" link to display the Data tab with
+            details about downtime by longest downtime period. Click any of the individual Date/Time
+            links to display the Timeline tab with details about cycle and machine availability. </li>
+          <li>Click the section "Shift with Most Unplanned Downtime" link to display the Data tab
+            with details about downtime sorted by shifts with the most machine downtime. Click any
+            of the individual Shift links to display the Data tab with details about downtime for
+            that particular shift. </li>
+        </ul></p>
+    </section>
+  </body>
+</topic>
