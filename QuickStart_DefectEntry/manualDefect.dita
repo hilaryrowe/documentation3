@@ -3,10 +3,10 @@
 <topic id="topic_crt_q5t_st">
   <title>Batch Defect Entry</title>
   <body>
-    <p>A manager or a QA lab technician might record multiple defects in a batch after reviewing
+    <p>A manager or a QA lab technician might record multiple defects at a time after reviewing
       output at the end of a shift. For example, if it's your company's policy to check the first
       and last item of every batch, and discard an entire batch if that first and last item are
-      defective, you'll use the cloud-based Sight Machine application's Data tab to do so.</p>
+      defective, you'll use the cloud-based Sight Machine application's Data tab to enter all the defects at once.</p>
     <p>The instructions below are steps for entering a batch of defects.</p>
     <p>
       <ol id="ol_ewt_hqt_st">

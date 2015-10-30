@@ -3,13 +3,13 @@
 <topic id="topic_i4q_bwt_st">
   <title>Real-Time Defect Entry</title>
   <body>
-    <p>A line operator might use a tablet to enter a single defect at the same time it is detected.
+    <p>A line operator cagn use  a tablet to enter a defects at the machine or line at the time in which they are detected.
       This real-time defect entry does not require a working Internet connection. If the Internet
-      connection goes down, the line operator will still be able to add a defect.</p>
+      connection goes down, the line operator will still be able to add a defect, and thes added defects will be sync'd to the cloud pending Internet availability.</p>
     <p>Consider the example of a line operator responsible for catching discolored shoe parts. That
       line operator would follow these instructions to record a defective item.<note>The images
         below are only examples and your tablet display will appear differently, with defect types
-        unique to your facility and product.</note></p>
+        unique to the machine type of interest.  These defect types are configurable from the setings page</note></p>
     <p>
       <ol id="ol_pxy_lxt_st">
         <li>Select a machine from the Machine drop-down list and then tap the Add Defect
