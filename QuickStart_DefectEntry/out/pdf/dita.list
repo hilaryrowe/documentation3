@@ -1,9 +1,9 @@
-#Mon Oct 26 09:05:38 PDT 2015
+#Fri Nov 06 08:00:18 PST 2015
 relflagimagelist=
-user.input.dir=/Users/dianaabishop/Google Drive/In Process/QuickStart
+user.input.dir=/Users/dianaabishop
 copytotarget2sourcemaplist=
-uplevels=
-user.input.file=EnteringADefect.ditamap
+uplevels=../../../
+user.input.file=SightMachine/documentation/QuickStart_DefectEntry/DefectsAndQualityGuide.ditamap
 user.input.file.listfile=usr.input.file.list
-tempdirToinputmapdir.relative.value=
+tempdirToinputmapdir.relative.value=SightMachine/documentation/QuickStart_DefectEntry/
 relflagimagefile=relflagimage.list

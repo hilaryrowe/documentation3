@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_dwr_ndf_wt">
+  <title>How to Configure Defect Types</title>
+  <body>
+    <p>In order to identify defects in a way that can be measured, a manager at your organization
+      must configure defect types in the Settings view. Once configured, these defect types are
+      available throughout the Sight Machine application. <note>Defect type configuration is limited
+        to an organization's manager to ensure Sight Machine provides consistent and clear data. If
+        anyone could add defect types on the fly, the opportunity for inconsistent data would
+        increase, rendering the data meaningless. (i.e. two or more employees might enter a
+        different defect type for the same type of defect, making it difficult to ascertain the
+        meaning of these different types.)</note></p>
+    <p>The manager designated to configure defect types can enter as many defect types as needed for
+      your organization. </p>
+    <p>Use the following instructions to configure a defect type in Sight Machine.</p>
+    <p>
+      <ol id="ol_oxp_22f_wt">
+        <li>Click the Gear icon in the Toolbar to display the Settings view.</li>
+        <li>Click on the Machine Settings tab.<p><image
+              href="../../../Google%20Drive/In%20Process/QuickStartAdmin/images/adminMain.png"
+              width="700" id="image_jzh_j2f_wt"/></p></li>
+        <li>Click the Defect Types button.</li>
+        <li>Click the Code or Sub Code button to display the Add Defect Type dialog box.<note>If you
+            are entering a defect type sub code, be sure to select a current code in the list of
+            defect types first, in order to indicate to which code the sub code will be
+            subordinate.</note></li>
+        <li>Enter appropriate values in the fields and click Save. The defect type you just added
+          displays in the list of defect types and throughout Sight Machine's tabs and
+            workflows.<p>See xx for details on where defects are entered in Sight Machine.</p></li>
+      </ol>
+    </p>
+  </body>
+</topic>

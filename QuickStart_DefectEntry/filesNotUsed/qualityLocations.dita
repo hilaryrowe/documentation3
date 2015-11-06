@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_kzd_vqz_wt">
+  <title>Assessing Manufacturing Quality</title>
+  <body>
+    <p>There are several ways of reviewing machine manufacturing quality in Sight Machine:<ul
+        id="ul_izg_hy1_xt">
+        <li>Dashboard -> OEE Detail screen's<ul id="ul_rkr_1z1_xt">
+            <li>Operational tab (pareto chart showing quality as measured by maching downtime)</li>
+            <li>Quality tab (bar chart showing quality as measured by defects by type)</li>
+          </ul></li>
+        <li>Data tab (quality as measured by defective parts over machine, start and end time,
+          etc.)</li>
+        <li>Analysis tab (quality measured over time)</li>
+        <li>Toolbar Chart button (quality measured by machine or location)  </li>
+      </ul></p>
+    <p/>
+  </body>
+</topic>

@@ -3,12 +3,13 @@
 <topic id="topic_v5n_vjt_st">
   <title>Automated Inspection</title>
   <body>
-    <p>Sight Machine can create defects directly from automated inspection machines data. If your machine can produce a signal to
-      indicate detection of a defect, Sight Machine can track the detections automatically and
-      generate defect models. </p>
+    <p>Sight Machine can create defects directly from automated inspection of machine data. If your
+      machine can produce a signal to indicate detection of a defect, Sight Machine can track the
+      detections automatically and generate defect models. </p>
     <p>Each time a defect is reported by a machine's signal, it is automatically recorded in the
-      Sight Machine application. These defects can include rich information, such as a picture of the defect, when
-      something goes wrong, Sight Machine grabs that image along with any other captured data.</p>
+      Sight Machine application. These defects can include rich information, such as a picture of
+      the defect, when something goes wrong. Sight Machine grabs that image along with any other
+      captured data.</p>
     <p>You can view auto-inspected defects as a summary from the Dashboard tab or in detail on the
       Data tab.</p>
     <section>
