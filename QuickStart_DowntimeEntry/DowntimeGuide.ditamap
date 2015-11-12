@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Downtime Quick Start Guide</title>
+ <topicref href="configuringDowntimeReasons.dita"/>
+ <topicref href="quickStartDowntimeIntro.dita">
+  <topicref href="batchDowntimeEntry.dita"/>
+  <topicref href="lineOperatorDowntimeEntry.dita"/>
+  <topicref href="autoDowntimeEntry.dita"/>
+ </topicref>
+ <topicref href="viewingDowntimeData.dita">
+  <topicref href="downtimeOnOEE.dita"/>
+  <topicref href="analysisTabKpiChart.dita"/>
+  <topicref href="machineStatusView.dita"/>
+ </topicref>
+</map>

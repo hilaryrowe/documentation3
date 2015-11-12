@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_m3b_ckl_xt">
+  <title>Downtime Data on the Dashboard (OEE) Tab</title>
+  <body>
+    <p>Machine downtime appears as a Pareto chart on the Dashboard tab's Availability subtab. Use
+      the following steps to refine and view downtime metrics from the Dashboard tab.<note>The
+        Availability subtab may be labeled differently than in the image below, and instead have a
+        unique name specific to your organization.</note><ol id="ol_htc_2ll_xt">
+        <li>In the Update pane, select a manufacturing site and machine from the site
+              picker.<p><image href="../common/images/sitePicker.png" width="400"
+              id="image_pst_mx2_zt"/></p></li>
+        <li>Select a date range from the Date picker.<p><image
+              href="../common/images/datePicker.png" width="400" id="image_x5n_4x2_zt"/></p></li>
+        <li>Click Update to apply your selections to the data.</li>
+        <li>Click the Availability subtab to display the Pareto chart showing Unplanned Downtime by
+          Category as a percentage of longest machine downtime for the time period.<p><image
+              href="images/oeeDowntimeParetoChart.png" width="500" id="image_drz_dy2_zt"/></p>For
+          more details, click:<ul id="ul_kwh_fy2_zt">
+            <li>Any bar or point along the KPI Pareto chart graph to display the Analysis tab with
+              KPI Pareto charting details</li>
+            <li>The "Longest Periods of Unplanned Downtime" or "Shifts with Most Unplanned Downtime"
+              links (or the Shift 1 or Shift 2 links) in the lower split-pane to display the Data
+              tab with more downtime details for machines or shifts with the longest downtime</li>
+            <li>The date/time links in the lower left split-pane to display the Timeline tab with
+              details about machine cycles for the time periods that machines had the longest
+              downtime</li>
+          </ul></li>
+      </ol></p>
+  </body>
+</topic>

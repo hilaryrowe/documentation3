@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_g4j_v3g_5t">
+  <title>Batch Downtime Entry</title>
+  <body>
+    <p>A manager or a QA lab technician might record multiple downtimes or need to edit downtime
+      types and reasons for downtimes entered by either line operators or auto-detection.</p>
+    <p>The instructions below are steps for viewing reported downtime in Sight Machine.<ol
+        id="ol_dcf_gkg_5t">
+        <li>On the Data tab, select Downtime from the Update Menu to toggle the Update Menu options
+          to downtime-specific choices.<p><image href="images/downtimeBatch1.png" width="600px"
+              id="image_c3x_klg_5t"/></p></li>
+        <li>Click to select details from the Update Menu and click Update. Machine downtime data
+          displays according to your criteria.<p><image href="images/batchDowntimeResults.png"
+              width="700px" id="image_y1s_wmg_5t"/></p></li>
+      </ol></p>
+  </body>
+</topic>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_djs_1lk_zt">
+  <title>Machine Status View</title>
+  <body>
+    <p>The Machine Status view shows a live view into the status of machines by plant location, and
+      type of machine. </p>
+    <p><image href="images/machineStatus.png" width="700" id="image_m2m_nlk_zt"/></p>
+    <p>Use the following steps to see the Machine Status view.<ol id="ol_aqk_2mk_zt">
+        <li>Click the Charting button in the tool bar at the top right of the Sight Machine
+          application to display the Machine Status view. The Charing button is available in the
+          tool bar from any tab/location within Sight Machine.</li>
+        <li>Click the All Assets picker to select the location and machine type for which you want
+          to view the status, and click Apply.<p><image href="images/machineStatusAssetPicker.png"
+              width="300" id="image_yw1_2nk_zt"/></p><p>The Machine Status view refreshes to display
+            your selections. The legend provides a visual guide to indicate which machines are
+            running, stopped, or not sending data to Sight Machine.</p><p><image
+              href="images/machineStatusRows.png" width="700" id="image_hm2_g4k_zt"/></p></li>
+        <li>Click any Asset row to display the details for the current time, last cycle, and shift
+          schedule for that asset in the Asset summary box to the right of the rows.</li>
+        <li>Click the X icon in the top right of the view to close the Machine Status view and
+          return to the Sight Machine tab/location from which you originated.</li>
+      </ol></p>
+  </body>
+</topic>

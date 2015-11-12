@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_kzd_vqz_wt">
+  <title>Viewing Downtime Data</title>
+  <body>
+    <p>Downtime data displays in the following locations in Sight Machine:<ul id="ul_izg_hy1_xt">
+        <li>Dashboard (OEE) tab<ul id="ul_rkr_1z1_xt">
+            <li>Availability Pareto charting</li>
+          </ul></li>
+        <li>Analysis tab/KPI Pareto charting<ul id="ul_aj4_ngl_xt">
+            <li>Comparing unplanned downtime by time and factory, category, reason, and shift</li>
+          </ul></li>
+        <li>Machine Status View<ul id="ul_kfb_5kk_zt">
+            <li>Live machine status</li>
+          </ul></li>
+      </ul></p>
+  </body>
+</topic>
