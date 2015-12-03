@@ -21,3 +21,5 @@ Open the index.html file referenced in step 2 above, and make this the last thin
 ```html
 <script src="bandita.js"></script>
 ```
+## 4. Host the files with a webserver; go to index.html in a browser.
+It will only work when hosted in a webserver.
