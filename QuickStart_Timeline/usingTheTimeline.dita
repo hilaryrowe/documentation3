@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_xvz_pxr_d5">
+  <title>Using the Timeline</title>
+  <body>
+    <p>Once you've selected a facility machine and a date and updated your timline view, the
+      Timeline tab displays the lower nad upper panes broken down by time increments.</p>
+    <p>The top pane displays 10-minute increments for machine avavailability. Green shading
+      indicates the machine was available; red shading indicates the machine was not available
+      (unplanned downtime).</p>
+    <p><image href="images/topPane.png" width="750" id="image_erk_vyr_d5"/></p>
+    <ul id="ul_sbq_5cs_d5">
+      <li><p>Use the bottom horizontal slider to move back and forth from the beginning to the end
+          of the 24-hour cycle.</p><image href="images/sliderTop.png" width="650"
+          id="image_s4q_wcs_d5"/></li>
+      <li>Use the right-side vertical slider to move from top-to-bottom to view performance for the
+        different elements for the machine.<p><image href="images/sligerTopHoriz.png" width="650"
+            id="image_u2y_bfs_d5"/></p></li>
+    </ul>
+  </body>
+</topic>

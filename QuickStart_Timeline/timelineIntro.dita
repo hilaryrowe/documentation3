@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_sdy_jkr_d5">
+  <title>Timeline Overview</title>
+  <body>
+    <p>The Timeline tab shows machine operating and down times for specified machines and dates.
+      There are two horizontal views.</p>
+    <p><image href="images/timelineOverview.png" width="750" id="image_p2x_nmr_d5"/><ul
+        id="ul_hls_zkr_d5">
+        <li>Top pane: shows a machine operation/unplanned downtime in 10-minute increments for the
+          24-hour time period for the selected date.</li>
+        <li>Lower pane: shows machine part function in two-second intervals for the cycle selected
+          in pane 1 </li>
+      </ul></p>
+  </body>
+</topic>
