@@ -7,8 +7,7 @@ The top pane displays 10-minute increments for machine avavailability. Green sha
 ![](topPane.png)
 -   Use the bottom horizontal slider to move back and forth from the beginning to the end of the 24-hour cycle.
 
-    ![](images/sliderTop.png)
-
+![](sliderTop.png)
 -   Use the right-side vertical slider to move from top-to-bottom to view performance for the different elements for the machine.
 
-    ![](images/sligerTopHoriz.png)
+![](sligerTopHoriz.png)
