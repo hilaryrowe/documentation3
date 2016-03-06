@@ -1,6 +1,6 @@
 # Using the Timeline
 
-Once you've selected a facility machine and a date and updated your timline view, the Timeline tab displays the lower nad upper panes broken down by time increments.
+Once you've selected a facility machine and a date and updated your timeline view, the Timeline tab displays the lower and upper panes broken down by time increments.
 
 The top pane displays 10-minute increments for machine avavailability. Green shading indicates the machine was available; red shading indicates the machine was not available \(unplanned downtime\).
 
