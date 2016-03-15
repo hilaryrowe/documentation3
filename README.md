@@ -1,3 +1,3 @@
-# My Awesome Book
+Holding repository to do version control for documentation efforts until we incorporate it into the Sight Machine platform and merge into ma
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+See code/README.md for docs on how generating PDF distributables works.
