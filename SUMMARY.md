@@ -20,5 +20,5 @@
    * [Calculating Output](oeeCalculations/calculatingOutput.md)
    * [Calculating Performance](oeeCalculations/calculatingPerformance.md)
    * [Entering Defects](oeeCalculations/enteringDefects.md)
-   * 
+   * [Calculating Quality](oeeCalculations/calculatingQuality.md)
 
