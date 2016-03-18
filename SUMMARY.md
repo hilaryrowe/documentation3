@@ -22,4 +22,6 @@
    * [Entering Defects](oeeCalculations/enteringDefects.md)
    * [Calculating Quality](oeeCalculations/calculatingQuality.md)
 * [Dashboard Tab](dashboardTab/readmemdmd.md)
-
+   * [Unique Dashboard Tab Navigation](dashboardTab/uniqueDashboardTabNav.md)
+   * [Using the Dashboard Tab](dashboardTab/usingTheDashboardTab.md)
+   * 
