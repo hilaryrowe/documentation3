@@ -15,7 +15,7 @@
    * [Export Data](ExportData.md)
 * [OEE Calculations with Sight Machine](oeeCalculations/readmemd.md)
    * [Creating Cycle Objects](oeeCalculations/creatingCycleObjects.md)
-   * 
+   * [Creating Downtime Objects](oeeCalculations/creatingDowntimeObjects.md)
    * 
    * 
 
