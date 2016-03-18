@@ -22,8 +22,13 @@ In the Tabbed Pane, OEE is broken down into its component parts. These parts dis
   * Click the Longest Periods of Unplanned Downtime, Shifts with Most Unplanned Downtime, or individual Shift links to go to the Data Tab
 
 * Performance subtab:
+  * Click the Performance by Shift link to go to the Analysis Tab 
+  * Click any of the bars in the bar graph to go to the Data Tab
 
 * Quality subtab:
+  * Click the Defects by Type link to go to the Analysis Tab
+  * Click any of the bars in the bar graph or the line graph to go to the Data Tab
 
 * Output subtab:
+  * 
 
