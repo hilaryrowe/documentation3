@@ -7,4 +7,6 @@
  * availability
  * output
  * performance
- * quality (includes data from entered defects)
+ * quality (includes data from entered defects
+
+![](sightMachingPlatform.png)
