@@ -14,5 +14,16 @@ In the OEE pane, overall equipment efficiency displays for the machine and time 
 When you navigate to any of these other tabs, you must click the Update button upon arrival to see detailed information.
 
 **Tabbed Pane**
-In the Tabbed Pane, OEE is broken down into its component parts and displays them as *subtabs* display: Availability, Performance, Quality, and Output.
+In the Tabbed Pane, OEE is broken down into its component parts. These parts display as subtabs: Availability, Performance, Quality, and Output.
+
+* Availability subtab:
+  * Click the Unplanned DT by Category link to go to the Analysis Tab
+  * Click the bars or line graph go to the Analysis Tab 
+  * Click the Longest Periods of Unplanned Downtime, Shifts with Most Unplanned Downtime, or individual Shift links to go to the Data Tab
+
+* Performance subtab:
+
+* Quality subtab:
+
+* Output subtab:
 
