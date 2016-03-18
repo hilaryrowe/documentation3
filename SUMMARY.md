@@ -8,15 +8,12 @@
    * [Using the Asset Selector](AssetPicker.md)
    * [Using the Date Filter](UsingDateFilter.md)
    * [Other Filters](OtherFilters.md)
-   * 
    * [Hovering Over Items](Hovering.md)
    * [Using the Update Button](UpdateButton.md)
-   * 
    * [Printing](PrintButton.md)
    * [Share Link](ShareLink.md)
    * [Export Data](ExportData.md)
-   * 
-* [OEE Calculations with Sight Machine](oeeCalculations/README.md)
+* [OEE Calculations with Sight Machine](oeeCalculations/readmemd.md)
    * [We love feedback](part2/feedback_please.md)
    * [Better tools for authors](part2/better_tools.md)
 
