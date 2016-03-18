@@ -38,6 +38,7 @@
   * [Key Performance Indicators](analysisTab/kpi.md)
     * [About Key Performance Indicators](analysisTab/aboutKpi.md)
     * [Building KPI Charts](analysisTab/buildingKpiCharts.md)
-* [Data Tab](dataTab)
+* [Data Tab](dataTab/readme.md)
+* 
 * 
 
