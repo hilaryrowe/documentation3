@@ -39,6 +39,12 @@
     * [About Key Performance Indicators](analysisTab/aboutKpi.md)
     * [Building KPI Charts](analysisTab/buildingKpiCharts.md)
 * [Data Tab](dataTab/readme.md)
+  *  [Unique Data Tab Navigation](dataTab/uniqueDataTabNav.md)
+  *  [Machine Data](dataTab/machineData.md)
+    *  [About Machine Data](dataTab/aboutMachineData.md)
+    *  [Filtering Data Tables](dataTab/filteringDataTables.md)
+    *  [Using the Image View](dataTab/usingTheImageView.md)
+    *  [Creating Custom Tables](dataTab/creatingCustomTables.md)
 * 
 * 
 
