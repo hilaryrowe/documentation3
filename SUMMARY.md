@@ -38,10 +38,5 @@
   * [Key Performance Indicators](analysisTab/kpi.md)
     * [About Key Performance Indicators](analysisTab/aboutKpi.md)
     * [Building KPI Charts](analysisTab/buildingKpiCharts.md)
-  * [Process Control](analysisTab/ProcessControl.md)
-    * [About Process Control Charting](analysisTab/uniqueAnalysisTabNav.md)
-    * [Understanding SPC with Sight Machine](analysisTab/understandingSpcWithSm.md)
-    * [Building SPC Charts](analysisTab/buildingSpcCharts.md)
-    * [Interpreting SPC Charts](analysisTab/interpretingSpcCharts.md)
-  * 
+* 
 
