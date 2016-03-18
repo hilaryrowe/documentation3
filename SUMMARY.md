@@ -21,4 +21,5 @@
    * [Calculating Performance](oeeCalculations/calculatingPerformance.md)
    * [Entering Defects](oeeCalculations/enteringDefects.md)
    * [Calculating Quality](oeeCalculations/calculatingQuality.md)
-* [Dashboard Tab](dashboardTab/readmemd.md)
+* [Dashboard Tab](dashboardTab/readmemdmd.md)
+
