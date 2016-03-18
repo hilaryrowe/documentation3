@@ -52,4 +52,7 @@
     * [Filtering Timeline View](timelineTab/filteringTimelineView.md)
     * [Viewing Cycle Timeline](timelineTab/viewingCycleTimeline.md)
     * [Viewing Cycle Break Down](timelineTab/viewingCycleBreakDown.md)
-    * 
+*  [Settings](settings/readme.md)
+  * [User Settings Tab](settings/userSettingsTab.md)
+  * [Permissions Tab](settings/permissionsTab.md)
+  * [Machine Settings Tab](settings/machineSettingsTab.md)
