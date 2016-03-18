@@ -1,6 +1,7 @@
 # Using the Filter Bar
  
  The Filter Bar is the left-most panel on all the tabs in Sight Machine. The Update button appears at the top of the Filter Bar. All filter options, specific to each tab, display below the Update button.
+ 
 [image: filterDashboardTab.png]
 Clicking any of the filter options displays an expanded menu with detailed options.
 [image: fitlerDashboardExpanded.png]
