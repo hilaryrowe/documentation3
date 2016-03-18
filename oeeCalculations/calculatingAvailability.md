@@ -3,4 +3,4 @@
  
  ![](availabilityCalc.png)
  
-  In the example aobve
+  In the example above 
