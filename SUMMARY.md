@@ -47,4 +47,9 @@
     *  [Creating Custom Tables](dataTab/creatingCustomTables.md)
 * [Timeline Tab](timelineTab)
   * [Unique Timeline Tab Navigation](timelineTab/uniqueTimelineTabNav.md)
-
+  * [Machine Timeline](timelineTab/machineTimeline.md)
+    * [About Machine Timeline](timelineTab/aboutMachineTimeline.md)
+    * [Filtering Timeline View](timelineTab/filteringTimelineView.md)
+    * [Viewing Cycle Timeline](timelineTab/viewingCycleTimeline.md)
+    * [Viewing Cycle Break Down](timelineTab/viewingCycleBreakDown.md)
+    * 
