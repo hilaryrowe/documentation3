@@ -29,6 +29,6 @@ In the Tabbed Pane, OEE is broken down into its component parts. These parts dis
   * Click the Defects by Type link to go to the Analysis Tab
   * Click any of the bars in the bar graph or the line graph to go to the Data Tab
 
-* Output subtab:
-  * 
+* Output subtab: The Output subtab displays a bar graph and does not include links to other Tabs.
+
 
