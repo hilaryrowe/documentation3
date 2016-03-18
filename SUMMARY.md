@@ -18,4 +18,6 @@
    * [Creating Downtime Objects](oeeCalculations/creatingDowntimeObjects.md)
    * [Calculating Availability](oeeCalculations/calculatingAvailability.md)
    * [Calculating Output](oeeCalculations/calculatingOutput.md)
+   * [Calculating Performance](oeeCalculations/calculatingPerformance.md)
+   * 
 
