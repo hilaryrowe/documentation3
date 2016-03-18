@@ -16,7 +16,7 @@
    * [Share Link](ShareLink.md)
    * [Export Data](ExportData.md)
    * 
-* [Part II](part2/README.md)
+* [OEE Calculations with Sight Machine](oeeCalculations/README.md)
    * [We love feedback](part2/feedback_please.md)
    * [Better tools for authors](part2/better_tools.md)
 
