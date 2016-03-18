@@ -16,4 +16,6 @@
 * [OEE Calculations with Sight Machine](oeeCalculations/readmemd.md)
    * [We love feedback](part2/feedback_please.md)
    * [Better tools for authors](part2/better_tools.md)
+   * [Creating Cycle Objects](oeeCalculations/creatingCycleObjects.md)
+   * 
 
