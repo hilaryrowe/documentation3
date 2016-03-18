@@ -30,7 +30,7 @@
      * [Performance Chart](dashboardTab/performanceChart.md)
      * [Quality Chart](dashboardTab/qualityChart.md)
      * [Output Chart](dashboardTab/outputChart.md)
-* [Analysis Tab](analysisTab/readmemdmdmd.md)
+* [Analysis Tab](analysisTab/readme.md)
   *  [Unique Analysis Tab Navigation](analysisTab/uniqueAnalysisTabNav.md)
   *  [Data Visualization](analysisTab/dataVisualization.md)
     *  [About Data Visualization](analysisTab/aboutDataVisualization.md)
