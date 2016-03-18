@@ -19,5 +19,5 @@
    * [Calculating Availability](oeeCalculations/calculatingAvailability.md)
    * [Calculating Output](oeeCalculations/calculatingOutput.md)
    * [Calculating Performance](oeeCalculations/calculatingPerformance.md)
-   * 
+   * [Entering Defects](oeeCalculations/enteringDefects.md)
 
