@@ -25,5 +25,9 @@
    * [Unique Dashboard Tab Navigation](dashboardTab/uniqueDashboardTabNav.md)
    * [Using the OEE Dashboard Tab](dashboardTab/usingTheOeeDashboard.md)
      * [About Oee Dashboard](dashboardTab/aboutOeeDashboard.md)
-     * 
+     * [OEE Chart](dashboardTab/oeeChart.md)
+     * [Availability Chart](dashboardTab/availabilityChart.md)
+     * [Performance Chart](dashboardTab/performanceChart.md)
+     * [Quality Chart](dashboardTab/qualityChart.md)
+     * [Output Chart](dashboardTab/outputChart.md)
    * 
