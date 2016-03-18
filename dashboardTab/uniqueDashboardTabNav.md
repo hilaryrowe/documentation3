@@ -4,6 +4,9 @@ On the Dashboard tab, data displays in two panes:
   * OEE Pane
   * Tabbed Pane
 
+![OEE Tab](oedTabNav.png)
+
+
 **OEE Pane**
 In the OEE pane, overall equipment efficiency displays for the machine and time you selected in the Filter bar. Linked text in this pane allows navigation to other tabs where you can see more detailed information.
  
