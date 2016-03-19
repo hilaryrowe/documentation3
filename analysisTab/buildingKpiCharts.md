@@ -30,11 +30,10 @@ Selecting an option in the pop-out menu displays a sub-pop-out menu where you ca
 ![](analysisTabFilterb.png)
    1. Select an operator from the drop-down list.
    2. Enter a value in the associated field.
-   3. Click the Add link to save it. This will close the sub-pop-out menu and focus returns to the Filter Bar. Your filter value displays in the Filter Bar above the Add Filter option.
-   4. 
+     3. Click the Add link to save it. This will close the sub-pop-out menu and focus returns to the Filter Bar. Your filter value displays in the Filter Bar above the Add Filter option.
 
- 5. Click Update to view a KPI Pareto chart. Unplanned machine downtime displays by category, reason, or shift over time for the selected asset.
+ 5. Click Update to view a KPI Pareto chart. The Y axis and X axis labels clearly display, along with a legend. Hover over any bar or line graph point to see pop-up quantity or percentage details.
 
-![](analysisTabKpiDowntimeParetoChart.png)
+![](analysisTabResults.png)
 
  6. Click any bar or point along the KPI Pareto chart graph to display the Data tab with more detailed information.
