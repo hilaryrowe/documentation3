@@ -4,13 +4,14 @@
  
  1. Click the Analysis tab.
  2. On the Update panel, select the asset or assets and date range from the Asset Picker and Date Filter.
- 3. Select Unplanned Downtime from the Y Axis picker.
+ 3. Select an option from the Y Axis picker. 
  
- ![](downtimeYAxisPicker.png)
+ ![](analysisTabYAxis.png)
+  For the Y axis, you can choose to view Availability, Defects, OEE, Output, Performance, Quality, Total Cycle Count, or Unplanned Downtime. Use the pop-out menu's slider bar to view all the options.
  
- 3. Select either Category, Reason, or Shift from the X Axis picker.
+ 3. Select either Shift or Time from the X Axis picker.
  
- ![](downtimeXAxisPicker.png)
+ ![](analysisTabXAxis.png)
  
  4. Select an option from the Downtime Category picker, if desired. Downtime category options may differ from the image below, and will be specific to your machines.
   
