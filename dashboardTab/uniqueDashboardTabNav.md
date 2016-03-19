@@ -7,6 +7,9 @@ On the Dashboard tab, data displays in two panes:
 
 ![OEE Tab](oedTabNav.png)
 
+The data displayed in these panes represents the asset and date range selected. For example, 
+
+
 
 **OEE Pane**
  In the OEE pane, equipment efficiency displays for the machine and time you selected in the Filter bar. Linked text in this pane allows navigation to other tabs where you can see more detailed information.
