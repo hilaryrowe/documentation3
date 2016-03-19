@@ -7,6 +7,6 @@
 
 For example, in the image below, Performance may appear to be less than optimal.
 
-
+![](dashboardPerformance.png)
 
 The
