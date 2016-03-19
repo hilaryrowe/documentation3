@@ -1,7 +1,10 @@
 # Building KPI Charts
 
+ Use the following steps as a guide to building KPI charts.
+ 
  1. Click the Analysis tab.
- 2. On the Update panel, select the criteria for your review from the Asset and Date pickers. Specifically select Unplanned Downtime from the Y Axis picker.
+ 2. On the Update panel, select the asset or assets and date range from the Asset Picker and Date Filter.
+ 3. Select Unplanned Downtime from the Y Axis picker.
  
  ![](downtimeYAxisPicker.png)
  
