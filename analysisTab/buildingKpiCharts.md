@@ -3,11 +3,15 @@
  Use the following steps as a guide to building KPI charts.
  
  1. Click the Analysis tab.
+ 2. Select Key Performance Indicators from the Analysis Type drop-down list.
+
+![](analysisTabChartOptions.png)
+
  2. On the Update panel, select the asset or assets and date range from the Asset Picker and Date Filter.
  3. Select an option from the Y Axis picker. 
  
  ![](analysisTabYAxis.png)
-  For the Y axis, you can choose to view Availability, Defects, OEE, Output, Performance, Quality, Total Cycle Count, or Unplanned Downtime. Use the pop-out menu's slider bar to view all the options.
+ You can choose: Availability, Defects, OEE, Output, Performance, Quality, Total Cycle Count, or Unplanned Downtime. Use the pop-out menu's slider bar to view all the options.
  
  3. Select either Shift or Time from the X Axis picker.
  
