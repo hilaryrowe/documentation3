@@ -17,11 +17,22 @@
  
  ![](analysisTabXAxis.png)
  
- 4. Select an option from the Downtime Category picker, if desired. Downtime category options may differ from the image below, and will be specific to your machines.
+ 4. Select an option from the Comparison picker.
   
-![](downtimeCategoryPicker.png) 
- **Note:** A Reset link appears in the Downtime Category picker allowing you to clear any downtime category selected after selecting one.
+![](analysisTabComparisonPicker.png) 
  
+ 5. If desired, click Add Filter to display a Filter pop-out menu and select an extra filter. Use the slider bar to see all options.
+
+![](analysisTabFiltera.png)
+
+Selecting an option in the pop-out menu displays a sub-pop-out menu where you can enter specific values.
+
+![](analysisTabFilterb.png)
+   1. Select an operator from the drop-down list.
+   2. Enter a value in the associated field.
+   3. Click the Add link to save it. This will close the sub-pop-out menu and focus returns to the Filter Bar. Your filter value displays in the Filter Bar above the Add Filter option.
+   4. 
+
  5. Click Update to view a KPI Pareto chart. Unplanned machine downtime displays by category, reason, or shift over time for the selected asset.
 
 ![](analysisTabKpiDowntimeParetoChart.png)
