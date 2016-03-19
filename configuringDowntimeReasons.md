@@ -11,7 +11,7 @@ Use the following instructions to configure a downtime reason in Sight Machine.
 1.  Click the Gear icon in the Toolbar to display the Settings view.
 2.  Click on the Machine Settings tab.
 
-    ![](../../../Google%20Drive/In%20Process/QuickStartAdmin/adminMain.png)
+    ![](adminMain.png)
 
 3.  Click the Downtime Reasons button.
 4.  Click the Code or Sub Code button to display the Add Downtime Reason dialog box.
