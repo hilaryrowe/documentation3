@@ -1,6 +1,7 @@
 # Unique Dashboard Tab Navigation
 
 On the Dashboard tab, data displays in two panes: 
+
   * OEE Pane
   * Tabbed Pane
 
@@ -8,7 +9,7 @@ On the Dashboard tab, data displays in two panes:
 
 
 **OEE Pane**
-In the OEE pane, overall equipment efficiency displays for the machine and time you selected in the Filter bar. Linked text in this pane allows navigation to other tabs where you can see more detailed information.
+ In the OEE pane, equipment efficiency displays for the machine and time you selected in the Filter bar. Linked text in this pane allows navigation to other tabs where you can see more detailed information.
  
    * Clicking the OEE Over Time link takes you to the Analysis Tab
    * Clicking the Availability, Performance, or Quality linked text takes you to the Data Tab
@@ -17,7 +18,7 @@ In the OEE pane, overall equipment efficiency displays for the machine and time 
 When you navigate to any of these other tabs, you must click the Update button upon arrival to see detailed information.
 
 **Tabbed Pane**
-In the Tabbed Pane, OEE is broken down into its component parts. These parts display as subtabs: Availability, Performance, Quality, and Output.
+ In the Tabbed Pane, you see OEE in its component parts. These parts display as subtabs: Availability, Performance, Quality, and Output.
 
 * Availability subtab:
   * Click the Unplanned DT by Category link to go to the Analysis Tab
