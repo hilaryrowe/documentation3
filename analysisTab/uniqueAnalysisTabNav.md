@@ -14,3 +14,5 @@
   | Key Performance Indicators | Asset Selector, Date Filter, Y Axis, X Axis, Comparison Selector | Line Chart or Bar Chart |
   | Process Control| Asset Selector, Specific Measure, Date Filter | X-Bar Chart |
   | Root Cause Analysis| Asset Selector, Specific Measure, Date Filter | Predictors, Line Chart, Histogram |
+  
+  
