@@ -4,3 +4,6 @@
  
  1. Click the Analysis tab.
  2. Select Data Visualization from the Analysis Type drop-down list.
+    ![](analysisTabDataVisOption.png)
+ 3. xx
+ 4. xx
