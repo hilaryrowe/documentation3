@@ -2,7 +2,7 @@
 
  The Analysis Tab includes more navigation options than the other Sight Machine tabs.
  
- The first option you can choose is the type of analysis or chart, from the Analysis Selector. Analysis Selection options include: Data Visualization, Key Performance Indicators, Process Control, and Root Cause Analysis.
+ 1. The first option you can choose is the type of analysis or chart, from the Analysis Selector. Analysis Selection options include: Data Visualization, Key Performance Indicators, Process Control, and Root Cause Analysis.
  
  ![](analysisTabTopOptions.png)
  
@@ -15,6 +15,6 @@
   | Process Control| Asset Selector, Specific Measure, Date Filter | X-Bar Chart |
   | Root Cause Analysis| Asset Selector, Specific Measure, Date Filter | Predictors, Line Chart, Histogram |
   
-  
+  2. The second option you choose will be Filter Bar options.
   
   
