@@ -15,6 +15,16 @@
   | Process Control| Asset Selector, Specific Measure, Date Filter | X-Bar Chart |
   | Root Cause Analysis| Asset Selector, Specific Measure, Date Filter | Predictors, Line Chart, Histogram |
   
-  2. The second option you choose will be Filter Bar options.
+  2. After you choose the Filter Bar options for the type of analysis you've selected, click Update to display the chart.
+  3. The Data Visualization and Key Performance Indicators charts include additional view options in the upper right corner of the chart.
+        * Data Visualization Chart Display icon: table, scatter chart, bar chart, or line graph
+        
+          ![](dataVisaChartIcon.png)
+        * KPI Chart Display icon:  bar chart, line graph, day or week toggle
+        
+          ![](kpiChartIcon.png)
+
+  4. xx
+  5. xx
   
   
