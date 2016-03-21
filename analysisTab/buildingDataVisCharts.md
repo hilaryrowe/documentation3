@@ -17,3 +17,4 @@
     ![](analysisTabDataVisYAxis.png)
 
    4. Select an option from the Comparison Picker: Single Plot, Compare by Factory, or Compare by Machine.
+   5. If desired, click Add Filter to display a Filter pop-out menu and select an extra filter. Use the slider bar to see all options.
