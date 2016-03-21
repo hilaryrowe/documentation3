@@ -16,15 +16,24 @@
   | Root Cause Analysis| Asset Selector, Specific Measure, Date Filter | Predictors, Line Chart, Histogram |
   
   2. After you choose the Filter Bar options for the type of analysis you've selected, click Update to display the chart.
-  3. The Data Visualization and Key Performance Indicators charts include additional view options in the upper right corner of the chart.
-        * Data Visualization Chart Display icon: table, scatter chart, bar chart, or line graph
+  3. The different charts include additional navigation options.
+  
+        * Data Visualization Navigation (Chart Display icon): table, scatter chart, bar chart, or line graph
         
           ![](dataVisaChartIcon.png)
-        * KPI Chart Display icon:  bar chart, line graph, day or week toggle
+        * KPI Navigation (Chart Display icon):  bar chart, line graph, day or week toggle
         
           ![](kpiChartIcon.png)
+          **Note:** You can also click the bar chart or line graph to display the Data Tab. Once on the Data Tab, clicking the Update button will display more detailed information.
+          
+        * Process Control Navigation: click the Minimum, Maximum, Mean, Process Capability Index, or Process Capability values to change the X-Bar Chart display on the right:
+          ![](processControlChartIcons.png)
+        **Note:** Clicking the Alarm radio button for the row will set an alert.
+        
+        * Root Cause Analysis Navigation: click on any value in the table on the left to change the line graph and bar chart on the right:
 
-  4. xx
-  5. xx
+           
+           **Note:** Hover over any of the Predictors to see pop-up help explanations.
+
   
   
