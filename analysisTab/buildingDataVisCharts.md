@@ -29,5 +29,7 @@
       2. Enter a value in the associated field.
       3. Click the Add link to save it. This will close the sub-pop-out menu and focus returns to the Filter Bar. Your filter value displays in the Filter Bar above the Add Filter option.
 
- 5. Click Update to view the Data Visualization] chart. The Y axis and X axis labels display. Line graphs include a legend. Hover over any bar or line graph point to see pop-up details.
+ 5. Click Update to view the Data Visualization] chart. 
+     * The Y axis and X axis labels display. 
+     * Line graphs include a legend. Hover over any bar or line graph point to see pop-up details.
   6. 
