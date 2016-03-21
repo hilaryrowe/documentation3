@@ -7,6 +7,7 @@
  
     ![](analysisTabDataVisOption.png)
  
- 4. On the Filter Bar, select the asset or assets and date range from the Asset Picker and Date Filter.
+ 4. On the Filter Bar, select the type of data you want to review from the Data Type selector (Cyles, Downtime, or Parts).
+ 5. On the Filter Bar, select the asset or assets and date range from the Asset Picker and Date Filter.
  3. Select an option from the Y Axis picker. 
  4. xx
