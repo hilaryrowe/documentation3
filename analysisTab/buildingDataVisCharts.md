@@ -34,4 +34,4 @@
      * You can click the Chart Display picker to view the data as a bar chart, line graph, or scatter plot.
      * Line graphs include a legend. 
      * You can hover over any bar,line graph, or scatter point to see pop-up details.
-  6. 
+     ![](analysisTabDataVisChart.png)
