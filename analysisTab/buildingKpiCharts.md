@@ -8,12 +8,11 @@
 ![](analysisTabChartOptions.png)
 
  2. On the Filter Bar, select the asset or assets and date range from the Asset Picker and Date Filter.
- 3. Select an option from the Y Axis picker. 
+ 3. Select an option from the Y Axis picker. A pop-out menu displays with available options. Use the slider bar to scroll and see all options. Options may vary from the image below, based on your configuration.
  
  ![](analysisTabYAxis.png)
- You can choose: Availability, Defects, OEE, Output, Performance, Quality, Total Cycle Count, or Unplanned Downtime. Use the pop-out menu's slider bar to view all the options.
  
- 3. Select either Shift or Time from the X Axis picker.
+ 3. Select either Shift or Time from the X Axis picker. Options may vary based on your configuration.
  
  ![](analysisTabXAxis.png)
  
