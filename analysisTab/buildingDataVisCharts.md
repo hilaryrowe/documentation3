@@ -13,4 +13,7 @@
 
  5. Select the asset or assets and date range from the Asset Picker and Date Filter.
  3. Select an option from the Y Axis and X Axis pickers. A pop-out menu displays with available options. Use the slider bar to scroll and see all options. Options may vary based on your configuration. 
- 4. xx
+
+    ![](analysisTabDataVisYAxis.png)
+
+   4. Select an option from the Comparison Picker: Single Plot, Compare by Factory, or Compare by Machine.
