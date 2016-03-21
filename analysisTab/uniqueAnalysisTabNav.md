@@ -30,7 +30,7 @@
           ![](processControlChartIcons.png)
         **Note:** Clicking the Alarm radio button for the row will set an alert.
         
-        * Root Cause Analysis Navigation: click on any column value in the table on the left to change the line graph and bar chart on the right: expB, SE (Standard Error), p (), and X2
+        * Root Cause Analysis Navigation: click on any column value in the table on the left to change the line graph and bar chart on the right: exp<sup>B</sup>, SE (Standard Error), p (probability), and X<sup>2</sup>.
 
            ![](rootCauseAnalysisChartNav.png)
            **Note:** Hover over any of the Predictors to see pop-up help explanations.
