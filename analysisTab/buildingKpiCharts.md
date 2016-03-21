@@ -29,7 +29,7 @@ Selecting an option in the pop-out menu displays a sub-pop-out menu where you ca
 ![](analysisTabFilterb.png)
    1. Select an operator from the drop-down list.
    2. Enter a value in the associated field.
-     3. Click the Add link to save it. This will close the sub-pop-out menu and focus returns to the Filter Bar. Your filter value displays in the Filter Bar above the Add Filter option.
+   3. Click the Add link to save it. This will close the sub-pop-out menu and focus returns to the Filter Bar. Your filter value displays in the Filter Bar above the Add Filter option.
 
  5. Click Update to view a KPI Pareto chart. The Y axis and X axis labels clearly display, along with a legend. Hover over any bar or line graph point to see pop-up quantity or percentage details.
 
