@@ -7,7 +7,7 @@
 
 ![](analysisTabChartOptions.png)
 
- 2. On the Update panel, select the asset or assets and date range from the Asset Picker and Date Filter.
+ 2. On the Filter Bar, select the asset or assets and date range from the Asset Picker and Date Filter.
  3. Select an option from the Y Axis picker. 
  
  ![](analysisTabYAxis.png)
