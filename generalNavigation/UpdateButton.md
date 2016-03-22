@@ -4,4 +4,4 @@
  1. On any Tab, click and select filters on the Filter Bar.
  2. Click the Filter Bar's Update button. Data in chart or table form displays with your filters applied.
 
-[image: UpdateButton.png]
+![](UpdateButton.png)
