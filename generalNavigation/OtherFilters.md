@@ -1,6 +1,7 @@
 # Other Filters
  
  Other filter types in Sight Machine include:
+ 
  * Cycles
  * Machine specifics (i.e. speed, machine type)
  * Chart types
@@ -17,27 +18,34 @@
  The Analysis and Data Tabs both include a Cycle Filter and Downtime Filter option. 
  
  On the Analysis Tab, your data displays by cycle, downtime, or parts when you select one of the corresponding filters:
+ 
  * Cycle Filter
  * Downtime Filter
  * Parts Filter.  
- [image: otherFiltersAnalysisTab.png]
+ 
+ ![](otherFiltersAnalysisTab.png)
  
  The Analysis Tab also includes Machine Specific Filters. In the image above, the Heat Press Temperature and A1 Conveyor filters include extra options.
  
  The Analysis Tab has a Chart Filter that displays in the top right of the data screen. Click to select a table view, bar chart, line chart, or scatter chart of your data. 
- [otherFilterAnalysisChart.png]
+ 
+ ![](otherFilterAnalysisChart.png)
  
  On the Data Tab, the Filter Bar displays extra filter options based on the Cycle selected:
- [image: otherFilterDataTab.png]
+ 
+ ![](otherFilterDataTab.png)
+ 
   * When you select the Cycle Filter, the Shift Filter displays in the Filter Bar.
-    [image: otherFilterDataTabCycles.png]
+    ![](otherFilterDataTabCyclesShifts.png)
+   
   * When you select the Defect Filter, a list of your unique Defect Filter options display in the Filter Bar.
-    [image: otherFilterDataTabDefect.png]
+    ![](otherFilterDataTabDefect.png)
+    
   * When you select the Downtime Filter, a list of your unique Downtime Filter options display in the Filter Bar.
-    [otherFilterDataTabDowntime.png]
+    ![](otherFilterDataTabDowntime.png)
+    
   * When you select the OEE Filter, a Day Filter displays in the Filter Bar.
-    [otherFilterDataTabOEE.png]
-
+    ![](otherFilterDataTabOEE.png)
 
 **Machine Specifics**
 
