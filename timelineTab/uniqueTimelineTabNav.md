@@ -17,10 +17,10 @@ To view machine data on the Timeline Tab, you will need to tell Sight Machine fo
   
  * Click and drag the horizontal and vertical slider bars on the top pane to see machine availability for the cycle. On the lower pane, click and drag the vertical slider bar to see the different cycle element measurements.
  * Hover over the Availability row in the top pane to see machine running time and down time.
- * Click on the top cycle measurement bar to select a specific moment in the cycle. The lower pane shows the detail for that cycle time.
+ * Click on the top cycle measurement bar to select a specific moment in the cycle. The lower pane shows the machine detail for that cycle time.
  
    ![](timelineTabCycletime.png)
 
-   **Note:** In the lower pane, you can click the Table icon to display the Data Tab with more detailed information
+   **Note:** In the lower pane, you can click the Table icon to display the Data Tab with more detailed information.
   
  
