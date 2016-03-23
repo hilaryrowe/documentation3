@@ -9,7 +9,7 @@ To view machine data on the Timeline Tab, you will need to tell Sight Machine fo
 
 ![](timelineView.png)
    
-   The timeline displays in horizontal two panes, stacked one on the other. The top pane shows machine operation or downtime in 10-minute increments for the 24-hour cycle. The lower pane shows machine parts function for a small subset of the 24-hour cycle, based on your click-selection in the top pane. 
+   The timeline displays in horizontal two panes, stacked one on the other. The top pane shows machine operation or downtime in 10-minute increments for the 24-hour cycle. The lower pane shows machine cycle breakdown for a small subset of the 24-hour cycle, based on your click-selection in the top pane. 
   
   **Note:** You can click the middle-bar's double-down arrow icon to close the lower pane and display the top pane view alone.
   
