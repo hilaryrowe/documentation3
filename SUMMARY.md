@@ -8,6 +8,7 @@
    * [Using the Asset Selector](generalNavigation/AssetPicker.md)
    * [Using the Date Filter](generalNavigation/UsingDateFilter.md)
    * [Other Filters](generalNavigation/OtherFilters.md)
+   * [Using Embedded Links](generalNavigation/usingEmbeddedLinks.md)
    * [Hovering Over Items](generalNavigation/Hovering.md)
    * [Using the Update Button](generalNavigation/UpdateButton.md)
    * [Printing](generalNavigation/PrintButton.md)
