@@ -1,6 +1,6 @@
 # Unique Timeline Tab Navigation
 
-To view machine data on the Timeline Tab, you will need to tell Sight Machine which machine and which day you to want to view data for.
+To view machine data on the Timeline Tab, you will need to tell Sight Machine for which machine and for which day you to want to view data.
 
 1.  In the Filter Bar, select an asset (by location or by time) and  a date from the Date picker.
 ![](datePickerTimelineTab.png)
