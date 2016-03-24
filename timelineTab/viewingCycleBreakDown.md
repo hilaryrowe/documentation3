@@ -1,2 +1,10 @@
 # Viewing Cycle Breakdown
 
+ The Timeline Tab's lower pane shows a break down of the cycle in specific time chunks. Use the following steps to view cycle details.
+ 
+ 1. Select the asset and day you want to view from the Filter Bar, and click Update to view the timeline.
+ 2. Click the timeline above the top pane to select a specific time interval. The Cycle time appears as pop-up text above the timeline, and a gray, vertical bar denotes your selection on the spectrum.
+ 
+   **Note:** The middle bar between the upper and lower panes also displays the selected time, including the total time range.
+
+3. In the lower pane, use the vertical scroll bar to view the line graphs for each 
