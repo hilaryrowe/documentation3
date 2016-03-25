@@ -8,6 +8,13 @@
   
   1. On the Dashboard Tab, select an asset and date from the Filter Tab and click Update.
   2. Click the Availability subtab to display the Pareto chart. Unplanned downtime displays by category as a percentage of machine downtime.
- 
+   
+   * Hover over the bar chart bars to see the number of hours of downtime for that category.
+
+    ![](availabilityBarHover.png)
+
+   * Hover over the points of the line graph to see the percentage of downtime for that category.
+     
+     ![](availabilityLineHover.png)
  
  
