@@ -17,4 +17,6 @@
      
      ![](availabilityLineHover.png)
  
- 
+   * Clicking on a line graph point displays the Analysis Tab. When you click Update the Unplanned Downtime by Reason Pareto chart displays.
+    ![](availabilityToAnalysisTab.png)
+
