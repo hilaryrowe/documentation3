@@ -10,3 +10,4 @@
   2. Click the Performance subtab to display the Performance chart. Performance by shift displays by date as a percentage of shift time.
    
    * Hover over the bar chart bars to see the shift, date, cycle time, and performance percentage.
+   * Clicking the bar chart displays the Data Tab. On the Data Tab, a table view of the machine operation per shift displays in more detail.
