@@ -1,5 +1,6 @@
 # About the OEE Dashboard
 
- The OEE Dashboard provides a high-level view of manufacturing performance. In a single view, your manufacturing OEE, availabilitly, performance, and quality display.
+ The OEE Dashboard is a snapshot of your manufacturing process's strength. In a single view, you can view your manufacturing OEE, availability, performance, and quality.
+ ![](oeeTabNav.png)
  
  
