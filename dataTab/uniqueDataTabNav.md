@@ -1,17 +1,17 @@
 # Unique Data Tab Navigation
 
-On the Datat tab, Filter Bar options differ based on : 
+On the Data tab, Filter Bar options differ based on the data type selected: 
 
   * Cycles
   * Defects
   * Downtime
   * OEE
 
-![OEE Tab](oedTabNav.png)
+ **Note:** See 
 
 The data displayed in these panes represents the asset and date range selected in the Filter Bar. For the data displayed above, "Decatur - Assembly 1" was selected from the Asset Selector and "Last Month" was selected from the Date Picker (see image below).
 
-![](dashboardDatePicker.png)
+
 
 **OEE Pane**
  In the OEE pane, equipment efficiency displays for the machine and time you selected in the Filter bar. Linked text in this pane allows navigation to other tabs where you can see more detailed information.
