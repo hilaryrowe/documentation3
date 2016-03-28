@@ -18,15 +18,28 @@ General Data Tab navigation allows you to:
 
 The Cycles and Downtime data options include some unique navigation items.
 
-**Cycles Data**
+**Cycles Data Navigation**
 
-When you choose Cycles from the Data Type selector, and click Update, the data displays in tabular form by default. However, you can click the Image View icon to toggle from Table View to Image View. 
+When you choose Cycles from the Data Type selector, and click Update, the data displays in tabular form by default. You can also click the Image View icon to toggle from Table View to Image View. 
 
-![](dataTab1.png)
+![](dataTab2.png)
 
-**Downtime Data**
+**Defect Data Navigation**
 
-An additional Column Settings icon appears when you choose Downtime from the Data Type selector.
+An Add Defects icon appears when you choose Defects from the Data Type selector.
+
+![](dataTabDefectNav.png)
+
+In the Add Defects dialog box:
+
+ 1. Select the values from the drop-down lists.
+ 2. Enter values in the free-form text fields. 
+ 3. Click Save to save the defect or click Add More to add more defect types.
+ 4. Once you save your values, the Add Defects dialog box closes and focus returns to the Data Tab.
+
+**Downtime Data Navigation*
+
+A Column Settings icon appears when you choose Downtime from the Data Type selector. The Column Settings allows you to configure column order and which columns display.
 
 ![](dataTabDowntimeColumns.png)
 
