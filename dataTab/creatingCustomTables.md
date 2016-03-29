@@ -1,6 +1,6 @@
 # Creating Custom Tables
 
-There are two data types that allow table customization: Cycles and Downtime. The downtime data table displays allows you to reorder and remove columns. See [Unique Data Tab Navigation](../dataTab/UniqueDataTabNav.md) for more information on the downtime table customization.
+There are two data types that allow table customization: Cycles and Downtime. The downtime data table displays allows you to reorder and remove columns. See [Unique Data Tab Navigation](../dataTab/uniqueDataTabNav.md) for more information on the downtime table customization.
 
 The cycles data allows for more custom table modifications. Use the following steps to create a custom table for cycle data.
 
