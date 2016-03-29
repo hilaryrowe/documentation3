@@ -1,14 +1,13 @@
 # Machine Settings Tab
 
-The Machine Settings tab is where a manager configures the machines and defects and downtime codes that appear throughout Sight Machine. Configuration is limited to managers to ensure Sight Machine provides consistent and clear data.
+The Machine Settings tab is where a manager configures the machines and defects and downtime codes that appear throughout Sight Machine. Only managers can configure machines to ensure Sight Machine provides consistent and clear data.
 
 A manager designated to enter machines, defect types, and downtime reasons can enter as many as needed.
 
 1. Click the Gear icon in the Toolbar to display the Settings view.
 2. Click on the Machine Settings tab.
 
-
-![](machineSettings2.png)
+![](machineSettingsOldSchool.png)
 
 3. To add a machine to Sight Machine:  
   1. Click the Machines button. 
