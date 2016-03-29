@@ -7,7 +7,7 @@ On the Data tab, Filter Bar options differ based on the data type selected:
   * Downtime
   * OEE
 
- **Note:** See [Other filters](../Documentation/master/otherfilters.md) for Filter Bar options.
+ **Note:** See [Other filters](../documentation/generalNavigation/otherfilters.md) for Filter Bar options.
 
 General Data Tab navigation allows you to:
 
