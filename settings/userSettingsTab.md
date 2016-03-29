@@ -6,7 +6,7 @@ On the User Settings Tab is where you set up and manage new Sight Machine users.
 
  Previously-configured users appear in the far left Users pane. Clicking each user in the Users pane displays their user account information.
  
- **To Configure a New User**
+ **Configuring a New User**
  
  1. Click the + icon in the upper right corner of the screen to open the Enter User Account Info dialog box.
 
