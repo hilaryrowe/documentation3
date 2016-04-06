@@ -14,7 +14,7 @@
  
  5. Select either Shift or Time from the X Axis picker. Options may vary based on your configuration.
 
-    ![](analysisTabXAxisE.png)
+     ![](analysisTabXAxisE.png)
  
  
  6. Select an option from the Comparison picker.
