@@ -16,7 +16,6 @@
 
      ![](analysisTabXAxisE.png)
  
- 
  6. Select an option from the Comparison picker.
   
       ![](analysisTabComparisonPickerE.png)
@@ -24,7 +23,6 @@
  7. If desired, click Add Filter to display a Filter pop-out menu and select an extra filter. Use the slider bar to see all options.
 
     ![](analysisTabFilteraE.png)
-
 
     Selecting an option in the pop-out menu displays a sub-pop-out menu where you can enter specific values.
 
