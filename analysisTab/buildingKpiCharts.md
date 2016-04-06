@@ -2,7 +2,7 @@
 
  Use the following steps as a guide to building KPI charts.
  
- 1. Click the Analysis tab.
+ 1. Click the Analysis ab.
  2. Select Key Performance Indicators from the Analysis Type drop-down list.
 
 ![](analysisTabChartOptions.png)
