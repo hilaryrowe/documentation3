@@ -5,24 +5,26 @@
  1. Click the Analysis tab.
  2. Select Key Performance Indicators from the Analysis Type drop-down list.
 
-![](analysisTabChartOptions.png)
+![](analysisTabTopOptionsE.png)
 
  2. On the Filter Bar, select the asset or assets and date range from the Asset Picker and Date Filter.
  3. Select an option from the Y Axis picker. A pop-out menu displays with available options. Use the slider bar to scroll and see all options. Options may vary from the image below, based on your configuration.
  
- ![](analysisTabYAxis.png)
+ ![](analysisTabYAxisE.png)
  
  3. Select either Shift or Time from the X Axis picker. Options may vary based on your configuration.
+
+![](analysisTabXAxisE.png)
  
- ![](analysisTabXAxis.png)
  
  4. Select an option from the Comparison picker.
   
-![](analysisTabComparisonPicker.png) 
- 
+  ![](analysisTabComparisonPickerE.png)
+  
  5. If desired, click Add Filter to display a Filter pop-out menu and select an extra filter. Use the slider bar to see all options.
 
-![](analysisTabFiltera.png)
+![](analysisTabFilteraE.png)
+
 
 Selecting an option in the pop-out menu displays a sub-pop-out menu where you can enter specific values.
 
