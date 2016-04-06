@@ -33,6 +33,6 @@ Selecting an option in the pop-out menu displays a sub-pop-out menu where you ca
 
  5. Click Update to view a KPI Pareto chart. The Y axis and X axis labels clearly display, along with a legend. Hover over any bar or line graph point to see pop-up quantity or percentage details.
 
-![](analysisTabResultsE.png)
+![](analysisTab/analysisTabResultsE.png)
 
  6. Click any bar or point along the KPI Pareto chart graph to display the Data tab with more detailed information.
