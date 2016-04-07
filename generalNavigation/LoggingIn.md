@@ -3,7 +3,7 @@
  
  1. Navigate to the Sight Machine web site in your computer or device's browser. The Login screen displays.
 
-  ![](LoggingIn.png)
+  ![](LoggingInE.png)
   
  2. Enter your email address in the Email field.
  3. Enter your password in the Password field. 
