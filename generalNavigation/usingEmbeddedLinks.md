@@ -1,7 +1,9 @@
 # Using Embedded Links
 
  You'll find embedded links throughout the Dashboard Tab in Sight Machine. For example, on the Dashboard Tab, if you click on the OEE Quality label, the Data Tab displays. From there you can click the Update button to see a detailed tabular view of the Quality measures.
- ![](embeddedImages.png)
+ 
+ ![](embeddedImagesE2.png)
+ 
    
    **Note:** See (../generalNavigation/Hovering.md) for more examples.
    
