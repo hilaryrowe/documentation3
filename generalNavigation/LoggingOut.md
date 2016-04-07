@@ -4,4 +4,4 @@
  1. Click the Sight Machine logo in the upper-right corner of the application to display the drop-down menu.
  2. Click Log Out.
 
-![](logOut.png)
+![](logOutE.png)
