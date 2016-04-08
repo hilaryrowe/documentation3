@@ -7,7 +7,7 @@ A manager designated to enter machines, defect types, and downtime reasons can e
 1. Click the Gear icon in the Toolbar to display the Settings view.
 2. Click on the Machine Settings tab.
 
-![](machineSettingsOldSchool.png)
+ ![](machineSettingsOldSchool.png)
 
 3. To add a machine to Sight Machine:  
   1. Click the Machines button. 
