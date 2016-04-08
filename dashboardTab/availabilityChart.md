@@ -11,11 +11,11 @@
    
    * Hover over the bar chart bars to see the number of hours of downtime for that category.
 
-    ![](availabilityBarHover.png)
+      ![](availabilityBarHover.png)
 
    * Hover over the points of the line graph to see the percentage of downtime for that category.
      
-     ![](availabilityLineHover.png)
+       ![](availabilityLineHover.png)
  
    * Clicking on a line graph point displays the Analysis Tab. When you click Update the Unplanned Downtime by Reason Pareto chart displays.
     ![](availabilityToAnalysisTab.png)
