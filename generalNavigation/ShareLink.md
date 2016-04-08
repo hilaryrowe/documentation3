@@ -15,7 +15,6 @@
      
        ![](ShareLinkPopup.png)
      
-    
     * Send an email with the link from the Share Link dialog box:
      
        1. Click the Send Link in an Email to display the Recipient Emails and Message fields.
