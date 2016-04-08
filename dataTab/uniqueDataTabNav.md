@@ -37,7 +37,7 @@ In the Add Defects dialog box:
  3. Click Save to save the defect or click Add More to add more defect types.
  4. Once you save your values, the Add Defects dialog box closes and focus returns to the Data Tab.
 
-**Downtime Data Navigation*
+**Downtime Data Navigation**
 
 A Column Settings icon appears when you choose Downtime from the Data Type selector. The Column Settings allows you to configure column order and which columns display.
 
