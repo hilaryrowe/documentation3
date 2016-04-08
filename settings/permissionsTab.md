@@ -13,7 +13,7 @@ To add a new permission:
 
 1. Click the + icon in the upper right corner to open the Enter Permission Info dialog box.
 
-![](permissionInfo1b.png)
+   ![](permissionInfo1b.png)
 
 3. Enter values in the required fields.
 4. Select the check box(es) for the role(s) you want the permission to apply to automatically. 
