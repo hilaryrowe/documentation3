@@ -14,10 +14,12 @@
  5. Select the asset or assets and date range from the Asset Picker and Date Filter.
  3. Select an option from the Y Axis and X Axis pickers. A pop-out menu displays with available options. Use the slider bar to scroll and see all options. Options may vary based on your configuration. 
 
+
     ![](analysisTabDataVisYAxis.png)
 
-   4. Select an option from the Comparison Picker: Single Plot, Compare by Factory, or Compare by Machine.
-   5. If desired, click Add Filter to display a Filter pop-out menu and select an extra filter. Use the slider bar to see all options.
+ 4. Select an option from the Comparison Picker: Single Plot, Compare by Factory, or Compare by Machine.
+ 5. If desired, click Add Filter to display a Filter pop-out menu and select an extra filter. Use the slider bar to see all options.
+
 
       ![](analysisTabDataVisFilter1.png)
 
@@ -30,6 +32,7 @@
       3. Click the Add link to save it. This will close the sub-pop-out menu and focus returns to the Filter Bar. Your filter value displays in the Filter Bar above the Add Filter option.
 
  5. Click Update to view the Data Visualization] chart. 
+ 
      * The Y axis and X axis labels display. 
      * You can click the Chart Display picker to view the data as a bar chart, line graph, or scatter plot.
      * Line graphs include a legend. 
