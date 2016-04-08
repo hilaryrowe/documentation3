@@ -15,7 +15,7 @@
  3. Select an option from the Y Axis and X Axis pickers. A pop-out menu displays with available options. Use the slider bar to scroll and see all options. Options may vary based on your configuration. 
 
 
-    ![](analysisTabDataVisYAxis.png)
+     ![](analysisTabDataVisYAxis.png)
 
  4. Select an option from the Comparison Picker: Single Plot, Compare by Factory, or Compare by Machine.
  5. If desired, click Add Filter to display a Filter pop-out menu and select an extra filter. Use the slider bar to see all options.
