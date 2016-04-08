@@ -7,4 +7,5 @@
 
 ![](timelineCycleBreakdown.png)
 
+
  3. In the lower pane, use the vertical scroll bar to view the line graphs for each measure. Note the maximum and minimums for each measure that precedes each line graph.
