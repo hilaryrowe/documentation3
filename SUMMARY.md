@@ -46,7 +46,7 @@
        * [Interpreting SPC Charts](analysisTab/interpreting_spc_charts.md)
    * [Root Cause Analysis](analysisTab/root_cause_analysis.md)
        * [About Root Cause Analysis](analysisTab/about_root_cause_analysis.md)
-       * Building RCA Charts
+       * [Building RCA Charts](analysisTab/building_rca_charts.md)
        * Interpreting RCA Charts
 * [Data Tab](dataTab/readme.md)
    * [Unique Data Tab Navigation](dataTab/uniqueDataTabNav.md)
