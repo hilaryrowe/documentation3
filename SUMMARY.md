@@ -47,7 +47,7 @@
    * [Root Cause Analysis](analysisTab/root_cause_analysis.md)
        * [About Root Cause Analysis](analysisTab/about_root_cause_analysis.md)
        * [Building RCA Charts](analysisTab/building_rca_charts.md)
-       * Interpreting RCA Charts
+       * [Interpreting RCA Charts](analysisTab/interpreting_rca_charts.md)
 * [Data Tab](dataTab/readme.md)
    * [Unique Data Tab Navigation](dataTab/uniqueDataTabNav.md)
    * [Machine Data](dataTab/machineData.md)
