@@ -42,7 +42,7 @@
    * [Process Control](analysisTab/process_control.md)
        * [About Process Control Charting](analysisTab/about_process_control_charting.md)
        * [Understanding SPC with Sight Machine](analysisTab/understanding_spc_with_sight_machine.md)
-       * Building SPC Charts
+       * [Building SPC Charts](analysisTab/building_spc_charts.md)
        * Interpreting SPC Charts
    * Root Cause Analysis
        * About Root Cause Analysis
