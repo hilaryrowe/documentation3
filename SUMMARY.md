@@ -23,6 +23,7 @@
    * [Entering Defects](oeeCalculations/enteringDefects.md)
    * [Calculating Quality](oeeCalculations/calculatingQuality.md)
 * [Dashboard Tab](dashboardTab/readme.md)
+   * [About OEE Dashboard](dashboardTab/aboutOeeDashboard.md)
    * [Unique Dashboard Tab Navigation](dashboardTab/uniqueDashboardTabNav.md)
    * [Using the OEE Dashboard Tab](dashboardTab/usingTheOeeDashboard.md)
        * [About OEE Dashboard](dashboardTab/aboutOeeDashboard.md)
