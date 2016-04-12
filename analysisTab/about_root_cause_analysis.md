@@ -1,2 +1,0 @@
-# About Root Cause Analysis
-
