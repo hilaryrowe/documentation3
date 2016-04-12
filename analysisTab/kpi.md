@@ -1,3 +1,3 @@
 # Key Performance Indicators (KPI)
   
-  The KPI you compare unplanned downtime by time and factory, category, reason, and shift.
+  The KPI graph allows you to chart KPIs over time and shifts, and compare KPIs across machines, machine types, and factories.
