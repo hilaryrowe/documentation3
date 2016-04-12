@@ -44,7 +44,7 @@
        * [Understanding SPC with Sight Machine](analysisTab/understanding_spc_with_sight_machine.md)
        * [Building SPC Charts](analysisTab/building_spc_charts.md)
        * [Interpreting SPC Charts](analysisTab/interpreting_spc_charts.md)
-   * Root Cause Analysis
+   * [Root Cause Analysis](analysisTab/root_cause_analysis.md)
        * About Root Cause Analysis
        * Building RCA Charts
        * Interpreting RCA Charts
