@@ -39,6 +39,15 @@
    * [Key Performance Indicators](analysisTab/kpi.md)
        * [About Key Performance Indicators](analysisTab/aboutKpi.md)
        * [Building KPI Charts](analysisTab/buildingKpiCharts.md)
+   * Process Control
+       * About Process Control Charting
+       * Understanding SPC with Sight Machine
+       * Building SPC Charts
+       * Interpreting SPC Charts
+   * Root Cause Analysis
+       * About Root Cause Analysis
+       * Building RCA Charts
+       * Interpreting RCA Charts
 * [Data Tab](dataTab/readme.md)
    * [Unique Data Tab Navigation](dataTab/uniqueDataTabNav.md)
    * [Machine Data](dataTab/machineData.md)
