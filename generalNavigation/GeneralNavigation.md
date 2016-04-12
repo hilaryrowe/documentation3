@@ -1,15 +1,13 @@
 # General Navigation
- When you first log in to Sight Machine, the Dashboard Tab home page always displays.
- 
  ![](generalNavE.png)
  
- The Dashboard Tab's button appears selected as a light-gray button with dark-gray Dashboard text. The Sight Machine application divided into four sections:
+The Sight Machine application is divided into four sections:
  * Tabs
  * Filter Bar
  * Data Display
  * Application Functions
 
-Tabs display across the top of the screen and include: the Dashboard Tab, Analysis Tab, Data Tab, and Timeline Tab.
+Tabs display across the top of the screen and include: the Dashboard Tab, Analysis Tab, Data Tab, and Timeline Tab. When you first log in to Sight Machine, the Dashboard Tab is always selected by default.
 
 The Filter Bar displays at the far left and includes selectable options by which to filter your data.
  
