@@ -11,7 +11,6 @@
    * [Using Embedded Links](generalNavigation/usingEmbeddedLinks.md)
    * [Hovering Over Items](generalNavigation/Hovering.md)
    * [Using the Update Button](generalNavigation/UpdateButton.md)
-   * [Printing](generalNavigation/PrintButton.md)
    * [Share Link](generalNavigation/ShareLink.md)
    * [Export Data](generalNavigation/ExportData.md)
 * [OEE Calculations with Sight Machine](oeeCalculations/readme.md)
