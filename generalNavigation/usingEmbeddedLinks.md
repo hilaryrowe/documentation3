@@ -5,7 +5,7 @@
  ![](embeddedImagesE2.png)
  
    
-   **Note:** See (../generalNavigation/Hovering.md) for more examples.
+   **Note:** See [Hovering Over Items](/generalNavigation/Hovering.md) for more examples.
    
    The table below references embedded link locations throughout the Dashboard Tab.
    
