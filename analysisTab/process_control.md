@@ -8,6 +8,5 @@
  
   * common cause: natural, random motion or "noise”
   * special cause: outliers or anomalies, such as tool wear, a sudden shift in way an operator performs the job, etc.  
- 
-  The Statistical Process Control (SPC) chart separates special cause variance from common cause variance. 
+  
 
