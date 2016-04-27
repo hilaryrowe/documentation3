@@ -6,7 +6,9 @@
   2. Select a machine from the Assett Picker.
   3. Select a date from the Date Filter.
   4. Click the Add Filter Picker to select any additional filters.
-  5. Click Update to display the charts: Variable correlations on the left, and on the right, a probability graph at the top with a histogram below it.
+  5. Click Update to display the charts: Predictor variables correlations on the left, and on the right, a probability graph at the top with a histogram below it.
+  **Note:** The probability graph and histogram display data for the variable selected in the Predictors table. 
+
 
  ![](rcaChart.png)
 
