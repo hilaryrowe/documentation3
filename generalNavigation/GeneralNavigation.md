@@ -1,5 +1,5 @@
 # General Navigation
- ![](generalNavE.png)
+ ![](generalNavE2.png)
  
 The Sight Machine application is divided into four sections:
  * Tabs
