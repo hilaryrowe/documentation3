@@ -12,7 +12,7 @@ A regression analysis runs next. Regression analysis estimates the links among v
 
 On the right-hand side of the display, the top chart displays a gray line that is the "error envelop," or confidence interval. 
 
-![](rcaChartConfidenceInterval.png)
+![](rcaChartConfidenceInterval1.png)
 
 The lower chart takes the confidence interval from the top chart and displays as a histogram.
 
