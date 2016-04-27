@@ -2,7 +2,9 @@
 
  When you run the RCA in Sight Machine, it goes through all your data and does regression analysis to set up and select variables.
  
- For example, if you want to study availability on the Carmel - Assembly 1 in the example below, a first pass filter is applied through all the variables in the data set related to the Carmel machine. A lot of that data is highly correlated. Some variables may not vary within the data set. Theory tools and techniques are applied to filter that list of variables. 
+ For example, if you want to study availability on the Carmel - Assembly 1 in the example below, a first pass filter is applied through all the variables in the data set related to the Carmel machine. A lot of that data is highly correlated. Some variables may not vary within the data set. Sight Machine applies theory tools and techniques to filter that list of variables. 
+ 
+ ![](rcaPredictors.png)
  
  
  
