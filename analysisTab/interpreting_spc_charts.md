@@ -1,6 +1,6 @@
 # Interpreting SPC Charts
 
- On the left, the SPC chart shows the machine name and the Out of Control items. "Out of Control" means the algorithm found some special cause variance (i.e. not normal variance). Nelson’s rules are applied to deterimine special cause variance. Nelson's rules detect anomalies in the data.
+ On the left, the SPC chart shows the machine name and the Out of Control items. "Out of Control" means the algorithm found some special cause variance (i.e. not normal variance). Nelson’s rules are applied to determine special cause variance. Nelson's rules detect anomalies in the data.
   
   ![](spcOutOfControl.png)
   
