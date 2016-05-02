@@ -36,3 +36,12 @@
      * Line graphs include a legend. 
      * You can hover over any bar,line graph, or scatter point to see pop-up details.
      ![](analysisTabDataVisChart.png)
+  
+  **Note:** When you pick an X axis or Y axis data item that includes a countable data element, the Y axis shows the average cycle count per item. You also have the option to view the data by pair. For example, in the image below, the average number of cycles per pair produced is just over 25,000.
+  
+  ![](analysisTabDataVizCount2.png)
+  
+  When you change the *Calculate by* option to Pair, the Y axis measurement changes to reflect the data pairs as a total instead of an average.
+   
+  
+  ![](analysisTabDataVizCountPair.png)

@@ -1,17 +1,21 @@
 # Creating Custom Tables
 
-There are two data types that allow table customization: Cycles and Downtime. The downtime data table displays allows you to reorder and remove columns. See [Unique Data Tab Navigation](../dataTab/uniqueDataTabNav.md) for more information on the downtime table customization.
+You can create custom tables for Cycles data. Use the following steps to create a custom table for cycle data.
 
-The cycles data allows for more custom table modifications. Use the following steps to create a custom table for cycle data.
+ 1. On the Data Tab, select Cycles from the Filter Bar. Select all other Filter Bar options (i.e. Asset Picker, etc.). 
+    * Tabular data displays by cycle.
+    * The total number of Data Fields and Cycles displays next to the Table icon.
+    
+ 2. Click the Table icon to open the Accumulator.
+ 
+ ![](accumulator3.png)
+ 
+   3. In the Accumulator select or deselect the radio buttons for the data items you want in your custom table.
+   1. Click Apply to apply your changes and display the selected data in a table. 
+   3. Click the Save Table icon to display an editable version of the default table name. Edit the table name to the name you want, and click Save.
 
- 1. On the Data Tab, select Cycles from the Data Type selector, select all other Filter Bar options (i.e. Asset Picker, etc.) and click Update. Tabular data displays by cycle.
- 2. Select Create Table from the New Table drop-down list.
- 
- ![](dataTabCustomTable1.png)
- 
-   The Create Table screen displays with all the options to customize your table.
-   ![](dataTabCustomTable2.png)
- 
-   1. Enter a name for your custom table, a description, and, if desired, the number of columns to freeze.
-   2. In the Columns Selected pane, click and drag column names to order them. Click an X icon to remove a column name from your custom table. The removed column moves to display in the Available Columns pane to the left of the Columns Selected pane. 
-   3. Click the Save Table button to save your custom table. Focus returns to the Data tab with  the newly-created table displayed.
+  ![](customTableSave.png)
+  
+  **Note:** After you've saved your custom table name, you can edit it by clicking the Edit icon. The Delete icon (to the right of the Edit icon) will delete that custom table. 
+  
+  ![](editCustomTalbeName.png)

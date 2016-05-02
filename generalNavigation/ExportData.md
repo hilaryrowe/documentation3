@@ -3,11 +3,13 @@
  
  1. On the Data Tab: Click the Export Data button to download the displayed data to your computer. 
    
-   ![](ExportDataButton.png)
+   ![](ExportDataButton2.png)
+   
    
  2. Navigate to your computer's default download directory to locate the downloaded file. Or, depending on your operating system/browser, you may see the downloaded .csv file in the footer of the browser.
    
    ![](ExportedCsvFile.png)
    
  3. Double-click the .csv file to open it. Or, click the .csv file and select the application with which you want to open the file.
+  
   **Note:** Most .csv files default to a spreadsheet application, such as Microsoft Excel, etc.

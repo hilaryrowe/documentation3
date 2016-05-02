@@ -1,13 +1,17 @@
 # Filtering Data Tables
 
-   You can filter the data tables to display Cycles, Defects, Downtime, or OEE by selecting one of those options from the Data Type selector in the Filter Bar.
+ Select Cycles, Defects, Downtime, or OEE from the Data Type selector in the Filter Bar to display data.
    
-   ![](dataTabFilter.png)
+   ![](dataTabFilter3.png)
    
-   When you click Update, the data table displays data based on your selection. 
+   The data table automatically displays data based on your selection. 
    
-   ![](dataTabCycleExample2.png)
+   ![](dataTabCycleExample2_5_25_16.png)
    
-   You can sort table data in ascending or descending order by selecting a column with an up/down arrow icon and clicking it. 
+   Filter your data further by selecting a different machine, date and time, and Shift from the Filter bar.
    
-   For example, clicking the up arrow in the Start Time column header causes the data to display all rows sorted by earliest start time to latest.
+   Sort table data in ascending or descending order by selecting a column with an up/down arrow icon and clicking it. For example, click the up arrow in the Start Time column header to display all rows sorted by earliest start time to latest.
+   
+   **Note:** If there is a machine image associated with a row, an Attachment icon appears in the far left column. Clicking the Attachment icon displays the image with its associated table row highlighted. You can download the images(s) in a compressed file. Or, you can click the image(s) one at a time to display a larger view and download one image at a time.
+   
+   
