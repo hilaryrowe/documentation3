@@ -1,18 +1,20 @@
 # Using the Image View
 
- When you choose Cycles for your Data Type, you can switch from table view to image view to see an image of the machine or part. 
+ When you choose Cycles for your Data Type, you can switch from Table View to Default View to see an image of the machine or part. 
  
-  * The table view is the default view. 
+  * The table view is the Default View and displays as "Default." 
   * Clicking the Image View icon switches the display to image view.
  
- ![](dataTabImageViewIcon.png)
  
- The image view includes three separate panes to the right of the Filter Bar.
+ ![](dataTabImageTableView.png)
+ 
+ The Image vView includes three separate panes to the right of the Filter Bar.
  
   * An Items pane that has options broken down by time increments
   * An Info pane that displays the asset's machine aspects for that time range and part
   * An Image pane that shows the camera image of the part (if available)
- ![](dataTabImageView2.png)
+ 
+ ![](dataTabImageViewExample.png)
  
  **To use the image pane:**
  
