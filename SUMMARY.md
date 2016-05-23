@@ -47,7 +47,6 @@
    * [Unique Data Tab Navigation](dataTab/uniqueDataTabNav.md)
    * [Machine Data](dataTab/machineData.md)
        * [Filtering Data Tables](dataTab/filteringDataTables.md)
-       * [Using the Image View](dataTab/usingTheImageView.md)
        * [Creating Custom Tables](dataTab/creatingCustomTables.md)
 * [Timeline Tab](timelineTab/readme.md)
    * [Unique Timeline Tab Navigation](timelineTab/uniqueTimelineTabNav.md)
