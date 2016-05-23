@@ -8,7 +8,7 @@
  
  ![](dataTabImageTableView.png)
  
- The Image vView includes three separate panes to the right of the Filter Bar.
+ The Image View includes three separate panes to the right of the Filter Bar.
  
   * An Items pane that has options broken down by time increments
   * An Info pane that displays the asset's machine aspects for that time range and part
