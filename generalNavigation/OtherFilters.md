@@ -41,7 +41,7 @@
  ![](otherFilterDataTabE.png)
   
  
-  * When you select the Cycle Filter, the Shifta\s Filter displays in the Filter Bar.
+  * When you select the Cycle Filter, the Shifts Filter displays in the Filter Bar.
  
    ![](otherFilterDataTabCyclesShiftsE.png)
    
