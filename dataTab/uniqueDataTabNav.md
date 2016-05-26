@@ -20,18 +20,21 @@ General Data Tab navigation allows you to:
 
 When you choose Cycles from the Data Type selector the data displays in tabular form by default. Any row that has an Image icon allows you to click, view, and download that image. 
 
-![](dataTab2.png)
 
-**Defect Data Navigation**
+![](dataTabCycleExample2_5_25_16FirstExample.png)
 
-An Add Defects icon appears when you choose Defects from the Data Type selector.
+See [Filtering Data Tables](../dataTab/filterhingDataTables.md) for other filter options.
+
+**Defects Data Navigation**
+
+An Add Defects icon appears in the upper right of the screen when you choose Defects from the Data Type selector. You can use the Add Defects icon/dialog box to add a new defect.
 
 ![](dataTabDefectNav.png)
 
 In the Add Defects dialog box:
 
- 1. Select the values from the drop-down lists.
- 2. Enter values in the free-form text fields. 
+ 1. Select the values from the Date/Shift/Defect Type drop-down lists.
+ 2. Enter values in the free-form text fields. Field names may be unique to your company/product. 
  3. Click Save to save the defect or click Add More to add more defect types.
  4. Once you save your values, the Add Defects dialog box closes and focus returns to the Data Tab.
 
