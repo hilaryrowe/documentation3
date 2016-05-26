@@ -2,7 +2,10 @@
 
 You can create custom tables for Cycles data. Use the following steps to create a custom table for cycle data.
 
- 1. On the Data Tab, select Cycles from the Filter Bar. Select all other Filter Bar options (i.e. Asset Picker, etc.). Tabular data displays by cycle.
+ 1. On the Data Tab, select Cycles from the Filter Bar. Select all other Filter Bar options (i.e. Asset Picker, etc.). 
+    * Tabular data displays by cycle.
+    * The total number of Data Fields and Cycles displays next to the Table icon.
+    
  2. Click the Table icon to open the Accumulator.
  
  ![](accumulator3.png)
