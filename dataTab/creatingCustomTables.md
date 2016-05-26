@@ -1,13 +1,11 @@
 # Creating Custom Tables
 
-There are two data types that allow table customization: Cycles and Downtime. The downtime data table displays allows you to reorder and remove columns. See [Unique Data Tab Navigation](../dataTab/uniqueDataTabNav.md) for more information on the downtime table customization.
+You can create custom tables for Cycles data. Use the following steps to create a custom table for cycle data.
 
-The cycles data allows for more custom table modifications. Use the following steps to create a custom table for cycle data.
-
- 1. On the Data Tab, select Cycles from the Data Type selector, select all other Filter Bar options (i.e. Asset Picker, etc.) and click Update. Tabular data displays by cycle.
- 2. Select Create Table from the New Table drop-down list.
+ 1. On the Data Tab, select Cycles from the Filter Bar. Select all other Filter Bar options (i.e. Asset Picker, etc.). Tabular data displays by cycle.
+ 2. Click the Table icon to open the Accumulator.
  
- ![](dataTabCustomTable1.png)
+ ![](accumulator3.png)
  
    The Create Table screen displays with all the options to customize your table.
    ![](dataTabCustomTable2.png)
