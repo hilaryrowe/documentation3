@@ -1,6 +1,6 @@
 # Filtering Data Tables
 
-   You can filter the data tables to display Cycles, Defects, Downtime, or OEE by selecting one of those options from the Data Type selector in the Filter Bar.
+ You can filter the data tables to display Cycles, Defects, Downtime. Selecting one of those options from the Data Type selector in the Filter Bar.
    
    ![](dataTabFilter.png)
    
