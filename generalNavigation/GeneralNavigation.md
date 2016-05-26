@@ -1,7 +1,7 @@
 # General Navigation
  ![](generalNavE2.png)
  
-The Sight Machine application is divided into four sections:
+The Sight Machine application displays in four sections:
  * Tabs
  * Filter Bar
  * Data Display
@@ -17,7 +17,7 @@ The Filter Bar displays at the far left and includes selectable options by which
 
 **Data Display**
 
-The data display area is the middle of the screen. The information is usually graphical (charts) or tables (rows and columns) by tab. 
+The data display area is the middle of the screen. The information is graphical (charts) or tables (rows and columns) by tab. 
 
 **Application Functions**
 
