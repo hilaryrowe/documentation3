@@ -14,10 +14,7 @@ General Data Tab navigation allows you to:
  * Sort the displayed data in ascending or descending order by selecting the up/down arrow icons next to the column labels
  * Click and drag to adjust column width
  * Hover, click, and drag to re-position columns
- * Add notes when you click the Notes expand icon (on the far right of the screen) 
-
-  ![](dataTabAddNotes.png)
-
+ 
 The Cycles and Downtime data options include some unique navigation items.
 
 **Cycles Data Navigation**
@@ -38,17 +35,5 @@ In the Add Defects dialog box:
  2. Enter values in the free-form text fields. 
  3. Click Save to save the defect or click Add More to add more defect types.
  4. Once you save your values, the Add Defects dialog box closes and focus returns to the Data Tab.
-
-**Downtime Data Navigation**
-
-A Column Settings icon appears when you choose Downtime from the Data Type selector. The Column Settings allows you to configure column order and which columns display.
-
-![](dataTabDowntimeColumns.png)
-
-In the Columns: Downtime dialog box:
-  1. Click the up/down arrow icons to sort where columns display (form left to right) in the table. 
-  2. Select or clear the check boxes to configure which columns do/don't display.
-  3. Click Save to save your settings and return to the Data Tab with your selections applied.
-
 
 
