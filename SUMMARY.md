@@ -10,7 +10,6 @@
    * [Other Filters](generalNavigation/OtherFilters.md)
    * [Using Embedded Links](generalNavigation/usingEmbeddedLinks.md)
    * [Hovering Over Items](generalNavigation/Hovering.md)
-   * [Using the Update Button](generalNavigation/UpdateButton.md)
    * [Share Link](generalNavigation/ShareLink.md)
    * [Export Data](generalNavigation/ExportData.md)
 * [OEE Calculations with Sight Machine](oeeCalculations/readme.md)
