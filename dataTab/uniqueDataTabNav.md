@@ -12,6 +12,8 @@ On the Data tab, Filter Bar options differ based on the data type selected:
 General Data Tab navigation allows you to:
 
  * Sort the displayed data in ascending or descending order by selecting the up/down arrow icons next to the column labels
+ * Click and drag to adjust column width
+ * Hover, click, and drag to re-position columns
  * Add notes when you click the Notes expand icon (on the far right of the screen) 
 
   ![](dataTabAddNotes.png)
