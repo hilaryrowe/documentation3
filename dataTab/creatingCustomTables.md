@@ -7,7 +7,7 @@ You can create custom tables for Cycles data. Use the following steps to create 
  
  ![](accumulator3.png)
  
-   3. In the Accumulator select or de-select the radio buttons for the data items you want in your custom table.
+   3. In the Accumulator select or deselect the radio buttons for the data items you want in your custom table.
    1. Click Apply to apply your changes and display the selected data in a table. 
    3. Click the Save Table icon to display an editable version of the default table name. Edit the table name to the name you want, and click Save.
 
