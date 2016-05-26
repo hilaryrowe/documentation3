@@ -7,9 +7,6 @@ You can create custom tables for Cycles data. Use the following steps to create 
  
  ![](accumulator3.png)
  
-   The Create Table screen displays with all the options to customize your table.
-   ![](dataTabCustomTable2.png)
- 
-   1. Enter a name for your custom table, a description, and, if desired, the number of columns to freeze.
-   2. In the Columns Selected pane, click and drag column names to order them. Click an X icon to remove a column name from your custom table. The removed column moves to display in the Available Columns pane to the left of the Columns Selected pane. 
+   3. In the Accumulator select or de-select the radio buttons for the data items you want in your custom table.
+   1. Click Apply to apply your changes and display the selected data in a table. 
    3. Click the Save Table button to save your custom table. Focus returns to the Data tab with  the newly-created table displayed.
