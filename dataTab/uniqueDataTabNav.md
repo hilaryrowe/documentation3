@@ -15,11 +15,10 @@ General Data Tab navigation allows you to:
  * Click and drag to adjust column width
  * Hover, click, and drag to re-position columns
  
-The Cycles and Downtime data options include some unique navigation items.
 
 **Cycles Data Navigation**
 
-When you choose Cycles from the Data Type selector, and click Update, the data displays in tabular form by default. You can also click the Image View icon to toggle from Table View to Image View. 
+When you choose Cycles from the Data Type selector the data displays in tabular form by default. Any row that has an Image icon allows you to click, view, and download that image. 
 
 ![](dataTab2.png)
 
