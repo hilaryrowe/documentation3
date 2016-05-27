@@ -1,6 +1,6 @@
 # Using the Date Filter
  
- The Date Filter allows you to filter results by date and is in the Filter Bar for all tabs. Date Filter options display when you click the Expand icon. Date Picker options display differently for each tab.
+ The Date Filter allows you to filter results by date. It appears in the Filter Bar for all tabs. Date Filter options display when you click the Expand icon and may appear differently for each tab.
  
  
  **Date Filter on the Dashboard Tab**
