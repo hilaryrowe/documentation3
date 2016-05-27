@@ -28,7 +28,7 @@ Root Cause Analysis | Asset Selector, Specific Measure, Date Filter | Predictors
           
           **Note:** You can also click the bar chart or line graph to display the Data Tab with the data details displayed in tabular form.
           
-        * Process Control Navigation: click the value for the Minimum, Maximum, Mean, Process Capability Index (C<sub>pk</sub>), or Process Capability (C<sub>p</b>) values to refresh the X-Bar Chart on the right:
+        * Process Control Navigation: click the value for the Minimum, Maximum, Mean, Process Capability Index (C<sub>pk</sub>), or Process Capability (C<sub>p</sub>) values to refresh the X-Bar Chart on the right:
           ![](processControlChartIcons.png)
         **Note:** Clicking the Alarm radio button for the row will set an alert.
         
