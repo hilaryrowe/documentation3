@@ -10,8 +10,7 @@
  
  1. In each type of filter, click the Expand icon to display your options.
  2. Click to select your filter option. The Expanded options retract and the Filter Bar displays your selected filter. After you make your selection, extra, related options may display lower down in the Filter Bar.
- 3. Click to select any related option in the Filter Bar.
- 4. Click Update to apply all your filters.
+ 3. Click to select any related option in the Filter Bar. The data results refresh to reflect the new date.
  
     **Note:** The Asset Picker and the Date Picker always display in the Filter Bar. The extra, conditional filters that display based on the Cycle, Defect, Downtime, etc. are configurable. 
 
@@ -25,7 +24,7 @@
  * Downtime Filter
  * Parts Filter  
  
- ![](otherFiltersAnalysisTabE.png)
+ ![](otherFiltersAnalysisTabE2.png)
  
  
  The Analysis Tab includes Machine-Specific Filters. In the image above, the Heat Press Temperature and A1 Conveyor filters include extra options.
@@ -38,25 +37,26 @@
  
  On the Data Tab, the Filter Bar displays extra filter options based on the Cycle selected:
  
- ![](otherFilterDataTabE.png)
-  
+ ![](otherFilterDataTabE2.png)
+ 
  
   * When you select the Cycle Filter, the Shifts Filter displays in the Filter Bar.
  
-   ![](otherFilterDataTabCyclesShiftsE.png)
-   
+  ![](otherFilterDataTabCyclesShiftsE2.png)
+ 
    
   * When you select the Defect Filter, a list of your unique Defect Filter options display in the Filter Bar.
 
-    ![](otherFilterDataTabDefectE.png)
-  
+   ![](otherFilterDataTabDefectE2.png)  
     
   * When you select the Downtime Filter, a list of your unique Downtime Filter options display in the Filter Bar.
   
-    ![](otherFilterDataTabDowntimeE.png)
+   ![](otherFilterDataTabDowntimeE2.png)
   
     
   * When you select the OEE Filter, a Day Filter displays in the Filter Bar.
   
-    ![](otherFilterDataTabOeeE.png)
+    ![](otherFilterDataTabOeeE2.png)
+  
+    
   
