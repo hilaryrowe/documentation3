@@ -28,4 +28,6 @@ To apply a filter on any of the tabs using the Filter Bar:
 
 **Timeline Tab Filter**
 
- ![](filterTimelineTabE.png)
+![](filterTimelineTabE2.png)
+
+ 
