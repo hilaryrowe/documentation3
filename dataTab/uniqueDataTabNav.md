@@ -23,7 +23,7 @@ When you choose Cycles from the Data Type selector the data displays in tabular 
 
 ![](dataTabCycleExample2_5_25_16FirstExample.png)
 
-See [Filtering Data Tables](../dataTab/filterhingDataTables.md) for other filter options.
+See [Filtering Data Tables](../dataTab/filteringDataTables.md) for other filter options.
 
 **Defects Data Navigation**
 
