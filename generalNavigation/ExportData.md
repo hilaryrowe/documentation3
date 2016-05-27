@@ -3,7 +3,8 @@
  
  1. On the Data Tab: Click the Export Data button to download the displayed data to your computer. 
    
-   ![](ExportDataButton.png)
+   ![](ExportDataButton2.png)
+   
    
  2. Navigate to your computer's default download directory to locate the downloaded file. Or, depending on your operating system/browser, you may see the downloaded .csv file in the footer of the browser.
    
