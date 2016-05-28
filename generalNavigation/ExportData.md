@@ -11,4 +11,5 @@
    ![](ExportedCsvFile.png)
    
  3. Double-click the .csv file to open it. Or, click the .csv file and select the application with which you want to open the file.
+  
   **Note:** Most .csv files default to a spreadsheet application, such as Microsoft Excel, etc.
