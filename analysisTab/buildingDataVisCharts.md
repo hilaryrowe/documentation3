@@ -36,12 +36,17 @@
      * Line graphs include a legend. 
      * You can hover over any bar,line graph, or scatter point to see pop-up details.
      ![](analysisTabDataVisChart.png)
-  
-  **Note:** When you pick an X axis or Y axis data item that includes a countable data element, the Y axis shows the average cycle count per item. You also have the option to view the data by pair. For example, in the image below, the average number of cycles per pair produced is just over 25,000.
+
+
+  **Note:** When you set the Y axis to "Count", the chart will simply count the number of cycles. In this configuration, you also have the option to switch from cycle count to output count. In the example below, the machine produces one pair every two cycles, or 0.5 pairs per cycle, so there are half as many pairs as cycles for a given X axis data item. 
   
   ![](analysisTabDataVizCount2.png)
   
-  When you change the *Calculate by* option to Pair, the Y axis measurement changes to reflect the data pairs as a total instead of an average.
    
   
   ![](analysisTabDataVizCountPair.png)
+  
+  **Note:** When you set the Y axis to a *material usage* data item, the Calculate By drop-down will allow you to switch between averaging that data item per cycle, averaging it per unit output, or totaling it.
+  
+  
+  
