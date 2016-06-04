@@ -15,7 +15,20 @@ General Data Tab navigation allows you to:
  * Click and drag to adjust column width
  * Hover, click, and drag to re-position columns
  
- You can export data 
+**Exporting Data**
+
+1. To export data, click the Export Data icon in the upper-right of the screen to open the Export dialog box.
+
+  
+
+2. Select a radio button to download all fields or the selected fields in the data tab. 
+3. Click **Export** to download the displayed data to your computer in a .csv file format.
+4. Navigate to your computer's default download directory to locate the downloaded file. Or, depending on your operating system/browser, you may see the downloaded .csv file in the footer of the browser.
+5. Double-click the .csv file to open it. Or, click the .csv file and select the application with which you want to open the file.
+
+  **Note:** Most .csv files default to a spreadsheet application, such as Microsoft Excel, etc.
+
+
  
 
 **Cycles Data Navigation**
