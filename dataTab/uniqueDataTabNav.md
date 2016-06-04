@@ -17,9 +17,11 @@ General Data Tab navigation allows you to:
  
 **Exporting Data**
 
+The Export Data button displays on the Data Tab in the upper right corner of the screen. The Export Data button exports the displayed data as a comma-separated value (.csv) document.
+
 1. To export data, click the Export Data icon in the upper-right of the screen to open the Export dialog box.
 
-  
+  ![](exportDataButton3.png)
 
 2. Select a radio button to download all fields or the selected fields in the data tab. 
 3. Click **Export** to download the displayed data to your computer in a .csv file format.
@@ -28,8 +30,6 @@ General Data Tab navigation allows you to:
 
   **Note:** Most .csv files default to a spreadsheet application, such as Microsoft Excel, etc.
 
-
- 
 
 **Cycles Data Navigation**
 
