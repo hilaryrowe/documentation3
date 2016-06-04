@@ -33,6 +33,6 @@ To check the Software Version for a machine:
 
 1. Click the Software Version button.
 2. Click a machine in the left-side Machine Types list to select it.
-3. In the Version column, click any +Number link that appears to display pop-up version information.
+3. In the Version column, click any +N link to display pop-up machine version information.
 
   ![](machineSettingsVersion.png)
