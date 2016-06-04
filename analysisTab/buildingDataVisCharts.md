@@ -46,7 +46,7 @@
   
   ![](analysisTabDataVizCountPair.png)
   
-  **Note:** When you set the Y axis to a *material usage* data item, the Calculate By drop-down will allow you to switch between averaging that data item per cycle, averaging it per unit output, or totaling it.
+  **Note:** When you set the Y axis to a *material usage* data item, the Calculate By drop-down list allows you to switch between averaging that data item per cycle, averaging it per unit output, or totaling it.
   
   ![](DataViz_MaterialUsage)
   
