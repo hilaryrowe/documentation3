@@ -40,11 +40,10 @@
 
   **Note:** When you set the Y axis to "Count", the chart will simply count the number of cycles. In this configuration, you also have the option to switch from cycle count to output count. In the example below, the machine produces one pair every two cycles, or 0.5 pairs per cycle, so there are half as many pairs as cycles for a given X axis data item. 
   
-  ![](analysisTabDataVizCount2.png)
+ ![](AnalysisTabDataVizYAxisCount2.png)
   
+  ![](AnalysisTabDataVizYAxisCount1.png)
    
-  
-  ![](analysisTabDataVizCountPair.png)
   
   **Note:** When you set the Y axis to a *material usage* data item, the Calculate By drop-down list allows you to switch between averaging that data item per cycle, averaging it per unit output, or totaling it.
   
