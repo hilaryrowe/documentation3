@@ -11,7 +11,6 @@
    * [Using Embedded Links](generalNavigation/usingEmbeddedLinks.md)
    * [Hovering Over Items](generalNavigation/Hovering.md)
    * [Share Link](generalNavigation/ShareLink.md)
-   * [Export Data](generalNavigation/ExportData.md)
 * [OEE Calculations with Sight Machine](oeeCalculations/readme.md)
    * [Creating Cycle Objects](oeeCalculations/creatingCycleObjects.md)
    * [Creating Downtime Objects](oeeCalculations/creatingDowntimeObjects.md)
