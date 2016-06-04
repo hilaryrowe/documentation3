@@ -15,6 +15,8 @@ General Data Tab navigation allows you to:
  * Click and drag to adjust column width
  * Hover, click, and drag to re-position columns
  
+ You can export data 
+ 
 
 **Cycles Data Navigation**
 
@@ -29,7 +31,7 @@ See [Filtering Data Tables](../dataTab/filteringDataTables.md) for other filter 
 
 An Add Defects icon appears in the upper right of the screen when you choose Defects from the Data Type selector. You can use the Add Defects icon/dialog box to add a new defect.
 
-![](dataTabDefectNav.png)
+![](dataTabDefectNav2.png)
 
 In the Add Defects dialog box:
 
