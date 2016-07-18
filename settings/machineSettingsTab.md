@@ -15,7 +15,7 @@ A manager designated to enter machines, defect types, and downtime reasons can e
   2. Click the Code button to display the Add Machine dialog box.
   3. Enter appropriate values in the fields and click Save. The machine you just added displays in the list of machines and throughout Sight Machine's tabs. 
 
- To add a new defect type to Sight Machine:
+ To add a new downtime reason to Sight Machine:
   
  1. Click the Downtime Reasons button.
  2. Click the Code or Sub Code button to display the Add Downtime Reason dialog box.
