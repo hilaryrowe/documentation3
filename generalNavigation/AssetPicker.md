@@ -10,7 +10,7 @@ The Asset Picker is the left-hand menu option that lets you select an asset, or 
 
 The Asset Picker appears the same for the Dashboard, Data, and Timeline tabs.
 
-On the Analysis tab, the Assett Picker displays an additional panel that lets you apply a custom label to your asset selections.
+On the Analysis tab, the Asset Picker displays an additional Machines Selected panel that lets you apply a custom label to save your asset selections.
 
 ![](/assets/assetPickerAnalysisTab.png)
 
