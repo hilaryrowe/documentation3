@@ -8,11 +8,11 @@ The Asset Picker is the left-hand menu option that lets you select an asset, or 
 * Click the expand or contract arrows to display\/hide all the options within that view.
 * Select an asset radio button. The Asset Picker auto-closes and displays the data for the selected machine.
 
-The Asset Picker appears the same for the Dashboard, Data, and Timeline tabs. 
+The Asset Picker appears the same for the Dashboard, Data, and Timeline tabs.
 
 On the Analysis tab, the Assett Picker displays an additional panel that lets you apply a custom label to your asset selections.
 
-![](assetPicker1bEe2.png)
+![](/assets/assetPickerAnalysisTab.png)
 
 On the Analysis tab:
 
