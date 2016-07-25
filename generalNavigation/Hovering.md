@@ -6,20 +6,18 @@ When you hover over text and\/or graphical elements there are three different ki
 * Hovering over graphical elements, such as charts, displays pop-up details or help text
 * Hovering over some text makes it display as underlined, indicating an active link
 
-  Here is an example of hovering over a tab. 
+  Here is an example of hovering over a tab.
 
   ![](/assets/hoverExample7_24_161.png)
 
 
- The current tab in focus appears as white button with dark lettering. The other tabs display with white lettering on a dark gray background. Hovering over one of these tabs causes the tab background to display with a light gray background.
-
-
+The current tab in focus appears as white button with dark lettering. The other tabs display with white lettering on a dark gray background. Hovering over one of these tabs causes the tab background to display with a light gray background.
 
 Most graphical elements display detailed data or pop-up help text. For example, in the bar chart below, hovering over the bar shows the specific count for that conveyor speed.
 
-![](/generalNavigation/hoverGraphicDetailE.png)
+![](/assets/popUpTextExample7_24_16.png)
 
-On the Dashboard Tab, hovering over the OEE Over Time or sub-tab titles displays an underlined active link. 
+On the Dashboard Tab, hovering over the OEE Over Time or sub-tab titles displays an underlined active link.
 
 ![](hoverActiveLinksE.png)
 
@@ -29,7 +27,7 @@ When you click the linked text, focus will go to the detailed display for the li
 
 Also, when you hover over the Sight Machine logo in the top left corner, the URL for the home page displays in the lower left.
 
-![](hoverSightMachineLogoE.png)
+![](/assets/smLogoDisplay7_24_16.png)
 
 **Note:** Clicking the Sight Machine logo from any tab will return focus the Dashboard Tab.
 
