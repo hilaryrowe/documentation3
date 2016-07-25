@@ -14,18 +14,19 @@ The Share Link button displays on the Analysis, Data, and Timeline Tabs in the u
     2. Navigate to your email application of choice and click Command + V in the email body to paste it.
     3. Click the Done button in the Share Link dialog box to close it.
 
-      ![](ShareLinkPopup.png)
+      ![](/assets/shareLinkDialog7_24_16.png)
 
 
-  * Send an email with the link from the Share Link dialog box:
 
-    1. Click the Send Link in an Email to display the Recipient Emails and Message fields.
-    2. Enter email recipients and any message text. Note that the URL is auto-pasted into the Message field.  
-    3. Click Send Email to send the link to your email recipients.
-    4. Click OK in the Email Confirmation dialog box to close it.
 
-      ![](ShareLinkEmail.png)
+* Send an email with the link from the Share Link dialog box:
 
+  1. Click the Send Link in an Email to display the Recipient Emails and Message fields.
+  2. Enter email recipients and any message text. Note that the URL is auto-pasted into the Message field.  
+  3. Click Send Email to send the link to your email recipients.
+  4. Click OK in the Email Confirmation dialog box to close it.
+
+    ![](/assets/shareLinkEmailDialog7_24_16.png)
 
 
 
