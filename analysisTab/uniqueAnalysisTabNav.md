@@ -5,6 +5,7 @@
  1. The first option you can choose is the type of analysis or chart, from the Analysis Selector. Analysis Selection options include: Data Visualization, Key Performance Indicators, Process Control, and Root Cause Analysis.
  
    ![](analysisTabTopOptions.png)
+  
  
   Depending on your Analysis Selector choice, different Filter Bar options display. The table below shows the Filter Bar options for each analysis type and the output type. All analysis types include the Add Filter option in the Filter Bar.
   
