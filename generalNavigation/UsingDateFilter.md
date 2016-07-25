@@ -11,7 +11,7 @@ The Date Filter allows you to filter results by date. It appears in the Filter B
 
 **Date Filter on the Analysis and Data Tabs**
 
-![](datePickerAnalysisAndDataTabE2.png)
+![](/assets/datePickerAnalysis_DataTabs7_24_16.png)
 
 On the Analysis and Data Tabs the Date Picker includes a Custom date option.
 
@@ -29,7 +29,7 @@ On the Analysis and Data Tabs the Date Picker includes a Custom date option.
 
 **Date Filter on the Timeline Tab**
 
-![](datePickerTimelineTabE2.png)
+![](/assets/timelineTabDatePicker7_24_16.png)
 
 1. Click the Date Picker Expand icon to display the Calendar.
 2. Scroll to the month you want by clicking the Calendar's Arrow icon.
