@@ -1,4 +1,4 @@
-# Dashboard Tab Navigation
+# Unique Dashboard Tab Navigation
 
 On the Dashboard tab, data displays in two panes:
 
