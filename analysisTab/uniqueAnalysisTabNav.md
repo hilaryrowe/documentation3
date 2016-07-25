@@ -1,4 +1,4 @@
-# Unique Analysis Tab Navigation
+# Analysis Tab Navigation
 
  The Analysis Tab includes more navigation options than the other Sight Machine tabs.
  
