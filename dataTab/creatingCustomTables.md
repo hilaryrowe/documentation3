@@ -9,11 +9,15 @@ You can create custom tables for Cycles data. Use the following steps to create 
 
 2. Click the Table icon to open the Accumulator.
 
-  ![](/assets/accumulator3_7_26_16.png)
+  ![](/assets/accumulator7_26_16.png)In the Accumulator the Default radio button is selected by default, which includes all the current data elements.
 
-  1. In the Accumulator select or deselect the radio buttons for the data items you want in your custom table.
-  2. Click Apply to apply your changes and display the selected data in a table. 
-  3. Click the Save Table icon to display an editable version of the default table name. Edit the table name to the name you want, and click Save.
+3. * Hover over the data elements in the right pane to display an "X" icon. When you click the X icon it removes that data element from your new custome table.
+  * Alternatively, click the blue-colored Data Fields text \(26 Data Fields in the image below\) to display the full range of data elements with radio buttons to select or remove them from the custom table.
+
+  ![](/assets/customTable2_7_26_16.png)
+4. Click Apply to apply your changes and display the selected data in a table. 
+
+  1. Click the Save Table icon to display an editable version of the default table name. Edit the table name to the name you want, and click Save.
 
   ![](customTableSave.png)
 
