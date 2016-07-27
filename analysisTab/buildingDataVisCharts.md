@@ -42,11 +42,11 @@ Use the following steps as a guide to building Data Visualization charts.
 
 **Note:** When you set the Y axis to "Count", the chart will simply count the number of cycles. In this configuration, you also have the option to switch from cycle count to output count. In the example below, the machine produces one pair every two cycles, or 0.5 pairs per cycle, so there are half as many pairs as cycles for a given X axis data item.
 
-![](AnalysisTabDataVizYAxisCount2.png)
+![](/assets/AnalysisTabDataVizYAxisCount7_25_16.png)
 
-![](AnalysisTabDataVizYAxisCount1.png)
+![](/assets/AnalysisTabDataVizYAxisCount1_7_25_16.png)
 
 **Note:** When you set the Y axis to a _material usage_ data item, the Calculate By drop-down list allows you to switch between averaging that data item per cycle, averaging it per unit output, or totaling it.
 
-![](DataViz_MaterialUsage)
+![](/assets/DataViz_MaterialUsage7_25_16.png)
 
