@@ -20,37 +20,40 @@ General Data Tab navigation allows you to:
 
 The Export Data button displays on the Data Tab in the upper right corner of the screen. The Export Data button exports the displayed data as a comma-separated value \(.csv\) document.
 
-1. To export data, click the Export Data icon in the upper-right of the screen to open the Export dialog box.
+1. To export data, click the Export Data icon in the upper-right of the screen to automatically downalod a .csv file of the data.
 
-  ![](exportDataButton3.png)
+  ![](/assets/exportData7_26_16].png)
 
-2. Select a radio button to download all fields or the selected fields in the data tab.
-
-3. Click **Export** to download the displayed data to your computer in a .csv file format.
-4. Navigate to your computer's default download directory to locate the downloaded file. Or, depending on your operating system\/browser, you may see the downloaded .csv file in the footer of the browser.
-5. Double-click the .csv file to open it. Or, click the .csv file and select the application with which you want to open the file.
+2. Navigate to your computer's default download directory to locate the downloaded file. Or, depending on your operating system\/browser, you may see the downloaded .csv file in the footer of the browser.
+3. Double-click the .csv file to open it. Or, click the .csv file and select the application with which you want to open the file.
 
   **Note:** Most .csv files default to a spreadsheet application, such as Microsoft Excel, etc.
 
 
 **Cycles Data Navigation**
 
-When you choose Cycles from the Data Type selector the data displays in tabular form by default. Any row that has an Image icon allows you to click, view, and download that image.
+When you choose Cycles from the Data Type selector the data displays in tabular form by default. 
 
-![](dataTabCycleExample2_5_25_16FirstExample.png)
+![](/assets/cyclesDataTab7_26_16.png)
 
 See [Filtering Data Tables](../dataTab/filteringDataTables.md) for other filter options.
+
+Any row that has an Image icon \(Paperclip icon\) allows you to click, view, and download that image.
+
+![](/assets/imagesDownload.png)
+
+
 
 **Defects Data Navigation**
 
 An Add Defects icon appears in the upper right of the screen when you choose Defects from the Data Type selector. You can use the Add Defects icon\/dialog box to add a new defect.
 
-![](dataTabDefectNav2.png)
+![](/assets/addDefects7_26_16.png)
 
 In the Add Defects dialog box:
 
 1. Select the values from the Date\/Shift\/Defect Type drop-down lists.
-2. Enter values in the free-form text fields. Field names may be unique to your company\/product. 
+2. Enter a values in the Quantity field. 
 3. Click Save to save the defect or click Add More to add more defect types.
 4. Once you save your values, the Add Defects dialog box closes and focus returns to the Data Tab.
 
