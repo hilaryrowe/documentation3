@@ -4,7 +4,7 @@ To view machine data on the Timeline Tab, you will need to tell Sight Machine fo
 
 1. In the Filter Bar, select an asset \(by location or by time\) and  a date from the Date picker.
 
-![](datePickerTimelineTab2.png)
+![](/assets/timelineTabDatePicker7_26_16.png)
 
 The Timeline view refreshes to reflect your filter selections.
 
