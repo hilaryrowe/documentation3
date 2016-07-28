@@ -19,7 +19,7 @@ Root Cause Analysis | Asset Selector, Specific Measure, Date Filter | Predictors
  2. After you choose the Filter Bar options for the type of analysis you've selected, click Update to display the chart.
  3. The different charts include more navigation options.
   
-       * Data Visualization Navigation (Display Type drop-down list): bar, line, scatter, or table
+       * Data Visualization Navigation (Display Type drop-down list): bar, line, or scatter
         
         ![](analysisTabDataVisDisplay.png)
           
