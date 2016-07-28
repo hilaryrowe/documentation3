@@ -1,6 +1,6 @@
 # Analysis Tab Navigation
 
- The Analysis Tab includes more navigation options than the other Sight Machine tabs.
+ The Analysis Tab includes more navigation options than each of the other Sight Machine tabs.
  
  1. The first option you can choose is the type of analysis or chart, from the Analysis Selector. Analysis Selection options include: Data Visualization, Key Performance Indicators, Process Control, and Root Cause Analysis.
  
