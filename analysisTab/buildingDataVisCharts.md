@@ -52,9 +52,9 @@ Use the following steps as a guide to building Data Visualization charts.
 
 **Note:** When you set the Y axis to a _material usage_ data item, the Calculate By drop-down list allows you to switch between averaging that data item per cycle, averaging it per unit output, or totaling it.
 
-
 ![](/assets/DataViz_MaterialUsage7_25_16.png)
 
-  If your Data Visualization results return negative numeric values the display adjusts to accomodate it.
+If your Data Visualization results return negative numeric values the display adjusts to accomodate it.
 
+![](/assets/dataVizNegativeNum.png)
 
