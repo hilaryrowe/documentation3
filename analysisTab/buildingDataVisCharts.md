@@ -12,6 +12,7 @@ Use the following steps as a guide to building Data Visualization charts.
   ![](/assets/dataVizSelect7_24_16.png)
 
 4. Select the asset or assets and date range from the Asset Picker and Date Filter.
+  **Note:** When you select Parts from the Data Type selector, a Part Type option displays in the Filter Bar so you can select parts.
 
 5. Select an option from the Y Axis and X Axis pickers. A pop-out menu displays with available options. Use the slider bar to scroll and see all options. Options may vary based on your configuration.
 
