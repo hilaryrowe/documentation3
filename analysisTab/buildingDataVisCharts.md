@@ -12,22 +12,20 @@ Use the following steps as a guide to building Data Visualization charts.
   ![](/assets/dataVizSelect7_24_16.png)
 
 4. Select the asset or assets and date range from the Asset Picker and Date Filter. The Asset Picker displays options for both Machines and Lines if your business uses both.
+  
+  ![](/assets/analysisTabLinesTabD.png)
 
-
-    
-
-
-1. Select an option from the Y Axis and X Axis pickers. A pop-out menu displays with available options. Use the slider bar to scroll and see all options. Options may vary based on your configuration.
+5. Select an option from the Y Axis and X Axis pickers. A pop-out menu displays with available options. Use the slider bar to scroll and see all options. Options may vary based on your configuration.
 
   ![](/assets/dataVizYAxis7_24_16.png)
 
-2. Select an option from the Comparison Picker: Single Plot, Compare by Factory, or Compare by Machine.
+6. Select an option from the Comparison Picker: Single Plot, Compare by Factory, or Compare by Machine.
 
   **Note:** When you select Parts from the Data Type selector, a Part Type option displays in the Filter Bar so you can select parts.
 
   ![](/assets/dataVizpartsOptionB.png)
 
-3. If desired, click Add Filter to display a Filter pop-out menu and select an extra filter. Use the slider bar to see all options.
+7. If desired, click Add Filter to display a Filter pop-out menu and select an extra filter. Use the slider bar to see all options.
 
   ![](/assets/dataVizAddFilter7_24_16.png)
 
@@ -39,7 +37,7 @@ Use the following steps as a guide to building Data Visualization charts.
   2. Enter a value in the associated field.
   3. Click the Add link to save it. This will close the sub-pop-out menu and focus returns to the Filter Bar. Your filter value displays in the Filter Bar above the Add Filter option.
 
-4. Click Update to view the Data Visualization\] chart.
+8. Click Update to view the Data Visualization\] chart.
 
   * The Y axis and X axis labels display. 
   * You can click the Chart Display picker to view the data as a bar chart, line graph, or scatter plot.
