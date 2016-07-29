@@ -15,7 +15,8 @@ Use the following steps as a guide to building Data Visualization charts.
 
   **Note:** When you select Parts from the Data Type selector, a Part Type option displays in the Filter Bar so you can select parts.
 
-      ![](/assets/dataVizpartsOptionB.png)
+  ![](/assets/dataVizpartsOptionB.png)
+
 5. Select an option from the Y Axis and X Axis pickers. A pop-out menu displays with available options. Use the slider bar to scroll and see all options. Options may vary based on your configuration.
 
   ![](/assets/dataVizYAxis7_24_16.png)
@@ -51,5 +52,9 @@ Use the following steps as a guide to building Data Visualization charts.
 
 **Note:** When you set the Y axis to a _material usage_ data item, the Calculate By drop-down list allows you to switch between averaging that data item per cycle, averaging it per unit output, or totaling it.
 
+
 ![](/assets/DataViz_MaterialUsage7_25_16.png)
+
+  If your Data Visualization results return negative numeric values the display adjusts to accomodate it.
+
 
