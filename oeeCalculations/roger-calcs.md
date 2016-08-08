@@ -32,6 +32,7 @@ Classifications to consider:
   * Waiting\/Administrative Downtime
 
   * Preventive Maintence Downtime
+
   * Corrective Maintence Downtime
 
 
@@ -41,9 +42,23 @@ Classifications to consider:
 
 The Availability component of OEE measures the ratio of scheduled operation time \(Scheduled Time\) to observed operation time \(Available Time\). The resulting calculation shows the percentage that the asset \(machine, line, or facility\) is actually operational compared to the planned operating time of the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
 
+
+
+**Availability Formula**
+
 ![](/assets/Screen Shot 2016-08-08 at 12.03.31 PM.png)
 
-sdafad
+Looking into the subcomponents of Availability \(Available Time, Scheduled Time\) we can add additional detail to how this is computed.
+
+**Scheduled Time**
+
+Scheduled time is a predefined operating schedule specified for a particular asset. This can be expressed more generally as the expected total operational time less any periods of time where the asset is not expected to be running.
+
+![](/assets/Screen Shot 2016-08-08 at 12.24.21 PM.png)
+
+Typical Planned Downtime Reasons
+
+*  
 
 [^1]: file:\/\/\/Users\/Roger\_SM\/Downloads\/OEE\_Availability\_Definition.pdf
 
