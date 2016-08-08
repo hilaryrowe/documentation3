@@ -1,44 +1,3 @@
-# Configuration Tools
-
-Options:
-
-* Cycle Configuration
-
-  * Ideal Cycle Time
-  * Max Cycle Time
-
-* Output
-
-  * Piece per pair
-
-
-Availability = “a percentage measure of the degree to which machinery and equipment is in an operable and committable state at the point in time when it is needed.”[^1]
-
-Classifications to consider:
-
-* Instantaneous \(or Point\) Availability.
-* Average Up-Time Availability \(or Mean Availability\).
-* Steady State Availability.
-* Inherent Availability.
-* Achieved Availability.
-
-**Operational Availability. **
-
-* $$A0 = Uptime / Operating Cycle$$
-
-* Logistics Time
-
-* Ready Time
-
-* Waiting\/Administrative Downtime
-
-* Preventive Maintence Downtime
-
-* Corrective Maintence Downtime
-
-
-![](/assets/Screen Shot 2016-08-06 at 12.54.48 PM.png)
-
 ## **Availability Calculation**
 
 The Availability component of OEE measures the ratio of scheduled operation time \(Scheduled Time\) to observed operation time \(Available Time\). This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is actually operational compared to the planned operating time of the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
@@ -64,13 +23,13 @@ Configuration Options:
 * Shift Aggregation[^2]
 * Absolute Time \(minutes\)
 
-_**Shift Aggregation**_
+**_Shift Aggregation_**
 
 ![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
 
 Using this configuration the _Total Expected Run Time_ for the asset is equal to the sum of all the specified shifts.
 
-_**Absolute Time**_
+**_Absolute Time_**
 
 ![](/assets/Screen Shot 2016-08-08 at 3.03.15 PM.png)
 
@@ -94,13 +53,35 @@ In a similar manner as _Total Expected Run Time_, _Planned Downtime_ is the sum 
 
 **Total Scheduled Time Calculation**
 
-Combining _Total Expected Run Time _with _Planned Downtime_ we arrive at **Scheduled Time **\(in this example using Shift Aggregation\).
+Combining _Total Expected Run Time \_with \_Planned Downtime_ we arrive at **Scheduled Time **\(in this example using Shift Aggregation\).
 
-![](/assets/Screen Shot 2016-08-08 at 3.47.09 PM.png) 
+![](/assets/Screen Shot 2016-08-08 at 3.47.09 PM.png)
 
 ![](/assets/Screen Shot 2016-08-08 at 3.48.43 PM.png)
 
+### **Available Time**
 
+Unlike Scheduled Time, Available Time is dependant on events that cannot be predefined. These include the following reasons and many others that make up Unplanned Downtime:
+
+* Machine Breakdown
+* Unplanned Repairs
+* Equipment Modifications
+* Operator Error
+
+Sight Machine creates Downtime objects for one of two reasons:
+
+1. A Machine's observed Cycle Time exceeds the Max Cycle Time specified in Machine Type configuration
+2. An explicit downtime rule is defined for the Machine based on sensor values \(e.g. Alarm duration &gt; 10 seconds\)
+
+These events can be automatically classified based on rules provided to Data Engineering or through manual classifcation from the Data Tab of Sight Machine \(Data &gt; Downtime &gt;\). Assuming there are three seperate Unplanned Downtime events related to Machine Breakdown and Operator Error we can calculate the
+
+![](/assets/Screen Shot 2016-08-08 at 4.00.33 PM.png)
+
+asdfasf
+
+To calculate Available Time you sum all of the
+
+Scheduled time is a predefined operating schedule for a particular asset. This can be expressed more generally as the _Total Expected Run Time_ less any periods of time when the asset is not expected to be running \(_Planned Downtime_\).
 
 [^1]: file:\/\/\/Users\/Roger\_SM\/Downloads\/OEE\_Availability\_Definition.pdf
 
