@@ -51,13 +51,13 @@ Using the components of Availability \(Available Time and Scheduled Time\) we ca
 
 **Scheduled Time**
 
-Scheduled time is a predefined operating schedule specified for a particular asset. This can be expressed more generally as the  total expected run time less any periods of time where the asset is not expected to be running \(planned downtime\).
+Scheduled time is a predefined operating schedule specified for a particular asset. This can be expressed more generally as the  total expected run time less any periods of time when the asset is not expected to be running \(planned downtime\).
 
 ![](/assets/Screen Shot 2016-08-08 at 12.24.21 PM.png)
 
 **Total Expected Run Time**
 
-Based on the preferences of your business, we can calculate Total Expected Run Time as either the aggregate time of your shift schedules or a absolute amount of time.
+Based on the specifics of your business, we can calculate Total Expected Run Time as either the aggregate time of your shift schedules or a absolute amount of time.
 
 Configuration Options:
 
@@ -65,13 +65,21 @@ Configuration Options:
 * Absolute Time \(mins\)
 * Offshift?
 
-_Shift Aggregation_
+_**Shift Aggregation**_
 
 ![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
 
-_Absolute Time_
+Using this configuration, the total expected run time for the asset is equal to the sum of all the specified 
+
+_**Absolute Time**_
+
+![](/assets/Screen Shot 2016-08-08 at 3.03.15 PM.png)
 
 
+
+**Planned Downtime**
+
+The other half of the formula is
 
 Examples of Planned Downtime Reasons:
 
