@@ -30,6 +30,7 @@ Classifications to consider:
   * Ready Time
 
   * Waiting\/Administrative Downtime
+
   * Preventive Maintence Downtime
   * Corrective Maintence Downtime
 
@@ -38,7 +39,7 @@ Classifications to consider:
 
 ## **Availability Calculation**
 
-The Availability component of OEE measures the ratio of scheduled operation time \(Schedule Time\) to observed operation time \(Available Time\). The resulting calculation shows the percentage of the planned operating time the asset \(machine, line, or facility\) is actually operational over a specified time horizon \(shift, daily, weekly, or monthly\).
+The Availability component of OEE measures the ratio of scheduled operation time \(Scheduled Time\) to observed operation time \(Available Time\). The resulting calculation shows the percentage that the asset \(machine, line, or facility\) is actually operational compared to the planned operating time of the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
 
 ![](/assets/Screen Shot 2016-08-08 at 12.03.31 PM.png)
 
