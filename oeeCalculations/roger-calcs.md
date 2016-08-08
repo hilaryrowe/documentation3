@@ -21,7 +21,8 @@ Classifications to consider:
 * Steady State Availability.
 * Inherent Availability.
 * Achieved Availability.
-* **Operational Availability. **
+
+**Operational Availability. **
 
   * $$A0 = Uptime / Operating Cycle$$
 
@@ -47,31 +48,32 @@ The Availability component of OEE measures the ratio of scheduled operation time
 
 ![](/assets/Screen Shot 2016-08-08 at 12.03.31 PM.png)
 
-Using the components of Availability \(Available Time and Scheduled Time\) we can add additional detail to how this is computed.
+Using the components of Availability \(Available Time and Scheduled Time\) we can further explain how this is computed.
 
-**Scheduled Time**
+### **Scheduled Time**
 
-Scheduled time is a predefined operating schedule specified for a particular asset. This can be expressed more generally as the  total expected run time less any periods of time when the asset is not expected to be running \(planned downtime\).
+Scheduled time is a predefined operating schedule for a particular asset. This can be expressed more generally as the _Total Expected Run Time_ less any periods of time when the asset is not expected to be running \(_Planned Downtime_\).
 
 ![](/assets/Screen Shot 2016-08-08 at 12.24.21 PM.png)
 
 **Total Expected Run Time**
 
-Based on the specifics of your business, we can calculate Total Expected Run Time as either the aggregate time of your shift schedules or a absolute amount of time.
+Based on the specific requirements of your business, we can calculate _Total Expected Run Time_ as either the aggregate time of your shift schedules or a absolute amount of time.
 
 Configuration Options:
 
 * Shift Aggregation[^2]
-* Absolute Time \(mins\)
-* Offshift?
+* Absolute Time \(minutes\)
 
-**_Shift Aggregation_**
+
+
+  _**Shift Aggregation**_
 
 ![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
 
-Using this configuration, the total expected run time for the asset is equal to the sum of all the specified
+Using this configuration the _Total Expected Run Time_ for the asset is equal to the sum of all the specified shifts for the asset (machine type, line, facility).
 
-**_Absolute Time_**
+_**Absolute Time**_
 
 ![](/assets/Screen Shot 2016-08-08 at 3.03.15 PM.png)
 
