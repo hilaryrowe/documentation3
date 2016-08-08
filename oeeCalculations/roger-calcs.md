@@ -22,14 +22,27 @@ Classifications to consider:
 * Inherent Availability.
 * Achieved Availability.
 * **Operational Availability. **
+
   * $$A0 = Uptime / Operating Cycle$$
+
   * Logistics Time
+
   * Ready Time
+
   * Waiting\/Administrative Downtime
   * Preventive Maintence Downtime
   * Corrective Maintence Downtime
 
 
 ![](/assets/Screen Shot 2016-08-06 at 12.54.48 PM.png)
+
+## **Availability Calculation**
+
+The Availability component of OEE measures the ratio of scheduled operation time \(Schedule Time\) to observed operation time \(Available Time\). The resulting calculation shows the percentage of the planned operating time the asset \(machine, line, or facility\) is actually operational over a specified time horizon \(shift, daily, weekly, or monthly\).
+
+![](/assets/Screen Shot 2016-08-08 at 12.03.31 PM.png)
+
+sdafad
+
 [^1]: file:\/\/\/Users\/Roger\_SM\/Downloads\/OEE\_Availability\_Definition.pdf
 
