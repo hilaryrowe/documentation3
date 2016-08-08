@@ -65,17 +65,15 @@ Configuration Options:
 * Absolute Time \(mins\)
 * Offshift?
 
-_**Shift Aggregation**_
+**_Shift Aggregation_**
 
 ![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
 
-Using this configuration, the total expected run time for the asset is equal to the sum of all the specified 
+Using this configuration, the total expected run time for the asset is equal to the sum of all the specified
 
-_**Absolute Time**_
+**_Absolute Time_**
 
 ![](/assets/Screen Shot 2016-08-08 at 3.03.15 PM.png)
-
-
 
 **Planned Downtime**
 
@@ -85,6 +83,9 @@ Examples of Planned Downtime Reasons:
 
 * Break Periods
 * Preventative Machine Maintenance
+* Schedule Repairs
+* Equipment Modifications
+* Set Up
 * Holidays
 
 [^1]: file:\/\/\/Users\/Roger\_SM\/Downloads\/OEE\_Availability\_Definition.pdf
