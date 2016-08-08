@@ -19,7 +19,7 @@
     * [Calculating Performance](oeeCalculations/calculatingPerformance.md)
     * [Entering Defects](oeeCalculations/enteringDefects.md)
     * [Calculating Quality](oeeCalculations/calculatingQuality.md)
-    * [Roger Calcs](oeeCalculations/roger-calcs.md)
+    * [Roger Availability](oeeCalculations/roger-calcs.md)
     * [Roger Note's](oeeCalculations/roger-notes.md)
 * [Dashboard Tab](dashboardTab/readme.md)
     * [Unique Dashboard Tab Navigation](dashboardTab/uniqueDashboardTabNav.md)
