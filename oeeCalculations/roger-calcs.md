@@ -41,15 +41,13 @@ Classifications to consider:
 
 ## **Availability Calculation**
 
-The Availability component of OEE measures the ratio of scheduled operation time \(Scheduled Time\) to observed operation time \(Available Time\). The resulting calculation shows the percentage that the asset \(machine, line, or facility\) is actually operational compared to the planned operating time of the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
+The Availability component of OEE measures the ratio of scheduled operation time \(Scheduled Time\) to observed operation time \(Available Time\). This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is actually operational compared to the planned operating time of the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
 
 **Availability Formula**
 
 ![](/assets/Screen Shot 2016-08-08 at 12.03.31 PM.png)
 
-Looking into the subcomponents of Availability \(Available Time, Scheduled Time\) we can add additional detail to how this is computed.
-
-
+Using the subcomponents of Availability \(Available Time and Scheduled Time\) we can add additional detail to how this is computed.
 
 **Scheduled Time**
 
@@ -57,9 +55,34 @@ Scheduled time is a predefined operating schedule specified for a particular ass
 
 ![](/assets/Screen Shot 2016-08-08 at 12.24.21 PM.png)
 
-Typical Planned Downtime Reasons
+**Total Expected Run Time**
 
-* 
+Based on the preferences of your business, we can express Total Expected Run Time as either the aggregate time of your shift schedules or a absolute amount of time.
+
+Configuration Options:
+
+* Shift Aggregation[^2]
+* Absolute Time \(mins\)
+* Offshift?
+
+_Shift Aggregation_
+
+![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
+
+_Absolute Time_
+
+
+
+
+
+Examples of Planned Downtime Reasons:
+
+* Break Periods
+* Preventative Machine Maintenance
+* Holidays
+
 
 [^1]: file:\/\/\/Users\/Roger\_SM\/Downloads\/OEE\_Availability\_Definition.pdf
+
+[^2]: Defined in factory.yaml configuration files as shift\_events \(starttime, endtime, breaks\)
 
