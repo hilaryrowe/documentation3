@@ -24,18 +24,17 @@ Classifications to consider:
 
 **Operational Availability. **
 
-  * $$A0 = Uptime / Operating Cycle$$
+* $$A0 = Uptime / Operating Cycle$$
 
-  * Logistics Time
+* Logistics Time
 
-  * Ready Time
+* Ready Time
 
-  * Waiting\/Administrative Downtime
+* Waiting\/Administrative Downtime
 
-  * Preventive Maintence Downtime
+* Preventive Maintence Downtime
 
-  * Corrective Maintence Downtime
-
+* Corrective Maintence Downtime
 
 
 ![](/assets/Screen Shot 2016-08-06 at 12.54.48 PM.png)
@@ -65,23 +64,21 @@ Configuration Options:
 * Shift Aggregation[^2]
 * Absolute Time \(minutes\)
 
-
-
-  _**Shift Aggregation**_
+_**Shift Aggregation**_
 
 ![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
 
-Using this configuration the _Total Expected Run Time_ for the asset is equal to the sum of all the specified shifts for the asset (machine type, line, facility).
+Using this configuration the _Total Expected Run Time_ for the asset is equal to the sum of all the specified shifts.
 
 _**Absolute Time**_
 
 ![](/assets/Screen Shot 2016-08-08 at 3.03.15 PM.png)
 
+You can also configure the _Total Expected Run Time_ for an asset to a specific number of minutes per day of operation.
+
 **Planned Downtime**
 
-The other half of the formula is
-
-Examples of Planned Downtime Reasons:
+The other half of the formula is the pre-planned time that you expect the asset to not be operational. This can happen for a number of different reasons including the below:
 
 * Break Periods
 * Preventative Machine Maintenance
@@ -89,6 +86,21 @@ Examples of Planned Downtime Reasons:
 * Equipment Modifications
 * Set Up
 * Holidays
+
+In a similar manner as _Total Expected Run Time_, _Planned Downtime_ is the sum of all of the individual occurances for the specified period of time \(Shift, Day, Week, Month\). This is currently configurable only by the data engineering team, however future releases will allow you to add Planned Downtime events directly from the application.
+![](/assets/Screen Shot 2016-08-08 at 3.37.20 PM.png)
+
+![](/assets/Screen Shot 2016-08-08 at 3.38.31 PM.png)
+
+**Total Scheduled Time Calculation**
+
+Combining _Total Expected Run Time _with _Planned Downtime_ we arrive at **Scheduled Time **\(in this example using Shift Aggregation\).
+
+![](/assets/Screen Shot 2016-08-08 at 3.47.09 PM.png) 
+
+![](/assets/Screen Shot 2016-08-08 at 3.48.43 PM.png)
+
+
 
 [^1]: file:\/\/\/Users\/Roger\_SM\/Downloads\/OEE\_Availability\_Definition.pdf
 
