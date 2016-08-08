@@ -47,7 +47,7 @@ The Availability component of OEE measures the ratio of scheduled operation time
 
 ![](/assets/Screen Shot 2016-08-08 at 12.03.31 PM.png)
 
-Using the subcomponents of Availability \(Available Time and Scheduled Time\) we can add additional detail to how this is computed.
+Using the components of Availability \(Available Time and Scheduled Time\) we can add additional detail to how this is computed.
 
 **Scheduled Time**
 
@@ -57,7 +57,7 @@ Scheduled time is a predefined operating schedule specified for a particular ass
 
 **Total Expected Run Time**
 
-Based on the preferences of your business, we can express Total Expected Run Time as either the aggregate time of your shift schedules or a absolute amount of time.
+Based on the preferences of your business, we can calculate Total Expected Run Time as either the aggregate time of your shift schedules or a absolute amount of time.
 
 Configuration Options:
 
@@ -73,14 +73,11 @@ _Absolute Time_
 
 
 
-
-
 Examples of Planned Downtime Reasons:
 
 * Break Periods
 * Preventative Machine Maintenance
 * Holidays
-
 
 [^1]: file:\/\/\/Users\/Roger\_SM\/Downloads\/OEE\_Availability\_Definition.pdf
 
