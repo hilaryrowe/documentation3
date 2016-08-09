@@ -23,13 +23,13 @@ Configuration Options:
 * Shift Aggregation[^2]
 * Absolute Time \(minutes\)
 
-_**Shift Aggregation**_
+**_Shift Aggregation_**
 
 ![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
 
 Using this configuration the _Total Expected Run Time_ for the asset is equal to the sum of all the specified shifts.
 
-_**Absolute Time**_
+**_Absolute Time_**
 
 ![](/assets/Screen Shot 2016-08-08 at 3.03.15 PM.png)
 
@@ -87,11 +87,13 @@ Combining Unplanned Downtime with Scheduled Time we can cacluate the Available T
 
 ![](/assets/Screen Shot 2016-08-08 at 5.08.09 PM.png)
 
-### **Available Time**
+### **Availability**
 
-To calculate Available Time you sum all of the
+Taking the two earlier examples of Scheduled Time and Available Time we can calculate the Availability for this asset for the specified day.
 
-Scheduled time is a predefined operating schedule for a particular asset. This can be expressed more generally as the _Total Expected Run Time_ less any periods of time when the asset is not expected to be running \(_Planned Downtime_\).
+![](/assets/Screen Shot 2016-08-08 at 5.15.54 PM.png)
+
+![](/assets/Screen Shot 2016-08-08 at 5.17.45 PM.png)
 
 [^1]: file:\/\/\/Users\/Roger\_SM\/Downloads\/OEE\_Availability\_Definition.pdf
 
