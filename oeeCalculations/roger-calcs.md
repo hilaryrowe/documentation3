@@ -85,6 +85,8 @@ These events can be automatically classified with Reason Codes based on rules pr
 
 Combining Unplanned Downtime with Scheduled Time we can cacluate the Available Time for the asset over the defined period of time \(shift, day, week, month\).
 
+![](/assets/Screen Shot 2016-08-08 at 5.26.07 PM.png)
+
 ![](/assets/Screen Shot 2016-08-08 at 5.08.09 PM.png)
 
 ### **Availability**
