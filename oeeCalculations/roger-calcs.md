@@ -23,13 +23,13 @@ Configuration Options:
 * Shift Aggregation[^2]
 * Absolute Time \(minutes\)
 
-**_Shift Aggregation_**
+_**Shift Aggregation**_
 
 ![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
 
 Using this configuration the _Total Expected Run Time_ for the asset is equal to the sum of all the specified shifts.
 
-**_Absolute Time_**
+_**Absolute Time**_
 
 ![](/assets/Screen Shot 2016-08-08 at 3.03.15 PM.png)
 
@@ -87,7 +87,7 @@ Combining Unplanned Downtime with Scheduled Time we can cacluate the Available T
 
 ![](/assets/Screen Shot 2016-08-08 at 5.08.09 PM.png)
 
-asdf
+### **Available Time**
 
 To calculate Available Time you sum all of the
 
