@@ -51,7 +51,7 @@ In a similar manner as _Total Expected Run Time_, _Planned Downtime_ is the sum 
 
 ![](/assets/Screen Shot 2016-08-08 at 3.38.31 PM.png)
 
-**Total Scheduled Time Calculation**
+**Scheduled Time Calculation**
 
 Combining _Total Expected Run Time \_with \_Planned Downtime_ we arrive at **Scheduled Time **\(in this example using Shift Aggregation\).
 
@@ -61,7 +61,13 @@ Combining _Total Expected Run Time \_with \_Planned Downtime_ we arrive at **Sch
 
 ### **Available Time**
 
-Unlike Scheduled Time, Available Time is dependant on events that cannot be predefined. These include the following reasons and many others that make up Unplanned Downtime:
+Unlike Scheduled Time, Available Time is dependant on events that cannot be predetermined. It is calculated as the difference between Scheduled Time and Unplanned Downtime.
+
+![](/assets/Screen Shot 2016-08-08 at 5.05.20 PM.png)
+
+**Unplanned Downtime**
+
+Unplanned Downtime is a period of time that an asset is not available for production that it was expected to be operating. This can happen for many different reasons including the below:
 
 * Machine Breakdown
 * Unplanned Repairs
@@ -70,14 +76,18 @@ Unlike Scheduled Time, Available Time is dependant on events that cannot be pred
 
 Sight Machine creates Downtime objects for one of two reasons:
 
-1. A Machine's observed Cycle Time exceeds the Max Cycle Time specified in Machine Type configuration
-2. An explicit downtime rule is defined for the Machine based on sensor values \(e.g. Alarm duration &gt; 10 seconds\)
+1. A Machine's observed Cycle Time exceeds the Max Cycle Time specified in the Machine Type configuration
+2. An explicit downtime rule is defined for the Machine based on actual sensor values \(e.g. Alarm duration &gt; 10 seconds\)
 
-These events can be automatically classified based on rules provided to Data Engineering or through manual classifcation from the Data Tab of Sight Machine \(Data &gt; Downtime &gt;\). Assuming there are three seperate Unplanned Downtime events related to Machine Breakdown and Operator Error we can calculate the
+These events can be automatically classified with Reason Codes based on rules provided to Data Engineering or through manual classifcation from the Data Tab in Sight Machine. Assuming there are three seperate Unplanned Downtime events related to Machine Breakdown and Operator Error we can calculate Unplanned Downtime as the below.
 
 ![](/assets/Screen Shot 2016-08-08 at 4.00.33 PM.png)
 
-asdfasf
+Combining Unplanned Downtime with Scheduled Time we can cacluate the Available Time for the asset over the defined period of time \(shift, day, week, month\).
+
+![](/assets/Screen Shot 2016-08-08 at 5.08.09 PM.png)
+
+asdf
 
 To calculate Available Time you sum all of the
 
