@@ -1,5 +1,7 @@
 # Default Formulas for OEE Metrics
 
+For the top 4 items we limit the min to 0% and max to 100%.
+
 ## Availability
 
 Sigma(Cycle Seconds) / Sigma(Expected Cycle Seconds)
@@ -19,5 +21,6 @@ Availability x Performance x Quality
 ## Output
 
 Sigma(Cycle Output)
+
 
 
