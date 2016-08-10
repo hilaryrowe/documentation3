@@ -38,4 +38,23 @@ Classifications to consider:
 
 
 
+## Notes from John Sun
+
+Multiple Calculator Plugins
+
+* Base
+* Part based = Flyknit
+* Parallel based = OSC Knife
+* Skip Bad = 3D, MSP
+* Line Stats = Auto No Sew...
+
+## Base Formulas
+
+Availability = sec cycles \/ exp cycles
+
+Performance = mean ideal cycle time \/ mean cycle time
+
+Quality = \# of defects\/ \# of output
+
+
 
