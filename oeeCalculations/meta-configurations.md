@@ -11,6 +11,13 @@ There are a number of settings stored in your account created in conjunction wit
 
 * Custom Recipes - depending on the variabilty of output from a machine type custom configuration of the fields above may be required (e.g. creating small widgets are expected to be created in 30 seconds while large widgets take 5 minutes to create)
 
+* Statplugin - Different ways of calculating OEE metrics can be specified in the machine type configuration
+  * PartOEEStatCalculator - ???
+  * ParallelCyclePerfCalculator - ???
+  * SkipBadCycleStatCalculator - ignores cycles with NG data
+  * LineStatsCalculator - used to calculate OEE metrics for the line model with overlapping or parallel processes (total aggregate daily time > 24 hours)
+
+
 ### Factory
 * shift_events - used to the define the shift schedule for the facility including:
   * Days of the week expected to operate
@@ -24,14 +31,14 @@ There are a number of settings stored in your account created in conjunction wit
 
 _We currently do not allow for adhoc Shift changes or Holidays_
 
-
 ### Calculation Impact
 * Availability
   * cycle_ideal ==> Scheduled Time
   * cycle_threshold ==> should be [Available Time]
 * Performance
+  * cycle_ideal ==> numerator = mean ideal cycle time
 * Output
-  * 
+  * cycle_finished_product_ratio
 
 
 
