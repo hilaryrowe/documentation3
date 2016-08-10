@@ -19,6 +19,7 @@
     * [Calculating Performance](oeeCalculations/calculatingPerformance.md)
     * [Entering Defects](oeeCalculations/enteringDefects.md)
     * [Calculating Quality](oeeCalculations/calculatingQuality.md)
+    * [Calculation Details](oeeCalculations/calculation-details.md)
     * [Meta Configurations](oeeCalculations/meta-configurations.md)
     * [Roger Availability](oeeCalculations/roger-availability.md)
     * [Roger Notes](oeeCalculations/roger-notes.md)
