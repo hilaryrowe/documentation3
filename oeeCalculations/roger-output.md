@@ -4,7 +4,14 @@ Each cycle has an ‘output’ field, in which we store the total output for tha
 
 ![](/assets/Screen Shot 2016-08-11 at 1.22.08 PM.png)
 
-### output = (intended_pieces - error_pieces) * piece_multipler / cycles_per_part
+### output = \(intended\_pieces - error\_pieces\) \* piece\_multipler \/ cycles\_per\_part
+
+* Piece Multiplier - Specified in sslog data streams to account for variable output per machine
+  * e.g. Output = \(1-0\)\*3\/\(1\/1\) = 3
+
+* Cycle Finished Product Ratio - defined in machine type yamls as a fixed value
+  * cycles per part = 1\/cycle finished product ratio
+  * e.g. Output = \(1-0\)\*1\/\(1\/.5\) = .5
 
 
 _ETL Output Calculator_
