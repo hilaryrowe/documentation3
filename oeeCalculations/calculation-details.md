@@ -2,11 +2,11 @@
 
 For the top 4 items we limit the min to 0% and max to 100%.
 
-## Availability
+## Availability == Operating
 
 Sigma(Cycle Seconds) / Sigma(Expected Cycle Seconds)
 
-## Performance == Operating
+## Performance
 
 Mean Ideal Cycle Time / Mean Cycle Time
 

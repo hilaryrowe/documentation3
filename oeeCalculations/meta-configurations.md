@@ -5,9 +5,9 @@ There are a number of settings stored in your account created in conjunction wit
 ### Machine Type
 
 * Default Recipe
-  * cycle\_ideal \(milliseconds\) - the ideal amount of time expected for a cycle to complete from start to finish
-  * cycle\_threshold \(milliseconds\) - the maximum amount of time of time expected for a cycle to complete from start to finish; if a cycle excedes it's threshold it triggers a downtime event and resumes available time when a new cycle starts
-  * cycle\_finished\_product\_ratio - the expected output in units created after a cycle completes
+  * **Ideal Cycle Time** \(milliseconds\) [_cycle_ideal_] - the ideal amount of time expected for a cycle to complete from start to finish
+  * **Maximum Cycle Time** \(milliseconds\) [_cycle_threshold_] - the maximum amount of time of time expected for a cycle to complete from start to finish; if a cycle excedes it's threshold it triggers a downtime event and resumes available time when a new cycle starts
+  * **Finished Output per Cycle** (integer or float) [_cycle_finished_product_ratio_] - the expected output in units created after a cycle completes
 
 * Custom Recipes - depending on the variabilty of output from a machine type custom configuration of the fields above may be required (e.g. creating small widgets are expected to be created in 30 seconds while large widgets take 5 minutes to create)
 
