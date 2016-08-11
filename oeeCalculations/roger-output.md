@@ -1,7 +1,7 @@
 ## **Output Calculation**
 
 
-Output is the high level metric used to track production units created by an asset \(machine, line, facility\). Total output is calculated using either data received from the Cycles model or the Parts model. For Cycle based calculation, output will rely on either a fixed ratio (e.g. 0.5 for machines that make one shoe at a time) or a recipe-dependent value read directly from the raw data streams.
+Output is used to track units of production created by an asset \(machine, line, facility\). Total output is calculated using either data received from the Cycles model or the Parts model. For Cycle based calculation, output will rely on either a fixed ratio (e.g. 0.5 for machines that make less than one unit per cycle) or a recipe-dependent value read directly from the raw data streams (1 widget in one cycle and 5 widgets in another cycle). For Part based calculation...
 
 
 ![](/assets/Screen Shot 2016-08-11 at 1.22.08 PM.png)
@@ -9,7 +9,7 @@ Output is the high level metric used to track production units created by an ass
 
 ### Output = \(intended\_pieces - error\_pieces\) \* piece\_multipler \/ cycles\_per\_part
 
-* Piece Multiplier - Specified in sslog data streams to account for variable output per machine
+* Piece Multiplier - Specified in sslog data streams to account for variable output per machine; 
 
   * e.g. Output = \(1-0\)\***3**\/\(1\/1\) = 3
 
