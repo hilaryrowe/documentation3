@@ -1,17 +1,22 @@
 ## **Output Calculation**
 
-Each cycle has an ‘output’ field, in which we store the total output for that cycle. This can be a static cycle\_multiplier value \(e.g. 0.5 for machines that make one shoe at a time\), or it can be recipe-dependent and read from the data.
+
+Output is the high level metric used to track production units created by an asset \(machine, line, facility\). Total output is calculated using either data received from the Cycles model or the Parts model. For Cycle based calculation, output will rely on either a fixed ratio (e.g. 0.5 for machines that make one shoe at a time) or a recipe-dependent value read directly from the raw data streams.
+
 
 ![](/assets/Screen Shot 2016-08-11 at 1.22.08 PM.png)
 
-### output = \(intended\_pieces - error\_pieces\) \* piece\_multipler \/ cycles\_per\_part
+
+### Output = \(intended\_pieces - error\_pieces\) \* piece\_multipler \/ cycles\_per\_part
 
 * Piece Multiplier - Specified in sslog data streams to account for variable output per machine
-  * e.g. Output = \(1-0\)\*3\/\(1\/1\) = 3
+
+  * e.g. Output = \(1-0\)\***3**\/\(1\/1\) = 3
 
 * Cycle Finished Product Ratio - defined in machine type yamls as a fixed value
+
   * cycles per part = 1\/cycle finished product ratio
-  * e.g. Output = \(1-0\)\*1\/\(1\/.5\) = .5
+  * e.g. Output = \(1-0\)\*1\/\(1\/**.5**\) = .5
 
 
 _ETL Output Calculator_
