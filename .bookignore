@@ -2,4 +2,5 @@
 .gitignore
 scripts
 Dockerfile
+Jenkinsfile
 DEVELOP_TO_DEPLOY.md
