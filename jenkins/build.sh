@@ -1,4 +1,7 @@
-#!/usr/bin/env bash -ex
+#!/usr/bin/env bash
+set -x
+set -e
+
 ##
 ## Super simple docker based build procedure for rendering gitbook documentation.
 ##
