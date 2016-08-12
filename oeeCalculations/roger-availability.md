@@ -8,7 +8,6 @@ The Availability component of OEE measures the ratio of scheduled operation time
 
 Using the components of Availability \(Available Time and Scheduled Time\) we can further explain how this is computed.
 
-
 ### **Scheduled Time**
 
 Scheduled time is a predefined operating schedule for a particular asset. This can be expressed more generally as the _Total Expected Run Time_ less any periods of time when the asset is not expected to be running \(_Planned Downtime_\).
@@ -20,18 +19,17 @@ Scheduled time is a predefined operating schedule for a particular asset. This c
 * Shift Aggregation[^2]
 * Absolute Time \(minutes\)
 
-**_Shift Aggregation_**
+_**Shift Aggregation**_
 
 ![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
 
 Using this configuration the _Total Expected Run Time_ for the asset is equal to the sum of all the specified shifts.
 
-**_Absolute Time_**
+_**Absolute Time**_
 
 ![](/assets/Screen Shot 2016-08-08 at 3.03.15 PM.png)
 
 You can also configure the _Total Expected Run Time_ for an asset to a specific number of minutes per day of operation.
-
 
 **Planned Downtime** The other half of the formula is the pre-planned time that you expect the asset to not be operational. This can happen for a number of different reasons including the below:
 
@@ -54,7 +52,7 @@ Combining _Total Expected Run Time \_with \_Planned Downtime_ we arrive at **Sch
 
 ![](/assets/Screen Shot 2016-08-08 at 3.47.09 PM.png)
 
-![](/assets/Screen Shot 2016-08-08 at 3.48.43 PM.png)
+![](/assets/Mockup_PlannedBreak_081216.png)
 
 ### **Available Time**
 
@@ -82,10 +80,9 @@ These events can be automatically classified with Reason Codes based on rules pr
 
 Combining Unplanned Downtime with Scheduled Time we can cacluate the Available Time for the asset over the defined period of time \(shift, day, week, month\).
 
-![](/assets/Screen Shot 2016-08-08 at 5.26.07 PM.png)
+![](/assets/Mockup_UnplannedDown_081216.png)
 
 ![](/assets/Screen Shot 2016-08-08 at 5.08.09 PM.png)
-
 
 ### **Availability**
 
@@ -95,13 +92,7 @@ Taking the two earlier examples of Scheduled Time and Available Time we can calc
 
 ![](/assets/Screen Shot 2016-08-08 at 5.17.45 PM.png)
 
-
 [^1]: file:\/\/\/Users\/Roger\_SM\/Downloads\/OEE\_Availability\_Definition.pdf
 
 [^2]: Defined in factory.yaml configuration files as shift\_events \(starttime, endtime, breaks\)
-
-
-
-
-
 
