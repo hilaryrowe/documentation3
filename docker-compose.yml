@@ -1,0 +1,7 @@
+gitbook:
+  image: billryan/gitbook:latest
+  ports:
+    - "4000:4000"
+  volumes:
+    - ~/code/documentation:${GITBOOK}
+  command: "gitbook serve"
