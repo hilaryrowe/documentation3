@@ -19,6 +19,7 @@ cd ${_SCRIPT_DIR}/..
 test -d artifact && rm -rf artifact
 test -d _book && rm -rf _book
 docker-compose run --rm gitbook gitbook build
+sudo chown -R jenkins:jenkins _book #OMG
 install -d artifact
 tar -cvzf artifact/sightmachine-documentation-${_GIT_SHA}.tar.gz -C _book .
 cd -
