@@ -3,5 +3,5 @@ gitbook:
   ports:
     - "4000:4000"
   volumes:
-    - ~/code/documentation:${GITBOOK}
+    - .:${GITBOOK}
   command: "gitbook serve"
