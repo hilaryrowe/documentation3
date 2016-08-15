@@ -1,7 +1,7 @@
 ## **Output Calculation**
 
 
-Output is used to track units of production created by an asset \(machine, line, facility\). Total output is calculated using either data received from the Cycles model or the Parts model. For Cycle based calculation, output will rely on either a fixed ratio (e.g. 0.5 for machines that make less than one unit per cycle) or a recipe-dependent value read directly from the raw data streams (1 widget in one cycle and 5 widgets in another cycle). For Part based calculation...
+Output is used to track units of production created by an asset \(machine, line, facility\). Total output is calculated using either data received from the Cycles model or the Parts model. For Cycle based calculation, output will rely on either a fixed ratio (e.g. 0.5 for machines that make less than one unit per cycle) or a recipe-dependent value read directly from raw data streams (1 widget in one cycle and 5 widgets in another cycle). For Part based calculation...
 
 
 ![](/assets/Screen Shot 2016-08-11 at 1.22.08 PM.png)
