@@ -1,6 +1,6 @@
 ## **Quality Calculation**
 
-The Quality component of OEE measures the inverse of the ratio of defective output \(Defect Items\) to the total units of output \(Total Output\) or the yield of production passing inspection\/quality standards. This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is producing quality output over a specific time horizon \(shift, daily, weekly, or monthly\).
+The Quality component of OEE measures the inverse of the ratio of defective output \(Defect Items\) to the total units of output \(Total Output\) or the yield of production passing quality standards. This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is producing quality output over a specific time horizon \(shift, daily, weekly, or monthly\).
 
 **Quality Formula**
 
@@ -12,13 +12,17 @@ Quality is a percentage between 0% and 100% with 100% being the value when an as
 
 Defective units of production are created in one of two ways:
 
-* Automatic Classification - based on configuration rules for sensor values received in cycles data \(1 to 1 with output calculated for cycle\)
+* Automatic Classification - based on configuration rules for sensor values received in cycles data \(1 to 1 with output calculated for the cycle period\)
 
 ![](/assets/Screen Shot 2016-08-15 at 2.47.44 PM.png)
 
-* Manual Entry - entered by Sight Machine users using the Defect Entry \(each entry could represent n number of defects\)
+![](/assets/Screen Shot 2016-08-15 at 4.04.46 PM.png)
+
+* Manual Entry - entered by Sight Machine users using Defect Entry \(each entry could represent n number of defects\)
 
 ![](/assets/Screen Shot 2016-08-15 at 3.06.04 PM.png)
+
+![](/assets/Screen Shot 2016-08-15 at 4.16.18 PM.png)
 
 ### **Total Output**
 
@@ -36,4 +40,8 @@ Output per cycle is used to track the units of production created by an asset \(
   * cycles per part = 1\/cycle finished product ratio
   * e.g. Output = \(1-0\)\*1\/\(1\/**.5**\) = .5
 
+
+### **Quality**
+
+Taking the two earlier examples of Fixed Ideal Cycle Time and Variable Ideal Cycle Time we can calculate Performance for these two different machines for the specified time period.
 
