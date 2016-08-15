@@ -26,10 +26,30 @@ _deploy_artifact() {
   _HOST=$1
   _KEY=$2
 
-  _ARTIFACT=$(ls -1tr ${_ARTIFACTS_DIR}/*.tar.gz | tail -n1)
+  _ARTIFACT_NAME=$(basename ${_ARTIFACT} | sed -e 's/.tar.gz//g')
+  _DEPLOY_DIR="/home/sm/Code/${_ARTIFACT_NAME}"
+  _HELP_SYMLINK_DIR="/home/sm/Code/help"
+  _SUDO_CMD="sudo -u sm"
+
+  echo "Deploying ${_ARTIFACT_NAME} to ${_HOST}/"
+  if [[ -z "${_ARTIFACT_NAME}" ]]; then
+     echo "Unable to determine artifact name :-(... BAILING!!!"
+     exit 1
+  fi
+
   # Jenkins should enforce a singular entity here, the name of the tar.gz is the git sha.
-  scp ${_ARTIFACT} -i ${_KEY} ${_HOST}:/tmp/
-  ssh -i ${_KEY} ${_HOST} "echo hey"
+  scp -i ${_KEY} ${_ARTIFACT} ${_HOST}:/tmp/
+  ssh -i ${_KEY} ${_HOST} \"${_SUDO_CMD} mkdir ${_DEPLOY_DIR} \\
+                            && ${_SUDO_CMD} tar -C ${_DEPLOY_DIR} -xvzf /tmp/${_ARTIFACT_NAME}* \\
+                            && ${_SUDO_CMD} ln -sf ${_DEPLOY_DIR} ${_HELP_SYMLINK_DIR} \"
+
+  _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" http://localhost/help/index.html)
+  if [[ "${_CURL_OUTPUT}" == "200" ]]; then
+    echo "SUCCESS!!!!!!"
+  else
+    echo "OH NO!!!! HTTP STATUS ${_CURL_OUTPUT}"
+    exit 1
+  fi
 }
 
 if [[ ${_TARGET} == "stage2" ]]; then

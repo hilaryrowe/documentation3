@@ -40,9 +40,19 @@
       Any changes should be handled through the process outlined here https://github.com/sightmachine/documentation
     node: qa-jenkins-4302
 
+    scm:
+     - git: 
+         url: git@github.com:sightmachine/documentation.git
+         branches:
+           - origin/master_add_build_process_jb
+         credentials-id: 11daa352-906f-44e9-8383-5682b627a072 # git user jenkins id_rsa on master http://jenkins.int.sightmachine.com/credentials/
+         browser: githubweb
+         browser-url: https://github.com/sightmachine/documentation
+         skip-tag: true
+
     builders:
       - copyartifact: 
-          project: sightmachine-documentation
+          project: sightmachine-documentation-build
           filter: "artifacts/*.tar.gz"
           which-build: last-successful
 
