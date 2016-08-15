@@ -10,9 +10,25 @@ Performance is a percentage between 0% and 100% with 100% being the value when a
 
 ### **Ideal Cycle Time**
 
-Ideal Cycle time is fixed for a particular asset \(Machine Type\) or variable based on output being created \(Recipe\) in milliseconds.
+Ideal Cycle time is fixed for a particular asset \(Machine Type based\) or variable based on the output being created \(Recipe based\) in milliseconds.
 
-![](/assets/Screen Shot 2016-08-15 at 12.17.01 PM.png)
+![](/assets/Screen Shot 2016-08-15 at 1.38.27 PM.png)
+
+**Averaging Ideal Cycle Time**
+
+The average for Ideal Cycle Time is calculated using the accumulated values for either fixed ideal cycle time or variable ideal cycle time on a shift, day, week, and month basis given the configuration of the machine being queried.
+
+_**Fixed Ideal Cycle Time**_
+
+![](/assets/Screen Shot 2016-08-15 at 1.32.41 PM.png)
+
+_**Variable Ideal Cycle Time**_
+
+![](/assets/Screen Shot 2016-08-15 at 1.37.33 PM.png)
+
+### **Cycle Time**
+
+Ideal Cycle time is fixed for a particular asset \(Machine Type based\) or variable based on the output being created \(Recipe based\) in milliseconds.
 
 \*\*Affect of idle time in average cycle time
 
