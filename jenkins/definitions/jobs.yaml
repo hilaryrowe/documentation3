@@ -1,7 +1,7 @@
 ---
 
 - job:
-    name: sightmachine-documentation
+    name: sightmachine-documentation-build
     project-type: freestyle
     defaults: global 
     description: |
@@ -23,9 +23,13 @@
          credentials-id: 11daa352-906f-44e9-8383-5682b627a072 # git user jenkins id_rsa on master http://jenkins.int.sightmachine.com/credentials/
          browser: githubweb
          browser-url: https://github.com/sightmachine/documentation
+         skip-tag: true
 
     builders:
       - shell: "jenkins/build.sh"
+    publishers:
+      - archive:
+          artifacts: 'artifacts/*.tar.gz'
 
 - job:
     name: sightmachine-documentation-deploy-to-staging

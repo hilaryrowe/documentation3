@@ -14,26 +14,32 @@ set -e
 _SCRIPT_DIR=$(dirname $0)
 _GIT_SHA=$(git rev-parse HEAD)
 
-function _create_temporary_dirs() {
+create_temporary_dirs() {
+  echo "Prepping workspace"
   test -d artifacts && rm -rf artifacts
   test -d _book && rm -rf _book
+  return 0
 }
 
-function _build() {
-  sudo docker-compose run --rm gitbook gitbook build
-  sudo chown -R jenkins:jenkins _book #OMG
+build() {
+  echo "Building Artifact"
+  #sudo docker-compose run --rm gitbook gitbook build
+  #sudo chown -R jenkins:jenkins _book #OMG
+  return 0
 }
 
-function _archive() {
-  install -d artifacts
-  tar -cvzf artifacts/sightmachine-documentation-${_GIT_SHA}.tar.gz -C _book .
+archive() {
+  echo "Archiving"
+  #install -d artifacts
+  #tar -cvzf artifacts/sightmachine-documentation-${_GIT_SHA}.tar.gz -C _book .
+  return 0
 }
 
 ##
 ## Main
 ##
 cd ${_SCRIPT_DIR}/..
-_create_temporary_dirs
-_build
-_archive
+create_temporary_dirs
+build
+archive
 cd -
