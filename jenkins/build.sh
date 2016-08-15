@@ -44,4 +44,4 @@ build
 archive
 cd -
 
-return 0
+exit 0
