@@ -10,5 +10,26 @@ Quality is a percentage between 0% and 100% with 100% being the value when an as
 
 ### **Defect Items**
 
-Ideal Cycle time is fixed for a particular asset \(Machine Type based\) or variable based on the output being created \(Recipe based\) in milliseconds.
+Defective units of production are created in one of two ways:
+
+1. Automatic Classification - based on configuration rules for sensor values received in cycles data \(1 to 1 with output calculated for cycle\)
+2. Manual Entry - entered by Sight Machine users using the Defect Entry 
+
+
+### **Total Output**
+
+Output is used to track units of production created by an asset \(machine, line, facility\). Total output is calculated using data received from the Cycles model and will rely on either a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\) or a recipe-dependent value read directly from raw data streams \(1 widget in one cycle and 5 widgets in another cycle\).
+
+### Output = \(intended\_pieces - error\_pieces\) \* piece\_multipler \/ cycles\_per\_part
+
+* Piece Multiplier - Specified in data streams to account for variable output per machine;
+
+  * e.g. Output = \(1-0\)\***3**\/\(1\/1\) = 3
+
+
+* Cycle Finished Product Ratio - Defined in machine type configuration as a fixed value
+
+  * cycles per part = 1\/cycle finished product ratio
+  * e.g. Output = \(1-0\)\*1\/\(1\/**.5**\) = .5
+
 
