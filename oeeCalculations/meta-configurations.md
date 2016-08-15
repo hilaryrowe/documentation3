@@ -1,6 +1,6 @@
-## Calculation Configuration
+## Configuration for OEE Metrics
 
-There are a number of settings stored in your account created in conjunction with the data engineering team that drive the OEE calculations presented on the dashboard and across the site.
+There are a number of settings stored for your account created in conjunction with the data engineering team that drive the OEE calculations presented on the dashboard and across the site.
 
 ### Machine Type
 
@@ -12,44 +12,49 @@ There are a number of settings stored in your account created in conjunction wit
 
 * Custom Recipes - depending on the variabilty of output from a machine type custom configuration of the fields above may be required \(e.g. creating small widgets are expected to be created in 30 seconds while large widgets take 5 minutes to create\)
 
-* Statplugin - Different ways of calculating OEE metrics can be specified in the machine type configuration
+* Custom Calculations - Different ways of calculating OEE metrics can be specified in the machine type configuration
 
   * PartOEEStatCalculator - ???
   * ParallelCyclePerfCalculator - ???
   * SkipBadCycleStatCalculator - ignores cycles with NG data
   * LineStatsCalculator - used to calculate OEE metrics for the line model with overlapping or parallel processes \(total aggregate daily time &gt; 24 hours\)
 
+
 ### SSLogs
 
-* Piece Multiplier - Setting used to calculate the actual output created by a machine at the end of cycle when this could be variable (e.g. 1 widget in one cycle and 5 widgets in another cycle)
+* Piece Multiplier - Setting used to calculate the actual output created by a machine at the end of cycle when this could be variable \(e.g. 1 widget in one cycle and 5 widgets in another cycle\)
 
+### Facility
 
-### Factory
+* Shift Events - used to the define the shift schedule for the facility including:
 
-* shift\_events - used to the define the shift schedule for the facility including:
   * Days of the week expected to operate
   * Start time of the shift
   * End time of the shift
   * Intra shift break times
 
-* timezone - defines the operating timezone of the facility and all machines associated with it
+* Timezone - defines the operating timezone of the facility and all machines associated with it
+
   * Continent
   * City
   * e.g. US\/Eastern, Europe\/London, Asia\/Shanghai  
 
 
-_We currently do not allow for adhoc Shift changes or Holidays_
+_We currently do not allow for adhoc Shift changes or Holiday Schedule changes_
 
-### Calculation Impact
+### Impact to Calculations
 
 * Availability
+
   * cycle\_ideal ==&gt; Scheduled Time
   * cycle\_threshold ==&gt; should be \[Available Time\]
 
 * Performance
+
   * cycle\_ideal ==&gt; numerator = mean ideal cycle time
 
 * Output
+
   * cycle\_finished\_product\_ratio
 
 
