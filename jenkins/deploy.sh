@@ -44,8 +44,8 @@ _deploy_artifact() {
   scp -i ${_KEY} ${_ARTIFACT} ${_HOST}:/tmp/${_ARTIFACT_FILE}
 
   echo "Unpacking and deploying"
-  echo "${_SUDO_CMD} mkdir /tmp/${_ARTIFACT_NAME} \
-       && ${_SUDO_CMD} tar -C /tmp/${_ARTIFACT_NAME} -xvzf /tmp/${_ARTIFACT_FILE} \
+  echo "mkdir /tmp/${_ARTIFACT_NAME} \
+       && tar -C /tmp/${_ARTIFACT_NAME} -xvzf /tmp/${_ARTIFACT_FILE} \
        && ${_SUDO_CMD} rsync -av --delete /tmp/${_ARTIFACT_NAME}/ ${_HELP_DIR}/ \
        && rm -rf /tmp/${_ARTIFACT_NAME}/\*" | ssh -i ${_KEY} ${_HOST}
 
