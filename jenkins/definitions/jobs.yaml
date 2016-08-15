@@ -1,0 +1,45 @@
+---
+
+- job:
+    name: sightmachine-documentation
+    project-type: freestyle
+    defaults: global 
+    description: |
+      This job builds and deploys the Sightmachine Documentation from Github.  
+      Any changes should be handled through the process outlined here https://github.com/sightmachine/documentation
+    node: qa-jenkins-4302
+    block-downstream: true
+    logrotate:
+      daysToKeep: 30
+      numToKeep: 5
+      artifactDaysToKeep: -1
+      artifactNumToKeep: 5
+
+    scm:
+     - git: 
+         url: git@github.com:sightmachine/documentation.git
+         branches:
+           - origin/master_add_build_process_jb
+         credentials-id: 11daa352-906f-44e9-8383-5682b627a072 # git user jenkins id_rsa on master http://jenkins.int.sightmachine.com/credentials/
+         browser: githubweb
+         browser-url: https://github.com/sightmachine/documentation
+
+    builders:
+      - shell: "jenkins/build.sh"
+
+- job:
+    name: sightmachine-documentation-deploy-to-staging
+    project-type: freestyle
+    defaults: global 
+    description: |
+      This job deploys documentation to stage2
+      Any changes should be handled through the process outlined here https://github.com/sightmachine/documentation
+    node: qa-jenkins-4302
+
+    builders:
+      - copyartifact: 
+          project: sightmachine-documentation
+          filter: "artifacts/*.tar.gz"
+          which-build: last-successful
+
+      - shell: "jenkins/deploy.sh stage2"
