@@ -34,7 +34,7 @@ _deploy_artifact() {
 
 if [[ ${_TARGET} == "stage2" ]]; then
   echo "Deploying to stage2"   
-  _deploy_artifact ubuntu@qa-stage-4202.int.sightmachine.com stage2
+  _deploy_artifact ubuntu@qa-stage-4202.int.sightmachine.com ~/.ssh/stage2
 elif [[ ${_TARGET} == "production" ]]; then
   echo "Deploying to production"
 else
