@@ -1,6 +1,6 @@
 ## **Quality Calculation**
 
-The Quality component of OEE measures the inverse of the ratio of defective output \(Defect Items\) to the total units of output \(Total Output\) or the yield of production passing quality standards. This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is producing quality output over a specific time horizon \(shift, daily, weekly, or monthly\).
+The Quality component of OEE measures the inverse of the ratio of defective output \(Defect Items\) to the total units of output \(Total Output\) or the yield of production passing quality standards. This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is producing satisfactory output over a specific time horizon \(shift, daily, weekly, or monthly\).
 
 **Quality Formula**
 
@@ -28,20 +28,31 @@ Defective units of production are created in one of two ways:
 
 Output per cycle is used to track the units of production created by an asset \(machine, line, facility\) and will rely on either a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\) or a recipe-dependent value read directly from raw data streams \(1 widget in one cycle and 5 widgets in another cycle\). Total output is calculated by aggregating Cycles output.
 
-### Output per Cycle = \(intended\_pieces - error\_pieces\) \* piece\_multipler \/ cycles\_per\_part
+**Piece Multiplier**
 
-* Piece Multiplier - Specified in data streams to account for variable output per machine;
+Specified in data streams to account for variable output per machine; e.g. Output per Cycle = 1\*3 = 3
 
-  * e.g. Output = \(1-0\)\***3**\/\(1\/1\) = 3
+**Output per Cycle = Cycle \* Piece Multiplier**
 
+**Cycle Product Ratio**
 
-* Cycle Finished Product Ratio - Defined in machine type configuration as a fixed value
+Defined in machine type configuration as a fixed value; e.g. Output per Cycle = 1\/2 = .5
 
-  * cycles per part = 1\/cycle finished product ratio
-  * e.g. Output = \(1-0\)\*1\/\(1\/**.5**\) = .5
+**Output per Cycle = Cycle \/ Cycle Product Ratio**
 
+![](/assets/Screen Shot 2016-08-15 at 4.27.35 PM.png)
 
 ### **Quality**
 
-Taking the two earlier examples of Fixed Ideal Cycle Time and Variable Ideal Cycle Time we can calculate Performance for these two different machines for the specified time period.
+Taking the earlier examples of Defect Items and Total Output we can calculate Quality for two different machines for the specified time period.
+
+![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
+
+_**Quality Calculation \(with Automatic Defect Classification\)**_
+
+![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
+
+_**Quality Calculation \(with Manual Defect Entry\)**_
+
+![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
