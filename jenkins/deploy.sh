@@ -44,7 +44,7 @@ _deploy_artifact() {
 
   echo "Unpacking and deploying"
   echo "${_SUDO_CMD} mkdir ${_DEPLOY_DIR} \
-       && ${_SUDO_CMD} tar -C ${_DEPLOY_DIR} -xvzf /tmp/${_ARTIFACT_NAME}* \
+       && ${_SUDO_CMD} tar -C ${_DEPLOY_DIR} -xvzf /tmp/$(basename ${_ARTIFACT}) \
        && ${_SUDO_CMD} ln -sf ${_DEPLOY_DIR} ${_HELP_SYMLINK_DIR}" | ssh -i ${_KEY} ${_HOST}
 
   _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" http://localhost/help/index.html)
