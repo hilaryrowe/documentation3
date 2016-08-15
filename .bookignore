@@ -1,7 +1,9 @@
 .bookignore
 .gitignore
+.venv
 scripts
 Dockerfile
-Jenkinsfile
+docker-compose.yml
 DEVELOP_TO_DEPLOY.md
 artifacts
+jenkins

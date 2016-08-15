@@ -24,6 +24,7 @@
          browser: githubweb
          browser-url: https://github.com/sightmachine/documentation
          skip-tag: true
+         clear-workspace: true
 
     builders:
       - shell: "jenkins/build.sh"
@@ -49,6 +50,7 @@
          browser: githubweb
          browser-url: https://github.com/sightmachine/documentation
          skip-tag: true
+         clear-workspace: true
 
     builders:
       - copyartifact: 
