@@ -23,15 +23,15 @@ create_temporary_dirs() {
 
 build() {
   echo "Building Artifact"
-  #sudo docker-compose run --rm gitbook gitbook build
-  #sudo chown -R jenkins:jenkins _book #OMG
+  sudo docker-compose run --rm gitbook gitbook build
+  sudo chown -R jenkins:jenkins _book #OMG
   return 0
 }
 
 archive() {
   echo "Archiving"
-  #install -d artifacts
-  #tar -cvzf artifacts/sightmachine-documentation-${_GIT_SHA}.tar.gz -C _book .
+  install -d artifacts
+  tar -cvzf artifacts/sightmachine-documentation-${_GIT_SHA}.tar.gz -C _book .
   return 0
 }
 
@@ -43,3 +43,5 @@ create_temporary_dirs
 build
 archive
 cd -
+
+return 0
