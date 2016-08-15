@@ -12,6 +12,8 @@ _TARGET=$1
 _ALLOWED_TARGETS="stage2 production"
 _SCRIPT_DIR=$(dirname $0)
 _ARTIFACTS_DIR=${_SCRIPT_DIR}/../artifacts
+_ARTIFACT=$(ls -1tr ${_ARTIFACTS_DIR}/*.tar.gz | tail -n1)
+_ARTIFACT_NAME=$(basename ${_ARTIFACT} | sed -e 's/.tar.gz//g')
 
 if [[ -z "${_TARGET}" || -z `echo ${_ALLOWED_TARGETS} | grep ${_TARGET}` ]]; then
   echo "Please specify one of the following target environmnts"
@@ -26,7 +28,6 @@ _deploy_artifact() {
   _HOST=$1
   _KEY=$2
 
-  _ARTIFACT_NAME=$(basename ${_ARTIFACT} | sed -e 's/.tar.gz//g')
   _DEPLOY_DIR="/home/sm/Code/${_ARTIFACT_NAME}"
   _HELP_SYMLINK_DIR="/home/sm/Code/help"
   _SUDO_CMD="sudo -u sm"
@@ -38,10 +39,13 @@ _deploy_artifact() {
   fi
 
   # Jenkins should enforce a singular entity here, the name of the tar.gz is the git sha.
-  scp -i ${_KEY} ${_ARTIFACT} ${_HOST}:/tmp/
-  ssh -i ${_KEY} ${_HOST} \"${_SUDO_CMD} mkdir ${_DEPLOY_DIR} \\
-                            && ${_SUDO_CMD} tar -C ${_DEPLOY_DIR} -xvzf /tmp/${_ARTIFACT_NAME}* \\
-                            && ${_SUDO_CMD} ln -sf ${_DEPLOY_DIR} ${_HELP_SYMLINK_DIR} \"
+  echo "Copying artifact ${_ARTIFACT} ${_HOST}:/tmp/"
+  #scp -i ${_KEY} ${_ARTIFACT} ${_HOST}:/tmp/
+
+  echo "Unpacking and deploying"
+  echo ${_SUDO_CMD} mkdir ${_DEPLOY_DIR} \
+       && ${_SUDO_CMD} tar -C ${_DEPLOY_DIR} -xvzf /tmp/${_ARTIFACT_NAME}* \
+       && ${_SUDO_CMD} ln -sf ${_DEPLOY_DIR} ${_HELP_SYMLINK_DIR} | ssh -i ${_KEY} ${_HOST}
 
   _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" http://localhost/help/index.html)
   if [[ "${_CURL_OUTPUT}" == "200" ]]; then
