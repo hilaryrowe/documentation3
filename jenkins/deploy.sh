@@ -43,9 +43,9 @@ _deploy_artifact() {
   #scp -i ${_KEY} ${_ARTIFACT} ${_HOST}:/tmp/
 
   echo "Unpacking and deploying"
-  echo ${_SUDO_CMD} mkdir ${_DEPLOY_DIR} \
+  echo "${_SUDO_CMD} mkdir ${_DEPLOY_DIR} \
        && ${_SUDO_CMD} tar -C ${_DEPLOY_DIR} -xvzf /tmp/${_ARTIFACT_NAME}* \
-       && ${_SUDO_CMD} ln -sf ${_DEPLOY_DIR} ${_HELP_SYMLINK_DIR} | ssh -i ${_KEY} ${_HOST}
+       && ${_SUDO_CMD} ln -sf ${_DEPLOY_DIR} ${_HELP_SYMLINK_DIR}" | ssh -i ${_KEY} ${_HOST}
 
   _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" http://localhost/help/index.html)
   if [[ "${_CURL_OUTPUT}" == "200" ]]; then
