@@ -6,7 +6,7 @@ The Performance component of OEE measures the ratio of average expected cycle ti
 
 ![](/assets/Screen Shot 2016-08-15 at 11.41.41 AM.png)
 
-Using the components of Performance \(ideal Cycle Time and Cycle Time\) we can further explain how this is computed.
+Performance is a percentage between 0% and 100% with 100% being the value when an asset is operating at exactly the ideal cycle time. Using the components of Performance \(ideal Cycle Time and Cycle Time\) we can further explain how this is computed.
 
 ### **Ideal Cycle Time**
 
