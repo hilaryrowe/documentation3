@@ -30,7 +30,7 @@ _deploy_artifact() {
   _KEY=$2
 
   _DEPLOY_DIR="/home/sm/Code/${_ARTIFACT_NAME}"
-  _HELP_SYMLINK_DIR="/home/sm/Code/help"
+  _HELP_DIR="/home/sm/Code/help"
   _SUDO_CMD="sudo -u sm"
 
   echo "Deploying ${_ARTIFACT_NAME} to ${_HOST}/"
@@ -44,10 +44,10 @@ _deploy_artifact() {
   scp -i ${_KEY} ${_ARTIFACT} ${_HOST}:/tmp/${_ARTIFACT_FILE}
 
   echo "Unpacking and deploying"
-  echo "${_SUDO_CMD} mkdir ${_DEPLOY_DIR} \
-       && ${_SUDO_CMD} tar -C ${_DEPLOY_DIR} -xvzf /tmp/${_ARTIFACT_FILE} \
-       && ${_SUDO_CMD} ln -sf ${_DEPLOY_DIR} ${_HELP_SYMLINK_DIR} \ 
-       && rm /tmp/${_ARTIFACT_FILE}" | ssh -i ${_KEY} ${_HOST}
+  echo "${_SUDO_CMD} mkdir /tmp/${_ARTIFACT_NAME} \
+       && ${_SUDO_CMD} tar -C /tmp/${_ARTIFACT_NAME} -xvzf /tmp/${_ARTIFACT_FILE} \
+       && ${_SUDO_CMD} rsync -av --delete /tmp/${_ARTIFACT_NAME}/\* ${_HELP_DIR}/ \
+       && rm -rf /tmp/${_ARTIFACT_NAME}/\*" | ssh -i ${_KEY} ${_HOST}
 
   _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" http://localhost/help/index.html)
   if [[ "${_CURL_OUTPUT}" == "200" ]]; then
