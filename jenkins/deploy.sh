@@ -46,7 +46,7 @@ _deploy_artifact() {
   echo "Unpacking and deploying"
   echo "${_SUDO_CMD} mkdir /tmp/${_ARTIFACT_NAME} \
        && ${_SUDO_CMD} tar -C /tmp/${_ARTIFACT_NAME} -xvzf /tmp/${_ARTIFACT_FILE} \
-       && ${_SUDO_CMD} rsync -av --delete /tmp/${_ARTIFACT_NAME}/\* ${_HELP_DIR}/ \
+       && ${_SUDO_CMD} rsync -av --delete /tmp/${_ARTIFACT_NAME}/ ${_HELP_DIR}/ \
        && rm -rf /tmp/${_ARTIFACT_NAME}/\*" | ssh -i ${_KEY} ${_HOST}
 
   _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" http://localhost/help/index.html)
