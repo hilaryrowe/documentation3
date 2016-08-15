@@ -6,7 +6,7 @@ The Availability component of OEE measures the ratio of scheduled operation time
 
 ![](/assets/Screen Shot 2016-08-08 at 12.03.31 PM.png)
 
-Using the components of Availability \(Available Time and Scheduled Time\) we can further explain how this is computed.
+Availability is a percentage between 0% and 100% with 100% being the value when an asset is operating for exactly the schedule time. Using the components of Availability \(Available Time and Scheduled Time\) we can further explain how this is computed.
 
 ### **Scheduled Time**
 
@@ -19,13 +19,13 @@ Scheduled time is a predefined operating schedule for a particular asset. This c
 * Shift Aggregation[^2]
 * Absolute Time \(minutes\)
 
-_**Shift Aggregation**_
+**_Shift Aggregation_**
 
 ![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
 
 Using this configuration the _Total Expected Run Time_ for the asset is equal to the sum of all the specified shifts.
 
-_**Absolute Time**_
+**_Absolute Time_**
 
 ![](/assets/Screen Shot 2016-08-08 at 3.03.15 PM.png)
 
