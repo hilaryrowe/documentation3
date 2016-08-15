@@ -18,7 +18,7 @@ Defective units of production are created in one of two ways:
 
 * Manual Entry - entered by Sight Machine users using the Defect Entry \(each entry could represent n number of defects\)
 
-![](/assets/Screen Shot 2016-08-15 at 2.49.01 PM.png)
+![](/assets/Screen Shot 2016-08-15 at 3.06.04 PM.png)
 
 ### **Total Output**
 
