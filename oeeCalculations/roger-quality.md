@@ -19,11 +19,12 @@ Defective units of production are created in one of two ways:
 * Manual Entry - entered by Sight Machine users using the Defect Entry \(each entry could represent n number of defects\)
 
 ![](/assets/Screen Shot 2016-08-15 at 2.49.01 PM.png)
+
 ### **Total Output**
 
-Output is used to track units of production created by an asset \(machine, line, facility\). Total output is calculated using data received from the Cycles model and will rely on either a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\) or a recipe-dependent value read directly from raw data streams \(1 widget in one cycle and 5 widgets in another cycle\).
+Output per cycle is used to track the units of production created by an asset \(machine, line, facility\) and will rely on either a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\) or a recipe-dependent value read directly from raw data streams \(1 widget in one cycle and 5 widgets in another cycle\). Total output is calculated by aggregating Cycles output.
 
-### Output = \(intended\_pieces - error\_pieces\) \* piece\_multipler \/ cycles\_per\_part
+### Output per Cycle = \(intended\_pieces - error\_pieces\) \* piece\_multipler \/ cycles\_per\_part
 
 * Piece Multiplier - Specified in data streams to account for variable output per machine;
 
