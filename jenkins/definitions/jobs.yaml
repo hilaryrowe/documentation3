@@ -33,7 +33,7 @@
           artifacts: 'artifacts/*.tar.gz'
 
 - job:
-    name: sightmachine-documentation-deploy-to-staging
+    name: sightmachine-documentation-deploy-to-stage2
     project-type: freestyle
     defaults: global 
     description: |
