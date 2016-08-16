@@ -8,5 +8,15 @@ The Availability component of OEE measures the ratio of expected operation time 
 
 Availability is a percentage between 0% and 100% with 100% being the value when an asset is operating for exactly the expected run time. Using the components of Availability \(Expected Cycle Seconds and Cycle Seconds\) we can further explain how this is computed.
 
+### **Expected Cycle Seconds**
 
+Scheduled time is a predefined operating schedule for a particular asset. This can be expressed more generally as the _Total Expected Run Time_ less any periods of time when the asset is not expected to be running \(_Planned Downtime_\).
+
+![](/assets/Mockup_PlannedBreak_081216.png)
+
+
+
+asdfasdf
+
+![](/assets/Mockup_UnplannedDown_081216.png)
 

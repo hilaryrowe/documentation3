@@ -21,7 +21,7 @@
     * [Calculating Quality](oeeCalculations/calculatingQuality.md)
     * [Calculation Details](oeeCalculations/calculation-details.md)
     * [Meta Configurations](oeeCalculations/meta-configurations.md)
-    * [New Availability](oeeCalculations/new-availability.md)
+    * [Roger Availability \(New\)](oeeCalculations/new-availability.md)
     * [Roger Performance](oeeCalculations/roger-performance.md)
     * [Roger Quality](oeeCalculations/roger-quality.md)
     * [Roger Output](oeeCalculations/roger-output.md)
