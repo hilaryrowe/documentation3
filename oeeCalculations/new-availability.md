@@ -18,9 +18,7 @@ Expected Cycle Seconds is dependant on either a fixed time for a cycle to comple
 
 ### **Cycle Seconds**
 
-Cycle Seconds is the actual dependant on either a fixed time for a cycle to complete \(Ideal Cycle Time\) or based on a recipe for output created from the machine \(variable output\). Total Expected Cycle Seconds is the aggregation of individual ideal cycle times and can be thought of more generally as the total expected uptime of an asset less any periods of time the asset is not expected to be running \(_Planned Downtime_\).
-
-
+Cycle Seconds is the observed Cycle Time calculated as Cycle End Time - Cycle Start Time. This can be relatively static or highly variable depending on the specific machine and its expected operation. Total Cycle Seconds is the aggregation of individual Cycle Seconds and can be thought of as the total expected uptime of an asset less periods of time the asset is unexpectedly not running \(_Unplanned Downtime_\).
 
 **Unplanned Downtime**
 
