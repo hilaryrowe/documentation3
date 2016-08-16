@@ -1,0 +1,1 @@
+jenkins_job_builder==1.6.1
