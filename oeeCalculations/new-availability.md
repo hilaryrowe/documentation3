@@ -38,3 +38,13 @@ These events can be automatically classified with Reason Codes based on rules pr
 
 ![](/assets/Mockup_UnplannedDown_081216.png)
 
+![](/assets/Screen Shot 2016-08-15 at 5.37.35 PM.png)
+
+### **Availability**
+
+Taking the earlier calculations for Total Expected Cycle Seconds and Total Cycle Seconds we can calculate Availabilty for this machine for the specified time period.
+
+![](/assets/Screen Shot 2016-08-15 at 4.53.25 PM.png)
+
+![](/assets/Screen Shot 2016-08-15 at 5.41.17 PM.png)
+
