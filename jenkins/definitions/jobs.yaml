@@ -26,10 +26,14 @@
 
 - project:
     name: sightmachine-documentation-deploy-to
+    version: 1.0.0
     target:
       - stage2
       - stage3
       - stage4
+      - stage5
+      - stage6
+      - production
     jobs:
       - '{name}-{target}':
 
@@ -40,6 +44,7 @@
     description: |
       This job deploys documentation to a specific environment ( '{target}' )
       Any changes should be handled through the process outlined here https://github.com/sightmachine/documentation
+      Version: '{version}'
     node: qa-jenkins-4302
 
     scm:

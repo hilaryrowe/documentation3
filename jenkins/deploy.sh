@@ -59,7 +59,7 @@ function _validate_deploy_was_successful() {
   if [[ "${_CURL_OUTPUT}" == "200" ]]; then
     echo "SUCCESS!!!!!!"
   else
-    echo "OH NO!!!! HTTP STATUS ${_CURL_OUTPUT}"
+    echo "OH NO!!!! HTTP STATUS ${_CURL_OUTPUT} FOR ${_HELP_URL}"
     exit 1
   fi
 
@@ -76,6 +76,18 @@ elif [[ ${_TARGET} == "stage3" ]]; then
 elif [[ ${_TARGET} == "stage4" ]]; then
   _deploy_artifact ubuntu@qa-stage-4204.int.sightmachine.com ~/.ssh/stage4
   _validate_deploy_was_successful http://cs.stage4.int.sightmachine.com/help/index.html
+elif [[ ${_TARGET} == "stage5" ]]; then
+  _deploy_artifact ubuntu@qa-stage-4205.int.sightmachine.com ~/.ssh/stage5
+  _validate_deploy_was_successful http://cs.stage5.int.sightmachine.com/help/index.html
+elif [[ ${_TARGET} == "stage6" ]]; then
+  _deploy_artifact ubuntu@qa-stage-4206.int.sightmachine.com ~/.ssh/stage6
+  _validate_deploy_was_successful http://cs.stage6.int.sightmachine.com/help/index.html
+elif [[ ${_TARGET} == "production" ]]; then
+  #for i in "mt-frontend-4201 mt-frontend-2201 mt-frontend-1102"; do
+  #  _host="${i}.int.sightmachine.com"
+  #  echo _deploy_artifact ubuntu@${_host} ~/.ssh/{i}
+  #  echo _validate_deploy_was_successful http://${_host}/help/index.html
+  #fi
 else
   echo "How did you get here?"
   exit 1
