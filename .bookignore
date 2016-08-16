@@ -1,6 +1,7 @@
 .bookignore
 .gitignore
 .venv
+.env
 scripts
 Dockerfile
 docker-compose.yml

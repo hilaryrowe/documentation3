@@ -23,6 +23,7 @@ _create_temporary_dirs() {
 
 _build() {
   echo "Building Artifact"
+  sudo docker-compose rm -f
   sudo docker-compose run --rm gitbook gitbook build
   sudo chown -R jenkins:jenkins _book #OMG
   return 0
