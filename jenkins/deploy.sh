@@ -48,9 +48,14 @@ _deploy_artifact() {
        && echo Unpacking && tar -C /tmp/${_ARTIFACT_NAME} -xvzf /tmp/${_ARTIFACT_FILE} \
        && echo Rsync && ${_SUDO_CMD} rsync -av --delete /tmp/${_ARTIFACT_NAME}/ ${_HELP_DIR}/ \
        && echo Cleaning Up && rm -rf /tmp/sightmachine-documentation* \
-       && echo Completed" | ssh -i ${_KEY} ${_HOST}
+       && echo Completed" | ssh -i ${_KEY} ${_HOST} || true
+  return 0
+}
 
-  _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" http://localhost/help/index.html)
+function _validate_deploy_was_successful() {
+  _HELP_URL=$1
+
+  _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" ${_HELP_URL})
   if [[ "${_CURL_OUTPUT}" == "200" ]]; then
     echo "SUCCESS!!!!!!"
   else
@@ -64,6 +69,7 @@ _deploy_artifact() {
 if [[ ${_TARGET} == "stage2" ]]; then
   echo "Deploying to stage2"   
   _deploy_artifact ubuntu@qa-stage-4202.int.sightmachine.com ~/.ssh/stage2
+  _validate_deploy_was_successful https://cs.stage.int.sightmachine.com/help/index.html
 elif [[ ${_TARGET} == "production" ]]; then
   echo "Deploying to production"
 else
