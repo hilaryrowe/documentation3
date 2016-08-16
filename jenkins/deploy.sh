@@ -48,7 +48,7 @@ _deploy_artifact() {
        && echo Unpacking && tar -C /tmp/${_ARTIFACT_NAME} -xvzf /tmp/${_ARTIFACT_FILE} \
        && echo Rsync && ${_SUDO_CMD} rsync -av --delete /tmp/${_ARTIFACT_NAME}/ ${_HELP_DIR}/ \
        && echo Cleaning Up && rm -rf /tmp/sightmachine-documentation* \
-       && echo Completed" | ssh -i ${_KEY} ${_HOST} || true
+       && echo Completed" | ssh -i ${_KEY} ${_HOST}
   return 0
 }
 
