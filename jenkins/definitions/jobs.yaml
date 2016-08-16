@@ -20,13 +20,14 @@
 
     builders:
       - shell: "jenkins/build.sh"
+      
     publishers:
       - archive:
           artifacts: 'artifacts/*.tar.gz'
 
 - project:
     name: sightmachine-documentation-deploy-to
-    version: 1.0.0
+    version: 1.1.0
     target:
       - stage2
       - stage3

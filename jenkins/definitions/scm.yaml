@@ -4,7 +4,7 @@
      - git:
          url: git@github.com:sightmachine/documentation.git
          branches:
-           - origin/master_add_build_process_jb
+           - origin/master
          credentials-id: 11daa352-906f-44e9-8383-5682b627a072 # git user jenkins id_rsa on master http://jenkins.int.sightmachine.com/credentials/
          browser: githubweb
          browser-url: https://github.com/sightmachine/documentation
