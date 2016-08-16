@@ -9,7 +9,7 @@ set -e
 ##
 ## Private Globals
 _TARGET=$1
-_ALLOWED_TARGETS="stage2 production"
+_ALLOWED_TARGETS="stage2 stage3 stage4 production"
 _SCRIPT_DIR=$(dirname $0)
 _ARTIFACTS_DIR=${_SCRIPT_DIR}/../artifacts
 _ARTIFACT=$(ls -1tr ${_ARTIFACTS_DIR}/*.tar.gz | tail -n1)
@@ -62,18 +62,23 @@ function _validate_deploy_was_successful() {
     echo "OH NO!!!! HTTP STATUS ${_CURL_OUTPUT}"
     exit 1
   fi
- 
+
   return 0
 }
 
+echo "Deploying to ${_TARGET}"
 if [[ ${_TARGET} == "stage2" ]]; then
-  echo "Deploying to stage2"   
   _deploy_artifact ubuntu@qa-stage-4202.int.sightmachine.com ~/.ssh/stage2
-  _validate_deploy_was_successful https://cs.stage.int.sightmachine.com/help/index.html
-elif [[ ${_TARGET} == "production" ]]; then
-  echo "Deploying to production"
+  _validate_deploy_was_successful http://cs.stage.int.sightmachine.com/help/index.html
+elif [[ ${_TARGET} == "stage3" ]]; then
+  _deploy_artifact ubuntu@qa-stage-4203.int.sightmachine.com ~/.ssh/stage3
+  _validate_deploy_was_successful http://cs.stage3.int.sightmachine.com/help/index.html
+elif [[ ${_TARGET} == "stage4" ]]; then
+  _deploy_artifact ubuntu@qa-stage-4204.int.sightmachine.com ~/.ssh/stage4
+  _validate_deploy_was_successful http://cs.stage4.int.sightmachine.com/help/index.html
 else
   echo "How did you get here?"
+  exit 1
 fi
 
 exit 0

@@ -3,9 +3,9 @@
 - job:
     name: sightmachine-documentation-build
     project-type: freestyle
-    defaults: global 
+    defaults: global
     description: |
-      This job builds and deploys the Sightmachine Documentation from Github.  
+      This job builds and deploys the Sightmachine Documentation from Github.
       Any changes should be handled through the process outlined here https://github.com/sightmachine/documentation
     node: qa-jenkins-4302
     block-downstream: true
@@ -16,15 +16,7 @@
       artifactNumToKeep: 5
 
     scm:
-     - git: 
-         url: git@github.com:sightmachine/documentation.git
-         branches:
-           - origin/master_add_build_process_jb
-         credentials-id: 11daa352-906f-44e9-8383-5682b627a072 # git user jenkins id_rsa on master http://jenkins.int.sightmachine.com/credentials/
-         browser: githubweb
-         browser-url: https://github.com/sightmachine/documentation
-         skip-tag: true
-         clear-workspace: true
+      - sightmachine-documentation
 
     builders:
       - shell: "jenkins/build.sh"
@@ -32,30 +24,31 @@
       - archive:
           artifacts: 'artifacts/*.tar.gz'
 
-- job:
-    name: sightmachine-documentation-deploy-to-stage2
+- project:
+    name: sightmachine-documentation-deploy-to
+    target:
+      - stage2
+      - stage3
+      - stage4
+    jobs:
+      - '{name}-{target}':
+
+- job-template:
+    name: '{name}-{target}'
     project-type: freestyle
-    defaults: global 
+    defaults: global
     description: |
-      This job deploys documentation to stage2
+      This job deploys documentation to a specific environment ( '{target}' )
       Any changes should be handled through the process outlined here https://github.com/sightmachine/documentation
     node: qa-jenkins-4302
 
     scm:
-     - git: 
-         url: git@github.com:sightmachine/documentation.git
-         branches:
-           - origin/master_add_build_process_jb
-         credentials-id: 11daa352-906f-44e9-8383-5682b627a072 # git user jenkins id_rsa on master http://jenkins.int.sightmachine.com/credentials/
-         browser: githubweb
-         browser-url: https://github.com/sightmachine/documentation
-         skip-tag: true
-         clear-workspace: true
+      - sightmachine-documentation
 
     builders:
-      - copyartifact: 
+      - copyartifact:
           project: sightmachine-documentation-build
           filter: "artifacts/*.tar.gz"
           which-build: last-successful
 
-      - shell: "jenkins/deploy.sh stage2"
+      - shell: "jenkins/deploy.sh {target}"
