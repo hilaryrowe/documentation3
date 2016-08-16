@@ -50,6 +50,8 @@ _deploy_artifact() {
        && echo Cleaning Up && rm -rf /tmp/sightmachine-documentation* \
        && echo Completed" | ssh -i ${_KEY} ${_HOST}
 
+   echo "echo Cleaning Up && rm -rf /tmp/sightmachine-documentation*" | ssh -i ${_KEY} ${_HOST}
+
   _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" http://localhost/help/index.html)
   if [[ "${_CURL_OUTPUT}" == "200" ]]; then
     echo "SUCCESS!!!!!!"
@@ -57,6 +59,8 @@ _deploy_artifact() {
     echo "OH NO!!!! HTTP STATUS ${_CURL_OUTPUT}"
     exit 1
   fi
+ 
+  return 0
 }
 
 if [[ ${_TARGET} == "stage2" ]]; then
