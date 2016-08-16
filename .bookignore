@@ -6,5 +6,6 @@ scripts
 Dockerfile
 docker-compose.yml
 DEVELOP_TO_DEPLOY.md
+TODO.md
 artifacts
 jenkins
