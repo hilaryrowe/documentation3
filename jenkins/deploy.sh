@@ -7,6 +7,13 @@
 set -e
 
 ##
+## Global
+##
+
+## TODO: Refactor this to gather a list of tenants via curl or something?
+tenants=(cs ft pc sz t2 nike-tenant fiat vulcan inteva martinrea gsk shaw)
+
+##
 ## Private Globals
 _TARGET=$1
 _ALLOWED_TARGETS="stage2 stage3 stage4 production"
@@ -31,7 +38,11 @@ _deploy_artifact() {
 
   _DEPLOY_DIR="/home/sm/Code/${_ARTIFACT_NAME}"
   _HELP_DIR="/home/sm/Code/help"
-  _SUDO_CMD="sudo -u sm"
+  _SUDO_CMD=""
+
+  if [[ "${USER}" != "sm" ]]; then
+    _SUDO_CMD="sudo -u sm"
+  fi 
 
   echo "Deploying ${_ARTIFACT_NAME} to ${_HOST}/"
   if [[ -z "${_ARTIFACT_NAME}" ]]; then
@@ -83,11 +94,13 @@ elif [[ ${_TARGET} == "stage6" ]]; then
   _deploy_artifact ubuntu@qa-stage-4206.int.sightmachine.com ~/.ssh/stage6
   _validate_deploy_was_successful http://cs.stage6.int.sightmachine.com/help/index.html
 elif [[ ${_TARGET} == "production" ]]; then
-  #for i in "mt-frontend-4201 mt-frontend-2201 mt-frontend-1102"; do
-  #  _host="${i}.int.sightmachine.com"
-  #  echo _deploy_artifact ubuntu@${_host} ~/.ssh/{i}
-  #  echo _validate_deploy_was_successful http://${_host}/help/index.html
-  #fi
+  for i in "mt-frontend-4201 mt-frontend-2201 mt-frontend-1102"; do
+    _host="${i}.int.sightmachine.com"
+    echo _deploy_artifact sm@${_host} ~/.ssh/{i}
+  fi
+
+  for tenant in tenants; do 
+    _validate_deploy_was_successful http://${_host}/help/index.html
 else
   echo "How did you get here?"
   exit 1
