@@ -36,7 +36,9 @@ Note this process will likely change in the future to support promotion or pipel
    - [stage2](http://jenkins.int.sightmachine.com/view/Documentation/job/sightmachine-documentation-deploy-to-stage2/)
    - [stage3](http://jenkins.int.sightmachine.com/view/Documentation/job/sightmachine-documentation-deploy-to-stage3/)
    - [stage4](http://jenkins.int.sightmachine.com/view/Documentation/job/sightmachine-documentation-deploy-to-stage4/)
-   - [production](
+   - [stage5](http://jenkins.int.sightmachine.com/view/Documentation/job/sightmachine-documentation-deploy-to-stage5/)
+   - [stage6](http://jenkins.int.sightmachine.com/view/Documentation/job/sightmachine-documentation-deploy-to-stage6/)
+   - [production](http://jenkins.int.sightmachine.com/view/Documentation/job/sightmachine-documentation-deploy-to-production/)
 
 ### Support/Troubleshooting
 
