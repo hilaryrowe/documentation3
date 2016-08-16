@@ -11,12 +11,13 @@ set -e
 ##
 
 ## TODO: Refactor this to gather a list of tenants via curl or something?
-tenants=(cs ft pc sz t2 nike-tenant fiat vulcan inteva martinrea gsk shaw)
+tenants=(cs ft pc sz t2 nike fiat vulcan inteva martinrea gsk shaw)
+production_frontends=(mt-frontend-4201 mt-frontend-2201 mt-frontend-1102)
 
 ##
 ## Private Globals
 _TARGET=$1
-_ALLOWED_TARGETS="stage2 stage3 stage4 production"
+_ALLOWED_TARGETS="stage2 stage3 stage4 stage5 stage6 production"
 _SCRIPT_DIR=$(dirname $0)
 _ARTIFACTS_DIR=${_SCRIPT_DIR}/../artifacts
 _ARTIFACT=$(ls -1tr ${_ARTIFACTS_DIR}/*.tar.gz | tail -n1)
@@ -26,15 +27,13 @@ _ARTIFACT_NAME=$(echo ${_ARTIFACT_FILE} | sed -e 's/.tar.gz//g')
 if [[ -z "${_TARGET}" || -z `echo ${_ALLOWED_TARGETS} | grep ${_TARGET}` ]]; then
   echo "Please specify one of the following target environmnts"
   echo ""
-  echo "  stage2"
-  echo "  production"
+  echo "${_ALLOWED_TARGETS}"
   echo ""
   exit 255
 fi
 
 _deploy_artifact() {
   _HOST=$1
-  _KEY=$2
 
   _DEPLOY_DIR="/home/sm/Code/${_ARTIFACT_NAME}"
   _HELP_DIR="/home/sm/Code/help"
@@ -52,14 +51,14 @@ _deploy_artifact() {
 
   # Jenkins should enforce a singular entity here, the name of the tar.gz is the git sha.
   echo "Copying artifact ${_ARTIFACT} ${_HOST}:/tmp/"
-  scp -i ${_KEY} ${_ARTIFACT} ${_HOST}:/tmp/${_ARTIFACT_FILE}
+  scp ${_ARTIFACT} ${_HOST}:/tmp/${_ARTIFACT_FILE}
 
   echo "Unpacking and deploying"
   echo "mkdir /tmp/${_ARTIFACT_NAME} \
        && echo Unpacking && tar -C /tmp/${_ARTIFACT_NAME} -xvzf /tmp/${_ARTIFACT_FILE} \
        && echo Rsync && ${_SUDO_CMD} rsync -av --delete /tmp/${_ARTIFACT_NAME}/ ${_HELP_DIR}/ \
        && echo Cleaning Up && rm -rf /tmp/sightmachine-documentation* \
-       && echo Completed" | ssh -i ${_KEY} ${_HOST}
+       && echo Completed" | ssh ${_HOST}
   return 0
 }
 
@@ -67,6 +66,7 @@ function _validate_deploy_was_successful() {
   _HELP_URL=$1
 
   _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" ${_HELP_URL})
+  echo ${_CURL_OUTPUT}
   if [[ "${_CURL_OUTPUT}" == "200" ]]; then
     echo "SUCCESS!!!!!!"
   else
@@ -79,28 +79,31 @@ function _validate_deploy_was_successful() {
 
 echo "Deploying to ${_TARGET}"
 if [[ ${_TARGET} == "stage2" ]]; then
-  _deploy_artifact ubuntu@qa-stage-4202.int.sightmachine.com ~/.ssh/stage2
+  _deploy_artifact qa-stage-4202.int.sightmachine.com
   _validate_deploy_was_successful http://cs.stage.int.sightmachine.com/help/index.html
 elif [[ ${_TARGET} == "stage3" ]]; then
-  _deploy_artifact ubuntu@qa-stage-4203.int.sightmachine.com ~/.ssh/stage3
+  _deploy_artifact qa-stage-4203.int.sightmachine.com
   _validate_deploy_was_successful http://cs.stage3.int.sightmachine.com/help/index.html
 elif [[ ${_TARGET} == "stage4" ]]; then
-  _deploy_artifact ubuntu@qa-stage-4204.int.sightmachine.com ~/.ssh/stage4
+  _deploy_artifact qa-stage-4204.int.sightmachine.com
   _validate_deploy_was_successful http://cs.stage4.int.sightmachine.com/help/index.html
 elif [[ ${_TARGET} == "stage5" ]]; then
-  _deploy_artifact ubuntu@qa-stage-4205.int.sightmachine.com ~/.ssh/stage5
+  _deploy_artifact qa-stage-4205.int.sightmachine.com
   _validate_deploy_was_successful http://cs.stage5.int.sightmachine.com/help/index.html
 elif [[ ${_TARGET} == "stage6" ]]; then
-  _deploy_artifact ubuntu@qa-stage-4206.int.sightmachine.com ~/.ssh/stage6
+  _deploy_artifact qa-stage-4206.int.sightmachine.com
   _validate_deploy_was_successful http://cs.stage6.int.sightmachine.com/help/index.html
 elif [[ ${_TARGET} == "production" ]]; then
-  for i in "mt-frontend-4201 mt-frontend-2201 mt-frontend-1102"; do
+  for i in ${production_frontends[@]}; do
     _host="${i}.int.sightmachine.com"
-    echo _deploy_artifact sm@${_host} ~/.ssh/{i}
-  fi
+    _deploy_artifact ${_host}
+  done
 
-  for tenant in tenants; do 
-    _validate_deploy_was_successful http://${_host}/help/index.html
+  for tenant in ${tenants[@]}; do 
+    _help_url="http://${tenant}.sightmachine.com/help/index.html"
+    echo "Validating Tenant Help URL: ${_help_url}"
+    _validate_deploy_was_successful ${_help_url}
+  done
 else
   echo "How did you get here?"
   exit 1
