@@ -17,17 +17,28 @@ To develop our Gitbook we're using docker.  Docker will run the 'gitbook serve' 
 0. docker-compose up -d
 0. docker-compose stop
 
-### Building
+### Building (Meant to be run by Jenkins)
 0. cd ~/code/documentation
 0. script/build.sh
 0. a ```_book``` directory will be generated in ~/code/documentation
 
 ### Deploying
+
+```
+Note this process will likely change in the future to support promotion or pipelines
+```
+
 0. Commit your changes to master
-0. Navigate to [Jenkins](http://jenkins.int.sightmachine.com/)
-0. Find the Job X
-0. Promote using this process, or pipeline, or ... whatever we decide to do here...
+0. Navigate to [Jenkins](http://jenkins.int.sightmachine.com/view/Documentation/)
+0. Run the [Build Job](http://jenkins.int.sightmachine.com/view/Documentation/job/sightmachine-documentation-build/)
+   0. The deploy targets will use the last successful artifact
+0. Choose your deploy target
+   - [stage2](http://jenkins.int.sightmachine.com/view/Documentation/job/sightmachine-documentation-deploy-to-stage2/)
+   - [stage3](http://jenkins.int.sightmachine.com/view/Documentation/job/sightmachine-documentation-deploy-to-stage3/)
+   - [stage4](http://jenkins.int.sightmachine.com/view/Documentation/job/sightmachine-documentation-deploy-to-stage4/)
+   - [production](
 
 ### Support/Troubleshooting
 
 Please Join #devops in Slack!
+
