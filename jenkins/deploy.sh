@@ -50,8 +50,6 @@ _deploy_artifact() {
        && echo Cleaning Up && rm -rf /tmp/sightmachine-documentation* \
        && echo Completed" | ssh -i ${_KEY} ${_HOST}
 
-   echo "echo Cleaning Up && rm -rf /tmp/sightmachine-documentation*" | ssh -i ${_KEY} ${_HOST}
-
   _CURL_OUTPUT=$(curl -L -s -o /dev/null -w "%{http_code}" http://localhost/help/index.html)
   if [[ "${_CURL_OUTPUT}" == "200" ]]; then
     echo "SUCCESS!!!!!!"
@@ -71,3 +69,5 @@ elif [[ ${_TARGET} == "production" ]]; then
 else
   echo "How did you get here?"
 fi
+
+exit 0
