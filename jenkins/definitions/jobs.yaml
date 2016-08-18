@@ -1,0 +1,60 @@
+---
+
+- job:
+    name: sightmachine-documentation-build
+    project-type: freestyle
+    defaults: global
+    description: |
+      This job builds and deploys the Sightmachine Documentation from Github.
+      Any changes should be handled through the process outlined here https://github.com/sightmachine/documentation
+    node: qa-jenkins-4302
+    block-downstream: true
+    logrotate:
+      daysToKeep: 30
+      numToKeep: 5
+      artifactDaysToKeep: -1
+      artifactNumToKeep: 5
+
+    scm:
+      - sightmachine-documentation
+
+    builders:
+      - shell: "jenkins/build.sh"
+      
+    publishers:
+      - archive:
+          artifacts: 'artifacts/*.tar.gz'
+
+- project:
+    name: sightmachine-documentation-deploy-to
+    version: 1.1.0
+    target:
+      - stage2
+      - stage3
+      - stage4
+      - stage5
+      - stage6
+      - production
+    jobs:
+      - '{name}-{target}':
+
+- job-template:
+    name: '{name}-{target}'
+    project-type: freestyle
+    defaults: global
+    description: |
+      This job deploys documentation to a specific environment ( '{target}' )
+      Any changes should be handled through the process outlined here https://github.com/sightmachine/documentation
+      Version: '{version}'
+    node: qa-jenkins-4302
+
+    scm:
+      - sightmachine-documentation
+
+    builders:
+      - copyartifact:
+          project: sightmachine-documentation-build
+          filter: "artifacts/*.tar.gz"
+          which-build: last-successful
+
+      - shell: "jenkins/deploy.sh {target}"
