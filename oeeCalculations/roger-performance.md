@@ -17,17 +17,30 @@ Ideal Cycle time is fixed for a particular asset \(Machine Type based\) or varia
 
 ![](/assets/Screen Shot 2016-08-15 at 1.38.27 PM.png)
 
+
 **Averaging Ideal Cycle Time**
 
 The average for Ideal Cycle Time is calculated using the accumulated values for either fixed ideal cycle time or variable ideal cycle time on a shift, day, week, and month basis given the configuration of the machine being queried and stored as seconds.
 
 **_Fixed Ideal Cycle Time_**
 
-![](/assets/Screen Shot 2016-08-15 at 1.32.41 PM.png)
+$$
+Average \ Ideal \ Cycle \ Time \ = \frac{(\ 15 \ Seconds \ )\ + \ (\ 15 \ Seconds \ )\ + \ (\ 15 \ Seconds \ )}{3}
+$$
+
+$$
+Average \ Ideal \ Cycle \ Time \ = \ 15 \ Seconds
+$$
 
 **_Variable Ideal Cycle Time_**
 
-![](/assets/Screen Shot 2016-08-15 at 1.37.33 PM.png)
+$$
+Average \ Ideal \ Cycle \ Time \ = \frac{(\ 30 \ Seconds \ )\ + \ (\ 15 \ Seconds \ )\ + \ (\ 60 \ Seconds \ )}{3}
+$$
+
+$$
+Average \ Ideal \ Cycle \ Time \ = \ 35 \ Seconds
+$$
 
 ### **Actual Cycle Time**
 
