@@ -54,7 +54,7 @@ These events can be automatically classified with Reason Codes based on rules pr
 
 
 $$
-Total \ Cycle \ Seconds \ = \ 6,300 \ Seconds \ + \ 6,300 \ Seconds \ + \ 9,450 \ Seconds \ + \ 3,150 \ Seconds \ + \ 1,350 \ Seconds \ + \ 4,050 \ Seconds \
+Total \ Cycle \ Seconds \ = \ 6,300 \ Seconds \ + \ 6,300 \ Seconds \ + \ 9,450 \ Seconds \\ + \ 3,150 \ Seconds \ + \ 1,350 \ Seconds \ + \ 4,050 \ Seconds \
 $$
 
 
@@ -73,16 +73,10 @@ $$
 Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
 $$
 
-
-
 $$
 Availability \ = \frac{30,600 \ Seconds}{41,400 \ Seconds}
 $$
 
-
-
 $$
 Availability \ = \ 73.91 \%
 $$
-
-
