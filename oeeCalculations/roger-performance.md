@@ -79,13 +79,26 @@ If Idle time for a machine is not seperately broken out then it will be included
 
 Taking the two earlier examples of Fixed Ideal Cycle Time and Variable Ideal Cycle Time we can calculate Performance for these two different machines for the specified time period.
 
-![](/assets/Screen Shot 2016-08-15 at 1.40.50 PM.png)
+$$
+Performance \ = \frac{Average \ Ideal \ Cycle \ Time}{Average \ Actual \ Cycle \ Time}
+$$
 
 _**Performance \(with Fixed Ideal Cycle Time\)**_
 
-![](/assets/Screen Shot 2016-08-15 at 2.14.31 PM.png)
+$$
+Performance \ = \frac{15 \ Seconds}{18\ Seconds}
+$$
+
+$$
+Performance \ = \ 83.33 \%
+$$
 
 _**Performance \(with Variable Ideal Cycle Time\)**_
 
-![](/assets/Screen Shot 2016-08-15 at 2.14.42 PM.png)
+$$
+Performance \ = \frac{35 \ Seconds}{40\ Seconds}
+$$
 
+$$
+Performance \ = \ 87.50 \%
+$$
