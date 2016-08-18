@@ -4,7 +4,10 @@ The Performance component of OEE measures the ratio of average expected cycle ti
 
 **Performance Formula**
 
-![](/assets/Screen Shot 2016-08-15 at 1.40.50 PM.png)
+$$
+Performance \ = \frac{Average \ Ideal \ Cycle \ Time}{Average \ Actual \ Cycle \ Time}
+$$
+
 
 Performance is a percentage between 0% and 100% with 100% being the value when an asset is operating at exactly the ideal cycle time. Using the components of Performance \(Ideal Cycle Time and Actual Cycle Time\) we can further explain how this is computed.
 
