@@ -4,7 +4,10 @@ The Quality component of OEE measures the inverse of the ratio of defective outp
 
 **Quality Formula**
 
-![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
+$$
+Quality \ = \ 1 \ - \frac{Defect \ Items}{Total \ Output}
+$$
+
 
 Quality is a percentage between 0% and 100% with 100% being the value when an asset is operating with perfect output quality or no defects. Using the components of Quality \(Defect Items and Total Output\) we can further explain how this is computed.
 
@@ -14,13 +17,17 @@ Defective units of production are created in one of two ways:
 
 * Automatic Classification - based on configuration rules for sensor values received in cycles data \(1 to 1 with output calculated for the cycle period\)
 
-![](/assets/Screen Shot 2016-08-15 at 2.47.44 PM.png)
+$$
+Defect \ Items \ = \ (Cycle \ 1:1 \ )\ + \ (\ Cycle \ 30:1 \ )\ + \ (\ Cycle \ 35:1 \ )\ + \ (\ Cycle \ 60:1 \ )\ + \ (\ Cycle \ 89:1 )\ = \ 5
+$$
 
 ![](/assets/Screen Shot 2016-08-15 at 4.04.46 PM.png)
 
 * Manual Entry - entered by Sight Machine users using Defect Entry \(each entry could represent n number of defects\)
 
-![](/assets/Screen Shot 2016-08-15 at 3.06.04 PM.png)
+$$
+Defect \ Items \ = \ (User \ Entry \ 1:3 \ )\ + \ (\ User \ Entry \ 2:2 \ )\  = \ 5
+$$
 
 ![](/assets/Screen Shot 2016-08-15 at 4.16.18 PM.png)
 
@@ -30,7 +37,7 @@ Output per cycle is used to track the units of production created by an asset \(
 
 **Piece Multiplier**
 
-Specified in data streams to account for variable output per machine; e.g. Output per Cycle = 1\*3 = 3
+Specified in data streams to account for variable output per machine; e.g. $$ Output \ per \ Cycle \ = \ 1 \ * \ 3 \ = \ 3 $$
 
 **Output per Cycle = Cycle \* Piece Multiplier**
 
@@ -48,11 +55,11 @@ Taking the earlier examples of Defect Items and Total Output we can calculate Qu
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-_**Quality Calculation \(with Automatic Defect Classification\)**_
+**_Quality Calculation \(with Automatic Defect Classification\)_**
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
-_**Quality Calculation \(with Manual Defect Entry\)**_
+**_Quality Calculation \(with Manual Defect Entry\)_**
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
