@@ -17,15 +17,15 @@ Scheduled time is a predefined operating schedule for a particular asset. This c
 **Total Expected Run Time** Based on the specific requirements of your business, we can calculate _Total Expected Run Time_ as either the aggregate time of your shift schedules or a absolute amount of time. Configuration Options:
 
 * Shift Aggregation[^2]
-* Absolute Time \(minutes\)
+* Absolute Time \(in minutes\)
 
-**_Shift Aggregation_**
+_**Shift Aggregation**_
 
 ![](/assets/Screen Shot 2016-08-08 at 2.08.51 PM.png)
 
 Using this configuration the _Total Expected Run Time_ for the asset is equal to the sum of all the specified shifts.
 
-**_Absolute Time_**
+_**Absolute Time**_
 
 ![](/assets/Screen Shot 2016-08-08 at 3.03.15 PM.png)
 
