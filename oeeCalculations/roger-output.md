@@ -8,6 +8,7 @@ Output is calculated on a per cycle basis and is used to track the units of prod
     * E.g. $$Output \ per \ Cycle \ = 1\times3 \ = \ 3$$
 
 
+
 * Cycle Product Ratio
   * Defined in machine type configuration as a fixed value
   * $$Output \ per \ Cycle \ = \frac{Cycle}{Cycle \ Product \ Ratio}$$
