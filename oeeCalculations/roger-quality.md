@@ -10,8 +10,6 @@ Quality \ = \ 1 \ - \frac{Defect \ Items}{Total \ Output}
 $$
 
 
-
-
 Quality is a percentage between 0% and 100% with 100% being the value when an asset is operating with perfect output quality or no defects. Using the components of Quality \(Defect Items and Total Output\) we can further explain how this is computed.
 
 ### **Defect Items**
@@ -48,8 +46,6 @@ Specified in data streams to account for variable output per machine; e.g. $$ Ou
 
 **Output per Cycle = Cycle \* Piece Multiplier**
 
-
-
 **Cycle Product Ratio**
 
 Defined in machine type configuration as a fixed value; e.g. $$Output \ per \ Cycle \ = \frac{1}{2} \ = \ .5 $$
@@ -62,13 +58,9 @@ Total \ Output \ = \ (Output \ per \ Cycle \ 1:1 \ )\ + \ (\ Output \ per \ Cycl
 $$
 
 
-
-
 ### **Quality**
 
 Taking the earlier examples of Defect Items and Total Output we can calculate Quality for two different machines for the specified time period.
-
-
 
 
 $$
@@ -76,9 +68,7 @@ Quality \ = \ 1 \ - \frac{Defect \ Items}{Total \ Output}
 $$
 
 
-
-
-_**Quality Calculation \(with Automatic Defect Classification\)**_
+**_Quality Calculation \(with Automatic Defect Classification\)_**
 
 
 $$
@@ -92,9 +82,7 @@ Quality \ = \ 95.00 \%
 $$
 
 
-
-
-_**Quality Calculation \(with Manual Defect Entry\)**_
+**_Quality Calculation \(with Manual Defect Entry\)_**
 
 
 $$
