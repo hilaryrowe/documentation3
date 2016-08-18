@@ -4,7 +4,11 @@ The Availability component of OEE measures the ratio of expected operation time 
 
 **Availability Formula**
 
-![](/assets/Screen Shot 2016-08-15 at 4.53.25 PM.png)
+
+$$
+Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
+$$
+
 
 Availability is a percentage between 0% and 100%, with 100% being the value when an asset is operating for exactly the expected run time. Using the components of Availability \(Expected Cycle Seconds and Cycle Seconds\) we can further explain how this is computed.
 
@@ -14,7 +18,17 @@ Expected Cycle Seconds is dependant on either a fixed time for a cycle to comple
 
 ![](/assets/Mockup_PlannedBreak_081216.png)
 
-![](/assets/Screen Shot 2016-08-15 at 5.17.33 PM.png)
+
+$$
+Total \ Expected \ Cycle \ Seconds \ = \ 16,200 \ Seconds \ + \ 16,200 \ Seconds \ + \ 9,000 \ Seconds \
+$$
+
+
+
+$$
+Total \ Expected \ Cycle \ Seconds \ = \ 41,400 \ Seconds \
+$$
+
 
 ### **Cycle Seconds**
 
@@ -38,13 +52,37 @@ These events can be automatically classified with Reason Codes based on rules pr
 
 ![](/assets/Mockup_UnplannedDown_081216.png)
 
-![](/assets/Screen Shot 2016-08-15 at 5.37.35 PM.png)
+
+$$
+Total \ Cycle \ Seconds \ = \ 6,300 \ Seconds \ + \ 6,300 \ Seconds \ + \ 9,450 \ Seconds \ + \ 3,150 \ Seconds \ + \ 1,350 \ Seconds \ + \ 4,050 \ Seconds \
+$$
+
+
+
+$$
+\ Total \ Cycle \ Seconds \ = \ 30,600 \ Seconds \
+$$
+
 
 ### **Availability**
 
 Taking the earlier calculations for Total Expected Cycle Seconds and Total Cycle Seconds we can calculate Availabilty for this machine for the specified time period.
 
-![](/assets/Screen Shot 2016-08-15 at 4.53.25 PM.png)
 
-![](/assets/Screen Shot 2016-08-15 at 5.41.17 PM.png)
+$$
+Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
+$$
+
+
+
+$$
+Availability \ = \frac{30,600 \ Seconds}{41,400 \ Seconds}
+$$
+
+
+
+$$
+Availability \ = \ 73.91 \%
+$$
+
 
