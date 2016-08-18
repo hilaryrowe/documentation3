@@ -54,11 +54,24 @@ The average for Actual Cycle Time is calculated using the accumulated values for
 
 **_Actual Cycle Time \(with Fixed Ideal Cycle Time\)_**
 
-![](/assets/Screen Shot 2016-08-15 at 2.14.16 PM.png)
+$$
+Average \ Actual \ Cycle \ Time \ = \frac{(\ 18 \ Seconds \ )\ + \ (\ 15 \ Seconds \ )\ + \ (\ 21 \ Seconds \ )}{3}
+$$
+
+$$
+Average \ Ideal \ Cycle \ Time \ = \ 18 \ Seconds
+$$
+
 
 **_Actual Cycle Time \(with Variable Ideal Cycle Time\)_**
 
-![](/assets/Screen Shot 2016-08-15 at 2.14.24 PM.png)
+$$
+Average \ Actual \ Cycle \ Time \ = \frac{(\ 30 \ Seconds \ )\ + \ (\ 20 \ Seconds \ )\ + \ (\ 70 \ Seconds \ )}{3}
+$$
+
+$$
+Average \ Ideal \ Cycle \ Time \ = \ 40 \ Seconds
+$$
 
 If Idle time for a machine is not seperately broken out then it will be included in the calculation for Actual Cycle Time which would decrease the observed value for Performance. Downtimes for a machine do not impact the Availabilty calculation.
 
