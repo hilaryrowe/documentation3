@@ -37,29 +37,44 @@ Output per cycle is used to track the units of production created by an asset \(
 
 **Piece Multiplier**
 
-Specified in data streams to account for variable output per machine; e.g. $$ Output \ per \ Cycle \ = \ 1 \ * \ 3 \ = \ 3 $$
+Specified in data streams to account for variable output per machine; e.g. $$ Output \ per \ Cycle \ = \ 1\times3 \ = \ 3 $$
 
 **Output per Cycle = Cycle \* Piece Multiplier**
 
 **Cycle Product Ratio**
 
-Defined in machine type configuration as a fixed value; e.g. Output per Cycle = 1\/2 = .5
+Defined in machine type configuration as a fixed value; e.g. $$Output \ per \ Cycle \ = \frac{1}{2} \ = \ .5 $$
 
 **Output per Cycle = Cycle \/ Cycle Product Ratio**
 
-![](/assets/Screen Shot 2016-08-15 at 4.27.35 PM.png)
+$$
+Total \ Output \ = \ (Output \ per \ Cycle \ 1:1 \ )\ + \ (\ Output \ per \ Cycle \ 2:1 \ )\ + \ ... \ + \ (Output \ per \ Cycle \ 100:1 \ )\ = \ 100
+$$
 
 ### **Quality**
 
 Taking the earlier examples of Defect Items and Total Output we can calculate Quality for two different machines for the specified time period.
 
-![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
+$$
+Quality \ = \ 1 \ - \frac{Defect \ Items}{Total \ Output}
+$$
 
 **_Quality Calculation \(with Automatic Defect Classification\)_**
 
-![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
+$$
+Quality \ = \ 1 \ - \frac{5}{100}
+$$
+
+$$
+Quality \ = \ 95.00 \%
+$$
 
 **_Quality Calculation \(with Manual Defect Entry\)_**
 
-![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
+$$
+Quality \ = \ 1 \ - \frac{5}{100}
+$$
 
+$$
+Quality \ = \ 95.00 \%
+$$
