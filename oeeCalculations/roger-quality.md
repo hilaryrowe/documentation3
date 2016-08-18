@@ -20,7 +20,7 @@ Defective units of production are created in one of two ways:
 
 
 $$
-Defect \ Items \ = \ (Cycle \ 1:1 \ )\ + \ (\ Cycle \ 30:1 \ )\ + \ (\ Cycle \ 35:1 \ )\ + \ (\ Cycle \ 60:1 \ )\ + \ (\ Cycle \ 89:1 )\ = \ 5
+Defect \ Items \ = \ (Cycle \ 1:1 \ )\ + \ (\ Cycle \ 30:1 \ )\ + \ (\ Cycle \ 35:1 \ )\ + \\ (\ Cycle \ 60:1 \ )\ + \ (\ Cycle \ 89:1 )\ = \ 5
 $$
 
 
@@ -54,7 +54,7 @@ Defined in machine type configuration as a fixed value; e.g. $$Output \ per \ Cy
 
 
 $$
-Total \ Output \ = \ (Output \ per \ Cycle \ 1:1 \ )\ + \ (\ Output \ per \ Cycle \ 2:1 \ )\ + \ ... \ + \ (Output \ per \ Cycle \ 100:1 \ )\ = \ 100
+Total \ Output \ = \ (Output \ per \ Cycle \ 1:1 \ )\ + \ (\ Output \ per \ Cycle \ 2:1 \ )\ + \ ... \\ + \ (Output \ per \ Cycle \ 100:1 \ )\ = \ 100
 $$
 
 
@@ -66,6 +66,8 @@ Taking the earlier examples of Defect Items and Total Output we can calculate Qu
 $$
 Quality \ = \ 1 \ - \frac{Defect \ Items}{Total \ Output}
 $$
+
+
 
 
 **_Quality Calculation \(with Automatic Defect Classification\)_**
@@ -80,6 +82,8 @@ $$
 $$
 Quality \ = \ 95.00 \%
 $$
+
+
 
 
 **_Quality Calculation \(with Manual Defect Entry\)_**
