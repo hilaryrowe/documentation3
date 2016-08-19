@@ -1,6 +1,6 @@
 ## **Quality Calculation**
 
-The Quality component of OEE measures the inverse of the ratio of defective output \(Defect Items\) to the total units of output \(Total Output\) or the yield of production passing quality standards. This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is producing satisfactory output over a specific time horizon \(shift, daily, weekly, or monthly\).
+Quality is a measure of the asset's yield, that is, its satisfactory output relative to its total output over a specific time horizon \(shift, daily, weekly, or monthly\).
 
 **Quality Formula**
 
@@ -10,13 +10,15 @@ Quality \ = \ 1 \ - \frac{Defect \ Items}{Total \ Output}
 $$
 
 
-Quality is a percentage between 0% and 100% with 100% being the value when an asset is operating with perfect output quality or no defects. Using the components of Quality \(Defect Items and Total Output\) we can further explain how this is computed.
+Quality is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated with perfect Total Output quality or no Defect Items. For example, if your total output was 47 and your defective items were 6, then Quality = 1 - 6\/47 = 87.2%
+
+These two factors of quality are derived as follows.
 
 ### **Defect Items**
 
-Defective units of production are created in one of two ways:
+Defective units can be tracked in one of two ways:
 
-* Automatic Classification - based on configuration rules for sensor values received in cycles data \(1 to 1 with output calculated for the cycle period\)
+* Automatic Detection, that is, detection based on the asset's sensor input.
 
 
 $$
@@ -26,7 +28,7 @@ $$
 
 ![](/assets/Screen Shot 2016-08-15 at 4.04.46 PM.png)
 
-* Manual Entry - entered by Sight Machine users using Defect Entry \(each entry could represent n number of defects\)
+* Manual Entry, that is, using the Defect Entry on your touchpad.
 
 
 $$
@@ -38,18 +40,35 @@ $$
 
 ### **Total Output**
 
-Output per cycle is used to track the units of production created by an asset \(machine, line, facility\) and will rely on either a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\) or a recipe-dependent value read directly from raw data streams \(1 widget in one cycle and 5 widgets in another cycle\). Total output is calculated by aggregating Cycles output.
+Total Output based on output per cycle, the piece multiplier, and the cycle product ratio as follows.
+
+**Output Per Cycle: **is the number of units produced by the asset during a given cycle. It relies on either:
+
+* a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\), or 
+* an algorithm-dependent value read directly from raw data streams \(1 unit in one cycle and 5 units in another cycle\)
+
+**Piece Multiplier: **specified in data streams to account for variable output per machine; e.g. Output per Cycle = 1\*3 = 3
+
+**     Output per Cycle = Cycle \* Piece Multiplier**
+
+**Cycle Product Ratio:** defined in machine-type configuration as a fixed value; e.g. Output per Cycle = 1\/2 = .5
+
+# **     Output per Cycle = Cycle \/ Cycle Product Ratio**
 
 * Piece Multiplier
- * Specified in data streams to account for variable output per machine
- * $$Output \ per \ Cycle \ = \ Cycle\times\ Piece \ Multiplier$$
-   * E.g. $$Output \ per \ Cycle \ = 1\times3 \ = \ 3$$
+  * Specified in data streams to account for variable output per machine
+  * $$Output \ per \ Cycle \ = \ Cycle\times\ Piece \ Multiplier$$
+
+    * E.g. $$Output \ per \ Cycle \ = 1\times3 \ = \ 3$$
+
 
 
 * Cycle Product Ratio
- * Defined in machine type configuration as a fixed value
- * $$Output \ per \ Cycle \ = \frac{Cycle}{Cycle \ Product \ Ratio}$$
-   * E.g. $$Output \ per \ Cycle \ = \frac{1}{2} \ = \ .5$$
+  * Defined in machine type configuration as a fixed value
+  * $$Output \ per \ Cycle \ = \frac{Cycle}{Cycle \ Product \ Ratio}$$
+
+    * E.g. $$Output \ per \ Cycle \ = \frac{1}{2} \ = \ .5$$
+
 
 
 **Total Output Formula**
@@ -60,41 +79,5 @@ Total \ Output \ = \ (Output \ per \ Cycle \ 1:1 \ )\ + \ (\ Output \ per \ Cycl
 $$
 
 
-### **Quality**
-
-Taking the earlier examples of Defect Items and Total Output we can calculate Quality for two different machines for the specified time period.
-
-
-$$
-Quality \ = \ 1 \ - \frac{Defect \ Items}{Total \ Output}
-$$
-
-
-**_Quality Calculation \(with Automatic Defect Classification\)_**
-
-
-$$
-Quality \ = \ 1 \ - \frac{5}{100}
-$$
-
-
-
-$$
-Quality \ = \ 95.00 \%
-$$
-
-
-**_Quality Calculation \(with Manual Defect Entry\)_**
-
-
-$$
-Quality \ = \ 1 \ - \frac{5}{100}
-$$
-
-
-
-$$
-Quality \ = \ 95.00 \%
-$$
 
 

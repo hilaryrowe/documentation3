@@ -1,6 +1,6 @@
 ## **Performance Calculation**
 
-The Performance component of OEE measures the ratio of average expected cycle time \(Ideal Cycle Time\) to average observed cycle time \(Actual Cycle Time\). This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is  producing units of output compared to the expected units of output for the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
+The Performance component of OEE measures the ratio of average expected cycle time \(Ideal Cycle Time\) to average observed cycle time \(Actual Cycle Time\). Performance displays as a percentage indicating the amount of time the asset  produced units of output compared to the expected units of output over a specific time horizon \(shift, daily, weekly, or monthly\).
 
 **Performance Formula**
 
@@ -12,18 +12,20 @@ $$
 
 
 
-Performance is a percentage between 0% and 100% with 100% being the value when an asset is operating at exactly the ideal cycle time. Using the components of Performance \(Ideal Cycle Time and Actual Cycle Time\) we can further explain how this is computed.
+Performance is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated at exactly the Average Ideal Cycle Time. These two factors of performance performance are calculated as follows.
 
 ### **Ideal Cycle Time**
 
-Ideal Cycle time is fixed for a particular asset \(Machine Type based\) or variable based on the output being created \(Recipe based\) in milliseconds.
+Ideal Cycle time is predetermined, measured in milliseconds, and can represent either:
+
+* a fixed value for a particular asset \(Machine Type based\), or 
+* a variable based on the output being created \(algorithm based\)
 
 ![](/assets/Screen Shot 2016-08-15 at 1.38.27 PM.png)
 
 **Averaging Ideal Cycle Time**
 
-The average for Ideal Cycle Time is calculated using the accumulated values for either fixed ideal cycle time or variable ideal cycle time on a shift, day, week, and month basis given the configuration of the machine being queried and stored as seconds.
-
+The Average Ideal Cycle Time is measured in seconds and is calculated using the accumulated values for either fixed ideal cycle time or variable ideal cycle time on a shift, day, week, and month basis \(given the configuration of the machine being queried\).
 
 
 _**Fixed Ideal Cycle Time**_
@@ -56,16 +58,16 @@ Average \ Ideal \ Cycle \ Time \ = \ 35 \ Seconds
 $$
 
 
+
 ### **Actual Cycle Time**
 
-Unlike Ideal Cycle time, Actual Cycle Time is not predetermined and is calculated dynamically based cycle data coming from facility data streams. The Actual Cycle Time for a machine is calculated as Cycle End Time - Cycle Start Time and stored in milliseconds.
+Unlike Ideal Cycle time, Actual Cycle Time is not predetermined and is calculated dynamically based cycle data coming from facility data streams. The Actual Cycle Time for a machine is measured in milliseconds and is calculated as Cycle End Time minus Cycle Start Time.
 
 ![](/assets/Screen Shot 2016-08-15 at 2.19.11 PM.png)
 
 **Averaging Actual Cycle Time**
 
-The average for Actual Cycle Time is calculated using the accumulated values for cycle time on a shift, day, week, and month basis and stored as seconds.
-
+The Average Actual Cycle Time is measured in seconds and is calculated using the accumulated values for cycle time on a shift, day, week, and month basis.
 
 
 _**Actual Cycle Time \(with Fixed Ideal Cycle Time\)**_
@@ -99,12 +101,11 @@ $$
 
 
 
-
-If Idle time for a machine is not seperately broken out then it will be included in the calculation for Actual Cycle Time which would decrease the observed value for Performance. Downtimes for a machine do not impact the Availabilty calculation.
+If Idle time for a machine is not seperately broken out of the Actual Cycle Time then it will be included in the calculation, decreasing the observed value for Performance. Downtimes for a machine do not impact the Availabilty calculation.
 
 ### **Performance**
 
-Taking the two earlier examples of Fixed Ideal Cycle Time and Variable Ideal Cycle Time we can calculate Performance for these two different machines for the specified time period.
+Taking the two earlier examples of Fixed Ideal Cycle Time and Variable Ideal Cycle Time we can calculate Performance for Machine 1 and Machine 2 for the specified time period.
 
 
 $$
