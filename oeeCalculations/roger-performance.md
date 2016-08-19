@@ -6,11 +6,11 @@ The Performance component of OEE measures the ratio of average expected cycle ti
 
 ![](/assets/Screen Shot 2016-08-15 at 1.40.50 PM.png)
 
-Performance is a percentage between 0% and 100% with 100% being the value when an asset is operating at exactly the ideal cycle time. Using the components of Performance \(Ideal Cycle Time and Actual Cycle Time\) we can further explain how this is computed.
+Performance is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated at exactly the Average Ideal Cycle Time. These two factors of performance performance are calculated as follows.
 
-### **Ideal Cycle Time**
+### **Average Ideal Cycle Time**
 
-Ideal Cycle time is fixed for a particular asset \(Machine Type based\) or variable based on the output being created \(Recipe based\) in milliseconds.
+Average Ideal Cycle time is fixed for a particular asset \(Machine Type based\) or variable based on the output being created \(Recipe based\) in milliseconds.
 
 ![](/assets/Screen Shot 2016-08-15 at 1.38.27 PM.png)
 
