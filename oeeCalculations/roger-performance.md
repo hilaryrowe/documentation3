@@ -10,7 +10,7 @@ Performance is expressed as a percentage between 0% and 100%, with 100% being th
 
 ### **Average Ideal Cycle Time**
 
-Average Ideal Cycle time is fixed for a particular asset \(Machine Type based\) or variable based on the output being created \(Recipe based\) in milliseconds.
+Average Ideal Cycle time can represent either a fixed value for a particular asset \(Machine Type based\) or variable based on the output being created \(Recipe based\) in milliseconds.
 
 ![](/assets/Screen Shot 2016-08-15 at 1.38.27 PM.png)
 
@@ -18,11 +18,11 @@ Average Ideal Cycle time is fixed for a particular asset \(Machine Type based\) 
 
 The average for Ideal Cycle Time is calculated using the accumulated values for either fixed ideal cycle time or variable ideal cycle time on a shift, day, week, and month basis given the configuration of the machine being queried and stored as seconds.
 
-**_Fixed Ideal Cycle Time_**
+_**Fixed Ideal Cycle Time**_
 
 ![](/assets/Screen Shot 2016-08-15 at 1.32.41 PM.png)
 
-**_Variable Ideal Cycle Time_**
+_**Variable Ideal Cycle Time**_
 
 ![](/assets/Screen Shot 2016-08-15 at 1.37.33 PM.png)
 
@@ -36,11 +36,11 @@ Unlike Ideal Cycle time, Actual Cycle Time is not predetermined and is calculate
 
 The average for Actual Cycle Time is calculated using the accumulated values for cycle time on a shift, day, week, and month basis and stored as seconds.
 
-**_Actual Cycle Time \(with Fixed Ideal Cycle Time\)_**
+_**Actual Cycle Time \(with Fixed Ideal Cycle Time\)**_
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.16 PM.png)
 
-**_Actual Cycle Time \(with Variable Ideal Cycle Time\)_**
+_**Actual Cycle Time \(with Variable Ideal Cycle Time\)**_
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.24 PM.png)
 
@@ -52,11 +52,11 @@ Taking the two earlier examples of Fixed Ideal Cycle Time and Variable Ideal Cyc
 
 ![](/assets/Screen Shot 2016-08-15 at 1.40.50 PM.png)
 
-_**Performance \(with Fixed Ideal Cycle Time\)**_
+**_Performance \(with Fixed Ideal Cycle Time\)_**
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.31 PM.png)
 
-_**Performance \(with Variable Ideal Cycle Time\)**_
+**_Performance \(with Variable Ideal Cycle Time\)_**
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.42 PM.png)
 
