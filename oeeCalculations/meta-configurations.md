@@ -1,6 +1,6 @@
 ## Configuration for OEE Metrics
 
-There are a number of settings stored for your account created in conjunction with the data engineering team that drive the OEE calculations presented on the dashboard and across the site.
+A number of settings get created and stored for your account in conjunction with the data engineering team that drive the OEE calculations presented on the Dashboard and across the site.
 
 ### Machine Type
 

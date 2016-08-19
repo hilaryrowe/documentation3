@@ -1,6 +1,6 @@
 ## **Quality Calculation**
 
-The Quality component of OEE measures the inverse of the ratio of defective output \(Defect Items\) to the total units of output \(Total Output\) or the yield of production passing quality standards. Quality displays as a percentage indicating that the asset is producing satisfactory output over a specific time horizon \(shift, daily, weekly, or monthly\).
+Quality is a measure of the asset's yield, that is, its satisfactory output relative to its total output over a specific time horizon \(shift, daily, weekly, or monthly\). 
 
 **Quality Formula**
 
@@ -49,13 +49,13 @@ Using the Defect Items and Total Output examples above, we can calculate Quality
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-**_Quality Calculation \(with Automatic Defect Classification\)_**
+_**Quality Calculation \(with Automatic Defect Classification\)**_
 
 The example below shows the Quality calculation using the Automatic Defect Classification example values from above:
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
-**_Quality Calculation \(with Manual Defect Entry\)_**
+_**Quality Calculation \(with Manual Defect Entry\)**_
 
 The example below shows the Quality calculation using the Manual Defect Entry example values from above:
 
