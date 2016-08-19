@@ -1,14 +1,14 @@
 ## **Availability Calculation**
 
-The Availability component of OEE measures the ratio of expected operation time \(Total Expected Cycle Seconds\) to observed operation time \(Total Cycle Seconds\). Availability displays as a percentage indicating the amount of time the asset was actually operational compared to the planned operating time of the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
+The Availability component of OEE measures the ratio of expected operation time \(Total Expected Cycle Seconds\) to observed operation time \(Total Cycle Seconds\). Availability displays as a percentage indicating the amount of time the asset was actually operational compared to its planned operating time over a specific time horizon \(shift, daily, weekly, or monthly\).
 
 **Availability Formula**
 
 ![](/assets/Screen Shot 2016-08-15 at 4.53.25 PM.png)
 
-Availability is a percentage between 0% and 100%, with 100% being the value when an asset is operating for exactly the expected run time. Using the components of Availability \(Expected Cycle Seconds and Cycle Seconds\) we can further explain how this is computed.
+Availability is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated for exactly the expected run time. These two factors of availability are derived as follows.
 
-### **Expected Cycle Seconds**
+### **Total Expected Cycle Seconds**
 
 Expected Cycle Seconds is dependant on either a fixed time for a cycle to complete \(Ideal Cycle Time\) or based on a recipe for output created from the machine \(variable output\). Total Expected Cycle Seconds is the aggregation of individual ideal cycle times and can be thought of more generally as the total expected uptime of an asset less any periods of time the asset is not expected to be running \(_Planned Downtime_\).
 
@@ -16,7 +16,7 @@ Expected Cycle Seconds is dependant on either a fixed time for a cycle to comple
 
 ![](/assets/Screen Shot 2016-08-15 at 5.17.33 PM.png)
 
-### **Cycle Seconds**
+### **Total Cycle Seconds**
 
 Cycle Seconds is the observed Cycle Time calculated as Cycle End Time - Cycle Start Time. This can be relatively static or highly variable depending on the specific machine and its expected operation. Total Cycle Seconds is the aggregation of individual Cycle Seconds and can be thought of as the total expected cycle seconds of an asset less any periods of time the asset is unexpectedly not running \(_Unplanned Downtime_\).
 
