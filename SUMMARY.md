@@ -25,8 +25,6 @@
     * [Roger Performance](oeeCalculations/roger-performance.md)
     * [Roger Quality](oeeCalculations/roger-quality.md)
     * [Roger Output](oeeCalculations/roger-output.md)
-    * [Roger Notes](oeeCalculations/roger-notes.md)
-    * [Roger Availability Old](oeeCalculations/roger-availability.md)
 * [Dashboard Tab](dashboardTab/readme.md)
     * [Unique Dashboard Tab Navigation](dashboardTab/uniqueDashboardTabNav.md)
     * [About OEE Dashboard](dashboardTab/aboutOeeDashboard.md)
