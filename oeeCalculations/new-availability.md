@@ -4,7 +4,11 @@ The Availability component of OEE measures the ratio of expected operation time 
 
 **Availability Formula**
 
-![](/assets/Screen Shot 2016-08-15 at 4.53.25 PM.png)
+
+$$
+Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
+$$
+
 
 Availability is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated for exactly the expected run time. These two factors of availability are derived as follows.
 
@@ -18,7 +22,17 @@ Total Expected Cycle Seconds can represent either:
 Total Expected Cycle Seconds is the sum of the asset's individual ideal cycle times. It is an asset's total expected uptime minus any planned downtime.
 ![](/assets/Mockup_PlannedBreak_081216.png)
 
-![](/assets/Screen Shot 2016-08-15 at 5.17.33 PM.png)
+
+$$
+Total \ Expected \ Cycle \ Seconds \ = \ 16,200 \ Seconds \ + \ 16,200 \ Seconds \ + \ 9,000 \ Seconds \
+$$
+
+
+
+$$
+Total \ Expected \ Cycle \ Seconds \ = \ 41,400 \ Seconds \
+$$
+
 
 ### **Total Cycle Seconds**
 
@@ -44,13 +58,31 @@ In the example below, three seperate Unplanned Downtime events related to Machin
 
 ![](/assets/Mockup_UnplannedDown_081216.png)
 
-![](/assets/Screen Shot 2016-08-15 at 5.37.35 PM.png)
+
+$$
+Total \ Cycle \ Seconds \ = \ 6,300 \ Seconds \ + \ 6,300 \ Seconds \ + \ 9,450 \ Seconds \\ + \ 3,150 \ Seconds \ + \ 1,350 \ Seconds \ + \ 4,050 \ Seconds \
+$$
+
+
+
+$$
+\ Total \ Cycle \ Seconds \ = \ 30,600 \ Seconds \
+$$
+
 
 ### **Availability**
 
 Using the Availability formula, and the Total Expected Cycle Seconds and Total Cycle Seconds in the example above, the machine's availability for the specified time period is calculated:
 
-![](/assets/Screen Shot 2016-08-15 at 4.53.25 PM.png)
 
-![](/assets/Screen Shot 2016-08-15 at 5.41.17 PM.png)
+$$
+Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
+$$
 
+$$
+Availability \ = \frac{30,600 \ Seconds}{41,400 \ Seconds}
+$$
+
+$$
+Availability \ = \ 73.91 \%
+$$

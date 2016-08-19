@@ -4,7 +4,13 @@ The Performance component of OEE measures the ratio of average expected cycle ti
 
 **Performance Formula**
 
-![](/assets/Screen Shot 2016-08-15 at 1.40.50 PM.png)
+
+$$
+Performance \ = \frac{Average \ Ideal \ Cycle \ Time}{Average \ Actual \ Cycle \ Time}
+$$
+
+
+
 
 Performance is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated at exactly the Average Ideal Cycle Time. These two factors of performance performance are calculated as follows.
 
@@ -21,17 +27,37 @@ Ideal Cycle time is predetermined, measured in milliseconds, and can represent e
 
 The Average Ideal Cycle Time is measured in seconds and is calculated using the accumulated values for either fixed ideal cycle time or variable ideal cycle time on a shift, day, week, and month basis \(given the configuration of the machine being queried\).
 
-**_Fixed Ideal Cycle Time_**
 
-The example below shows the calculation of Average Ideal Cycle time using the Fixed Ideal Cycle Time example values from above:
+_**Fixed Ideal Cycle Time**_
 
-![](/assets/Screen Shot 2016-08-15 at 1.32.41 PM.png)
 
-**_Variable Ideal Cycle Time_**
+$$
+Average \ Ideal \ Cycle \ Time \ = \frac{(\ 15 \ Seconds \ )\ + \ (\ 15 \ Seconds \ )\ + \ (\ 15 \ Seconds \ )}{3}
+$$
 
-The example below shows the calculation of Average Ideal Cycle time using the Variable Ideal Cycle Time example values from above:
 
-![](/assets/Screen Shot 2016-08-15 at 1.37.33 PM.png)
+
+$$
+Average \ Ideal \ Cycle \ Time \ = \ 15 \ Seconds
+$$
+
+
+
+
+_**Variable Ideal Cycle Time**_
+
+
+$$
+Average \ Ideal \ Cycle \ Time \ = \frac{(\ 30 \ Seconds \ )\ + \ (\ 15 \ Seconds \ )\ + \ (\ 60 \ Seconds \ )}{3}
+$$
+
+
+
+$$
+Average \ Ideal \ Cycle \ Time \ = \ 35 \ Seconds
+$$
+
+
 
 ### **Actual Cycle Time**
 
@@ -43,17 +69,37 @@ Unlike Ideal Cycle time, Actual Cycle Time is not predetermined and is calculate
 
 The Average Actual Cycle Time is measured in seconds and is calculated using the accumulated values for cycle time on a shift, day, week, and month basis.
 
-**_Actual Cycle Time \(with Fixed Ideal Cycle Time\)_**
 
-The example below shows the calculation of Actual Cycle time using the Fixed Ideal Cycle Time example values from above:
+_**Actual Cycle Time \(with Fixed Ideal Cycle Time\)**_
 
-![](/assets/Screen Shot 2016-08-15 at 2.14.16 PM.png)
 
-**_Actual Cycle Time \(with Variable Ideal Cycle Time\)_**
+$$
+Average \ Actual \ Cycle \ Time \ = \frac{(\ 18 \ Seconds \ )\ + \ (\ 15 \ Seconds \ )\ + \ (\ 21 \ Seconds \ )}{3}
+$$
 
-The example below shows the calculation of Actual Cycle time using the Variable Ideal Cycle Time example values from above:
 
-![](/assets/Screen Shot 2016-08-15 at 2.14.24 PM.png)
+
+$$
+Average \ Ideal \ Cycle \ Time \ = \ 18 \ Seconds
+$$
+
+
+
+
+_**Actual Cycle Time \(with Variable Ideal Cycle Time\)**_
+
+
+$$
+Average \ Actual \ Cycle \ Time \ = \frac{(\ 30 \ Seconds \ )\ + \ (\ 20 \ Seconds \ )\ + \ (\ 70 \ Seconds \ )}{3}
+$$
+
+
+
+$$
+Average \ Ideal \ Cycle \ Time \ = \ 40 \ Seconds
+$$
+
+
 
 If Idle time for a machine is not seperately broken out of the Actual Cycle Time then it will be included in the calculation, decreasing the observed value for Performance. Downtimes for a machine do not impact the Availabilty calculation.
 
@@ -61,13 +107,41 @@ If Idle time for a machine is not seperately broken out of the Actual Cycle Time
 
 Taking the two earlier examples of Fixed Ideal Cycle Time and Variable Ideal Cycle Time we can calculate Performance for Machine 1 and Machine 2 for the specified time period.
 
-![](/assets/Screen Shot 2016-08-15 at 1.40.50 PM.png)
 
-_**Performance \(with Fixed Ideal Cycle Time\)**_
+$$
+Performance \ = \frac{Average \ Ideal \ Cycle \ Time}{Average \ Actual \ Cycle \ Time}
+$$
 
-![](/assets/Screen Shot 2016-08-15 at 2.14.31 PM.png)
 
-_**Performance \(with Variable Ideal Cycle Time\)**_
 
-![](/assets/Screen Shot 2016-08-15 at 2.14.42 PM.png)
+
+**_Performance \(with Fixed Ideal Cycle Time\)_**
+
+
+$$
+Performance \ = \frac{15 \ Seconds}{18\ Seconds}
+$$
+
+
+
+$$
+Performance \ = \ 83.33 \%
+$$
+
+
+
+
+**_Performance \(with Variable Ideal Cycle Time\)_**
+
+
+$$
+Performance \ = \frac{35 \ Seconds}{40\ Seconds}
+$$
+
+
+
+$$
+Performance \ = \ 87.50 \%
+$$
+
 
