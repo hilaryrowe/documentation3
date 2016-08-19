@@ -12,13 +12,13 @@ Quality is expressed as a percentage between 0% and 100%, with 100% being the va
 
 Defective units can be tracked in one of two ways:
 
-* _Automatic Classification_ - based on configuration rules for sensor values received in cycles data \(1 to 1 with output calculated for the cycle period\)
+* Automatic Detection, that is, detection_ _based on the asset's sensor input.
 
 ![](/assets/Screen Shot 2016-08-15 at 2.47.44 PM.png)
 
 ![](/assets/Screen Shot 2016-08-15 at 4.04.46 PM.png)
 
-* _Manual Entry_ - entered by Sight Machine users using Defect Entry \(each entry represents 'n' number of defects\)
+* Manual Entry, that is, defects entered using the Defect Entry \(each entry represents 'n' number of defects\)
 
 ![](/assets/Screen Shot 2016-08-15 at 3.06.04 PM.png)
 
@@ -49,13 +49,13 @@ Using the Defect Items and Total Output examples above, we can calculate Quality
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-**_Quality Calculation \(with Automatic Defect Classification\)_**
+_**Quality Calculation \(with Automatic Defect Classification\)**_
 
 The example below shows the Quality calculation using the Automatic Defect Classification example values from above:
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
-**_Quality Calculation \(with Manual Defect Entry\)_**
+_**Quality Calculation \(with Manual Defect Entry\)**_
 
 The example below shows the Quality calculation using the Manual Defect Entry example values from above:
 
