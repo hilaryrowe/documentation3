@@ -10,10 +10,10 @@ Performance is expressed as a percentage between 0% and 100%, with 100% being th
 
 ### **Ideal Cycle Time**
 
-Ideal Cycle time can represent either:
+Ideal Cycle time is predetermined and can represent either:
 
 * a fixed value for a particular asset \(Machine Type based\), or 
-* a variable based on the output being created \(algorithm based\) in milliseconds.
+* a variable based on the output being created \(algorithm based\) in milliseconds
 
 ![](/assets/Screen Shot 2016-08-15 at 1.38.27 PM.png)
 
@@ -21,13 +21,13 @@ Ideal Cycle time can represent either:
 
 The Average Ideal Cycle Time is measured in seconds and is calculated using the accumulated values for either fixed ideal cycle time or variable ideal cycle time on a shift, day, week, and month basis \(given the configuration of the machine being queried\).
 
-_**Fixed Ideal Cycle Time**_
+**_Fixed Ideal Cycle Time_**
 
 The example below shows the calculation of Average Ideal Cycle time using the Fixed Ideal Second Time example values from above:
 
 ![](/assets/Screen Shot 2016-08-15 at 1.32.41 PM.png)
 
-_**Variable Ideal Cycle Time**_
+**_Variable Ideal Cycle Time_**
 
 The example below shows the calculation of Average Ideal Cycle time using the Variable Ideal Second Time example values from above:
 
@@ -35,7 +35,7 @@ The example below shows the calculation of Average Ideal Cycle time using the Va
 
 ### **Actual Cycle Time**
 
-Unlike Ideal Cycle time, Actual Cycle Time is not predetermined and is calculated dynamically based cycle data coming from facility data streams. The Actual Cycle Time for a machine is calculated as Cycle End Time - Cycle Start Time and stored in milliseconds.
+Unlike Ideal Cycle time, Actual Cycle Time is not predetermined and is calculated dynamically based cycle data coming from facility data streams. The Actual Cycle Time for a machine is measured in milliseconds and is calculated as Cycle End Time minus Cycle Start Time.
 
 ![](/assets/Screen Shot 2016-08-15 at 2.19.11 PM.png)
 
@@ -43,11 +43,11 @@ Unlike Ideal Cycle time, Actual Cycle Time is not predetermined and is calculate
 
 The average for Actual Cycle Time is calculated using the accumulated values for cycle time on a shift, day, week, and month basis and stored as seconds.
 
-_**Actual Cycle Time \(with Fixed Ideal Cycle Time\)**_
+**_Actual Cycle Time \(with Fixed Ideal Cycle Time\)_**
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.16 PM.png)
 
-_**Actual Cycle Time \(with Variable Ideal Cycle Time\)**_
+**_Actual Cycle Time \(with Variable Ideal Cycle Time\)_**
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.24 PM.png)
 
@@ -59,11 +59,11 @@ Taking the two earlier examples of Fixed Ideal Cycle Time and Variable Ideal Cyc
 
 ![](/assets/Screen Shot 2016-08-15 at 1.40.50 PM.png)
 
-**_Performance \(with Fixed Ideal Cycle Time\)_**
+_**Performance \(with Fixed Ideal Cycle Time\)**_
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.31 PM.png)
 
-**_Performance \(with Variable Ideal Cycle Time\)_**
+_**Performance \(with Variable Ideal Cycle Time\)**_
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.42 PM.png)
 
