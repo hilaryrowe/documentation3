@@ -1,6 +1,6 @@
 ## **Performance Calculation**
 
-The Performance component of OEE measures the ratio of average expected cycle time \(Ideal Cycle Time\) to average observed cycle time \(Actual Cycle Time\). This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is  producing units of output compared to the expected units of output for the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
+The Performance component of OEE measures the ratio of average expected cycle time \(Ideal Cycle Time\) to average observed cycle time \(Actual Cycle Time\). Performance displays as a percentage indicating the amount of time the asset  produced units of output compared to the expected units of output over a specific time horizon \(shift, daily, weekly, or monthly\).
 
 **Performance Formula**
 
