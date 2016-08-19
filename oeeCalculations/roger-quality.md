@@ -10,7 +10,7 @@ Quality is expressed as a percentage between 0% and 100%, with 100% being the va
 
 ### **Defect Items**
 
-Defective units of production are created in one of two ways:
+Defective units can be tracked in one of two ways:
 
 * _Automatic Classification_ - based on configuration rules for sensor values received in cycles data \(1 to 1 with output calculated for the cycle period\)
 
