@@ -6,19 +6,19 @@ The Quality component of OEE measures the inverse of the ratio of defective outp
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-Quality is a percentage between 0% and 100% with 100% being the value when an asset is operating with perfect output quality or no defects. Using the components of Quality \(Defect Items and Total Output\) we can further explain how this is computed.
+Quality is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated with perfect Total Output quality or no Defect Items. These two factors of quality are dervied as follows.
 
 ### **Defect Items**
 
 Defective units of production are created in one of two ways:
 
-* Automatic Classification - based on configuration rules for sensor values received in cycles data \(1 to 1 with output calculated for the cycle period\)
+* _Automatic Classification_ - based on configuration rules for sensor values received in cycles data \(1 to 1 with output calculated for the cycle period\)
 
 ![](/assets/Screen Shot 2016-08-15 at 2.47.44 PM.png)
 
 ![](/assets/Screen Shot 2016-08-15 at 4.04.46 PM.png)
 
-* Manual Entry - entered by Sight Machine users using Defect Entry \(each entry could represent n number of defects\)
+* _Manual Entry_ - entered by Sight Machine users using Defect Entry \(each entry represents 'n' number of defects\)
 
 ![](/assets/Screen Shot 2016-08-15 at 3.06.04 PM.png)
 
@@ -48,11 +48,11 @@ Taking the earlier examples of Defect Items and Total Output we can calculate Qu
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-**_Quality Calculation \(with Automatic Defect Classification\)_**
+_**Quality Calculation \(with Automatic Defect Classification\)**_
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
-**_Quality Calculation \(with Manual Defect Entry\)_**
+_**Quality Calculation \(with Manual Defect Entry\)**_
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
