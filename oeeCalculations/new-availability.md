@@ -52,11 +52,17 @@ Sight Machine creates Downtime objects for one of two events:
 1. A Machine's observed Cycle Time exceeds the Max Cycle Time specified in the Machine Type configuration
 2. An explicit downtime rule is defined for the Machine based on actual sensor values \(e.g. Alarm duration &gt; 10 seconds\)
 
-These events can be automatically classified with Reason Codes based on rules provided to Data Engineering or through manual classification from the Sight Machine Data tab. 
+These events can be automatically classified with Reason Codes based on rules provided to Data Engineering or through manual classification from the Sight Machine Data tab.
 
 In the example below, three seperate Unplanned Downtime events related to Machine Breakdown and Operator Error are illustrated along with the resulting Unplanned Downtime calculation.
 
-![](/assets/Mockup_UnplannedDown_081216.png)
+
+
+![](/assets/Mockup_UnplannedDowntime.png)
+
+
+
+
 
 
 $$
@@ -79,10 +85,16 @@ $$
 Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
 $$
 
+
+
 $$
 Availability \ = \frac{30,600 \ Seconds}{41,400 \ Seconds}
 $$
 
+
+
 $$
 Availability \ = \ 73.91 \%
 $$
+
+

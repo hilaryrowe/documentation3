@@ -12,13 +12,6 @@ A number of settings are created and stored for your account in conjunction with
 
 * Custom Recipes - depending on the variabilty of output from a machine type custom configuration of the fields above may be required \(e.g. creating small widgets are expected to be created in 30 seconds while large widgets take 5 minutes to create\)
 
-* Custom Calculations - Different ways of calculating OEE metrics can be specified in the machine type configuration
-
-  * PartOEEStatCalculator - ???
-  * ParallelCyclePerfCalculator - ???
-  * SkipBadCycleStatCalculator - ignores cycles with NG data
-  * LineStatsCalculator - used to calculate OEE metrics for the line model with overlapping or parallel processes \(total aggregate daily time &gt; 24 hours\)
-
 
 ### SSLogs
 
@@ -41,20 +34,4 @@ A number of settings are created and stored for your account in conjunction with
 
 
 _We currently do not allow for adhoc Shift changes or Holiday Schedule changes_
-
-### Impact to Calculations
-
-* Availability
-
-  * cycle\_ideal ==&gt; Scheduled Time
-  * cycle\_threshold ==&gt; should be \[Available Time\]
-
-* Performance
-
-  * cycle\_ideal ==&gt; numerator = mean ideal cycle time
-
-* Output
-
-  * cycle\_finished\_product\_ratio
-
 
