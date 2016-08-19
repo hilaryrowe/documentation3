@@ -71,6 +71,17 @@ $$
 
 ### **Quality**
 
+Taking the examples for Defect Items and Total Output we can calculate Quality for the specified time period.
+
 $$
 Quality \ = \ 1 \ - \frac{Defect \ Items}{Total \ Output}
 $$
+
+$$
+Quality \ = \ 1 \ - \frac{5}{100}
+$$
+
+$$
+Quality \ = \ 95.00 \%
+$$
+
