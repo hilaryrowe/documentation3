@@ -26,7 +26,7 @@ Defective units of production are created in one of two ways:
 
 ### **Total Output**
 
-Output per cycle is used to track the units of production created by an asset \(machine, line, facility\) and will rely on either a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\) or a recipe-dependent value read directly from raw data streams \(1 widget in one cycle and 5 widgets in another cycle\). Total output is calculated by aggregating Cycles output.
+Output per cycle is used to track the units of production created by an asset and relies on either a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\) or a algorithm-dependent value read directly from raw data streams \(1 unit in one cycle and 5 units in another cycle\). Total Output is calculated by aggregating Cycles output.
 
 **Piece Multiplier**
 
@@ -48,11 +48,11 @@ Taking the earlier examples of Defect Items and Total Output we can calculate Qu
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-_**Quality Calculation \(with Automatic Defect Classification\)**_
+**_Quality Calculation \(with Automatic Defect Classification\)_**
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
-_**Quality Calculation \(with Manual Defect Entry\)**_
+**_Quality Calculation \(with Manual Defect Entry\)_**
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
