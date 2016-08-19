@@ -21,13 +21,13 @@ Ideal Cycle time is predetermined, measured in milliseconds, and can represent e
 
 The Average Ideal Cycle Time is measured in seconds and is calculated using the accumulated values for either fixed ideal cycle time or variable ideal cycle time on a shift, day, week, and month basis \(given the configuration of the machine being queried\).
 
-_**Fixed Ideal Cycle Time**_
+**_Fixed Ideal Cycle Time_**
 
 The example below shows the calculation of Average Ideal Cycle time using the Fixed Ideal Cycle Time example values from above:
 
 ![](/assets/Screen Shot 2016-08-15 at 1.32.41 PM.png)
 
-_**Variable Ideal Cycle Time**_
+**_Variable Ideal Cycle Time_**
 
 The example below shows the calculation of Average Ideal Cycle time using the Variable Ideal Cycle Time example values from above:
 
@@ -43,31 +43,31 @@ Unlike Ideal Cycle time, Actual Cycle Time is not predetermined and is calculate
 
 The Average Actual Cycle Time is measured in seconds and is calculated using the accumulated values for cycle time on a shift, day, week, and month basis.
 
-_**Actual Cycle Time \(with Fixed Ideal Cycle Time\)**_
+**_Actual Cycle Time \(with Fixed Ideal Cycle Time\)_**
 
 The example below shows the calculation of Actual Cycle time using the Fixed Ideal Cycle Time example values from above:
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.16 PM.png)
 
-_**Actual Cycle Time \(with Variable Ideal Cycle Time\)**_
+**_Actual Cycle Time \(with Variable Ideal Cycle Time\)_**
 
 The example below shows the calculation of Actual Cycle time using the Variable Ideal Cycle Time example values from above:
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.24 PM.png)
 
-If Idle time for a machine is not seperately broken out then it will be included in the calculation for Actual Cycle Time which would decrease the observed value for Performance. Downtimes for a machine do not impact the Availabilty calculation.
+If Idle time for a machine is not seperately broken out of the Actual Cycle Time then it will be included in the calculation, decreasing the observed value for Performance. Downtimes for a machine do not impact the Availabilty calculation.
 
 ### **Performance**
 
-Taking the two earlier examples of Fixed Ideal Cycle Time and Variable Ideal Cycle Time we can calculate Performance for these two different machines for the specified time period.
+Taking the two earlier examples of Fixed Ideal Cycle Time and Variable Ideal Cycle Time we can calculate Performance for Machine 1 and Machine 2 for the specified time period.
 
 ![](/assets/Screen Shot 2016-08-15 at 1.40.50 PM.png)
 
-**_Performance \(with Fixed Ideal Cycle Time\)_**
+_**Performance \(with Fixed Ideal Cycle Time\)**_
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.31 PM.png)
 
-**_Performance \(with Variable Ideal Cycle Time\)_**
+_**Performance \(with Variable Ideal Cycle Time\)**_
 
 ![](/assets/Screen Shot 2016-08-15 at 2.14.42 PM.png)
 
