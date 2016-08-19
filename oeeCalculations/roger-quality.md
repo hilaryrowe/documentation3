@@ -42,7 +42,6 @@ $$
 
 Total Output based on output per cycle, the piece multiplier, and the cycle product ratio as follows.
 
-<<<<<<< HEAD
 **Output Per Cycle: **is the number of units produced by the asset during a given cycle. It relies on either:
 
 * a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\), or 
@@ -54,18 +53,22 @@ Total Output based on output per cycle, the piece multiplier, and the cycle prod
 
 **Cycle Product Ratio:** defined in machine-type configuration as a fixed value; e.g. Output per Cycle = 1\/2 = .5
 
-**     Output per Cycle = Cycle \/ Cycle Product Ratio**
-=======
+# **     Output per Cycle = Cycle \/ Cycle Product Ratio**
+
 * Piece Multiplier
- * Specified in data streams to account for variable output per machine
- * $$Output \ per \ Cycle \ = \ Cycle\times\ Piece \ Multiplier$$
-   * E.g. $$Output \ per \ Cycle \ = 1\times3 \ = \ 3$$
+  * Specified in data streams to account for variable output per machine
+  * $$Output \ per \ Cycle \ = \ Cycle\times\ Piece \ Multiplier$$
+
+    * E.g. $$Output \ per \ Cycle \ = 1\times3 \ = \ 3$$
+
 
 
 * Cycle Product Ratio
- * Defined in machine type configuration as a fixed value
- * $$Output \ per \ Cycle \ = \frac{Cycle}{Cycle \ Product \ Ratio}$$
-   * E.g. $$Output \ per \ Cycle \ = \frac{1}{2} \ = \ .5$$
+  * Defined in machine type configuration as a fixed value
+  * $$Output \ per \ Cycle \ = \frac{Cycle}{Cycle \ Product \ Ratio}$$
+
+    * E.g. $$Output \ per \ Cycle \ = \frac{1}{2} \ = \ .5$$
+
 
 
 **Total Output Formula**
@@ -75,41 +78,6 @@ $$
 Total \ Output \ = \ (Output \ per \ Cycle \ 1:1 \ )\ + \ (\ Output \ per \ Cycle \ 2:1 \ )\ + \ ... \\ + \ (Output \ per \ Cycle \ 100:1 \ )\ = \ 100
 $$
 
-### **Quality**
 
-Taking the earlier examples of Defect Items and Total Output we can calculate Quality for two different machines for the specified time period.
-
-
-$$
-Quality \ = \ 1 \ - \frac{Defect \ Items}{Total \ Output}
-$$
-
-
-**_Quality Calculation \(with Automatic Defect Classification\)_**
-
-
-$$
-Quality \ = \ 1 \ - \frac{5}{100}
-$$
-
-
-
-$$
-Quality \ = \ 95.00 \%
-$$
-
-
-**_Quality Calculation \(with Manual Defect Entry\)_**
-
-
-$$
-Quality \ = \ 1 \ - \frac{5}{100}
-$$
-
-
-
-$$
-Quality \ = \ 95.00 \%
-$$
 
 
