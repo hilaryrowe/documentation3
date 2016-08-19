@@ -26,7 +26,7 @@ Defect \ Items \ = \ (Cycle \ 1:1 \ )\ + \ (\ Cycle \ 30:1 \ )\ + \ (\ Cycle \ 3
 $$
 
 
-![](/assets/Screen Shot 2016-08-15 at 4.04.46 PM.png)
+![](/assets/Mockup_AutomaticDefectClassification5.png)
 
 * Manual Entry, that is, using the Defect Entry on your touchpad.
 
@@ -36,7 +36,9 @@ Defect \ Items \ = \ (User \ Entry \ 1:3 \ )\ + \ (\ User \ Entry \ 2:2 \ )\  = 
 $$
 
 
-![](/assets/Screen Shot 2016-08-15 at 4.16.18 PM.png)
+
+
+![](/assets/Mockup_ManualDefectClassification5.png)
 
 ### **Total Output**
 
@@ -56,6 +58,7 @@ Total Output based on output per cycle, the piece multiplier, and the cycle prod
 # **     Output per Cycle = Cycle \/ Cycle Product Ratio**
 
 * Piece Multiplier
+
   * Specified in data streams to account for variable output per machine
   * $$Output \ per \ Cycle \ = \ Cycle\times\ Piece \ Multiplier$$
 
@@ -64,6 +67,7 @@ Total Output based on output per cycle, the piece multiplier, and the cycle prod
 
 
 * Cycle Product Ratio
+
   * Defined in machine type configuration as a fixed value
   * $$Output \ per \ Cycle \ = \frac{Cycle}{Cycle \ Product \ Ratio}$$
 
@@ -77,7 +81,5 @@ Total Output based on output per cycle, the piece multiplier, and the cycle prod
 $$
 Total \ Output \ = \ (Output \ per \ Cycle \ 1:1 \ )\ + \ (\ Output \ per \ Cycle \ 2:1 \ )\ + \ ... \\ + \ (Output \ per \ Cycle \ 100:1 \ )\ = \ 100
 $$
-
-
 
 
