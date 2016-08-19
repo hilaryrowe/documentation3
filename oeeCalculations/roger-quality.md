@@ -6,7 +6,7 @@ Quality is a measure of the asset's yield, that is, its satisfactory output rela
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-Quality is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated with perfect Total Output quality or no Defect Items. For example, if your total output was 47 and your defective items were 6, then Qaulity = 1 - 6\/47 = 87.2%
+Quality is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated with perfect Total Output quality or no Defect Items. For example, if your total output was 47 and your defective items were 6, then Quality = 1 - 6\/47 = 87.2%
 
 These two factors of quality are derived as follows.
 
@@ -28,7 +28,7 @@ Defective units can be tracked in one of two ways:
 
 ### **Total Output**
 
-Total Output based on output per cycle, the piece multiplier, and the cycle product ratio as follows. 
+Total Output based on output per cycle, the piece multiplier, and the cycle product ratio as follows.
 
 **Output Per Cycle: **is the number of units produced by the asset during a given cycle. It relies on either:
 
@@ -44,8 +44,4 @@ Total Output based on output per cycle, the piece multiplier, and the cycle prod
 **     Output per Cycle = Cycle \/ Cycle Product Ratio**
 
 ![](/assets/Screen Shot 2016-08-15 at 4.27.35 PM.png)
-
-
-
-
 
