@@ -33,7 +33,6 @@ Output per cycle is used to track the units of production created by an asset. I
 
 Total Output is calculated by aggregating Cycles output.
 
-
 **Piece Multiplier: **specified in data streams to account for variable output per machine; e.g. Output per Cycle = 1\*3 = 3
 
 **     Output per Cycle = Cycle \* Piece Multiplier**
@@ -50,11 +49,15 @@ Using the Defect Items and Total Output examples above, we can calculate Quality
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-_**Quality Calculation \(with Automatic Defect Classification\)**_
+**_Quality Calculation \(with Automatic Defect Classification\)_**
+
+The example below shows the Quality calculation using the Automatic Defect Classification example values from above:
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
-_**Quality Calculation \(with Manual Defect Entry\)**_
+**_Quality Calculation \(with Manual Defect Entry\)_**
+
+The example below shows the Quality calculation using the Manual Defect Entry example values from above:
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
