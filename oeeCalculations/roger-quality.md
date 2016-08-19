@@ -26,33 +26,35 @@ Defective units of production are created in one of two ways:
 
 ### **Total Output**
 
-Output per cycle is used to track the units of production created by an asset and relies on either a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\) or a algorithm-dependent value read directly from raw data streams \(1 unit in one cycle and 5 units in another cycle\). Total Output is calculated by aggregating Cycles output.
+Output per cycle is used to track the units of production created by an asset. It relies on either:
 
-**Piece Multiplier**
+* a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\), or 
+* an algorithm-dependent value read directly from raw data streams \(1 unit in one cycle and 5 units in another cycle\). 
 
-Specified in data streams to account for variable output per machine; e.g. Output per Cycle = 1\*3 = 3
+Total Output is calculated by aggregating Cycles output.
 
-**Output per Cycle = Cycle \* Piece Multiplier**
 
-**Cycle Product Ratio**
+**Piece Multiplier: **specified in data streams to account for variable output per machine; e.g. Output per Cycle = 1\*3 = 3
 
-Defined in machine type configuration as a fixed value; e.g. Output per Cycle = 1\/2 = .5
+**     Output per Cycle = Cycle \* Piece Multiplier**
 
-**Output per Cycle = Cycle \/ Cycle Product Ratio**
+**Cycle Product Ratio:** defined in machine-type configuration as a fixed value; e.g. Output per Cycle = 1\/2 = .5
+
+**     Output per Cycle = Cycle \/ Cycle Product Ratio**
 
 ![](/assets/Screen Shot 2016-08-15 at 4.27.35 PM.png)
 
 ### **Quality**
 
-Taking the earlier examples of Defect Items and Total Output we can calculate Quality for two different machines for the specified time period.
+Using the Defect Items and Total Output examples above, we can calculate Quality for two different machines for the specified time period.
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-**_Quality Calculation \(with Automatic Defect Classification\)_**
+_**Quality Calculation \(with Automatic Defect Classification\)**_
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
-**_Quality Calculation \(with Manual Defect Entry\)_**
+_**Quality Calculation \(with Manual Defect Entry\)**_
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
