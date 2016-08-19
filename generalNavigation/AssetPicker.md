@@ -1,6 +1,6 @@
 # Using the Asset Picker
 
-The Asset Picker is the left-hand menu option that lets you select an asset, or machine, for which you want to view data. The example below is an image of the Asset Picker as it appears on the Dashboard tab.
+The Asset Picker is the left-hand menu option that lets you select an asset, machine, or line for which you want to view data. The example below is an image of the Asset Picker as it appears on the Dashboard tab.
 
 ![](/assets/assetPicker1a7_24_16.png)
 
