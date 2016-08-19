@@ -1,12 +1,12 @@
 ## **Quality Calculation**
 
-Quality is a measure of the asset's yield, that is, its satisfactory output relative to its total output over a specific time horizon \(shift, daily, weekly, or monthly\). 
+Quality is a measure of the asset's yield, that is, its satisfactory output relative to its total output over a specific time horizon \(shift, daily, weekly, or monthly\).
 
 **Quality Formula**
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-Quality is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated with perfect Total Output quality or no Defect Items. These two factors of quality are dervied as follows.
+Quality is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated with perfect Total Output quality or no Defect Items. These two factors of quality are derived as follows.
 
 ### **Defect Items**
 
@@ -49,13 +49,13 @@ Using the Defect Items and Total Output examples above, we can calculate Quality
 
 ![](/assets/Screen Shot 2016-08-15 at 2.35.04 PM.png)
 
-_**Quality Calculation \(with Automatic Defect Classification\)**_
+**_Quality Calculation \(with Automatic Defect Classification\)_**
 
 The example below shows the Quality calculation using the Automatic Defect Classification example values from above:
 
 ![](/assets/Screen Shot 2016-08-15 at 4.33.15 PM.png)
 
-_**Quality Calculation \(with Manual Defect Entry\)**_
+**_Quality Calculation \(with Manual Defect Entry\)_**
 
 The example below shows the Quality calculation using the Manual Defect Entry example values from above:
 
