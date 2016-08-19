@@ -1,4 +1,4 @@
-## Configuration for OEE Metrics
+## Configurations for OEE Metrics
 
 A number of settings are created and stored for your account in conjunction with the data engineering team that drive the OEE calculations presented on the Dashboard and across the site. This page describes the settings that can be created and stored for your account.
 
