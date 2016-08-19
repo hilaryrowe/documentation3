@@ -10,8 +10,12 @@ Availability is expressed as a percentage between 0% and 100%, with 100% being t
 
 ### **Total Expected Cycle Seconds**
 
-Expected Cycle Seconds is dependant on either a fixed time for a cycle to complete \(Ideal Cycle Time\) or based on a recipe for output created from the machine \(variable output\). Total Expected Cycle Seconds is the aggregation of individual ideal cycle times and can be thought of more generally as the total expected uptime of an asset less any periods of time the asset is not expected to be running \(_Planned Downtime_\).
+Total Expected Cycle Seconds can represent either:
 
+* an ideal cycle time, which is a fixed time for a cycle to complete, or
+* variable output, which is based on an algorithm for output created from the machine 
+
+Total Expected Cycle Seconds is the sum of the asset's individual ideal cycle times. It is an asset's total expected uptime minus any planned downtime.
 ![](/assets/Mockup_PlannedBreak_081216.png)
 
 ![](/assets/Screen Shot 2016-08-15 at 5.17.33 PM.png)
