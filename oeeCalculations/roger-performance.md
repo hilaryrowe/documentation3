@@ -10,7 +10,7 @@ Performance \ = \frac{Average \ Ideal \ Cycle \ Time}{Average \ Actual \ Cycle \
 $$
 
 
-Performance is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated at exactly the Average Ideal Cycle Time. These two factors of performance performance are calculated as follows.
+Performance is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated at or above the Average Ideal Cycle Time. These two factors of performance performance are calculated as follows.
 
 ### **Ideal Cycle Time**
 
@@ -19,18 +19,13 @@ Ideal Cycle time is predetermined, measured in milliseconds, and can represent e
 * a fixed value for a particular asset \(Machine Type based\), or 
 * a variable based on the output being created \(algorithm based\)
 
-
 _**Fixed Ideal Cycle Time**_
 
 ![](/assets/Mockup_FixedIdealCycleTime.png)
 
-
-
 _**Variable Ideal Cycle Time**_
 
 ![](/assets/Mockup_VariableIdealCycleTime.png)
-
-
 
 **Averaging Ideal Cycle Time**
 
@@ -68,19 +63,13 @@ $$
 
 Unlike Ideal Cycle time, Actual Cycle Time is not predetermined and is calculated dynamically based cycle data coming from facility data streams. The Actual Cycle Time for a machine is measured in milliseconds and is calculated as Cycle End Time minus Cycle Start Time.
 
-
-
 _**Actual Ideal Cycle Time \(Fixed Ideal Cycle Time\)**_
 
 ![](/assets/Mockup_FixedIdealCycleTime_Overlap.png)
 
-
-
 _**Actual Ideal Cycle Time \(Variable Ideal Cycle Time\)**_
 
 ![](/assets/Mockup_VariableIdealCycleTime_Overlap.png)
-
-
 
 **Averaging Actual Cycle Time**
 
@@ -114,7 +103,9 @@ Average \ Ideal \ Cycle \ Time \ = \ 40 \ Seconds
 $$
 
 
-If Idle time for a machine is not seperately broken out of the Actual Cycle Time then it will be included in the calculation, decreasing the observed value for Performance. Downtimes for a machine do not impact the Availabilty calculation.
+**Idle Time**
+
+Idle time is another factor affecting actual machine performance, which is any period of time that an asset is available for production but is not operating. By default, idle time affects the Performance Calculation and not the Availability Calculation. There is a configuration option to set idle time as attributable to unplanned downtime which would improve performance and impact the calculation for availability.
 
 ### **Performance**
 
