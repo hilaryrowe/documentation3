@@ -40,7 +40,7 @@ $$
 
 ### **Total Output**
 
-Total Output is based on the output per cycle, the piece multiplier, and the cycle product ratio. See [Calculating Output](/oeeCalculations/roger-output.md "Calculating Output") for more information.
+Total Output is based on the output per cycle, the piece multiplier, and the cycle product ratio. See **Calculating Output** for more information.
 
 
 **Total Output Formula**
