@@ -22,7 +22,7 @@ Defective units can be tracked in one of two ways:
 
 
 $$
-Defect \ Items \ = \ (Cycle \ 1:1 \ )\ + \ (\ Cycle \ 30:1 \ )\ + \ (\ Cycle \ 35:1 \ )\ + \\ (\ Cycle \ 60:1 \ )\ + \ (\ Cycle \ 89:1 )\ = \ 5
+Defect \ Items \ = \ (Cycle \ 1:Good \ )\ 0 \ + \ (\ Cycle \ 2:Good \ )\ 0 \ + \ (\ Cycle \ 3:Bad \ )\ 1 \ + \ ... \\ + \ (\ Cycle \ 99:Bad \ )\ 1 \ + \ (\ Cycle \ 100:Good )\ 0 \ = \ 5
 $$
 
 
@@ -40,27 +40,7 @@ $$
 
 ### **Total Output**
 
-Total Output based on output per cycle, the piece multiplier, and the cycle product ratio as follows.
-
-**Output Per Cycle: **is the number of units produced by the asset during a given cycle. It relies on either:
-
-* a fixed ratio \(e.g. 0.5 for machines that make less than one unit per cycle\), or 
-* an algorithm-dependent value read directly from raw data streams \(1 unit in one cycle and 5 units in another cycle\)
-
-* Piece Multiplier
-
-  * Specified in data streams to account for variable output per machine
-  * $$Output \ per \ Cycle \ = \ Cycle\times\ Piece \ Multiplier$$
-    * E.g. $$Output \ per \ Cycle \ = 1\times3 \ = \ 3$$
-
-
-
-* Cycle Product Ratio
-
-  * Defined in machine type configuration as a fixed value
-  * $$Output \ per \ Cycle \ = \frac{Cycle}{Cycle \ Product \ Ratio}$$
-    * E.g. $$Output \ per \ Cycle \ = \frac{1}{2} \ = \ .5$$
-
+Total Output is based on the output per cycle, the piece multiplier, and the cycle product ratio. See [Calculating Output](/oeeCalculations/roger-output.md "Calculating Output") for more information.
 
 
 **Total Output Formula**

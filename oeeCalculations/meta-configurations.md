@@ -12,10 +12,7 @@ A number of settings are created and stored for your account in conjunction with
 
 * Custom Recipes - depending on the variabilty of output from a machine type custom configuration of the fields above may be required \(e.g. creating small widgets are expected to be created in 30 seconds while large widgets take 5 minutes to create\)
 
-
-### SSLogs
-
-* Piece Multiplier - Setting used to calculate the actual output created by a machine at the end of cycle when this could be variable \(e.g. 1 widget in one cycle and 5 widgets in another cycle\)
+  * Output Multiplier - Setting used to calculate the actual output created by a machine at the end of cycle when this could be variable \(e.g. 1 widget in one cycle and 5 widgets in another cycle\)
 
 ### Facility
 
