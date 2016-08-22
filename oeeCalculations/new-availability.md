@@ -54,15 +54,19 @@ Sight Machine creates Downtime objects for one of two events:
 
 These events can be automatically classified with Reason Codes based on rules provided to Data Engineering or through manual classification from the Sight Machine Data tab.
 
+**Idle Time**
+
+Idle time is another factor affecting operating schedules. This is any period of time that an asset is available for production but is not operating. This can happen for many different reasons including:
+
+* Lack of materials
+* Waiting for personnel
+* Delayed instructions
+
+By default, Idle time impacts uptime which affects the Performance Calculation and not the Availability Calculation.
+
 In the example below, three seperate Unplanned Downtime events related to Machine Breakdown and Operator Error are illustrated along with the resulting Unplanned Downtime calculation.
 
-
-
 ![](/assets/Mockup_UnplannedDowntime.png)
-
-
-
-
 
 
 $$
