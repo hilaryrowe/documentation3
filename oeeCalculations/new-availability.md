@@ -2,13 +2,13 @@
 
 The Availability component of OEE measures the ratio of scheduled operation time \(Scheduled Time\) to observed operation time \(Available Time\). This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is actually operational compared to the planned operating time of the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
 
-
 **Availability Formula**
 
 
 $$
 Availability \ = \frac{Total \ Available \ Time}{Total \ Scheduled \ Time}
 $$
+
 
 Availability is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated for exactly the expected run time. These two factors of availability are derived as follows.
 
@@ -20,9 +20,11 @@ Scheduled time is a predefined operating schedule for a particular asset. This c
 
 This is the total expected operating time for the asset based on its associated shift schedule. For this example, lets assume a specific machine is expected to operate on three seperate shifts for a total of 13 hours per day.
 
+
 $$
 Total \ Expected \ Run \ Time \ = \ 5 \ hours \ + \ 5 \ hours \ + \ 3 \ hours \ = \ 13 \ hours \
 $$
+
 
 **Planned Downtime** The other half of the formula is the pre-planned time that you expect the asset to not be operational. This can happen for a number of different reasons including the below:
 
@@ -33,7 +35,9 @@ $$
 * Set Up
 * Holidays
 
-In a similar manner as _Total Expected Run Time_, _Planned Downtime_ is the sum of all of the individual occurrences for the specified period of time \(Shift, Day, Week, Month\). This is currently configurable only by the data engineering team, however future releases will allow you to add Planned Downtime events directly from the application.
+In a similar manner as _Total Expected Run Time_, _Planned Downtime_ is the sum of all of the individual occurrences for the specified period of time \(Shift, Day, Week, Month\).
+
+This is currently configurable only by the data engineering team, however future releases will allow you to add Planned Downtime events directly from the application.
 
 **Scheduled Time Calculation**
 
@@ -41,34 +45,15 @@ Combining _Total Expected Run Time_ with _Planned Downtime_ we arrive at Schedul
 
 ![](/assets/Mockup_PlannedBreak_081216.png)
 
+
 $$
 Total \ Scheduled \ Time \ = \ 5 \ hours \ - \ .5 \ hours \ + \ 5 \ hours \ - \ .5 \ hours \ + \ 3 \ hours \ - \ .5 \ hours \ = \ 11.5 \ hours \
 $$
 
 
-Total Expected Cycle Seconds can represent either:
+### **Total Available Time**
 
-* an ideal cycle time, which is a fixed time for a cycle to complete, or
-* variable output, which is based on an algorithm for output created from the machine 
-
-Total Expected Cycle Seconds is the sum of the asset's individual ideal cycle times. It is an asset's total expected uptime minus any planned downtime.
-
-
-
-$$
-Total \ Expected \ Cycle \ Seconds \ = \ 16,200 \ Seconds \ + \ 16,200 \ Seconds \ + \ 9,000 \ Seconds \
-$$
-
-
-
-$$
-Total \ Expected \ Cycle \ Seconds \ = \ 41,400 \ Seconds \
-$$
-
-
-### **Total Cycle Seconds**
-
-Total Cycle Seconds is the observed Total Cycle Time calculated as Cycle End Time minus Cycle Start Time. This can be relatively static or highly variable depending on the specific machine and its expected operation. Total Cycle Seconds is the sum of individual cycle seconds. It is an asset's total observed cycle seconds minus any unplanned down time.
+Unlike Total Scheduled Time, Total Available Time is dependant on events that cannot be predetermined. It is calculated as the difference between Scheduled Time and Unplanned Downtime.
 
 **Unplanned Downtime**
 
