@@ -96,11 +96,11 @@ $$
 Using the Availability formula, and the Total Scheduled Time and Total Available calculations created in the examples above, the machine's availability for the specified time period is calculated:
 
 $$
-Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
+Availability \ = \frac{Total \ Available \ Time}{Total \ Scheduled \ Time}
 $$
 
 $$
-Availability \ = \frac{30,600 \ Seconds}{41,400 \ Seconds}
+Availability \ = \frac{8.5 \ hours}{11.5 \ hours}
 $$
 
 $$
