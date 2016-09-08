@@ -53,7 +53,7 @@ $$
 
 ### **Total Available Time**
 
-Unlike Total Scheduled Time, Total Available Time is dependant on events that cannot be predetermined. It is calculated as the difference between Scheduled Time and Unplanned Downtime.
+Unlike Total Scheduled Time, Total Available Time is dependant on events that cannot be predetermined. It is calculated as the difference between Total Scheduled Time and Unplanned Downtime.
 
 **Unplanned Downtime**
 
@@ -87,35 +87,22 @@ In the example below, three seperate Unplanned Downtime events related to Machin
 
 
 $$
-Total \ Cycle \ Seconds \ = \ 6,300 \ Seconds \ + \ 6,300 \ Seconds \ + \ 9,450 \ Seconds \\ + \ 3,150 \ Seconds \ + \ 1,350 \ Seconds \ + \ 4,050 \ Seconds \
-$$
-
-
-
-$$
-\ Total \ Cycle \ Seconds \ = \ 30,600 \ Seconds \
+Total \ Available \ Time \ = \ Total \ Scheduled \ Time \ - \ Unplanned \ Downtime \\ = \ 11.5 \ hours \ - \ 1 \ hour \ - \ 1 \ hour \ - \ 1 \ hour \ = \ 8.5 \ hours
 $$
 
 
 ### **Availability**
 
-Using the Availability formula, and the Total Expected Cycle Seconds and Total Cycle Seconds in the example above, the machine's availability for the specified time period is calculated:
-
+Using the Availability formula, and the Total Scheduled Time and Total Available calculations created in the examples above, the machine's availability for the specified time period is calculated:
 
 $$
 Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
 $$
 
-
-
 $$
 Availability \ = \frac{30,600 \ Seconds}{41,400 \ Seconds}
 $$
 
-
-
 $$
 Availability \ = \ 73.91 \%
 $$
-
-
