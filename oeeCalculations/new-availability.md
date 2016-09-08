@@ -18,7 +18,11 @@ Scheduled time is a predefined operating schedule for a particular asset. This c
 
 **Total Expected Run Time**
 
-This is the total expected operating time for the asset based on its associated shift schedule. 
+This is the total expected operating time for the asset based on its associated shift schedule. For this example, lets assume a specific machine is expected to operate on three seperate shifts for a total of 13 hours per day.
+
+$$
+Total \ Expected \ Run \ Time \ = \ 5 \ hours \ + \ 5 \ hours \ + \ 3 \ hours \ = \ 13 \ hours \
+$$
 
 
 Total Expected Cycle Seconds can represent either:
