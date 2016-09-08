@@ -37,7 +37,7 @@ $$
 
 In a similar manner as _Total Expected Run Time_, _Total Planned Downtime_ is the sum of all of the individual occurrences for the specified period of time \(Shift, Day, Week, Month\).
 
-This is currently configurable only by the data engineering team, however future releases will allow you to add Planned Downtime events directly from the application.
+This is currently configurable only by the Data Engineering team, however future releases will allow you to add Planned Downtime events directly from the application.
 
 $$
 
@@ -86,7 +86,7 @@ Idle time is another factor affecting operating schedules. This is any period of
 
 By default, Idle time impacts uptime which affects the Performance Calculation and not the Availability Calculation.
 
-In the example below, three seperate Unplanned Downtime events related to Machine Breakdown and Operator Error are illustrated along with the resulting Unplanned Downtime calculation.
+In the example below, three seperate Unplanned Downtime events related to Machine Breakdown and Operator Error are illustrated along with the resulting Total Available Time calculation.
 
 ![](/assets/Mockup_UnplannedDowntime.png)
 
