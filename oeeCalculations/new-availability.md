@@ -12,7 +12,14 @@ $$
 
 Availability is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated for exactly the expected run time. These two factors of availability are derived as follows.
 
-### **Total Expected Cycle Seconds**
+### **Total Scheduled Time**
+
+Scheduled time is a predefined operating schedule for a particular asset. This can be expressed more generally as the _Total Expected Run Time_ less any periods of time when the asset is not expected to be running \(_Planned Downtime_\).
+
+**Total Expected Run Time**
+
+This is the total expected operating time for the asset based on its associated shift schedule. 
+
 
 Total Expected Cycle Seconds can represent either:
 
