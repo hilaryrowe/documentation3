@@ -35,9 +35,16 @@ $$
 * Set Up
 * Holidays
 
-In a similar manner as _Total Expected Run Time_, _Planned Downtime_ is the sum of all of the individual occurrences for the specified period of time \(Shift, Day, Week, Month\).
+In a similar manner as _Total Expected Run Time_, _Total Planned Downtime_ is the sum of all of the individual occurrences for the specified period of time \(Shift, Day, Week, Month\).
 
 This is currently configurable only by the data engineering team, however future releases will allow you to add Planned Downtime events directly from the application.
+
+$$
+
+Total \ Planned \ Downtime \ = \ .5 \ hours \ + \ .5 \ hours \ + \ .5 \ hours \ = \ 1.5 \ hours \
+
+$$
+
 
 **Scheduled Time Calculation**
 
@@ -45,11 +52,9 @@ Combining _Total Expected Run Time_ with _Planned Downtime_ we arrive at Schedul
 
 ![](/assets/Mockup_PlannedBreak_081216.png)
 
-
 $$
-Total \ Scheduled \ Time \ = \ 5 \ hours \ - \ .5 \ hours \ + \ 5 \ hours \ - \ .5 \ hours \ + \ 3 \ hours \ - \ .5 \ hours \ = \ 11.5 \ hours \
+Total \ Scheduled \ Time \ = \ Total \ Expected \ Run \ Time \ - \ Total \ Planned \ Downtime \\ = \ 13 \ hours \ - \ 1.5 \ hours \ = \ 11.5 \ hours \
 $$
-
 
 ### **Total Available Time**
 
@@ -95,14 +100,21 @@ $$
 
 Using the Availability formula, and the Total Scheduled Time and Total Available calculations created in the examples above, the machine's availability for the specified time period is calculated:
 
+
 $$
 Availability \ = \frac{Total \ Available \ Time}{Total \ Scheduled \ Time}
 $$
+
+
 
 $$
 Availability \ = \frac{8.5 \ hours}{11.5 \ hours}
 $$
 
+
+
 $$
 Availability \ = \ 73.91 \%
 $$
+
+
