@@ -24,6 +24,27 @@ $$
 Total \ Expected \ Run \ Time \ = \ 5 \ hours \ + \ 5 \ hours \ + \ 3 \ hours \ = \ 13 \ hours \
 $$
 
+**Planned Downtime** The other half of the formula is the pre-planned time that you expect the asset to not be operational. This can happen for a number of different reasons including the below:
+
+* Break Periods
+* Preventative Machine Maintenance
+* Schedule Repairs
+* Equipment Modifications
+* Set Up
+* Holidays
+
+In a similar manner as _Total Expected Run Time_, _Planned Downtime_ is the sum of all of the individual occurrences for the specified period of time \(Shift, Day, Week, Month\). This is currently configurable only by the data engineering team, however future releases will allow you to add Planned Downtime events directly from the application.
+
+**Scheduled Time Calculation**
+
+Combining _Total Expected Run Time_ with _Planned Downtime_ we arrive at Scheduled Time.
+
+![](/assets/Mockup_PlannedBreak_081216.png)
+
+$$
+Total \ Scheduled \ Time \ = \ 5 \ hours \ - \ .5 \ hours \ + \ 5 \ hours \ - \ .5 \ hours \ + \ 3 \ hours \ - \ .5 \ hours \ = \ 11.5 \ hours \
+$$
+
 
 Total Expected Cycle Seconds can represent either:
 
@@ -31,7 +52,7 @@ Total Expected Cycle Seconds can represent either:
 * variable output, which is based on an algorithm for output created from the machine 
 
 Total Expected Cycle Seconds is the sum of the asset's individual ideal cycle times. It is an asset's total expected uptime minus any planned downtime.
-![](/assets/Mockup_PlannedBreak_081216.png)
+
 
 
 $$
