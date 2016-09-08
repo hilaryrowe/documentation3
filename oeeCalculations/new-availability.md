@@ -7,9 +7,8 @@ The Availability component of OEE measures the ratio of scheduled operation time
 
 
 $$
-Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
+Availability \ = \frac{Total \ Available \ Time}{Total \ Scheduled \ Time}
 $$
-
 
 Availability is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated for exactly the expected run time. These two factors of availability are derived as follows.
 
