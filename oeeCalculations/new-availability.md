@@ -1,6 +1,7 @@
 ## **Availability Calculation**
 
-The Availability component of OEE measures the ratio of expected operation time \(Total Expected Cycle Seconds\) to observed operation time \(Total Cycle Seconds\). Availability displays as a percentage indicating the amount of time the asset was actually operational compared to its planned operating time over a specific time horizon \(shift, daily, weekly, or monthly\).
+The Availability component of OEE measures the ratio of scheduled operation time \(Scheduled Time\) to observed operation time \(Available Time\). This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is actually operational compared to the planned operating time of the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
+
 
 **Availability Formula**
 
