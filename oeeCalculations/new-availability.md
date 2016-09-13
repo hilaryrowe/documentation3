@@ -1,42 +1,64 @@
 ## **Availability Calculation**
 
-The Availability component of OEE measures the ratio of expected operation time \(Total Expected Cycle Seconds\) to observed operation time \(Total Cycle Seconds\). Availability displays as a percentage indicating the amount of time the asset was actually operational compared to its planned operating time over a specific time horizon \(shift, daily, weekly, or monthly\).
+The Availability component of OEE measures the ratio of scheduled operation time \(Scheduled Time\) to observed operation time \(Available Time\). This calculation shows the resulting percentage that the asset \(machine, line, or facility\) is actually operational compared to the planned operating time of the asset over a specific time horizon \(shift, daily, weekly, or monthly\).
 
 **Availability Formula**
 
 
 $$
-Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
+Availability \ = \frac{Total \ Available \ Time}{Total \ Scheduled \ Time}
 $$
 
 
 Availability is expressed as a percentage between 0% and 100%, with 100% being the value when an asset has operated for exactly the expected run time. These two factors of availability are derived as follows.
 
-### **Total Expected Cycle Seconds**
+### **Total Scheduled Time**
 
-Total Expected Cycle Seconds can represent either:
+Scheduled time is a predefined operating schedule for a particular asset. This can be expressed more generally as the _Total Expected Run Time_ less any periods of time when the asset is not expected to be running \(_Planned Downtime_\).
 
-* an ideal cycle time, which is a fixed time for a cycle to complete, or
-* variable output, which is based on an algorithm for output created from the machine 
+**Total Expected Run Time**
 
-Total Expected Cycle Seconds is the sum of the asset's individual ideal cycle times. It is an asset's total expected uptime minus any planned downtime.
+This is the total expected operating time for the asset based on its associated shift schedule. For this example, lets assume a specific machine is expected to operate on three seperate shifts for a total of 13 hours per day.
+
+
+$$
+Total \ Expected \ Run \ Time \ = \ 5 \ hours \ + \ 5 \ hours \ + \ 3 \ hours \ = \ 13 \ hours \
+$$
+
+
+**Planned Downtime** The other half of the formula is the pre-planned time that you expect the asset to not be operational. This can happen for a number of different reasons including the below:
+
+* Break Periods
+* Preventative Machine Maintenance
+* Schedule Repairs
+* Equipment Modifications
+* Set Up
+* Holidays
+
+In a similar manner as _Total Expected Run Time_, _Total Planned Downtime_ is the sum of all of the individual occurrences for the specified period of time \(Shift, Day, Week, Month\).
+
+This is currently configurable only by the Data Engineering team, however future releases will allow you to add Planned Downtime events directly from the application.
+
+$$
+
+Total \ Planned \ Downtime \ = \ .5 \ hours \ + \ .5 \ hours \ + \ .5 \ hours \ = \ 1.5 \ hours \
+
+$$
+
+
+**Scheduled Time Calculation**
+
+Combining _Total Expected Run Time_ with _Planned Downtime_ we arrive at Scheduled Time.
+
 ![](/assets/Mockup_PlannedBreak_081216.png)
 
-
 $$
-Total \ Expected \ Cycle \ Seconds \ = \ 16,200 \ Seconds \ + \ 16,200 \ Seconds \ + \ 9,000 \ Seconds \
-$$
-
-
-
-$$
-Total \ Expected \ Cycle \ Seconds \ = \ 41,400 \ Seconds \
+Total \ Scheduled \ Time \ = \ Total \ Expected \ Run \ Time \ - \ Total \ Planned \ Downtime \\ = \ 13 \ hours \ - \ 1.5 \ hours \ = \ 11.5 \ hours \
 $$
 
+### **Total Available Time**
 
-### **Total Cycle Seconds**
-
-Total Cycle Seconds is the observed Total Cycle Time calculated as Cycle End Time minus Cycle Start Time. This can be relatively static or highly variable depending on the specific machine and its expected operation. Total Cycle Seconds is the sum of individual cycle seconds. It is an asset's total observed cycle seconds minus any unplanned down time.
+Unlike Total Scheduled Time, Total Available Time is dependant on events that cannot be predetermined. It is calculated as the difference between Total Scheduled Time and Unplanned Downtime.
 
 **Unplanned Downtime**
 
@@ -64,35 +86,29 @@ Idle time is another factor affecting operating schedules. This is any period of
 
 By default, Idle time impacts uptime which affects the Performance Calculation and not the Availability Calculation.
 
-In the example below, three seperate Unplanned Downtime events related to Machine Breakdown and Operator Error are illustrated along with the resulting Unplanned Downtime calculation.
+In the example below, three seperate Unplanned Downtime events related to Machine Breakdown and Operator Error are illustrated along with the resulting Total Available Time calculation.
 
 ![](/assets/Mockup_UnplannedDowntime.png)
 
 
 $$
-Total \ Cycle \ Seconds \ = \ 6,300 \ Seconds \ + \ 6,300 \ Seconds \ + \ 9,450 \ Seconds \\ + \ 3,150 \ Seconds \ + \ 1,350 \ Seconds \ + \ 4,050 \ Seconds \
-$$
-
-
-
-$$
-\ Total \ Cycle \ Seconds \ = \ 30,600 \ Seconds \
+Total \ Available \ Time \ = \ Total \ Scheduled \ Time \ - \ Unplanned \ Downtime \\ = \ 11.5 \ hours \ - \ 1 \ hour \ - \ 1 \ hour \ - \ 1 \ hour \ = \ 8.5 \ hours
 $$
 
 
 ### **Availability**
 
-Using the Availability formula, and the Total Expected Cycle Seconds and Total Cycle Seconds in the example above, the machine's availability for the specified time period is calculated:
+Using the Availability formula, and the Total Scheduled Time and Total Available calculations created in the examples above, the machine's availability for the specified time period is calculated:
 
 
 $$
-Availability \ = \frac{Total \ Cycle \ Seconds}{Total \ Expected \ Cycle \ Seconds}
+Availability \ = \frac{Total \ Available \ Time}{Total \ Scheduled \ Time}
 $$
 
 
 
 $$
-Availability \ = \frac{30,600 \ Seconds}{41,400 \ Seconds}
+Availability \ = \frac{8.5 \ hours}{11.5 \ hours}
 $$
 
 
