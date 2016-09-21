@@ -12,7 +12,7 @@ set -e
 ##   3. Creates a tar.gz of the rendered book
 ##
 _SCRIPT_DIR=$(dirname $0)
-_GIT_SHA=$(git rev-parse HEAD)
+_GIT_TAG=$(git describe)
 
 _create_temporary_dirs() {
   echo "Prepping workspace"
@@ -23,8 +23,8 @@ _create_temporary_dirs() {
 
 _build() {
   echo "Building Artifact"
-  sudo docker-compose rm -f
-  sudo docker-compose run --rm gitbook gitbook build
+  docker-compose rm -f
+  docker-compose run --rm gitbook gitbook build
   sudo chown -R jenkins:jenkins _book #OMG
   return 0
 }
@@ -32,7 +32,7 @@ _build() {
 _archive() {
   echo "Archiving"
   install -d artifacts
-  pushd _book && tar -cvzf ../artifacts/sightmachine-documentation-${_GIT_SHA}.tar.gz . && popd 
+  pushd _book && tar -cvzf ../artifacts/sightmachine-documentation-${_GIT_TAG}.tar.gz . && popd 
   return 0
 }
 
