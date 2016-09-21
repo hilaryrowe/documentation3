@@ -30,6 +30,6 @@ if [[ -z "${_GIT_TAG}" ]]; then
   echo "and that 'git describe' returns something"
 fi
 
-mkdir -p ../${_S3_BUCKET}/${_GIT_TAG}
-tar -C ../${_S3_BUCKET}/${_GIT_TAG}/ -xvzf ../artifacts/sightmachine-documentation-${_GIT_TAG}.tar.gz
-aws --profile ${_AWS_PROFILE} s3 cp --recursive --acl public-read ../${_S3_BUCKET}/${_GIT_TAG}/ s3://${_S3_BUCKET}/${_GIT_TAG}/
+mkdir -p ${_S3_BUCKET}/${_GIT_TAG}
+tar -C ${_S3_BUCKET}/${_GIT_TAG}/ -xvzf artifacts/sightmachine-documentation-${_GIT_TAG}.tar.gz
+aws --profile ${_AWS_PROFILE} s3 cp --recursive --acl public-read ${_S3_BUCKET}/${_GIT_TAG}/ s3://${_S3_BUCKET}/${_GIT_TAG}/
