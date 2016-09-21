@@ -19,8 +19,7 @@ timeout(10) {
 	    }
 	     
 	    stage("Archive") {
-	        sh "./jenkins/grab_artifact.sh"
-	        archiveArtifacts '**.tar.gz'
+	        archiveArtifacts 'artifacts/**.tar.gz'
 
 	        if (env.BRANCH_NAME =~ artifactToS3BranchRegex) {
 		    sh "./jenkins/archive_to_s3.sh"
