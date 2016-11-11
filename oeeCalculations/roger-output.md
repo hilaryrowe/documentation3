@@ -23,7 +23,7 @@ In addition to **Actual** Output, created through observed cycles, Sight Machine
 
 **Expected Output Calculation**
 
-$$ Expected \ Output \ = \ [\ \frac{(\ Total \ Expected \ Run \ Time \ - \ Planned \ Downtime \ )}{Average \ Ideal\ Cycle\ Time}\ ]\times\ Cycle \ Multiplier \ or \ Cycle \ Product \ Ratio $$
+$$ Expected \ Output \ = \ [\ \frac{(\ Total \ Expected \ Run \ Time \ - \ Planned \ Downtime \ )}{Average \ Ideal\ Cycle\ Time^* \ }\ ]\times\ Cycle \ Multiplier \ or \ Cycle \ Product \ Ratio $$
 
 Key inputs to this calculation are expected run time and planned downtime. The expected run time for a machine is based on its defined shift schedule and break periods (see [Calculating Availability](/oeeCalculations/new-availability.md)). When users update unplanned downtime events to planned downtimes (through the Data Tab) the total seconds available for the machine to operate will decrease which will subsequently decrease the expected daily output.
 
@@ -38,3 +38,5 @@ The **Actual** and **Expected** output for a line is defined by the terminal mac
 
 
 ![](/assets/Line Output.png)
+
+_* Calculated as the average of Ideal Cycle Times for an asset based on recipe information related to the output created; e.g. Widget 1: Ideal Cycle Time = 6 minutes, Widget 2: Ideal Cycle Time = 8 minutes, then Average Ideal Cycle Time = (6+8)/2 = 7 minutes_
