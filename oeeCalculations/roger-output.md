@@ -1,4 +1,4 @@
-**#**# **Output Calculation**
+## Output Calculation
 
 **Cycle Generated Output**
 
@@ -23,7 +23,9 @@ In addition to **Actual** Output, created through observed cycles, Sight Machine
 
 **Expected Output Calculation**
 
-Expected Output = [(Total Expected Run Time - Planned Downtime) / (Average Ideal Cycle Time)] X Cycle Multiplier or Cycle Product Ratio
+ Output = [(Total Expected Run Time - Planned Downtime) / (Average Ideal Cycle Time)] X Cycle Multiplier or Cycle Product Ratio
+
+$$ Expected \ Output \ = \ [\ \frac{(\ Total \ Expected \ Run \ Time \ - \ Planned \ Downtime \ )}{Average \ Ideal\ Cycle\ Time}\ ]\times\ Cycle \ Multiplier \ or \ Cycle \ Product \ Ratio $$
 
 Key inputs to this calculation are expected run time and planned downtime. The expected run time for a machine is based on its defined shift schedule and break periods (see Calculating Availability). When users update unplanned downtime events to planned downtimes (through the Data Tab) the total seconds available for the machine to operate will decrease which will subsequently decrease the expected daily output.
 
@@ -37,5 +39,4 @@ Expected Output = [(13 hours - 1.5 hours) / (25 seconds)] X .5 units
 The **Actual** and **Expected** output for a line is defined by the terminal machines in the topology. The output rates of the final machine or machines in the line will determine what the actual and expected output calculated for a specific shift, day, week, or month.
 
 
-
-
+![](/assets/Line Output.png)
