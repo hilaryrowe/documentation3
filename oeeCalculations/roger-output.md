@@ -23,16 +23,14 @@ In addition to **Actual** Output, created through observed cycles, Sight Machine
 
 **Expected Output Calculation**
 
- Output = [(Total Expected Run Time - Planned Downtime) / (Average Ideal Cycle Time)] X Cycle Multiplier or Cycle Product Ratio
-
 $$ Expected \ Output \ = \ [\ \frac{(\ Total \ Expected \ Run \ Time \ - \ Planned \ Downtime \ )}{Average \ Ideal\ Cycle\ Time}\ ]\times\ Cycle \ Multiplier \ or \ Cycle \ Product \ Ratio $$
 
-Key inputs to this calculation are expected run time and planned downtime. The expected run time for a machine is based on its defined shift schedule and break periods (see Calculating Availability). When users update unplanned downtime events to planned downtimes (through the Data Tab) the total seconds available for the machine to operate will decrease which will subsequently decrease the expected daily output.
+Key inputs to this calculation are expected run time and planned downtime. The expected run time for a machine is based on its defined shift schedule and break periods (see [Calculating Availability](/oeeCalculations/new-availability.md)). When users update unplanned downtime events to planned downtimes (through the Data Tab) the total seconds available for the machine to operate will decrease which will subsequently decrease the expected daily output.
 
 Using the prior example in Calculating Availability, if we assume a machine’s total Expected Run Time is 13 hours (based on Shift schedule) and the machine has three half hour breaks (Planned Downtime events) for a total of 1.5 hours, then the total time the machine was operating is 11.5 hours. Combining this with other data points based on the machine configuration (Ideal Cycle Time = 25 seconds and Cycle Product Ratio = .5 units) then the total Expected Output for the machine on a daily basis is 828 units.
 
-Expected Output = [(13 hours - 1.5 hours) / (25 seconds)] X .5 units
- = 828 units
+$$ Expected \ Output \ = \ [\ \frac{(\ 13 \ hours \ - \ 1.5 \ hours \ )}{25 \ seconds}\ ]\times\ .5 \ units \ = \ 828 \ units $$
+
 
 ### Line Implications
 
