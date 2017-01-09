@@ -32,7 +32,7 @@ _build() {
 _archive() {
   echo "Archiving"
   install -d artifacts
-  pushd _book && tar -cvzf ../artifacts/sightmachine-documentation-${_GIT_TAG}.tar.gz . && popd 
+  pushd _book && tar -cvzf ../artifacts/sightmachine-documentation-${_GIT_TAG}-artifact.tar.gz . && popd 
   return 0
 }
 
