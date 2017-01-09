@@ -31,5 +31,5 @@ if [[ -z "${_GIT_TAG}" ]]; then
 fi
 
 mkdir -p ${_S3_BUCKET}/${_GIT_TAG}/help
-tar -C ${_S3_BUCKET}/${_GIT_TAG}/help -xvzf artifacts/sightmachine-documentation-${_GIT_TAG}.tar.gz
+tar -C ${_S3_BUCKET}/${_GIT_TAG}/help -xvzf artifacts/sightmachine-documentation-${_GIT_TAG}-artifact.tar.gz
 aws --profile ${_AWS_PROFILE} s3 cp --recursive --acl public-read ${_S3_BUCKET}/${_GIT_TAG}/ s3://${_S3_BUCKET}/${_GIT_TAG}/
