@@ -26,6 +26,6 @@
 * [Engagement Overview](engagement-overview.md)
 * [Understanding the Digital Readiness Index](understanding-the-digital-readiness-index.md)
 * [Evaluating the Project Landscape](evaluating-the-project-landscape.md)
-* Developing a Project Description
-* Scoping the Project
+* [Developing a Project Description](developing-a-project-description.md)
+* [Scoping the Project](scoping-the-project.md)
 
