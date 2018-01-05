@@ -1,7 +1,7 @@
 # Summary
 
 * [Section 1: Building a Sight Machine Engagement](README.md)
-* [Understanding the Digital Readiness Index](dashboardTab/readme.md)
+* [Sample Chapter](dashboardTab/readme.md)
   * [Unique Dashboard Tab Navigation](dashboardTab/uniqueDashboardTabNav.md)
   * [About OEE Dashboard](dashboardTab/aboutOeeDashboard.md)
   * [Using the OEE Dashboard Tab](dashboardTab/usingTheOeeDashboard.md)
@@ -23,25 +23,9 @@
     * [Root Cause Analysis](analysisTab/root_cause_analysis.md)
       * [Building RCA Charts](analysisTab/building_rca_charts.md)
       * [Interpreting RCA Charts](analysisTab/interpreting_rca_charts.md)
-* [Evaluating the Project Landscape](oeeCalculations/readme.md)
-  * [Creating Cycle Objects](oeeCalculations/creatingCycleObjects.md)
-  * [Creating Downtime Objects](oeeCalculations/creatingDowntimeObjects.md)
-  * [Calculating Availability](oeeCalculations/new-availability.md)
-  * [Calculating Performance](oeeCalculations/roger-performance.md)
-  * [Entering Defects](oeeCalculations/enteringDefects.md)
-  * [Calculating Quality](oeeCalculations/roger-quality.md)
-  * [Calculating Output](oeeCalculations/roger-output.md)
-  * [Custom Configurations](oeeCalculations/meta-configurations.md)
-* [Developing a Project Description](dataTab/readme.md)
-  * [Unique Data Tab Navigation](dataTab/uniqueDataTabNav.md)
-  * [Machine Data](dataTab/machineData.md)
-    * [Filtering Data Tables](dataTab/filteringDataTables.md)
-    * [Creating Custom Tables](dataTab/creatingCustomTables.md)
-* [Scoping the Project](timelineTab/readme.md)
-  * [Unique Timeline Tab Navigation](timelineTab/uniqueTimelineTabNav.md)
-  * [Machine Timeline](timelineTab/machineTimeline.md)
-    * [Filtering Timeline View](timelineTab/filteringTimelineView.md)
-    * [Viewing Cycle Timeline](timelineTab/viewingCycleTimeline.md)
-    * [Viewing Cycle Break Down](timelineTab/viewingCycleBreakDown.md)
 * [Engagement Overview](engagement-overview.md)
+* [Understanding the Digital Readiness Index](understanding-the-digital-readiness-index.md)
+* [Evaluating the Project Landscape](evaluating-the-project-landscape.md)
+* Developing a Project Description
+* Scoping the Project
 
