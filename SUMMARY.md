@@ -24,4 +24,9 @@
   * [Gathering Materials](developing-a-project-description/gathering-materials.md)
   * [Sample Project Description](developing-a-project-description/sample-project-description.md)
 * [Scoping the Project](scoping-the-project.md)
+  * [Visibility Offering: Enterprise Manufacturing Visibility \(EMV\)](scoping-the-project/visibility-offering-enterprise-manufacturing-visibility-emv.md)
+    * [EMV Applications and Features](scoping-the-project/visibility-offering-enterprise-manufacturing-visibility-emv/emv-applications-and-features.md)
+  * [Analytics Offering: Enterprise Manufacturing Analytics \(EMA\)](scoping-the-project/analytics-offering-enterprise-manufacturing-analytics-ema.md)
+  * [EMV and EMA Product Comparison](scoping-the-project/emv-and-ema-product-comparison.md)
+  * [Determining Scoping Milestones and Decision Points](scoping-the-project/determining-scoping-milestones-and-decision-points.md)
 
