@@ -21,5 +21,7 @@
     * [Tools for Working with Data](evaluating-the-project-landscape/working-with-sample-data/tools-for-working-with-data.md)
   * [Building a Customer Value Map](evaluating-the-project-landscape/building-a-customer-value-map.md)
 * [Developing a Project Description](developing-a-project-description.md)
+  * [Gathering Materials](developing-a-project-description/gathering-materials.md)
+  * [Sample Project Description](developing-a-project-description/sample-project-description.md)
 * [Scoping the Project](scoping-the-project.md)
 

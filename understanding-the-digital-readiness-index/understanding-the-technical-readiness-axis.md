@@ -16,5 +16,5 @@ To determine a customer’s technical readiness, complete the following assessme
 
 ![](/understanding-the-digital-readiness-index/Technical Readiness Assessment.png)
 
-Considering the responses to the assessment, you can determine how prepared the customer is technologically, and suggest appropriate next steps. For more information, see INSERT LINK.
+Considering the responses to the assessment, you can determine how prepared the customer is technologically, and suggest appropriate next steps. For more information, see [Managing Customer Expectations](/understanding-the-digital-readiness-index/managing-customer-expectations.md).
 

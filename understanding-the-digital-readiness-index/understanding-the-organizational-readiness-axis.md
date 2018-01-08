@@ -16,5 +16,5 @@ To determine a customer’s readiness from an organizational standpoint, complet
 
 ![](/understanding-the-digital-readiness-index/Organizational Readiness Assessment.png)
 
-Considering the responses to the assessment, you can determine how prepared the customer is organizationally, and suggest appropriate next steps. For more information, see **INSERT LINK**.
+Considering the responses to the assessment, you can determine how prepared the customer is organizationally, and suggest appropriate next steps. For more information, see [Managing Customer Expectations](/understanding-the-digital-readiness-index/managing-customer-expectations.md).
 

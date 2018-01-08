@@ -1,6 +1,6 @@
 ## Considering Common Data Issues
 
-It is essential that you fully evaluate the customer’s data landscape rather than relying solely on their answers in the Technical Readiness assessment because their own viewpoint may not be entirely accurate. For more information, see **INSERT LINK**.
+It is essential that you fully evaluate the customer’s data landscape rather than relying solely on their answers in the Technical Readiness assessment because their own viewpoint may not be entirely accurate. For more information, see [Evaluating the Project Landscape](/evaluating-the-project-landscape.md).
 
 If you do not properly manage expectations before building the implementation plan, you may experience a number of customer expectation challenges related to the data itself, including:
 
