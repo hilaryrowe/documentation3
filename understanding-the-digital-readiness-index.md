@@ -12,5 +12,5 @@ There are two components \(or measurements\) to our Digital Readiness Index:
 
 * **Technical Readiness \(or X axis\): **Does your customer have the right IT infrastructure in place to be successful?
 
-
+![](/understanding-the-digital-readiness-index/DRI Graphic.png)
 
