@@ -17,8 +17,8 @@
   * [Cataloging the Different Types of Data Sources](evaluating-the-project-landscape/cataloging-the-different-types-of-data-sources.md)
   * [Working with Sample Data](evaluating-the-project-landscape/working-with-sample-data.md)
     * [Typical Data Formats](evaluating-the-project-landscape/working-with-sample-data/typical-data-formats.md)
-    * Types of Data
-    * Tools for Working with Data
+    * [Types of Data](evaluating-the-project-landscape/working-with-sample-data/types-of-data.md)
+    * [Tools for Working with Data](evaluating-the-project-landscape/working-with-sample-data/tools-for-working-with-data.md)
   * Building a Customer Value Map
 * [Developing a Project Description](developing-a-project-description.md)
 * [Scoping the Project](scoping-the-project.md)
