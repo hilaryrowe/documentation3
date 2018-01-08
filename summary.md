@@ -29,7 +29,5 @@
   * [Analytics Offering: Enterprise Manufacturing Analytics \(EMA\)](scoping-the-project/analytics-offering-enterprise-manufacturing-analytics-ema.md)
   * [EMV and EMA Product Comparison](scoping-the-project/emv-and-ema-product-comparison.md)
   * [Determining Scoping Milestones and Decision Points](scoping-the-project/determining-scoping-milestones-and-decision-points.md)
-* [Engagement Summary](summary.md)
-
-
+* [Engagement Summary](engagement-summary.md)
 
