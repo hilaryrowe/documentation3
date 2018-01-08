@@ -11,6 +11,15 @@
     * [Considering Common Data Issues](understanding-the-digital-readiness-index/managing-customer-expectations/considering-common-data-issues.md)
     * [Avoiding a Narrow Project Scope](understanding-the-digital-readiness-index/managing-customer-expectations/avoiding-a-narrow-project-scope.md)
 * [Evaluating the Project Landscape](evaluating-the-project-landscape.md)
+  * [Examining the Physical Process](evaluating-the-project-landscape/examining-the-physical-process.md)
+  * [Analyzing the Organizational Functions](evaluating-the-project-landscape/analyzing-the-organizational-functions.md)
+    * [Creating a Stakeholder List](evaluating-the-project-landscape/analyzing-the-organizational-functions/creating-a-stakeholder-list.md)
+  * [Cataloging the Different Types of Data Sources](evaluating-the-project-landscape/cataloging-the-different-types-of-data-sources.md)
+  * [Working with Sample Data](evaluating-the-project-landscape/working-with-sample-data.md)
+    * [Typical Data Formats](evaluating-the-project-landscape/working-with-sample-data/typical-data-formats.md)
+    * Types of Data
+    * Tools for Working with Data
+  * Building a Customer Value Map
 * [Developing a Project Description](developing-a-project-description.md)
 * [Scoping the Project](scoping-the-project.md)
 
