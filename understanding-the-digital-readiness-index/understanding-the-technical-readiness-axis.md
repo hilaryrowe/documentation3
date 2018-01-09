@@ -2,7 +2,7 @@
 
 DRI’s Technical Readiness axis measures the customer’s technical landscape by evaluating data, policy, and knowledge infrastructure.
 
-Technical Readiness consists of three sub-categories:
+Technical Readiness consists of three categories:
 
 * **Data Connectivity and Accessibility: **This measures the availability and breadth of data, a fundamental requirement for any digital transformation project. It is important to find out if the machines have sensors, if they are networked, and whether data is flowing into a system of record or database. To enable more sophisticated analytics, part serial numbers or batch numbers with timestamps should be captured at each process step.
 
