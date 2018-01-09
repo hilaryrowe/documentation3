@@ -10,7 +10,7 @@ A comma-separated values \(CSV\) file contains the values in a table as a series
 
 ### Excel File Sample
 
-A Microsoft Excel spreadsheet contains various columns and rows of data. There may be multiple worksheets in each spreadsheet. Possible file extensions include .xlsx,.xls, .xlsm \(macro-enabled\), .xlst \(template\), etc.
+A Microsoft Excel spreadsheet contains various columns and rows of data. There may be multiple worksheets in each spreadsheet. Possible file extensions include .xlsx, .xls, .xlsm \(macro-enabled\), .xlst \(template\), etc.
 
 ![](/evaluating-the-project-landscape/working-with-sample-data/Excel File Sample.png)
 
@@ -26,7 +26,7 @@ A database dump file often has the date of backup in the file name, and it must 
 
 ### File Backup Sample
 
-Many programs have proprietary file formats that have customized extensions and require a parser to be written. If these are text files, you can view them in a text editor; if they are binary, you may need to use a hex editor.
+Many programs use proprietary file formats that have customized extensions and require a parser to be written. If these are text files, you can view them in a text editor; if they are binary, you may need to use a hex editor.
 
 _Text File Sample \(modified INI format\):_
 
@@ -35,6 +35,4 @@ _Text File Sample \(modified INI format\):_
 _Binary File Sample:_
 
 ![](/evaluating-the-project-landscape/working-with-sample-data/File Backup Sample Binary.png)
-
-
 

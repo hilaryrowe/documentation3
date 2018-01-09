@@ -1,7 +1,5 @@
 # Sample Project Description
 
-
-
 ### Introduction
 
 #### Executive Overview
@@ -11,8 +9,6 @@ Multinational company headquartered in Mumbai, India. Business activities includ
 #### Prospect Reference Links
 
 Include links to corporate homepage, product information, etc.
-
-
 
 ### Objectives
 
@@ -30,8 +26,6 @@ This list should be numbered:
 
 2. Analysis of different lines at different pants to compare efficiencies \(Objective \#2\)
 
-
-
 ### Risk Factors or Concerns
 
 Identify any risk factors or concerns that have arisen during discovery and qualification. Tie them back to the deliverables.
@@ -39,8 +33,6 @@ Identify any risk factors or concerns that have arisen during discovery and qual
 | Risk Factor | Affects Deliverable |
 | :--- | :--- |
 | Machine data not available. | 1, 2 |
-
-
 
 ### Key Contacts
 
@@ -52,8 +44,6 @@ For both Customer and Sight Machine contacts, include the following in a table:
 
 * Pertinent notes: critical to project funding, be sure to attend meetings where this contact is in attendance, etc.
 
-
-
 ### Process Details
 
 #### Industry Overview / Supplementary Material
@@ -64,22 +54,20 @@ General industry information found during discovery process. YouTube videos can 
 
 Add a block diagram of the line. Highlight the portion where we will focus.
 
-
-
 ### Information About the Data
 
 #### Raw Data Connectivity
 
 | Data Name | Protocol | UpdateFrequency | ConnectionInformation | Links toSample Data | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MySQL Data Warehouse | MySQL | every min | GMP network |   | Missing key table, but will be added. |
-| Defect Spreadsheet | Spreadsheet |   | Corp LAN |   | NOTE: If PLC, we need tag mappings and information from customer. |
+| MySQL Data Warehouse | MySQL | every min | GMP network |  | Missing key table, but will be added. |
+| Defect Spreadsheet | Spreadsheet |  | Corp LAN |  | NOTE: If PLC, we need tag mappings and information from customer. |
 
 * Please note any specifics for tables, or anything else you find during the presales process.
 
 * Protocols available and supported by DE team:
 
-  * OPCUA
+  * OPC UA
 
   * SQL
 
@@ -92,13 +80,10 @@ Add a block diagram of the line. Highlight the portion where we will focus.
 | Packaging | MySQL Data Warehouse | EBRS Table | ![](https://lh5.googleusercontent.com/mlrinFfNOWxov5aUj9SqWIO4nM8gBBN70OcCOzRyUrDwT1KrPODeOytS9B3_WWDW9ovs2M3-EZAnml6KHkxrP6PM3xE7e7jH2GBmOKspbDLp6I8zn8Jb41bsfbBuJomYGDtXjAl5) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh5.googleusercontent.com/mlrinFfNOWxov5aUj9SqWIO4nM8gBBN70OcCOzRyUrDwT1KrPODeOytS9B3_WWDW9ovs2M3-EZAnml6KHkxrP6PM3xE7e7jH2GBmOKspbDLp6I8zn8Jb41bsfbBuJomYGDtXjAl5) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh5.googleusercontent.com/mlrinFfNOWxov5aUj9SqWIO4nM8gBBN70OcCOzRyUrDwT1KrPODeOytS9B3_WWDW9ovs2M3-EZAnml6KHkxrP6PM3xE7e7jH2GBmOKspbDLp6I8zn8Jb41bsfbBuJomYGDtXjAl5) | CPV Table | Potential cycle boundary: every row = 1 cycle |
 | Packaging | MySQL Data Warehouse | Parameter Tables \(Categorical additional info\) | ![](https://lh5.googleusercontent.com/mlrinFfNOWxov5aUj9SqWIO4nM8gBBN70OcCOzRyUrDwT1KrPODeOytS9B3_WWDW9ovs2M3-EZAnml6KHkxrP6PM3xE7e7jH2GBmOKspbDLp6I8zn8Jb41bsfbBuJomYGDtXjAl5) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | categorical |
 
-  
 _**Legend**_
 
 | ![](https://lh5.googleusercontent.com/mlrinFfNOWxov5aUj9SqWIO4nM8gBBN70OcCOzRyUrDwT1KrPODeOytS9B3_WWDW9ovs2M3-EZAnml6KHkxrP6PM3xE7e7jH2GBmOKspbDLp6I8zn8Jb41bsfbBuJomYGDtXjAl5) | Contains informationor supporting information for the given category. | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | Potentially relevant to the given category. | ![](https://lh3.googleusercontent.com/aelXWk35bLU3cbJizjoeqOR3XTYE1x5-nimPb9cEdX2rfdnZ9Tk7FxjlnveVoRLxQLDVMKnyqScVxc0-P01Fnkp3dUU7HaRxTnIgur-B6INO9n7gYfCsC2rXg9rWKA21UJbBhW_9) | No relevant information for the given category. | ![](https://lh3.googleusercontent.com/-qrCfst68j-PzktjW-4eyz92oSB0WTZ6-HIBBk5uDfGxZX3N_IhG6B93bP4LQQkrtroQ4EkWfmLnPkqYKiusLcF6VpoSiYnF_qshfaqP4F3lw33mv3dKhdDrXNVsUMAGqeubA7fw) | Reviewed and determined it is not applicable to Sight Machine's use cases. |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 
 
 ### Sample Data Exploration
@@ -131,7 +116,6 @@ Example questions to ask of the data:
 
 12. OEE Equations
 
-  
 **EXAMPLE: {File 1} Data Exploration**
 
 * Link to Jupyter Notebook Exploration \(HTML version\)

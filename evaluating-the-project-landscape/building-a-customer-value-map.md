@@ -1,8 +1,10 @@
 ## Building a Customer Value Map {#docs-internal-guid-1eff3eca-d6e3-8b28-a0d3-454ddea12f0e}
 
-An important step in evaluating the project landscape is creating a customer value map. This valuable tool helps you set project milestones and informs the order of the implementation plan. For instance, how far do you have to get through the implementation plan in order to provide value to the customer? The map contains the following columns to help you visualize the value:
+An important step in evaluating the project landscape is creating a customer value map. This valuable tool helps you set project milestones and informs the order of the implementation plan. For instance, how far do you have to get through the implementation plan in order to provide value to the customer? 
 
-* **Tasks: **This column lists items that will be in the implementation plan, prioritized from easiest/fastest to accomplish to most difficult/time consuming.
+The map contains the following columns to help you visualize the value:
+
+* **Task: **This column lists items that will be in the implementation plan, prioritized from easiest/fastest to accomplish to most difficult/time consuming.
 
 * **Customer Value: **This column lists improvements or changes that the customer’s stakeholders view as important, listed from most to least important.
 

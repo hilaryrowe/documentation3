@@ -1,6 +1,8 @@
 ### Tools for Working with Data {#docs-internal-guid-e5887745-d6d3-556b-d1be-58ea6df63cf1}
 
-You will want to use different software/programing tools to open and read the various data sources. Your decision may be affected by the platform on which you are working and the file type that you are trying to access, as well as personal preference. The following list of tools is by no means exhaustive:
+You will want to use different software/programing tools to open and read the various data sources. Your decision may be affected by the platform on which you are working and the file type that you are trying to access, as well as personal preference. 
+
+The following list of tools is by no means exhaustive:
 
 * **Excel: **Use to open CSV or Excel files.
 
@@ -14,9 +16,9 @@ You will want to use different software/programing tools to open and read the va
 
   * There are several good hex editors available for Windows: [https://www.poftut.com/best-free-hex-editors-windows/](https://www.poftut.com/best-free-hex-editors-windows/)
 
-  * Hex Fiend is an open source hex editor for Mac: [http://ridiculousfish.com/hexfiend/](http://ridiculousfish.com/hexfiend/)
+  * Hex Fiend is an open-source hex editor for Mac: [http://ridiculousfish.com/hexfiend/](http://ridiculousfish.com/hexfiend/)
 
-* **Python Notebooks:** Use different software modules to open different file formats:
+* **Python Notebooks:** Use different software modules to open different file formats.
 
   * For CSV and Excel, use Pandas \(i.e., software libraries written for the Python programming language for data manipulation and analysis\). For more information: [https://pandas.pydata.org/](https://pandas.pydata.org/)
 
@@ -26,11 +28,11 @@ You will want to use different software/programing tools to open and read the va
 
 * **ELK Stack: **Use to read and search through logfiles \(especially, large volumes\). ELK consists of three powerful tools \(which are reflected in the tool's acronym\):
 
-  * Elasticsearch: A log search tool.
+  * **Elasticsearch:** A log search tool.
 
-  * Logstash: A tool for log data intake, processing, and output, including system logs, webserver logs, error logs, and app logs.
+  * **Logstash:** A tool for log data intake, processing, and output, including system logs, Web server logs, error logs, and application logs.
 
-  * Kibana: A log-data dashboard that contains point-and-click pie charts, bar graphs, trendlines, maps, and scatter plots.
+  * **Kibana:** A log-data dashboard that contains point-and-click pie charts, bar graphs, trendlines, maps, and scatter plots.
 
   For more information: [https://qbox.io/blog/welcome-to-the-elk-stack-elasticsearch-logstash-kibana](https://qbox.io/blog/welcome-to-the-elk-stack-elasticsearch-logstash-kibana)
 
