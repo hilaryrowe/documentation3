@@ -1,8 +1,8 @@
 # Understanding the Organizational Readiness Axis
 
-DRI’s Organizational Readiness measures whether a customer has the institutional support needed by evaluating factors such as commitment, budget, and staffing. You can use this information to determine the capability for new infrastructure and the likelihood of successful adoption.
+DRI’s Organizational Readiness axis measures whether a customer has the institutional support needed by evaluating factors such as commitment, budget, and staffing. You can use this information to determine the capability for new infrastructure and the likelihood of successful adoption.
 
-Organizational Readiness is broken into three sub-categories:
+Organizational Readiness consists of three sub-categories:
 
 * **Commitment and Budget: **For a large project to succeed, the customer requires buy-in from staff at many levels \(e.g., machine operator, plant manager, executive management, and IT\). In addition, the customer must have sufficient budget available, both for upgrading the underlying infrastructure \(e.g., networking\) and for the analytics project itself.
 
