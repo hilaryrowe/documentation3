@@ -1,5 +1,9 @@
 # Sample Project Description
 
+The following sample contains all of the sections that a project description should contain.
+
+---
+
 ### Introduction
 
 #### Executive Overview
@@ -30,9 +34,7 @@ This list should be numbered:
 
 Identify any risk factors or concerns that have arisen during discovery and qualification. Tie them back to the deliverables.
 
-| Risk Factor | Affects Deliverable |
-| :--- | :--- |
-| Machine data not available. | 1, 2 |
+![](/developing-a-project-description/Risk Factors or Concerns Proj Desc Sample.png)
 
 ### Key Contacts
 
@@ -58,10 +60,7 @@ Add a block diagram of the line. Highlight the portion where we will focus.
 
 #### Raw Data Connectivity
 
-| Data Name | Protocol | UpdateFrequency | ConnectionInformation | Links toSample Data | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| MySQL Data Warehouse | MySQL | every min | GMP network |  | Missing key table, but will be added. |
-| Defect Spreadsheet | Spreadsheet |  | Corp LAN |  | NOTE: If PLC, we need tag mappings and information from customer. |
+![](/developing-a-project-description/Raw Data Connectivity Proj Desc Sample.png)
 
 * Please note any specifics for tables, or anything else you find during the presales process.
 
@@ -75,16 +74,11 @@ Add a block diagram of the line. Highlight the portion where we will focus.
 
 #### Process Area Data
 
-| Process Area | Data Name | Table / Sheet | Cycles | Downtime | Defect | Batch | Part | OtherUse | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Packaging | MySQL Data Warehouse | EBRS Table | ![](https://lh5.googleusercontent.com/mlrinFfNOWxov5aUj9SqWIO4nM8gBBN70OcCOzRyUrDwT1KrPODeOytS9B3_WWDW9ovs2M3-EZAnml6KHkxrP6PM3xE7e7jH2GBmOKspbDLp6I8zn8Jb41bsfbBuJomYGDtXjAl5) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh5.googleusercontent.com/mlrinFfNOWxov5aUj9SqWIO4nM8gBBN70OcCOzRyUrDwT1KrPODeOytS9B3_WWDW9ovs2M3-EZAnml6KHkxrP6PM3xE7e7jH2GBmOKspbDLp6I8zn8Jb41bsfbBuJomYGDtXjAl5) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh5.googleusercontent.com/mlrinFfNOWxov5aUj9SqWIO4nM8gBBN70OcCOzRyUrDwT1KrPODeOytS9B3_WWDW9ovs2M3-EZAnml6KHkxrP6PM3xE7e7jH2GBmOKspbDLp6I8zn8Jb41bsfbBuJomYGDtXjAl5) | CPV Table | Potential cycle boundary: every row = 1 cycle |
-| Packaging | MySQL Data Warehouse | Parameter Tables \(Categorical additional info\) | ![](https://lh5.googleusercontent.com/mlrinFfNOWxov5aUj9SqWIO4nM8gBBN70OcCOzRyUrDwT1KrPODeOytS9B3_WWDW9ovs2M3-EZAnml6KHkxrP6PM3xE7e7jH2GBmOKspbDLp6I8zn8Jb41bsfbBuJomYGDtXjAl5) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | categorical |
+![](/developing-a-project-description/Process Area Data Proj Desc Sample.png)
 
 _**Legend**_
 
-| ![](https://lh5.googleusercontent.com/mlrinFfNOWxov5aUj9SqWIO4nM8gBBN70OcCOzRyUrDwT1KrPODeOytS9B3_WWDW9ovs2M3-EZAnml6KHkxrP6PM3xE7e7jH2GBmOKspbDLp6I8zn8Jb41bsfbBuJomYGDtXjAl5) | Contains informationor supporting information for the given category. | ![](https://lh4.googleusercontent.com/3hJiCEPfknkSyGOZk8Hk1hEiuY2JhBuOhYt5s2eiu8ScJIMLQxbSZKRIkZTcnXech1PJIcJeZmNR5IFBwtCesXSymb8wMzX7DkOw9rOlLFjroSgFTJqLyX9Og98WXXKWShmnupJJ) | Potentially relevant to the given category. | ![](https://lh3.googleusercontent.com/aelXWk35bLU3cbJizjoeqOR3XTYE1x5-nimPb9cEdX2rfdnZ9Tk7FxjlnveVoRLxQLDVMKnyqScVxc0-P01Fnkp3dUU7HaRxTnIgur-B6INO9n7gYfCsC2rXg9rWKA21UJbBhW_9) | No relevant information for the given category. | ![](https://lh3.googleusercontent.com/-qrCfst68j-PzktjW-4eyz92oSB0WTZ6-HIBBk5uDfGxZX3N_IhG6B93bP4LQQkrtroQ4EkWfmLnPkqYKiusLcF6VpoSiYnF_qshfaqP4F3lw33mv3dKhdDrXNVsUMAGqeubA7fw) | Reviewed and determined it is not applicable to Sight Machine's use cases. |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-
+![](/developing-a-project-description/Legend Proj Desc Sample.png)
 
 ### Sample Data Exploration
 
