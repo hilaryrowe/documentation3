@@ -14,7 +14,8 @@ To develop an accurate and useful project description, you will collect a variet
 
 * [ ] Identify the data payloads \(i.e., connectivity information\) of the data sources. For example: ![](/developing-a-project-description/gathering-materials/Data Payloads of Data Sources.png)
 
-* [ ] Build a network data flow diagram to illustrate the customer data infrastructure, showing which machines can access the cloud, etc. For example: ![](/developing-a-project-description/gathering-materials/Network Data Flow Diagram.png)
+* [ ] Build a network data flow diagram to illustrate the customer data infrastructure, showing which machines can access the cloud, etc. For example:  
+  ![](/developing-a-project-description/gathering-materials/Network Data Flow Diagram.png)
 
 * [ ] Build a matrix of current data assets in relation to the Digital Twin model. For example: ![](/developing-a-project-description/gathering-materials/Digital Twin Model Matrix.png)
 
@@ -25,6 +26,7 @@ To develop an accurate and useful project description, you will collect a variet
 * [ ] Describe the types of data problems that the customer wants to solve. These customer value propositions are user stories based on issues or questions the customer has about the machines’ real-time telemetry.
 
 * [ ] Find examples of data problem statements. These are the success criteria by which the customer will judge the success of the project \(i.e., the customer return on investment, or ROI\). For example:
+
   * Collect data from process historian \(30 second fidelity\), quality, and APA separator file.
   * Baseline should account for seasonal variability \(via historical data\) and include the major mT of production per day \(calculated from separator flow in m3/h\).
 
