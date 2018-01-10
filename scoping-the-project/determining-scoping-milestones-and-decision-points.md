@@ -22,13 +22,13 @@ You should evaluate the risks and categorize situations as the following:
 
 * **In-Product Fast Installation: **These are items that fit well within the scope and offer few impediments to success. Overall, data is well-organized and easy to ingest. These items should comprise the first set of milestones, and generally will be in scope for an EMV/EMA project.
 
-* **Fee-Based Data Preparation and Modeling Services: **These are items that we should probably not undertake as part of the project because of the complexity involved. Usually, these items involve a high level of customer and sometimes vendor involvement, both of which add time and cost to the project. All of these items should be discussed with the customer in the context of DRI as being out of scope for the project.
+* **Fee-Based Data Preparation and Modeling Services: **These are items that have high complexity and would need to be negotiated with the customer, usually as part of the professional services agreement. Beware that this is usually where projects become overly complicated and run aground.
 
-* **Not Ready For Digital Transformation:** These are items that have high complexity and would need to be negotiated with the customer, usually as part of the professional services agreement. Beware that this is usually where projects become overly complicated and run aground.
+* **Not Ready For Digital Transformation:** These are items that we should probably not undertake as part of the project because of the complexity involved. Usually, these items involve a high level of customer and sometimes vendor involvement, both of which add time and cost to the project. All of these items should be discussed with the customer in the context of DRI as being out of scope for the project.
 
 **Technical Readiness Requirements Matrix**
 
-![](/scoping-the-project/visibility-offering-enterprise-manufacturing-visibility-emv/Technical Readiness Requirements Matrix.png)
+![](/scoping-the-project/Technical Readiness Requirements Matrix.png)
 
 The following table describes how each potential failure might affect the overall project.
 
