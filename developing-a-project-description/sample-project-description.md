@@ -28,7 +28,7 @@ This list should be numbered:
 
 1. Analysis of root cause of waste on line 3 \(Objective \#1\)
 
-2. Analysis of different lines at different pants to compare efficiencies \(Objective \#2\)
+2. Analysis of different lines at different plants to compare efficiencies \(Objective \#2\)
 
 ### Risk Factors or Concerns
 
@@ -48,9 +48,9 @@ For both Customer and Sight Machine contacts, include the following in a table:
 
 ### Process Details
 
-#### Industry Overview / Supplementary Material
+#### Industry Overview/Supplementary Material
 
-General industry information found during discovery process. YouTube videos can be helpful here. Also, videos, slides, and images from the customer or facility.
+General industry information found during discovery process. YouTube videos can be helpful here. Also videos, slides, and images from the customer or facility.
 
 #### Line/Process Mapping
 
@@ -96,7 +96,7 @@ Example questions to ask of the data:
 
 5. Output count definition
 
-6. Serial Numbers / Batch Numbers
+6. Serial Numbers/Batch Numbers
 
 7. Downtime Indicators
 
@@ -104,11 +104,13 @@ Example questions to ask of the data:
 
 9. Downtime Codes
 
-10. Ideal / Max Cycle Time
+10. Ideal/Max Cycle Time
 
 11. Recipe or Product Indicator
 
 12. OEE Equations
+
+
 
 **EXAMPLE: {File 1} Data Exploration**
 
@@ -122,5 +124,7 @@ Example questions to ask of the data:
 
 * 01-Next-logical-step.ipynb
 
-Please note the sequentially numbered notebook name in the exploration, e.g., 01-next-logical-step.ipynb. This helps to ensure another person could follow behind you in a logical order and rerun the datasets to recreate your data findings.
+
+
+Please note the sequentially numbered notebook name in the exploration, e.g., 01-Next-logical-step.ipynb. This helps to ensure that another person could follow behind you in a logical order and rerun the datasets to recreate your data findings.
 
