@@ -1,8 +1,8 @@
 ### EMV Applications and Features
 
-The EMV product provides the following applications and features for the company’s factories, machine types, and machines:
+The EMV product provides the following applications and features for the customer’s factories, machine types, and machines:
 
-* **Global Operations View:** A real-time, enterprise view of machine operations and output across plants
+* **Global Operations View:** A real-time enterprise view of machine operations and output across plants
 
 * **KPI Dashboard:** Key plant and machine performance metrics by facility and machine type across the customer’s network of manufacturing facilities
 
