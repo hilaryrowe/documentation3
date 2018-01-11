@@ -8,5 +8,5 @@ Start your plant examination by gathering existing diagrams—or creating new di
 
 **Sample Physical Process Diagram**
 
-![](/evaluating-the-project-landscape/Physical Process Diagram.png)
+![](/evaluating-the-project-landscape/Physical Process Diagram Border.png)
 

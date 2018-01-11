@@ -1,6 +1,6 @@
 # Summary
 
-* [Section 1: Building a Sight Machine Engagement](README.md)
+* [Building a Sight Machine Engagement](README.md)
 * [Engagement Overview](engagement-overview.md)
 * [Understanding the Digital Readiness Index](understanding-the-digital-readiness-index.md)
   * [Understanding the Organizational Readiness Axis](understanding-the-digital-readiness-index/understanding-the-organizational-readiness-axis.md)
