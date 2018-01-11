@@ -1,6 +1,4 @@
-
-
-# Section 1: Building a Sight Machine Engagement
+# Building a Sight Machine Engagement
 
 
 
