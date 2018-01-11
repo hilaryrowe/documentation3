@@ -13,6 +13,7 @@
 * [Evaluating the Project Landscape](evaluating-the-project-landscape.md)
   * [Examining the Physical Process](evaluating-the-project-landscape/examining-the-physical-process.md)
     * [Evaluation Meeting Resource](evaluating-the-project-landscape/examining-the-physical-process/evaluation-meeting-resource.md)
+    * [Questions to Ask the Customer](evaluating-the-project-landscape/examining-the-physical-process/questions-to-ask-the-customer.md)
   * [Analyzing the Organizational Functions](evaluating-the-project-landscape/analyzing-the-organizational-functions.md)
     * [Creating a Stakeholder List](evaluating-the-project-landscape/analyzing-the-organizational-functions/creating-a-stakeholder-list.md)
   * [Cataloging the Different Types of Data Sources](evaluating-the-project-landscape/cataloging-the-different-types-of-data-sources.md)
