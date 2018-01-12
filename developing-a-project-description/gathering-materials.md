@@ -17,7 +17,8 @@ To develop an accurate and useful project description, you will collect a variet
 * [ ] Build a network data flow diagram to illustrate the customer data infrastructure, showing which machines can access the cloud, etc. For example:  
   ![](/developing-a-project-description/gathering-materials/Network Data Flow Diagram.png)
 
-* [ ] Build a matrix of current data assets in relation to the Digital Twin model. For example: ![](/developing-a-project-description/gathering-materials/Digital Twin Model Matrix.png)
+* [ ] Build a matrix of current data assets in relation to the Digital Twin model. For example:  
+   ![](/developing-a-project-description/gathering-materials/Digital Twin Model Matrix.png)
 
 ### Materials Describing the Goals in a Data Project {#docs-internal-guid-02161bb9-d6f6-a1b7-5d43-2ec05d5cb279}
 
