@@ -8,8 +8,6 @@
   * [Using DRI to Assess Product/Application Fit](understanding-the-digital-readiness-index/using-dri-to-assess-productapplication-fit.md)
     * [Where Does the Customer Fit In?](understanding-the-digital-readiness-index/using-dri-to-assess-productapplication-fit/where-does-the-customer-fit-in.md)
   * [Managing Customer Expectations](understanding-the-digital-readiness-index/managing-customer-expectations.md)
-    * [Considering Common Data Issues](understanding-the-digital-readiness-index/managing-customer-expectations/considering-common-data-issues.md)
-    * [Avoiding a Narrow Project Scope](understanding-the-digital-readiness-index/managing-customer-expectations/avoiding-a-narrow-project-scope.md)
 * [Evaluating the Project Landscape](evaluating-the-project-landscape.md)
   * [Examining the Physical Process](evaluating-the-project-landscape/examining-the-physical-process.md)
     * [Evaluation Meeting Resource](evaluating-the-project-landscape/examining-the-physical-process/evaluation-meeting-resource.md)
