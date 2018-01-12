@@ -32,11 +32,7 @@ A database dump file often has the date of backup in the file name, and it must 
 
 Many programs use proprietary file formats that have customized extensions and require a parser to be written. If these are text files, you can view them in a text editor; if they are binary, you may need to use a hex editor.
 
-_Text File Sample \(modified INI format\):_
-
 ![](/evaluating-the-project-landscape/working-with-sample-data/File Backup Sample Text INI.png)
-
-_Binary File Sample:_
 
 ![](/evaluating-the-project-landscape/working-with-sample-data/File Backup Sample Binary.png)
 
@@ -98,8 +94,6 @@ The following list of tools is by no means exhaustive:
   For more information: [https://qbox.io/blog/welcome-to-the-elk-stack-elasticsearch-logstash-kibana](https://qbox.io/blog/welcome-to-the-elk-stack-elasticsearch-logstash-kibana)
 
 * **HeidiSQL: **Use to browse and edit SQL data, as well as create and edit tables, views, procedures, triggers, and scheduled events. HeidiSQL is a powerful and easy client for MySQL, MariaDB, Microsoft SQL Server, and PostgreSQL. For more information: [https://www.heidisql.com/download.php](https://www.heidisql.com/download.php)
-
-
 
 
 
