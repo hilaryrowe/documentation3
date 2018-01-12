@@ -10,6 +10,8 @@ To develop an accurate and useful project description, you will collect a variet
 
 ![](/assets/Checkmark.png) Collect verbal descriptions from stakeholders.
 
+
+
 ### **Materials Describing the Data from the Process**
 
 ![](/assets/Checkmark.png) Identify all in-scope data sources. For example: ![](/developing-a-project-description/gathering-materials/In-Scope Data Sources.png)
@@ -21,6 +23,8 @@ To develop an accurate and useful project description, you will collect a variet
 
 ![](/assets/Checkmark.png) Build a matrix of current data assets in relation to the Digital Twin model. For example:  
 ![](/developing-a-project-description/gathering-materials/Digital Twin Model Matrix.png)
+
+
 
 ### Materials Describing the Goals in a Data Project {#docs-internal-guid-02161bb9-d6f6-a1b7-5d43-2ec05d5cb279}
 
@@ -34,6 +38,4 @@ To develop an accurate and useful project description, you will collect a variet
 * Baseline should account for seasonal variability \(via historical data\) and include the major mT of production per day \(calculated from separator flow in m3/h\).
 
 ![](/assets/Checkmark.png) Develop a map that relates implantation team tasks to customer values. See [Building a Customer Value Map](/evaluating-the-project-landscape/building-a-customer-value-map.md).
-
-
 
