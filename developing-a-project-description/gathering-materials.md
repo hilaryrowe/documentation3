@@ -4,9 +4,11 @@ To develop an accurate and useful project description, you will collect a variet
 
 ### **Materials Describing the Physical Process**
 
-* [ ] Gather or create factory, plant, and division flowcharts and diagrams. See [Examining the Physical Process](/evaluating-the-project-landscape/examining-the-physical-process.md).
-* [ ] Take pertinent photographs/videos.
-* [ ] Collect verbal descriptions from stakeholders.
+![](/assets/Checkmark.png) Gather or create factory, plant, and division flowcharts and diagrams. See [Examining the Physical Process](/evaluating-the-project-landscape/examining-the-physical-process.md).
+
+![](/assets/Checkmark.png) Take pertinent photographs/videos.
+
+![](/assets/Checkmark.png) Collect verbal descriptions from stakeholders.
 
 ### **Materials Describing the Data from the Process**
 
@@ -18,7 +20,7 @@ To develop an accurate and useful project description, you will collect a variet
   ![](/developing-a-project-description/gathering-materials/Network Data Flow Diagram.png)
 
 * [ ] Build a matrix of current data assets in relation to the Digital Twin model. For example:  
-   ![](/developing-a-project-description/gathering-materials/Digital Twin Model Matrix.png)
+  ![](/developing-a-project-description/gathering-materials/Digital Twin Model Matrix.png)
 
 ### Materials Describing the Goals in a Data Project {#docs-internal-guid-02161bb9-d6f6-a1b7-5d43-2ec05d5cb279}
 
