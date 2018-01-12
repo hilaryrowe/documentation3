@@ -12,8 +12,6 @@ Organizational Readiness consists of three categories:
 
 To determine a customer’s readiness from an organizational standpoint, complete the following assessment with the necessary stakeholders.
 
-**Organizational Readiness Assessment**
-
 ![](/understanding-the-digital-readiness-index/Organizational Readiness Assessment.png)
 
 Considering the responses to the assessment, you can determine how prepared the customer is organizationally, and suggest appropriate next steps. For more information, see [Managing Customer Expectations](/understanding-the-digital-readiness-index/managing-customer-expectations.md).

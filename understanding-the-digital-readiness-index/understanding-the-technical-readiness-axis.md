@@ -12,8 +12,6 @@ Technical Readiness consists of three categories:
 
 To determine a customer’s technical readiness, complete the following assessment with the necessary stakeholders.
 
-**Technical Readiness Assessment**
-
 ![](/understanding-the-digital-readiness-index/Technical Readiness Assessment.png)
 
 Considering the responses to the assessment, you can determine how prepared the customer is technologically, and suggest appropriate next steps. For more information, see [Managing Customer Expectations](/understanding-the-digital-readiness-index/managing-customer-expectations.md).
