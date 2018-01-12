@@ -12,28 +12,28 @@ To develop an accurate and useful project description, you will collect a variet
 
 ### **Materials Describing the Data from the Process**
 
-* [ ] Identify all in-scope data sources. For example: ![](/developing-a-project-description/gathering-materials/In-Scope Data Sources.png)
+![](/assets/Checkmark.png) Identify all in-scope data sources. For example: ![](/developing-a-project-description/gathering-materials/In-Scope Data Sources.png)
 
-* [ ] Identify the data payloads \(i.e., connectivity information\) of the data sources. For example: ![](/developing-a-project-description/gathering-materials/Data Payloads of Data Sources.png)
+![](/assets/Checkmark.png) Identify the data payloads \(i.e., connectivity information\) of the data sources. For example: ![](/developing-a-project-description/gathering-materials/Data Payloads of Data Sources.png)
 
-* [ ] Build a network data flow diagram to illustrate the customer data infrastructure, showing which machines can access the cloud, etc. For example:  
-  ![](/developing-a-project-description/gathering-materials/Network Data Flow Diagram.png)
+![](/assets/Checkmark.png) Build a network data flow diagram to illustrate the customer data infrastructure, showing which machines can access the cloud, etc. For example:  
+![](/developing-a-project-description/gathering-materials/Network Data Flow Diagram.png)
 
-* [ ] Build a matrix of current data assets in relation to the Digital Twin model. For example:  
-  ![](/developing-a-project-description/gathering-materials/Digital Twin Model Matrix.png)
+![](/assets/Checkmark.png) Build a matrix of current data assets in relation to the Digital Twin model. For example:  
+![](/developing-a-project-description/gathering-materials/Digital Twin Model Matrix.png)
 
 ### Materials Describing the Goals in a Data Project {#docs-internal-guid-02161bb9-d6f6-a1b7-5d43-2ec05d5cb279}
 
-* [ ] Indicate the users of the data, as well as their roles and responsibilities. See [Analyzing the Organizational Functions](/evaluating-the-project-landscape/analyzing-the-organizational-functions.md).
+![](/assets/Checkmark.png) Indicate the users of the data, as well as their roles and responsibilities. See [Analyzing the Organizational Functions](/evaluating-the-project-landscape/analyzing-the-organizational-functions.md).
 
-* [ ] Describe the types of data problems that the customer wants to solve. These customer value propositions are user stories based on issues or questions the customer has about the machines’ real-time telemetry.
+![](/assets/Checkmark.png) Describe the types of data problems that the customer wants to solve. These customer value propositions are user stories based on issues or questions the customer has about the machines’ real-time telemetry.
 
-* [ ] Find examples of data problem statements. These are the success criteria by which the customer will judge the success of the project \(i.e., the customer return on investment, or ROI\). For example:
+![](/assets/Checkmark.png) Find examples of data problem statements. These are the success criteria by which the customer will judge the success of the project \(i.e., the customer return on investment, or ROI\). For example:
 
-  * Collect data from process historian \(30 second fidelity\), quality, and APA separator file.
-  * Baseline should account for seasonal variability \(via historical data\) and include the major mT of production per day \(calculated from separator flow in m3/h\).
+* Collect data from process historian \(30 second fidelity\), quality, and APA separator file.
+* Baseline should account for seasonal variability \(via historical data\) and include the major mT of production per day \(calculated from separator flow in m3/h\).
 
-* [ ] Develop a map that relates implantation team tasks to customer values. See [Building a Customer Value Map](/evaluating-the-project-landscape/building-a-customer-value-map.md).
+![](/assets/Checkmark.png) Develop a map that relates implantation team tasks to customer values. See [Building a Customer Value Map](/evaluating-the-project-landscape/building-a-customer-value-map.md).
 
 
 
