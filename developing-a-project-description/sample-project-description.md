@@ -4,19 +4,19 @@ The following sample contains all of the sections that a project description sho
 
 ---
 
-### Introduction
+#### Introduction
 
-#### Executive Overview
+##### Executive Overview
 
 Multinational company headquartered in Mumbai, India. Business activities include manufacture, sales, and distribution of paints, coatings, and household decor products.
 
-#### Prospect Reference Links
+##### Prospect Reference Links
 
 Include links to corporate homepage, product information, etc.
 
-### Objectives
+#### Objectives
 
-#### Customer Objectives
+##### Customer Objectives
 
 This list should be numbered:
 
@@ -24,19 +24,19 @@ This list should be numbered:
 
 2. Optimize Line Efficiency
 
-#### Phase 1 Deliverables \(relating back to Customer Objectives\)
+##### Phase 1 Deliverables \(relating back to Customer Objectives\)
 
 1. Analysis of root cause of waste on line 3 \(Objective \#1\)
 
 2. Analysis of different lines at different plants to compare efficiencies \(Objective \#2\)
 
-### Risk Factors or Concerns
+#### Risk Factors or Concerns
 
 Identify any risk factors or concerns that have arisen during discovery and qualification. Tie them back to the deliverables.
 
 ![](/developing-a-project-description/Risk Factors or Concerns Proj Desc Sample.png)
 
-### Key Contacts
+#### Key Contacts
 
 For both Customer and Sight Machine contacts, include the following in a table:
 
@@ -46,19 +46,19 @@ For both Customer and Sight Machine contacts, include the following in a table:
 
 * Pertinent notes: critical to project funding, be sure to attend meetings where this contact is in attendance, etc.
 
-### Process Details
+#### Process Details
 
-#### Industry Overview/Supplementary Material
+##### Industry Overview/Supplementary Material
 
 General industry information found during discovery process. YouTube videos can be helpful here. Also videos, slides, and images from the customer or facility.
 
-#### Line/Process Mapping
+##### Line/Process Mapping
 
 Add a block diagram of the line. Highlight the portion where we will focus.
 
-### Information About the Data
+#### Information About the Data
 
-#### Raw Data Connectivity
+##### Raw Data Connectivity
 
 ![](/developing-a-project-description/Raw Data Connectivity Proj Desc Sample.png)
 
@@ -72,7 +72,7 @@ Add a block diagram of the line. Highlight the portion where we will focus.
 
   * Spreadsheet
 
-#### Process Area Data
+##### Process Area Data
 
 ![](/developing-a-project-description/Process Area Data Proj Desc Sample.png)
 
@@ -80,9 +80,9 @@ _**Legend**_
 
 ![](/developing-a-project-description/Legend Proj Desc Sample.png)
 
-### Sample Data Exploration
+#### Sample Data Exploration
 
-#### File Exploration
+##### File Exploration
 
 Example questions to ask of the data:
 
@@ -110,8 +110,6 @@ Example questions to ask of the data:
 
 12. OEE Equations
 
-
-
 **EXAMPLE: {File 1} Data Exploration**
 
 * Link to Jupyter Notebook Exploration \(HTML version\)
@@ -123,8 +121,6 @@ Example questions to ask of the data:
 * Link to Jupyter Notebook Exploration \(HTML version\)
 
 * 01-Next-logical-step.ipynb
-
-
 
 Please note the sequentially numbered notebook name in the exploration, e.g., 01-Next-logical-step.ipynb. This helps to ensure that another person could follow behind you in a logical order and rerun the datasets to recreate your data findings.
 
