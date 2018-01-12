@@ -6,9 +6,9 @@ You can use DRI to identify which organizational and technical assets an enterpr
 
 There are two components \(or measurements\) to our Digital Readiness Index:
 
-* **Organizational Readiness \(or Y axis\) -** Does your customer have the necessary institutional support to begin the digital transformation?
+* **Organizational Readiness \(or Y axis\):** Does your customer have the necessary institutional support to begin the digital transformation?
 
-* **Technical Readiness \(or X axis\) - **Does your customer have the right IT infrastructure in place to be successful?
+* **Technical Readiness \(or X axis\): **Does your customer have the right IT infrastructure in place to be successful?
 
 ![](/understanding-the-digital-readiness-index/DRI Graphic.png)
 
