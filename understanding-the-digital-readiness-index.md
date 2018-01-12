@@ -12,3 +12,5 @@ There are two components \(or measurements\) to our Digital Readiness Index:
 
 ![](/understanding-the-digital-readiness-index/DRI Graphic.png)
 
+
+
