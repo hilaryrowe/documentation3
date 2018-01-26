@@ -1,24 +1,9 @@
 # Summary
 
 * [Engagement Overview](README.md)
-* [Understanding the Digital Readiness Index](understanding-the-digital-readiness-index.md)
-  * [Understanding the Organizational Readiness Axis](understanding-the-digital-readiness-index/understanding-the-organizational-readiness-axis.md)
-  * [Understanding the Technical Readiness Axis](understanding-the-digital-readiness-index/understanding-the-technical-readiness-axis.md)
-  * [Using DRI to Assess Product/Application Fit](understanding-the-digital-readiness-index/using-dri-to-assess-productapplication-fit.md)
-  * [Managing Customer Expectations](understanding-the-digital-readiness-index/managing-customer-expectations.md)
-* [Evaluating the Project Landscape](evaluating-the-project-landscape.md)
-  * [Examining the Physical Process](evaluating-the-project-landscape/examining-the-physical-process.md)
-  * [Analyzing the Organizational Functions](evaluating-the-project-landscape/analyzing-the-organizational-functions.md)
-  * [Cataloging the Different Types of Data Sources](evaluating-the-project-landscape/cataloging-the-different-types-of-data-sources.md)
-  * [Working with Sample Data](evaluating-the-project-landscape/working-with-sample-data.md)
-  * [Building a Customer Value Map](evaluating-the-project-landscape/building-a-customer-value-map.md)
-* [Developing a Project Description](developing-a-project-description.md)
-  * [Gathering Materials](developing-a-project-description/gathering-materials.md)
-  * [Sample Project Description](developing-a-project-description/sample-project-description.md)
-* [Scoping the Project](scoping-the-project.md)
-  * [Visibility Offering: Enterprise Manufacturing Visibility \(EMV\)](scoping-the-project/visibility-offering-enterprise-manufacturing-visibility-emv.md)
-  * [Analytics Offering: Enterprise Manufacturing Analytics \(EMA\)](scoping-the-project/analytics-offering-enterprise-manufacturing-analytics-ema.md)
-  * [EMV and EMA Product Comparison](scoping-the-project/emv-and-ema-product-comparison.md)
-  * [Determining Scoping Milestones and Decision Points](scoping-the-project/determining-scoping-milestones-and-decision-points.md)
-* [Engagement Summary](engagement-summary.md)
+* [Basic Concepts in FactoryTX](basic-concepts-in-factorytx.md)
+* Deploying FactoryTX
+* Understanding the FactoryTX Interface
+* Configurations in FactoryTX
+* Deep Dive into SSLOG
 
