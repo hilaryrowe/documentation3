@@ -12,7 +12,7 @@ To build a data extraction pipeline, FactoryTX:
 
 * Labels all data with meaningful metadata, such as the data source, type, and a canonical timestamp, to assist data analysis.
 
-* Builds a consistent, human-readable format called SSLOG, which is a JSON document per point in time. For more information about the SSLOG format, see **Deep Dive into SSLOG**.
+* Builds a consistent, human-readable format called SSLOG, which is a JSON document per point in time. For more information about the SSLOG format, see [Deep Dive into SSLOG](/deep-dive-into-sslog.md).
 
 * Streams data to Sight Machine in near real time using:
 
