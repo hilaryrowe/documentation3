@@ -12,7 +12,7 @@ The graphic below shows how FTX can be installed on edge devices to pull data fr
 
 **FactoryTX Installation Flow**
 
-
+![](/tutorial-deploying-factorytx/FTX Installation Flow w Lines.png)
 
 Follow the steps in the next sections to complete the deployment.
 
@@ -22,5 +22,5 @@ You must specify if the target is an appliance or a VM. This is based solely on 
 
 ## Logging In to Resin
 
-Browse to [https://resin.io/](https://resin.io/).
+Browse to [https://resin.io/](https://resin.io/). You can create a number of devices using a free account linked to your Google or GitHub account.
 
