@@ -1,13 +1,13 @@
-## Configuration File Structure {#docs-internal-guid-f6e88102-66f0-26ef-8ffa-08d700b410de}
+# Validating the Configuration
 
-There are three sections of a FactoryTX configuration file:
+**NOTE: **This content in this section is pending product demo.
 
-* Data Receiver:Pulls data into FactoryTX from a variety of sources, breaks it apart into "streams," and converts it into Pandas DataFrames.  
-  NOTE:Pandas is an open-source Python library used for data analysis. A DataFrame is a two-dimensional, labeled data structure comprised of rows and columns \(like a spreadsheet or SQL table\). You can think of a DataFrame as a group of series objects that share an index \(i.e., the column names\).
+After you edit the FTX configuration file, the system validates it for you and will tell you if any information is missing. You can do the following:
 
-* Transforms:Conditions data with any operation that takes a DataFrame as input, and returns a DataFrame as output. For example, set indexes, reorder data, generate new columns, rename columns, etc.
+* **Validate the schema: **The configuration file will not be loaded by the application if there are errors. If any field is wrong or if any required field is not set properly, an indicator appears both on the left side of the code line in question, and in the lower-right corner. Click the lower error link to open the error console, which will list all errors currently in the code.  
+  ![](/configurations-in-factorytx/Errors and Console w Lines.png)
 
-Data Transmit:
+* **Test the configuration: **Check the logs for data receiver services to make sure that the connection works.
 
-Sends the data to a cloud environment, or forwards to another edge device.
+
 
