@@ -16,7 +16,7 @@ To build a data extraction pipeline, FactoryTX:
 
 * Streams data to Sight Machine in near real time using:
 
-  * **Polling: **Typically, FTX is apollingrather than areal-timedata pipeline. Each service/TX has its own independent polling rate, expressed in seconds \(can be sub-second\). You can adjust the polling rates as necessary, based on the applications/sources being polled:
+  * **Polling: **Typically, FTX is a **polling** rather than a **real-time** data pipeline. Each service/TX has its own independent polling rate, expressed in seconds \(can be sub-second\). You can adjust the polling rates as necessary, based on the applications/sources being polled:
 
     * For real-time data sources, follow the basic formula of signal theory \(AKA, sampling theorem\): use a minimum of 2x the sample rate for signals that you are trying to poll. For more detailed information about this topic, go [here](https://en.wikipedia.org/wiki/Nyquist–Shannon_sampling_theorem).
 
