@@ -20,7 +20,7 @@ The conversion process involves formatting and renaming fields. The core of FTXâ
 
 The following table lists the schema that we use when we transmit data from plant floor assets.
 
-![](/configurations-in-factorytx/Transmit Schema Table.png)
+![](/images/Transmit Schema Table.png)
 
 ## Encrypting Data {#docs-internal-guid-dfa27dc4-6772-5197-408b-a4c121b2f848}
 
