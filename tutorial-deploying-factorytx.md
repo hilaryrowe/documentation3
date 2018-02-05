@@ -14,5 +14,13 @@ The graphic below shows how FTX can be installed on edge devices to pull data fr
 
 
 
+Follow the steps in the next sections to complete the deployment.
 
+## Determining the Edge Device Target
+
+You must specify if the target is an appliance or a VM. This is based solely on the customer engagement. You need to determine this up front before continuing with the deployment.
+
+## Logging In to Resin
+
+Browse to [https://resin.io/](https://resin.io/).
 
