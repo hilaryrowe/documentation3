@@ -25,8 +25,53 @@ Note the following parameters:
 
 ![](/understanding-the-factorytx-interface/Data Receiver Section Sample Color Coded Parameters.png)
 
-Each data receiver may have additional requirements, depending on its protocol. For full details and complete configuration file samples for the various protocols, see the following sections in :
+Each data receiver may have additional requirements, depending on its protocol. For full details and complete configuration file samples for the various protocols, see the following sections in [Configuring a Data Receiver](/configuring-a-data-receiver.md):
 
-* 
+* Configuring a SQL Plugin
+
+* Configuring an OPC UA Plugin
+
+* Configuring a File-Based Plugin
+
+## Transforms
+
+FactoryTX currently only supports the set\_timestamp transform, which you can use as-is or adjust slightly. If the data has multiple timestamps or date/time fields, this transform helps you identify which one will be used in the data modeling later.
+
+You can also use the Custom Pandas transform to write your own transform with any supported Pandas actions.
+
+**NOTE: **In the future, we will support extensibility on FactoryTX transforms: you will be able to write your own transforms in Python and then load them into FactoryTX.
+
+### Transforms Section Sample
+
+The following is a brief sample of the transforms section of code in the FTX configuration file.
+
+![](/understanding-the-factorytx-interface/Transforms Section Sample.png)
+
+### Stream Filters
+
+In order to control which streams are processed by which transforms, FactoryTX has a filter\_stream key that you define on each transform.
+
+Stream filters are always described as a list of streams, with each stream described as an asset and stream\_type.
+
+Place each stream in quotation marks, using a colon to separate the asset and the stream\_type. Separate multiple streams with commas. You can also replace any asset or stream\_type with a star \("\*"\) to imply all assets, or all stream types. For example:
+
+![](/understanding-the-factorytx-interface/Stream Filter Table.png)
+
+## Data Transmit
+
+Typically, you will want to configure the transmit to send data to a Sight Machine cloud environment. In that case, these are the required keys:
+
+![](/understanding-the-factorytx-interface/Data Transmit Table.png)
+
+### Copying FTX API Credentials
+
+To access the API keys in the AI Data Pipeline, go to **Models** &gt; **Location**, and then under **FactoryTX API Credentials**, copy both of the following:
+
+* **FactoryTX Username**
+
+* **FactoryTX API Key**
+
+
+
 
 
