@@ -22,14 +22,14 @@ On the Configuration screen, you can also do the following:
   ![](/images/UI Config Started w Lines.png)  
   ![](/images/UI Config Stopped w Lines.png)
 
-* On the left, check the system status of CPU, memory, or Disk usage.  
+* On the left, check the system status of CPU, memory, or disk usage.  
   ![](/images/UI Config Usage w Lines.png)
 
 * In the upper-right toolbar, fold and unfold the code viewing window.  
   ![](/images/UI Config Fold w Lines.png)  
   ![](/images/UI Config Unfold w Lines.png)
 
-* In the upper-right toolbar, launch a search, including wildcard and regex.  
+* In the upper-right toolbar, launch a search. You can run wildcard and regex searches.  
   ![](/images/UI Config Search w Lines.png)
 
 * In the upper-right, use the shortcut links to jump to the data\_receiver, data\_transmit, or transforms section of the code.  
@@ -48,6 +48,4 @@ On the Configuration screen, you can also do the following:
 ## Viewing Logs {#docs-internal-guid-92afc525-66df-d9a2-14de-6f2e54f61d02}
 
 On the Log screen, you can:
-
-
 
