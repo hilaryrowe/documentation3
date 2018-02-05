@@ -1,6 +1,6 @@
 # Running on an Intel NUC \(Requires USB Drive\)
 
-You will need to burn the image file that you downloaded from resinOS to a USB drive so you can use it on the NUC. To do this, you should use Etcher to flash installable images onto USB.
+You will need to burn the image file that you downloaded from resinOS to a USB drive so you can use it on the NUC. To do this, you should use Etcher, an image burner tool by[ Resin.io](http://resin.io), to flash installable images onto USB.
 
 **To run on a Intel NUC:**
 
@@ -8,9 +8,11 @@ You will need to burn the image file that you downloaded from resinOS to a USB d
 
 2. Insert the USB key and power up the NUC.
 
-3. Follow the instructions on the Add a New Device page.
+3. Follow the instructions on the Add a New Device page.  
+   ![](/tutorial-deploying-factorytx/Running on Intel NUC1 w Lines.png)
 
-4. Go to the Resin.io Applications page and verify that the new NUC device is added. You should see an image similar to:
+4. Go to the Resin.io Applications page and verify that the new NUC device is added. You should see an image similar to:  
+   ![](/tutorial-deploying-factorytx/Running on Intel NUC2 w Lines.png)
 
 
 

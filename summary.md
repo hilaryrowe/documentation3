@@ -11,7 +11,7 @@
   * [Creating an Application](tutorial-deploying-factorytx/creating-an-application.md)
   * [Creating a New Device](tutorial-deploying-factorytx/creating-a-new-device.md)
   * [Running a Virtual Device Using QEMU](tutorial-deploying-factorytx/running-a-virtual-device-using-qemu.md)
-  * [Running on an Intel NUC](tutorial-deploying-factorytx/running-on-an-intel-nuc.md)
+  * [Running on an Intel NUC \(Requires USB Drive\)](tutorial-deploying-factorytx/running-on-an-intel-nuc.md)
   * Running on Oracle VirtualBox
   * Setting Up Network Configuration \(Advanced\)
   * Setting Up a Proxy Connection
