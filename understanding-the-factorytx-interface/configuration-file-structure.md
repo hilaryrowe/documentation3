@@ -17,7 +17,7 @@ Every data receiver will have the following keys:
 
 ### Data Receiver Section Sample
 
-The following is a brief sample of the data receiver section of code in the FTX configuration file. This sample shows a file-based protocol.
+The following is a brief sample of the data\_receiver section of code in the FTX configuration file. This sample shows a file-based protocol.
 
 ![](/configurations-in-factorytx/Data Receiver Section Sample.png)
 
@@ -75,11 +75,7 @@ To access the API keys in the AI Data Pipeline, go to **Models** &gt; **Location
 
 ### Data Transmit Section Sample
 
-The following is a brief sample of the data transmit section of code in the FTX configuration file.
+The following is a brief sample of the data\_transmit section of code in the FTX configuration file.
 
 ![](/configurations-in-factorytx/Data Transmit Section Sample.png)
-
-
-
-
 
