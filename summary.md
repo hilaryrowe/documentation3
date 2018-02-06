@@ -12,11 +12,11 @@
   * [Creating a New Device](tutorial-deploying-factorytx/creating-a-new-device.md)
   * [Running a Virtual Device Using QEMU](tutorial-deploying-factorytx/running-a-virtual-device-using-qemu.md)
   * [Running on an Intel NUC \(Requires USB Drive\)](tutorial-deploying-factorytx/running-on-an-intel-nuc.md)
-  * Running on Oracle VirtualBox
-  * Setting Up Network Configuration \(Advanced\)
-  * Setting Up a Proxy Connection
-  * Loading the FactoryTX Software into Resin for Deployment
-  * Adding the Resin Application as a Remote
+  * [Running on Oracle VirtualBox](tutorial-deploying-factorytx/running-on-oracle-virtualbox.md)
+  * [Setting Up Network Configuration \(Advanced\)](tutorial-deploying-factorytx/setting-up-network-configuration-advanced.md)
+  * [Setting Up a Proxy Connection](tutorial-deploying-factorytx/setting-up-a-proxy-connection.md)
+  * [Loading the FactoryTX Software into Resin for Deployment](tutorial-deploying-factorytx/loading-the-factorytx-software-into-resin-for-deployment.md)
+  * [Adding the Resin Application as a Remote](tutorial-deploying-factorytx/adding-the-resin-application-as-a-remote.md)
   * Pushing Software to Resin
   * Verifying that Changes Deployed Properly
   * Setting Login Credentials
