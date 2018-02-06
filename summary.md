@@ -20,9 +20,9 @@
   * [Pushing Software to Resin](tutorial-deploying-factorytx/pushing-software-to-resin.md)
   * [Verifying that Changes Deployed Properly](tutorial-deploying-factorytx/verifying-that-changes-deployed-properly.md)
   * [Setting Login Credentials](tutorial-deploying-factorytx/setting-login-credentials.md)
-  * Setting Up Remote Debugging
-  * Connecting to the FactoryTX User Interface
-  * Finding Additional Resources
+  * [Setting Up Remote Debugging](tutorial-deploying-factorytx/setting-up-remote-debugging.md)
+  * [Connecting to the FactoryTX User Interface](tutorial-deploying-factorytx/connecting-to-the-factorytx-user-interface.md)
+  * [Finding Additional Resources](tutorial-deploying-factorytx/finding-additional-resources.md)
 * [Tutorial: Setting Up a FactoryTX Node from Scratch](tutorial-setting-up-a-factorytx-node-from-scratch.md)
 * [Configuring a Data Receiver](configuring-a-data-receiver.md)
 * [Viewing Output in the Databuffer Directory](viewing-output-in-the-databuffer-directory.md)

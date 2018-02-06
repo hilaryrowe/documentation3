@@ -31,13 +31,13 @@ The FactoryTX user interface requires a user name and password. You can either d
 
 4. To create a hash for your custom password, use this Python method:
 
-   **`$ python`**
+   `$ python`
 
-   **`>>> from werkzeug.security import generate_password_hash`**
+   `>>> from werkzeug.security import generate_password_hash`
 
-   **`>>> generate_password_hash('custom_password')`**
+   `>>> generate_password_hash('custom_password')`
 
-   **`'pbkdf2:sha256:50000$Y7Ig4Cbd$ae385722a29068a64ac8d06dfa93dc0872c0b995f62ac6e71c87eb5531baed97'`**
+   `'pbkdf2:sha256:50000$Y7Ig4Cbd$ae385722a29068a64ac8d06dfa93dc0872c0b995f62ac6e71c87eb5531baed97'`
 
 
 
