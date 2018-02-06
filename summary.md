@@ -25,5 +25,8 @@
   * [Finding Additional Resources](tutorial-deploying-factorytx/finding-additional-resources.md)
 * [Tutorial: Setting Up a FactoryTX Node from Scratch](tutorial-setting-up-a-factorytx-node-from-scratch.md)
 * [Configuring a Data Receiver](configuring-a-data-receiver.md)
+  * [Configuring a SQL Plugin](configuring-a-data-receiver/configuring-a-sql-plugin.md)
+  * [Configuring an OPC UA Plugin](configuring-a-data-receiver/configuring-an-opc-ua-plugin.md)
+  * [Configuring a File-Based Plugin](configuring-a-data-receiver/configuring-a-file-based-plugin.md)
 * [Viewing Output in the Databuffer Directory](viewing-output-in-the-databuffer-directory.md)
 
