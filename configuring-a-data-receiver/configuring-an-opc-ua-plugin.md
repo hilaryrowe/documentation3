@@ -8,3 +8,11 @@ The most important enhancement from classic OPC to the newer OPC UA is that OPC 
 
 For more information about the OPC UA paradigm, go [here](https://en.wikipedia.org/wiki/OPC_Unified_Architecture).
 
+## OPC UA FTX Configuration File Sample
+
+![](/configuring-a-data-receiver/Full FTX OPC UA Config File Code Sample w Lines.png)
+
+
+
+
+

@@ -2,5 +2,7 @@
 
 Each data receiver protocol has different requirements. Consider the following:
 
+![](/configuring-a-data-receiver/Configuring a Data Receiver Requirements Table.png)
 
+For more information on stream filters, see the Transforms seciton in [Configurations in FactoryTX](/configurations-in-factorytx.md).
 
