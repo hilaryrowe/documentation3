@@ -17,9 +17,9 @@
   * [Setting Up a Proxy Connection](tutorial-deploying-factorytx/setting-up-a-proxy-connection.md)
   * [Loading the FactoryTX Software into Resin for Deployment](tutorial-deploying-factorytx/loading-the-factorytx-software-into-resin-for-deployment.md)
   * [Adding the Resin Application as a Remote](tutorial-deploying-factorytx/adding-the-resin-application-as-a-remote.md)
-  * Pushing Software to Resin
-  * Verifying that Changes Deployed Properly
-  * Setting Login Credentials
+  * [Pushing Software to Resin](tutorial-deploying-factorytx/pushing-software-to-resin.md)
+  * [Verifying that Changes Deployed Properly](tutorial-deploying-factorytx/verifying-that-changes-deployed-properly.md)
+  * [Setting Login Credentials](tutorial-deploying-factorytx/setting-login-credentials.md)
   * Setting Up Remote Debugging
   * Connecting to the FactoryTX User Interface
   * Finding Additional Resources
