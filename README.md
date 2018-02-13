@@ -46,7 +46,7 @@ In order to access the AI Data Pipeline interface, you will need an Admin user t
 
 2. Click **Settings**.
 
-3. Locate the user, and then check the **Commander** box.  
+3. Locate the user, and then check the **Commander** box.
 
 After the Admin has given you the correct role, you will see an AI Data Pipeline link in the Sight Machine main menu.
 
@@ -55,12 +55,6 @@ After the Admin has given you the correct role, you will see an AI Data Pipeline
 1. On the main Sight Machine menu on the right, click **AI Data Pipeline**.
 
 2. To return to the Sight Machine platform at any time, on the menu, click **Manufacturing Applications**.
-
-  
-
-
-  
-
 
 
 
