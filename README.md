@@ -1,36 +1,66 @@
-# Overview: Building Data Extraction Pipelines
+# Introduction to the AI Data Pipeline {#docs-internal-guid-d0b843f4-90f5-6854-ecbd-be45abfc36e4}
 
-Releasing data from factory environments is required for Sight Machine to deliver distinctive data modeling and analysis. FactoryTX \(or FTX, where TX stands for “Transmit”\) is Sight Machine's data acquisition product, a continuous, automatic tool that extracts data from edge devices or machines of origin and efficiently imports it into the Sight Machine platform. Typically, FTX runs on an edge device on the factory floor, collecting data from a variety of sources in real time, conditioning the data, transmitting it into the Sight Machine platform.
+Digitizing a manufacturing operation and leveraging data at scale are critical to discovering actionable insights and realizing value.
 
-**FactoryTX Process**
+In order to create a digital twin of a company’s production, by automatically combining process and quality data from every plant and supplier, the following elements are required:
 
-![](/images/FactoryTX Process w Lines.png)
+* Facility and machine configurations
 
-To build a data extraction pipeline, FactoryTX:
+* Data warehousing processes
 
-* Coerces machine-specific data coming from a variety of sources and proprietary formats to discrete time series data.
+* Descriptive statistics
 
-* Labels all data with meaningful metadata, such as the data source, type, and a canonical timestamp, to assist data analysis.
+* Analytic models
 
-* Builds a consistent, human-readable format called SSLOG, which is a JSON document per point in time. For more information about the SSLOG format, see [Deep Dive into SSLOG](/deep-dive-into-sslog.md).
+* Data visualization
 
-* Streams data to Sight Machine in near real time using:
+The AI Data Pipeline is Sight Machine's intuitive data contextualization interface that helps you build digital twins in order to model data. The three main tasks required to create data models in the Sight Machine platform are mirrored in the main tabs in the AI Data Pipeline interface:
 
-  * **Polling: **Typically, FTX is a **polling** rather than a **real-time** data pipeline. Each service/TX has its own independent polling rate, expressed in seconds \(can be sub-second\). You can adjust the polling rates as necessary, based on the applications/sources being polled:
+* **Raw Data: **Provides the tools for inspecting and visualizing raw data from facilities and machines.
 
-    * For real-time data sources, follow the basic formula of signal theory \(AKA, sampling theorem\): use a minimum of 2x the sample rate for signals that you are trying to poll. For more detailed information about this topic, go [here](https://en.wikipedia.org/wiki/Nyquist–Shannon_sampling_theorem).
+* **Models: **Create and manage explicit-defined models, which will generate data-defined models such as cycles and downtimes.
 
-    * For archival data sources \(historians, databases, etc.\) that can handle multiple messages, polling is more about the tradeoff between latency \(i.e., how much time it takes for a packet of data to get from one designated point to another\) vs. efficiency \(i.e., moving the highest possible volume of data through the network\).
+* **Compute: **Allows you to recalculate data-defined models.
 
-  * **Microbatching:** While basic message queuing sends each piece of data individually, FactoryTX can employ microbatching \(a specific count or time interval of messages together\). This methodology that allows for tradeoffs of latency vs. efficiency. When working with highly redundant manufacturing data, the messages can be compressed through the microbatching process and use less bandwidth and fewer resources.
+## Fundamental Data-Defined Models
 
-  * **Store and forward:** In the store and forward data transmission method, a device receives a complete message and temporarily stores it in a buffer before forwarding it to the final destination. This is useful in locations with network connectivity issues.
+* **Cycle: **A discrete transaction of a machine, during which the machine completes all of its operations on one piece, product, patient, file, etc. Also referred to as “machine cycle.”
 
-* Contains a single configuration file. Typically, the version is controlled in GIT, an open-source version control system that tracks changes and stores file backups. The configuration file includes all credentials and configuration information.
+* **Downtime: **A period of time that a system fails to provide or perform its primary function.
 
-* Performs basic transforms on the data using Python Pandas. \(A transform is the manipulation of data inside FactoryTX’s built-in data pipeline.\)
+## Explicit and Hybrid-Defined Models
 
-This guide is a field manual that provides Sight Machine partners with the basic knowledge needed to install and implement FactoryTX for the customer. You do not need to be a full-time data engineer to follow the instructions this guide.
+* **Facility: **An industrial site, usually consisting of buildings and machinery, or more commonly a complex having several buildings, where workers manufacture goods or operate machines processing one product into another.
 
-FactoryTX is also extensible and developers can write new plugins that will allow it to connect to different data sources. For more information about plugins or assistance with the customer’s FactoryTX implementation, please contact your Sight Machine sales partner.
+* **Machine: **A piece of equipment with moving parts that performs tasks when it is given power.
+
+* **Machine Type: **Machines are the core of any manufacturing operation. They come in many shapes and sizes, produce large volumes of data, and have a wide variety of inputs and outputs. However, manufacturers often have multiple machines of the same kind across their operations. Sight Machine understands this is a common occurrence, and as result, groups machines into Machine Types within the configuration.
+
+## Accessing the Interface
+
+In order to access the AI Data Pipeline interface, you will need an Admin user to assign you the Commander role.
+
+**Admins Only - To grant users access to the interface:**
+
+1. For Admins, navigate to your Sight Machine URL, and then open the main menu.
+
+2. Click **Settings**.
+
+3. Locate the user, and then check the **Commander** box.  
+
+After the Admin has given you the correct role, you will see an AI Data Pipeline link in the Sight Machine main menu.
+
+**To access the interface:**
+
+1. On the main Sight Machine menu on the right, click **AI Data Pipeline**.
+
+2. To return to the Sight Machine platform at any time, on the menu, click **Manufacturing Applications**.
+
+  
+
+
+  
+
+
+
 
