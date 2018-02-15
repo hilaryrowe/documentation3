@@ -38,7 +38,7 @@ Some models are representations of equipment and processes \(made up of a set of
 
 * **Part Type: **Since Parts can be processed by more than one machine over a long date range, Part Type specifies a category of Parts to analyze.
 
-**NOTE: **This guide covers only Facility, Machine, and Machine Type. For more information, see **ADD LINK**.
+**NOTE: **This guide covers only Facility, Machine, and Machine Type. For more information, see [Configuring Models](/configuring-models.md).
 
 ## Fundamental Data-Driven Models
 
@@ -54,7 +54,7 @@ The Sight Machine platform also pulls raw data from machines and uses heuristics
 
 * **Parts:** Transaction logs of serialized information across machines \(explicit or synthesized\), and a union of attributes.
 
-**NOTE: **This guide covers only Cycles and Downtimes. For more information, see **ADD LINK**.
+**NOTE: **This guide covers only Cycles and Downtimes. For more information, see [Configuring Models](/configuring-models.md).
 
 ## Accessing the AI Data Pipeline Interface
 
