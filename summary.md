@@ -14,7 +14,7 @@
     * [Classifying Downtime Reasons](configuring-models/configuring-a-machine-type/classifying-downtime-reasons.md)
     * [Viewing the Data Fields](configuring-models/configuring-a-machine-type/viewing-the-data-fields.md)
     * [Deploying the Machine Type](configuring-models/configuring-a-machine-type/deploying-the-machine-type.md)
-  * Configuring a Machine
+  * [Configuring a Machine](configuring-models/configuring-a-machine.md)
 * [Computing and Recomputing Contextualized Data](computing-and-recomputing-contextualized-data.md)
   * [Checking the Data](computing-and-recomputing-contextualized-data/checking-the-data.md)
 
