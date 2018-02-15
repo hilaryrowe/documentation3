@@ -73,6 +73,7 @@ After the Admin has given you the correct role, you will see an AI Data Pipeline
 **To access the AI Data Pipeline interface:**
 
 1. On the main Sight Machine menu on the right, click **AI Data Pipeline**.  
+   ![](/assets/SM Main Menu AI Data Pipeline.png)
 
 2. To return to the Sight Machine platform at any time, on the menu, click **Manufacturing Applications**.
 
