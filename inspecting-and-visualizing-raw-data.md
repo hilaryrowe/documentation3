@@ -10,7 +10,5 @@ The AI Data Pipeline includes several visualization tools that allow you to insp
 
 * Raw Data Visualization
 
-
-
-
+![](/inspecting-and-visualizing-raw-data/Raw Data Main Menu.png)
 
