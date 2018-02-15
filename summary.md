@@ -15,6 +15,6 @@
     * Viewing the Data Fields
     * Deploying the Machine Type
   * Configuring a Machine
-* Computing and Recomputing Contextualized Data
-  * Checking the Data
+* [Computing and Recomputing Contextualized Data](computing-and-recomputing-contextualized-data.md)
+  * [Checking the Data](computing-and-recomputing-contextualized-data/checking-the-data.md)
 

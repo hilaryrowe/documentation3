@@ -1,4 +1,4 @@
-## Viewing a Raw Data Summary {#docs-internal-guid-bd21ca06-9aab-9819-e528-476e1d516698}
+# Viewing a Raw Data Summary
 
 You can view all of your streams that have been come in from FactoryTX, as well as their associated stream types.
 
@@ -6,10 +6,10 @@ You can view all of your streams that have been come in from FactoryTX, as well 
 
 **To view a Raw Data Summary:**
 
-1. On the top Raw Data menu, click **Raw Data Summary**.
+1. On the top Raw Data menu, click **Raw Data Summary**.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Menu Raw Data Summary.png)
 
-2. On the main Raw Data Summary screen, check your FactoryTX streams/assets.
+2. On the main Raw Data Summary screen, check your FactoryTX streams/assets.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Summary1.png)
 
 3. To delete a stream, select a row, and then in the upper-right, click the trashcan icon.
