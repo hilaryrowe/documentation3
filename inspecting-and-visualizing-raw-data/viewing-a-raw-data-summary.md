@@ -1,6 +1,6 @@
 # Viewing a Raw Data Summary
 
-You can view all of your streams that have been come in from FactoryTX, as well as their associated stream types.
+You can view all of your streams that have come in from FactoryTX, as well as their associated stream types.
 
 **NOTE: **Future releases of the AI Data Pipeline interface will include additional statistics on this screen.
 
