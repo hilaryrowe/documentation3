@@ -32,9 +32,7 @@ Some models are representations of equipment and processes \(made up of a set of
 
 * **Machine Type: **Machines are the core of any manufacturing operation. They come in many shapes and sizes, produce large volumes of data, and have a wide variety of inputs and outputs. However, manufacturers often have multiple machines of the same kind across their operations. Sight Machine understands this is a common occurrence, and as result, groups machines into Machine Types within the configuration.
 
-* **Line: **A set of sequential operations established in a facility in which materials are put through a process to produce an end-product. An instance of a Line Type.
-
-* **Line Type: **A specified category of Lines to analyze.
+* **Line: **A set of machines in a particular layout and sequence, in which materials are processed according to that layout and sequence.
 
 * **Part Type: **Since Parts can be processed by more than one machine over a long date range, Part Type specifies a category of Parts to analyze.
 
