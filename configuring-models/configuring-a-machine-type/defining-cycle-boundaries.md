@@ -4,7 +4,7 @@ The second step in creating a Machine Type is to make sure that you correctly de
 
 **To define cycle boundaries:**
 
-1. After the scaffold is generated, the Cycles screen opens automatically.  
+1. After you create a new Machine Type, the Cycles screen opens automatically.  
    ![](/configuring-models/configuring-a-machine-type/Machine Type6.png)
 
 2. On the Cycles screen, click the **Cycle Boundary** field to select one of the following:
@@ -44,7 +44,7 @@ The second step in creating a Machine Type is to make sure that you correctly de
    ![](/configuring-models/configuring-a-machine-type/Machine Type10.png)
 
 6. If you select Time Interval, under Cycle Duration, accept the default of 60000 Milliseconds or set a new time.  
-   ![](/configuring-models/configuring-a-machine-type/Machine Type11.png)  
+   ![](/configuring-models/configuring-a-machine-type/Machine Type11.png)
 
 
 
