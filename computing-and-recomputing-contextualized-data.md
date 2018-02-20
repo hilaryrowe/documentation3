@@ -31,7 +31,7 @@ However, when you deploy models for the first time, or when you make changes, yo
 9. In the Active job status window, view the pending job to check its percentage completed and number of records are being processed.  
    ![](/computing-and-recomputing-contextualized-data/Compute7.png)
 
-10. When the job is finished, you can view it in the Completed section of the window.  
+10. When the job is finished, you can view it in the Completed section of the window on the right.  
     **NOTE: **The Completed window shows both successfully completed jobs in black as well as failed or canceled ones in red.  
     ![](/computing-and-recomputing-contextualized-data/Compute8.png)
 
