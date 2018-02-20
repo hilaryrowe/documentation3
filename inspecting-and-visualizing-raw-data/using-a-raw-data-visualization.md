@@ -50,7 +50,7 @@ You can generate your raw data into a chart to visualize it.
     ![](/inspecting-and-visualizing-raw-data/Raw Data Visualization12.png)  
     **NOTE: **You can view the results as a chart again by clicking the chart button in the upper-right.
 
-15. In the left, click **Show by to** change the time display into a distribution \(i.e., how often the variable you selected occurs at certain values\).  
+15. On the left, click **Show by** to change the time display into a distribution \(i.e., how often the variable you selected occurs at certain values\). The current selection will appear under Show by on the left.  
     ![](/inspecting-and-visualizing-raw-data/Raw Data Visualization13.png)  
     ![](/inspecting-and-visualizing-raw-data/Raw Data Visualization14.png)
 
