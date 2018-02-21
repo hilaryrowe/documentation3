@@ -10,7 +10,7 @@ The first step in creating a new Machine Type is to provide a unique Machine Typ
 2. On the main Machine Types screen, click the plus \(+\) button to create your first Machine Type.  
    ![](/configuring-models/configuring-a-machine-type/Machine Type1.png)
 
-3. On the New Machine Type screen, you will need to set a scaffold to use as the template for this Machine Type. Type a name for the new Machine Type. This should be a user-friendly reference for the Machine Type that will appear in Manufacturing Applications.  
+3. On the New Machine Type screen, type a name for the new Machine Type. This should be a user-friendly reference for the Machine Type that will appear in Manufacturing Applications.  
    ![](/configuring-models/configuring-a-machine-type/Machine Type2.png)
 
 4. Click the **Asset** field, and then in the window, select an asset that was uploaded from FactoryTX to use to configure the Machine Type.  
