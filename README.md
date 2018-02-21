@@ -1,6 +1,6 @@
 # Introduction to the AI Data Pipeline {#docs-internal-guid-d0b843f4-90f5-6854-ecbd-be45abfc36e4}
 
-Digitizing a manufacturing operation and leveraging data at scale are critical to discovering actionable insights and realizing value.
+Digitizing a manufacturing operation and leveraging data at scale are critical to discovering actionable insights and realizing value. An important part of this is the modeling of the data, where we take individual readings from sensors, information about timings, and measurements and information about parts, and combine them into discrete transactions between assets and materials.
 
 In order to create a manufacturing model of a company’s production \(by automatically combining process and quality data from every plant and supplier\), the following elements are required:
 
@@ -14,13 +14,15 @@ In order to create a manufacturing model of a company’s production \(by automa
 
 * Data visualization
 
-The AI Data Pipeline is Sight Machine's intuitive data contextualization interface that helps you build data manufacturing models. The three main tasks required to create data models in the Sight Machine platform are mirrored in the main tabs in the AI Data Pipeline interface:
+The AI Data Pipeline is Sight Machine's intuitive data contextualization interface that helps you build data manufacturing models. It will introspect the data, suggest functions for extracting features from the data that are rendered into the models, and allow you to flexibly reconfigure and recompute those models. 
+
+The three main tasks required to create data models in the Sight Machine platform are mirrored in the main tabs in the AI Data Pipeline interface:
 
 * **Raw Data: **Provides the tools for inspecting and visualizing raw data from facilities and machines.
 
 * **Models: **Create and manage explicit-defined models, which will generate data-defined models such as cycles and downtimes.
 
-* **Compute:** Allows you to recalculate data-defined models.
+* **Compute:** Allows you to manage the recalculation of data-defined models as you iterate on their definition.
 
 ## Explicit and Hybrid Models
 
