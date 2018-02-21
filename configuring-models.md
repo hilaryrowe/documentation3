@@ -40,3 +40,13 @@ These timestamp fields allow for efficient access and time sequencing of the con
 
 **NOTE: **We expect that you are working with real-time data that is in order. If you are working with high-latency data or a blend of data that is coming in at different times, contact Sight Machine for support and assistance.
 
+## How Cycles Affect the Modeling Process {#docs-internal-guid-c351c58b-b92c-6ffb-164e-8aae1d1fc1ec}
+
+For the AI Data Pipeline to properly model data, you need to extract a discrete set of numbers for everything coming from each signal in the customer’s system. Typically, you would want to distill each signal into one number; rarely mustallsignals be represented in the data to produce a useful model. You can work with the customer’s SMEs to determine which important factors you should be capturing.
+
+The simplest method of modeling continuous time series data involves using averages. In the first example, you can see that for continuous temperature data, you could model and visualize the average temperature over a number of cycles.
+
+**Example 1: Modeling Continuous Data**![](/configuring-models/Temp Chart 1 Continuous.png)In the second example, for periodic data over a number of cycles, you would want to use a start, end, and minimum temperature value set rather than an average to generate the most accurate information in the model.
+
+**Example 2: Modeling Periodic Data**![](/configuring-models/Temp Chart 2 Periodic.png)
+
