@@ -13,7 +13,7 @@ You can view raw data in real time as it streams into the AI Data Pipeline.
 3. In the Data Source window, select one of the assets.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Streaming2.png)
 
-4. On the left, click **Data Fields**.
+4. On the left, click **Data Fields**. Data Fields are all of the associated fields being captured for each data source.
 
 5. In the Data Fields window, select one or more data fields, and then click **Apply**.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Streaming3.png)  
