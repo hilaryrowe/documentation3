@@ -1,6 +1,6 @@
 # Using a Raw Data Visualization
 
-You can generate your raw data into a chart to visualize it.
+You can generate charts of your raw data to visualize it.
 
 **To use a Raw Data Visualization:**
 
