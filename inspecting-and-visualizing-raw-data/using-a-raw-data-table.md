@@ -23,7 +23,7 @@ You can generate your raw data into a table and download the results into a CSV 
 7. In the calendar window, select the range that you want to inspect, and then click **Apply**.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Tables4.png)
 
-8. When you are finished making your selections, on the left, click **Update** to generate a flattered table of your raw data.  
+8. When you are finished making your selections, on the left, click **Update** to generate a flattened table of your raw data.  
    **NOTE:** If you query for more than 10,000 records, the AI Data Pipeline will only display the first 10,000.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Tables5.png)
 
