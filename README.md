@@ -1,20 +1,8 @@
 # Introduction to the AI Data Pipeline {#docs-internal-guid-d0b843f4-90f5-6854-ecbd-be45abfc36e4}
 
-Digitizing a manufacturing operation and leveraging data at scale are critical to discovering actionable insights and realizing value. An important part of this is the modeling of the data, where we take individual readings from sensors, information about timings, and measurements and information about parts, and combine them into discrete transactions between assets and materials.
+Organizing and integrating the large and varied data volumes associated with the production process is critical to realizing value from machine and manufacturing system data. Sight Machine’s AI Data Pipeline enables this by combining individual readings from sensors, data timestamps, and manufacturing system data, as well as information about parts, to develop digital twins or data models of parts, machines, facilities, defects, and downtimes. These individual data models work in unison to provide an integrated view or unified data model of the entire production process.
 
-In order to create a manufacturing model of a company’s production \(by automatically combining process and quality data from every plant and supplier\), the following elements are required:
-
-* Facility and machine configurations
-
-* Data warehousing processes
-
-* Descriptive statistics
-
-* Analytic models
-
-* Data visualization
-
-The AI Data Pipeline is Sight Machine's intuitive data contextualization interface that helps you build data manufacturing models. It will introspect the data, suggest functions for extracting features from the data that are rendered into the models, and allow you to flexibly reconfigure and recompute those models. 
+The AI Data Pipeline’s intuitive interface enables users to quickly configure these sophisticated data models. The AI Data Pipeline then introspects your machine and process data, suggests functions for extracting features from the data, and leverages patent pending algorithms to render models that represent your production processes.
 
 The three main tasks required to create data models in the Sight Machine platform are mirrored in the main tabs in the AI Data Pipeline interface:
 
@@ -24,35 +12,41 @@ The three main tasks required to create data models in the Sight Machine platfor
 
 * **Compute:** Allows you to manage the recalculation of data-defined models as you iterate on their definition.
 
-## Explicit and Hybrid Models
+## Model Configuration
 
-Some models are representations of equipment and processes \(made up of a set of characteristics that mimic the real world\) and must be explicitly entered into the Sight Machine platform. These include external information not available from the data streams themselves, such as work shift schedules, factory locations and time zones, line topographies, etc. These models include:
+Through years of experience with global manufacturers, Sight Machine has developed a series of predefined models that represent various assets, processes, and performance indicators in the production process. These models are extensible across both continuous and discrete manufacturing and have been deployed in nearly every industry including: apparel, food and beverage, textile, paper, oil and gas, chemical, electronics, pharmaceutical/life-science, automotive, and industrial.
 
-* **Facility:** An industrial site, usually consisting of buildings and machinery, or more commonly a complex having several buildings, where workers manufacture goods or operate machines processing one product into another.
+The AI Data Pipeline lets you configure models for a specific industry and customer situation. Configuration happens in two ways:
 
-* **Machine: **A piece of equipment with moving parts that performs tasks when it is given power.
+* User configuration of metadata such as location, shift schedule, and line arrangement
 
-* **Machine Type: **Machines are the core of any manufacturing operation. They come in many shapes and sizes, produce large volumes of data, and have a wide variety of inputs and outputs. However, manufacturers often have multiple machines of the same kind across their operations. Sight Machine understands this is a common occurrence, and as result, groups machines into Machine Types within the configuration.
+* AI Data Pipeline configuration, which uses artificial intelligence to classify and process incoming data to create the models
 
-* **Line: **A set of machines in a particular layout and sequence, in which materials are processed according to that layout and sequence.
+Models that require user configuration include:
 
-* **Part Type: **Since Parts can be processed by more than one machine over a long date range, Part Type specifies a category of Parts to analyze.
+* **Facility: **Defining the location, time zone, and shift schedule unique to each facility enables the AI Data Pipeline to determine when machines should be running build data models for each facility, and relate those data models to key performance indicators \(KPIs\).
+
+* **Machine Type: **Defining cycle boundaries, downtimes, and data features for each machine type allows the AI Data Pipeline can automatically generate a data pipeline unique to each customer’s manufacturing process. These cycle and downtime records are foundational data elements used to blend, join, and integrate data in near real time across the manufacturing enterprise.
+
+* **Machine: **Assigning a Machine Type and Facility location to each machine enables the AI Data Pipeline to automatically render a data model for each machine.
+
+* **Line: **Defining the layout and sequence of a series of machines involved in the production process allows for functionality like bottleneck detection, overall process OEE, and traceability.
+
+* **Part Type: **Defining the category for part data enables the creation of models that can track and trace products, parts, and components as they travel through the production process.
 
 **NOTE: **This guide covers only Facility, Machine, and Machine Type. For more information, see [Configuring Models](/configuring-models.md).
 
-## Fundamental Data-Driven Models
+The Sight Machine platform leverages these user configured models and raw data from machines sensors to automatically generate additional models representing manufacturing processes and key performance indicators. These models include:
 
-The Sight Machine platform also pulls raw data from machines and uses heuristics and classifiers to model that data into discrete units. Data-defined models use the explicit models as the instructions. These data-driven models include:
+* **Cycles:** Represent discrete transaction logs of machine time. During each cycle, a machine involved in a discrete process completes all of its operations on one piece, product, patient, file, etc. In continuous manufacturing, a cycle typically represents a set period of time. These cycles and their associated timestamps play a critical role in establishing relationships between the various data models, enabling rich insights into the relationships between machines, processes, and KPIs.
 
-* **Cycles: **Discrete transaction logs of machine time. During each cycle, a machine completes all of its operations on one piece, product, patient, file, etc. Also referred to as “machine cycles.”
+* **Downtimes: **Describe events of non-productive, idle, or stop time for a machine. 
 
-* **Downtimes: **Events of non-productive idle and stop time within machine time.
+* **Defects: **Represent non-conformant production output, in both single part and batch.
 
-* **Defects: **Non-conformant production output, in both single and batch.
+* **Batches: **Present raw material and output grouping and summary data, which can be associated with cycles and parts.
 
-* **Batches: **Raw material and output grouping and summary data, which can be associated with cycles and parts.
-
-* **Parts:** Transaction logs of serialized information across machines \(explicit or synthesized\), and a union of attributes.
+* **Parts: **Show transaction logs and attributes of serialized information across machines associated with a specific part enabled by the cycle model.
 
 **NOTE: **This guide covers only Cycles and Downtimes. For more information, see [Configuring Models](/configuring-models.md).
 
