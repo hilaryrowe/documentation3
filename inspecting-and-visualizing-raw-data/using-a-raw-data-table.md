@@ -1,6 +1,6 @@
 # Using a Raw Data Table
 
-You can generate your raw data into a table and download the results into a CSV file to inspect it.
+You can generate your raw data into a table and download the results into a CSV file to inspect it or work with it in another application, such as Microsoft Excel.
 
 **To use a Raw Data Table:**
 
