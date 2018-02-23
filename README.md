@@ -40,13 +40,15 @@ The Sight Machine platform leverages these user configured models and raw data f
 
 * **Cycles:** Represent discrete transaction logs of machine time. During each cycle, a machine involved in a discrete process completes all of its operations on one piece, product, patient, file, etc. In continuous manufacturing, a cycle typically represents a set period of time. These cycles and their associated timestamps play a critical role in establishing relationships between the various data models, enabling rich insights into the relationships between machines, processes, and KPIs.
 
-* **Downtimes: **Describe events of non-productive, idle, or stop time for a machine. 
+* **Downtimes: **Describe instances and durations of non-productive, idle, or stop time for a machine.
 
 * **Defects: **Represent non-conformant production output, in both single part and batch.
 
 * **Batches: **Present raw material and output grouping and summary data, which can be associated with cycles and parts.
 
 * **Parts: **Show transaction logs and attributes of serialized information across machines associated with a specific part enabled by the cycle model.
+
+* **OEE:** Represent asset availability, performance, and quality, which together measure Overall Equipment Effectiveness \(OEE\). The models constituting these key performance indicators can be generated at the machine, shift, line, facility, and enterprise level.
 
 **NOTE: **This guide covers only Cycles and Downtimes. For more information, see [Configuring Models](/configuring-models.md).
 
