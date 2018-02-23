@@ -4,7 +4,9 @@ Model configuration is the core capability of the AI Data Pipeline. It provides 
 
 Currently, we support the configuration of Facilities, Machine Types, and Machines. This is sufficient for the production of a Cycles model, a Downtimes model, and OEE metrics.
 
-**NOTE: **In the near future, we will also support configuration of Part Types and Batch Types, which support our traceability models, Parts, and Batches.
+**Sight Machine AI Data Pipeline User Configuration Data Flows**
+
+![](/configuring-models/User Configuration Data Flows.png)
 
 ## Understanding the Extract, Transform, and Load \(ETL\) Process
 
