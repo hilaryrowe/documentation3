@@ -4,7 +4,7 @@ After you have defined much of the critical information in Machines Types, a Mac
 
 **To configure a Machine:**
 
-1. On the top Models menu, click **Machines**.  
+1. On the Models tab, click **Machines**.  
    ![](/configuring-models/configuring-a-machine-type/Models Machines Menu.png)
 
 2. On the main Machines screen, click the plus \(+\) button to add your first Machine.  
@@ -35,7 +35,7 @@ After you have defined much of the critical information in Machines Types, a Mac
     ![](/configuring-models/configuring-a-machine-type/Machine9.png)
 
 11. For the next Machine you add, you will only see the assets that you have not yet associated with another Machine. In this example, Robot1 was selected previously, so only Robot2 appears in the Asset list.  
-    ![](/configuring-models/configuring-a-machine-type/Machine10.png)  
+    ![](/configuring-models/configuring-a-machine-type/Machine10.png)
 
 
 

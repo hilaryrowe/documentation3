@@ -4,7 +4,7 @@ You can generate your raw data into a table and download the results into a CSV 
 
 **To use a Raw Data Table:**
 
-1. On the top Raw Data menu, click **Raw Data Table**.  
+1. On the Raw Data tab, click **Raw Data Table**.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Menu Raw Data Table.png)
 
 2. On the main Raw Data Table screen, on the left, click **Data Source** to select the asset that you want to inspect.  

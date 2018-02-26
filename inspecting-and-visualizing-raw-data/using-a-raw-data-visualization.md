@@ -4,7 +4,7 @@ You can generate charts of your raw data to visualize it.
 
 **To use a Raw Data Visualization:**
 
-1. On the top Raw Data menu, click **Raw Data Visualization**.  
+1. On the Raw Data tab, click **Raw Data Visualization**.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Menu Raw Data Visualization.png)
 
 2. On the main Raw Data Table screen, on the left, click **Data Source** to select the asset that you want to inspect.  

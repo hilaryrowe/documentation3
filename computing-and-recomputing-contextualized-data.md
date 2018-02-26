@@ -6,7 +6,7 @@ However, when you deploy models for the first time, or when you make changes, yo
 
 **To recompute contextualized data:**
 
-1. On the top menu, click **Compute**.  
+1. Click the **Compute **tab.  
    ![](/computing-and-recomputing-contextualized-data/Compute1.png)
 
 2. On the left, click **Selected Assets**.

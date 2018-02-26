@@ -4,7 +4,7 @@ You can view all of your streams that have come in from FactoryTX, as well as th
 
 **To view a Raw Data Summary:**
 
-1. On the top Raw Data menu, click **Raw Data Summary**.  
+1. On the Raw Data tab, click **Raw Data Summary**.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Menu Raw Data Summary.png)
 
 2. On the main Raw Data Summary screen, check your FactoryTX streams/assets.  

@@ -4,7 +4,7 @@ You can view raw data in real time as it streams into the AI Data Pipeline.
 
 **To view Raw Data Streaming:**
 
-1. On the top Raw Data menu, click **Raw Data Streaming**.  
+1. On the Raw Data tab, click **Raw Data Streaming**.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Menu Raw Data Streaming.png)
 
 2. On the main Raw Data Streaming screen, on the left, click **Data Source** to select the assets that you want to stream.  

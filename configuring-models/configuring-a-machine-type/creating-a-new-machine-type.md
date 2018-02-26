@@ -4,7 +4,7 @@ The first step in creating a new Machine Type is to provide a unique Machine Typ
 
 **To create a new Machine Type:**
 
-1. On the top Models menu, click **Machine Types**.  
+1. On the Models tab, click **Machine Types**.  
    ![](/configuring-models/configuring-a-machine-type/Models Machine Types Menu.png)
 
 2. On the main Machine Types screen, click the plus \(+\) button to create your first Machine Type.  

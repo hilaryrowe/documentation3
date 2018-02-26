@@ -10,7 +10,7 @@ It is also important to add shifts for each Facility so that the Sight Machine p
 
 **To add a Facility:**
 
-1. On the top Models menu, click **Facilities**.  
+1. On the Models tab, click **Facilities**.  
    ![](/configuring-models/configuring-a-machine-type/Models Facilities Menu.png)
 
 2. On the main Facilities screen, click the plus \(+\) button to add your first Facility.  
@@ -75,7 +75,7 @@ It is also important to add shifts for each Facility so that the Sight Machine p
       ![](/configuring-models/configuring-a-machine-type/Facility14.png)
 
 16. On the Facility’s Location screen, under FactoryTX API Credentials, check that the FactoryTX Username and FactoryTX API Key were automatically generated. These credentials are used in FactoryTX to authenticate posting data to your cloud environment.  
-    ![](/configuring-models/configuring-a-machine-type/Facility15.png)  
+    ![](/configuring-models/configuring-a-machine-type/Facility15.png)
 
 
 
