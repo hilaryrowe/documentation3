@@ -4,7 +4,8 @@ Organizing and integrating the large and varied data volumes associated with the
 
 The AI Data Pipeline’s intuitive interface enables you to configure these sophisticated data models quickly. The AI Data Pipeline then introspects your machine and process data, suggests functions for extracting features from the data, and leverages patent pending algorithms to render models that represent your production processes.
 
-The three main tasks required to configure data models in the Sight Machine platform are mirrored in the main tabs in the AI Data Pipeline interface:
+The three main tasks required to configure data models in the Sight Machine platform are mirrored in the main tabs in the AI Data Pipeline interface:  
+![](/assets/Ai Data Pipeline Main Tabs.png)
 
 * **Raw Data: **Provides the tools for inspecting and visualizing raw data from facilities and machines, enabling you to verify and validate incoming data streams.
 
