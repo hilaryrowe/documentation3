@@ -10,7 +10,7 @@ When creating a new Machine Type, you will need to perform the following tasks:
 
 * [Classifying Downtime Reasons](/configuring-models/configuring-a-machine-type/classifying-downtime-reasons.md)
 
-* [Viewing the Data Fields](/configuring-models/configuring-a-machine-type/viewing-the-data-fields.md)
+* [Viewing and Establishing Rules for the Data Fields](/configuring-models/configuring-a-machine-type/viewing-and-establishing-rules-for-the-data-fields.md)
 
 * [Deploying the Machine Type](/configuring-models/configuring-a-machine-type/deploying-the-machine-type.md)
 

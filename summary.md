@@ -12,7 +12,7 @@
     * [Creating a New Machine Type](configuring-models/configuring-a-machine-type/creating-a-new-machine-type.md)
     * [Defining Cycle Boundaries](configuring-models/configuring-a-machine-type/defining-cycle-boundaries.md)
     * [Classifying Downtime Reasons](configuring-models/configuring-a-machine-type/classifying-downtime-reasons.md)
-    * [Viewing the Data Fields](configuring-models/configuring-a-machine-type/viewing-the-data-fields.md)
+    * [Viewing and Establishing Rules for the Data Fields](configuring-models/configuring-a-machine-type/viewing-and-establishing-rules-for-the-data-fields.md)
     * [Deploying the Machine Type](configuring-models/configuring-a-machine-type/deploying-the-machine-type.md)
   * [Configuring a Machine](configuring-models/configuring-a-machine.md)
 * [Computing and Recomputing Contextualized Data](computing-and-recomputing-contextualized-data.md)
