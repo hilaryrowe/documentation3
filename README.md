@@ -38,7 +38,7 @@ Models that require user configuration include:
 
 The Sight Machine platform leverages these user configured models and raw data from machines sensors to automatically generate additional models representing manufacturing processes and key performance indicators. These models include:
 
-* **Cycles:** Represent discrete transaction logs of machine time. During each cycle, a machine involved in a discrete process completes all of its operations on one piece, product, patient, file, etc. In continuous manufacturing, a cycle typically represents a set period of time. These cycles and their associated timestamps play a critical role in establishing relationships between the various data models, enabling rich insights into the relationships between machines, processes, and KPIs.
+* **Cycles:** Represent discrete periods of machine time. During each cycle, a machine involved in a discrete process completes all of its operations on one piece, product, patient, file, etc. In continuous manufacturing, a cycle typically represents a set period of time. These cycles and their associated timestamps play a critical role in establishing relationships between the various data models, enabling rich insights into the relationships between machines, processes, and KPIs.
 
 * **Downtimes: **Describe instances and durations of non-productive, idle, or stop time for a machine.
 
