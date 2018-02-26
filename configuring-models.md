@@ -38,7 +38,7 @@ In order to model streaming data in near real time, Sight Machine tags data reco
 
 * **capturetime:** The time Sight Machine software captured the data from its original source
 
-These timestamp fields allow for efficient access and time sequencing of the conditioned data.
+The data.timestamp is the critical element used to order, group, and blend data from the various incoming data streams.
 
 **NOTE: **We expect that you are working with real-time data that is in order. If you are working with high-latency data or a blend of data that is coming in at different times, contact Sight Machine for support and assistance.
 
