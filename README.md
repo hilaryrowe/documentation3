@@ -25,13 +25,13 @@ Sight Machine currently offers eleven manufacturing-specific data models. Of the
 
 **User-Configured Models**
 
-
+![](/assets/User-Configured Models Table.png)
 
 **NOTE: **This guide covers only Facility, Machine Type, and Machine. For more information, see [Configuring Models](/configuring-models.md).
 
 **AI-Configured Models**
 
-
+![](/assets/AI-Configured Models Table.png)
 
 **NOTE: **This guide covers only Cycles and Downtimes. For more information, see [Configuring a Machine Type](/configuring-models/configuring-a-machine-type.md).
 
