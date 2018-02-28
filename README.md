@@ -15,7 +15,7 @@ The three main tasks required to configure data models in the Sight Machine plat
 
 ## About Model Configurations
 
-Through years of experience with global manufacturers, Sight Machine has developed a series of predefined models that represent various assets, processes, and performance indicators in the production process. These models are extensible across both continuous and discrete manufacturing and have been deployed in nearly every industry including: apparel, food and beverage, textile, paper, oil and gas, chemical, electronics, pharmaceutical/life-science, automotive, and industrial.
+Through years of experience with global manufacturers, Sight Machine has developed a number of manufacturing-specific data models. The value of these data models is that they represent various assets, processes, and performance indicators in the production process. The models are configured to reflect the unique manufacturing process of a specific industry and customer situation. In addition, the models are extensible across both continuous and discrete manufacturing and have been deployed in nearly every industry, including: apparel, food and beverage, textile, paper, oil and gas, chemical, electronics, pharmaceutical/life-science, automotive, etc.
 
 The AI Data Pipeline lets you configure models for a specific industry and customer situation. Configuration happens in two ways:
 
