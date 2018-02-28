@@ -17,41 +17,23 @@ The three main tasks required to configure data models in the Sight Machine plat
 
 Through years of experience with global manufacturers, Sight Machine has developed a number of manufacturing-specific data models. The value of these data models is that they represent various assets, processes, and performance indicators in the production process. The models are configured to reflect the unique manufacturing process of a specific industry and customer situation. In addition, the models are extensible across both continuous and discrete manufacturing and have been deployed in nearly every industry, including: apparel, food and beverage, textile, paper, oil and gas, chemical, electronics, pharmaceutical/life-science, automotive, etc.
 
-The AI Data Pipeline lets you configure models for a specific industry and customer situation. Configuration happens in two ways:
+Sight Machine currently offers eleven manufacturing-specific data models. Of these models, five are user-configured and six are configured using patent pending artificial intelligence. They are defined as follows:
 
-* User configuration of metadata such as location, shift schedule, and line arrangement
+* User-configured models use the AI Data Pipeline to provide powerful customer-specific details. Examples of customer-specific details include location, shift schedule, and line arrangement.
 
-* AI Data Pipeline configuration, which uses artificial intelligence to classify and process incoming data to create the models
+* AI-configured models are automatically generated using artificial intelligence to classify and process incoming data. An important advantage of the AI-configured models is that they combine customer-specific information from the user-configured models with raw data. The resulting AI-configured models represent important manufacturing processes and key performance indicators \(KPIs\).
 
-Models that require user configuration include:
+**User-Configured Models**
 
-* **Facility: **Defining the location, time zone, and shift schedule unique to each facility enables the AI Data Pipeline to determine when machines should be running build data models for each facility, and to relate those data models to key performance indicators \(KPIs\).
 
-* **Machine Type: **Defining cycle boundaries, downtimes, and data features for each machine type allows the AI Data Pipeline to automatically generate a data pipeline unique to each customer’s manufacturing process. These cycle and downtime records are foundational data elements used to blend, join, and integrate data in near real time across the manufacturing enterprise.
-
-* **Machine: **Assigning a machine type and facility location to each machine enables the AI Data Pipeline to automatically render a data model for each machine.
-
-* **Line: **Defining the layout and sequence of a series of machines involved in the production process allows for functionality like bottleneck detection, overall process OEE, and traceability.
-
-* **Part Type: **Defining the category for part data enables the creation of models that can track and trace products, parts, and components as they travel through the production process.
 
 **NOTE: **This guide covers only Facility, Machine Type, and Machine. For more information, see [Configuring Models](/configuring-models.md).
 
-The Sight Machine platform leverages these user-configured models and raw data from machine sensors to automatically generate additional models representing manufacturing processes and key performance indicators. These models include:
+**AI-Configured Models**
 
-* **Cycles:** Represent discrete periods of machine time. During each cycle, a machine involved in a discrete process completes all of its operations on one piece, product, patient, file, etc. In continuous manufacturing, a cycle typically represents a set period of time. These cycles and their associated timestamps play a critical role in establishing relationships between the various data models, enabling rich insights into the relationships between machines, processes, and KPIs.
 
-* **Downtimes: **Describe instances and durations of non-productive, idle, or stop time for a machine.
 
-* **Defects: **Represent non-conformant production output, in both single part and batch.
-
-* **Batches: **Present raw material and output grouping and summary data, which can be associated with cycles and parts.
-
-* **Parts: **Show transaction logs and attributes of serialized information across machines associated with a specific part enabled by the cycle model.
-
-* **OEE:** Represents asset availability, performance, and quality, which together measure Overall Equipment Effectiveness \(OEE\). The models constituting these key performance indicators can be generated at the machine, shift, line, facility, and enterprise level.
-
-**NOTE: **This guide covers only Cycles and Downtimes. For more information, see [Configuring Models](/configuring-models.md).
+**NOTE: **This guide covers only Cycles and Downtimes. For more information, see [Configuring a Machine Type](/configuring-models/configuring-a-machine-type.md).
 
 ## Accessing the AI Data Pipeline Interface
 
