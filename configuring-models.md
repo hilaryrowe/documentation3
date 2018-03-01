@@ -27,7 +27,7 @@ For the AI Data Pipeline to properly model data, each signal or data stream from
 
 For many signals, using an average of the continuous time series values captured during a cycle provides the appropriate level of fidelity for constructing the data model. In the first example, you can see that for continuous temperature data, you could model and visualize the average temperature over a number of cycles.
 
-**Example 1: Modeling Continuous Data**![](/configuring-models/Temp Chart 1 Continuous.png)In the second example, for periodic data over a number of cycles, you would want to use a start, end, and minimum temperature value set rather than an average to generate the most accurate information in the model.
+**Example 1: Modeling Continuous Data**![](/configuring-models/Temp Chart 1 Continuous.png)In the second example, for a data stream that varies significantly during the duration of a cycle, capturing the start, end, and minimum temperature values generate a more accurate model than a simple average.
 
 **Example 2: Modeling Periodic Data**![](/configuring-models/Temp Chart 2 Periodic.png)
 
