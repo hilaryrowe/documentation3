@@ -33,7 +33,7 @@ It is also important to add shifts for each Facility so that the Sight Machine p
 7. In the Shift ID field, enter your Shift Name but without spaces. In a future version, this field will be automatically generated.  
    ![](/configuring-models/configuring-a-machine-type/Facility7.png)
 
-8. In the Shift Start Time/Shift End Time fields, determine when the shift is schedule to start and end.  
+8. In the Shift Start Time/Shift End Time fields, determine when the shift is scheduled to start and end.  
    ![](/configuring-models/configuring-a-machine-type/Facility8.png)
 
 9. Under Add a Break, add break start and end times. These are optional. Click the plus \(+\) button to add additional breaks.  
