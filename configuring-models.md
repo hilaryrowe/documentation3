@@ -23,9 +23,9 @@ In order to model streaming data in near real time, Sight Machine blends, joins,
 
 ## How Cycles Affect the Modeling Process {#docs-internal-guid-c351c58b-b92c-6ffb-164e-8aae1d1fc1ec}
 
-For the AI Data Pipeline to properly model data, you need to extract a discrete set of numbers for everything coming from each signal in the customer’s system. Typically, you would want to distill each signal into one number; rarely mustallsignals be represented in the data to produce a useful model. You can work with the customer’s SMEs to determine which important factors you should be capturing.
+For the AI Data Pipeline to properly model data, each signal or data stream from an individual sensor must have a discrete value or set of values for each cycle. Typically, each signal would be distilled to one value; rarely must **all** signals be represented in the data to produce a useful model. Process or data engineers with expertise in the production process at each facility are usually best equipped to define the rules for establishing these cycle values. After these rules are defined, the AI Data Pipeline will automate the method of establishing values for each cycle to the streaming data.
 
-The simplest method of modeling continuous time series data involves using averages. In the first example, you can see that for continuous temperature data, you could model and visualize the average temperature over a number of cycles.
+For many signals, using an average of the continuous time series values captured during a cycle provides the appropriate level of fidelity for constructing the data model. In the first example, you can see that for continuous temperature data, you could model and visualize the average temperature over a number of cycles.
 
 **Example 1: Modeling Continuous Data**![](/configuring-models/Temp Chart 1 Continuous.png)In the second example, for periodic data over a number of cycles, you would want to use a start, end, and minimum temperature value set rather than an average to generate the most accurate information in the model.
 
