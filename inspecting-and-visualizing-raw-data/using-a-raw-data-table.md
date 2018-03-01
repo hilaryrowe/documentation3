@@ -15,7 +15,7 @@ You can generate your raw data into a table and download the results into a CSV 
 
 4. On the left, click **Data Streams**.
 
-5. In the Data Streams window, select a stream, and then click **Apply**. If you have multiple streams, you can filter to only show a subset.  
+5. In the Data Streams window, select a stream, and then click **Apply**. If you have multiple streams, you can filter to show only a subset.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Tables3.png)
 
 6. On the left, click the date range selector.
