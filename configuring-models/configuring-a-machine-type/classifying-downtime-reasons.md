@@ -31,7 +31,7 @@ For any of these methods, you can classify a list of reasons that machines could
 
    * Type the raw data code.
 
-   * In the drop-down list, select **Planned** or **Unplanned**.
+   * In the Type drop-down list, select **Planned** or **Unplanned**.
 
    * Type an optional description.  
      For example, you may know that a certain machine returns the error code 0111 for a parts issue.  
