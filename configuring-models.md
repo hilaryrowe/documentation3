@@ -1,3 +1,5 @@
+#  {#docs-internal-guid-c351c58b-9ac9-92d7-27f6-6c814f13799f}
+
 # Configuring Models {#docs-internal-guid-c351c58b-9ac9-92d7-27f6-6c814f13799f}
 
 Model configuration is the core capability of the AI Data Pipeline. It provides an interface for you to define the configurations that will act as a set of instructions for the AI Data Pipeline as it produces your unified data model.
@@ -29,5 +31,5 @@ For many signals, using an average of the continuous time series values captured
 
 **Example 1: Modeling Continuous Data**![](/configuring-models/Temp Chart 1 Continuous.png)In the second example, for a data stream that varies significantly during the duration of a cycle, capturing the start, end, and minimum temperature values generate a more accurate model than a simple average.
 
-**Example 2: Modeling Periodic Data**![](/configuring-models/Temp Chart 2 Periodic.png)
+**Example 2: Modeling Periodic Data**![](/configuring-models/Temp Chart 2 Periodic.png)Establishing these rules for determining the discrete value\(s\) of each signal or data stream from an individual sensor for each cycle is a critical element of user configuration. The AI Data Pipeline provides an easy-to-use interface for defining these rules for each Data Field in the Machine Type configurations.
 
