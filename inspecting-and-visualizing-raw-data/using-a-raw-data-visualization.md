@@ -15,7 +15,7 @@ You can generate charts of your raw data to visualize it.
 
 4. On the left, click **Data Streams**.
 
-5. In the Data Streams window, select a stream, and then click **Apply**. If you have multiple streams, you can filter to only show a subset.  
+5. In the Data Streams window, select a stream, and then click **Apply**. If you have multiple streams, you can filter to show only a subset.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Visualization3.png)
 
 6. On the left, click **Raw Field**.
