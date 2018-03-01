@@ -13,7 +13,7 @@ After you have defined much of the critical information in Machines Types, a Mac
 3. On the Configuration screen that opens automatically, click the **Asset** field.  
    ![](/configuring-models/configuring-a-machine-type/Machine2.png)
 
-4. In the Assets window, select a FactoryTX asset to align with this machine.  
+4. In the Assets window, select a FactoryTX asset to align with this Machine.  
    ![](/configuring-models/configuring-a-machine-type/Machine3.png)
 
 5. At the top of the Configuration screen, type a unique name for the Machine. This will appear in Manufacturing Applications.  

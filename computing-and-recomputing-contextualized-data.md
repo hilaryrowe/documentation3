@@ -38,7 +38,7 @@ The Compute tab allows you initiate and monitor Recompute jobs.
 8. At the bottom, click **Compute**.  
    ![](/computing-and-recomputing-contextualized-data/Compute6.png)
 
-9. In the Active job status window, view the pending job to check its percentage completed and number of records are being processed.  
+9. In the Active job status window, view the pending job to check its percentage completed and number of records that are being processed.  
    ![](/computing-and-recomputing-contextualized-data/Compute7.png)
 
 10. When the job is finished, you can view it in the Completed section of the window on the right.  
