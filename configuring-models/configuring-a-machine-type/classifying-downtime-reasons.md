@@ -37,7 +37,7 @@ For any of these methods, you can classify a list of reasons that machines could
      For example, you may know that a certain machine returns the error code 0111 for a parts issue.  
      ![](/configuring-models/configuring-a-machine-type/Machine Type15.png)
 
-6. This will add your Raw Data Code Field to the list below. Planned or Unplanned are determined based on whether the downtimes occur during a specified shift, break, or outside of a shift.  
+6. This will add your Raw Data Code Field to the list below. Planned or Unplanned are determined based on whether the downtimes occur during a specified shift or break, or outside of a shift.  
    ![](/configuring-models/configuring-a-machine-type/Machine Type16.png)
 
 
