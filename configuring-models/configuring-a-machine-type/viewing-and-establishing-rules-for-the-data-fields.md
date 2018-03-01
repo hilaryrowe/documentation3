@@ -1,6 +1,6 @@
 ## Viewing and Establishing Rules for the Data Fields
 
-After you set up cycle boundaries and create downtime reasons, you can validate the data fields that you are working with.
+After you set up cycle boundaries and create downtime reasons, you can validate the data fields with which you are working.
 
 **To view and establish rules for the data fields:**
 
