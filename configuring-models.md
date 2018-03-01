@@ -14,7 +14,7 @@ Currently, we support the configuration of Facilities, Machine Types, and Machin
 
 ## About Time Sequencing
 
-In order to model streaming data in near real time, Sight Machine tags data records with timestamps at various points in the data acquisition process. At this point, each manufacturing data packet contains at least two time fields:
+In order to model streaming data in near real time, Sight Machine blends, joins, and integrates data streams from multiple sources. To establish relationships between disparate data types and sources, the AI Data Pipeline tags data records with timestamps at various points in the data acquisition process. At this point, each manufacturing data packet contains at least two time fields:
 
 * **data.timestamp: **A field within the raw data that indicates the time when the raw data was generated. This field is the critical element used to order, group, and blend data from the various incoming data streams, and is used by the Sight Machine platform for all downstream calculations, like cycle boundaries, downtime boundaries, etc.
 * **capturetime: **This field indicates the time that the Sight Machine software captured the data from its original source.
