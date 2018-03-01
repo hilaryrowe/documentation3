@@ -20,11 +20,11 @@ The second step in creating a Machine Type is to make sure that you correctly de
 
 3. If you select Counter Already Exists, on the Cycles page, do the following:
 
-   * Under Define the Cycle Boundaries, click **Add a Steam**, and then click **Stream** drop-down arrow to select an option \(for example, PLC\).
+   * Under Define the Cycle Boundaries, click **Add a Steam**, and then click the **Stream** drop-down arrow to select an option \(for example, PLC\).
 
    * Click the **Counter** drop-down arrow to select the field on the stream that represents the cycle counter \(for example, Outs\).
 
-   * Under Set the Boundary Function, click the **Boundary Function** drop-down arrow to select boundary for the counter \(for example, Alternating Signal\).
+   * Under Set the Boundary Function, click the **Boundary Function** drop-down arrow to select the boundary for the counter \(for example, Alternating Signal\).
 
    * Under Max Cycle Time, accept the default of 10000 ms or set a new time. When a cycle exceeds this duration, the AI Data Pipeline ends the cycle and starts a downtime, and then waits for the signal to indicate the start of a new cycle.  
      ![](/configuring-models/configuring-a-machine-type/Machine Type8.png)
