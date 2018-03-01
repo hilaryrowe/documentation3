@@ -26,7 +26,7 @@ You can view raw data in real time as it streams into the AI Data Pipeline.
 
 8. On the left, click **Frequency**.
 
-9. In the Frequency window, select the streaming frequency of the visualization. This settings lets you control the pace at which data is visualized, irrespective of the pace at which is is collected. For example, **Fast** means you will see less data on screen, but it wil update more frequently. **Slow** means who will see more data on screen, but it will update less frequently.  
+9. In the Frequency window, select the streaming frequency of the visualization. This settings lets you control the pace at which data is visualized, irrespective of the pace at which is is collected. For example, **Fast** means you will see less data on-screen, but it wil update more frequently. **Slow** means who will see more data on-screen, but it will update less frequently.  
    ![](/inspecting-and-visualizing-raw-data/Raw Data Streaming5.png)
 
 10. When you are finished making your selections, on the left, click **Update**.  
