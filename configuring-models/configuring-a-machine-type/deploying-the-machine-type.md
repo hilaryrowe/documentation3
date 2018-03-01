@@ -6,7 +6,7 @@ When you are finished the Machine Type setup, you must deploy it.
 
 1. On the left, click **Review & Deploy**.
 
-2. On the Review & Deploy screen, look over the information, and the click **Deploy**.  
+2. On the Review & Deploy screen, look over the information, and then click **Deploy**.  
    ![](/configuring-models/configuring-a-machine-type/Machine Type18.png)
 
 
