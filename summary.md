@@ -12,7 +12,7 @@
     * [Creating a New Machine Type](configuring-models/configuring-a-machine-type/creating-a-new-machine-type.md)
     * [Defining Cycle Boundaries](configuring-models/configuring-a-machine-type/defining-cycle-boundaries.md)
     * [Generating Downtimes](configuring-models/configuring-a-machine-type/generating-downtimes.md)
-    * [Viewing and Establishing Rules for the Data Fields](configuring-models/configuring-a-machine-type/viewing-and-establishing-rules-for-the-data-fields.md)
+    * [Creating and Managing Downtimes Reasons](configuring-models/configuring-a-machine-type/creatin-and-managing-downtime-reasons.md)
     * [Deploying the Machine Type](configuring-models/configuring-a-machine-type/deploying-the-machine-type.md)
     * [Generating Downtimes](node_modules/gitbook-plugin-mathjax/node_modules/MathJax-node/node_modules/jsdom/node_modules/cssstyle/lib/properties/webkitBorderStartColor.js)
   * [Configuring a Machine](configuring-models/configuring-a-machine.md)
