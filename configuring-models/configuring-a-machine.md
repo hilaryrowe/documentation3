@@ -1,6 +1,6 @@
 # Configuring a Machine
 
-After you have defined much of the critical information in Machines Types, a Machine is a fairly straightforward configuration. Simply name your machine, identify the asset from FactoryTX that defines this Machine, and select the Machine Type and Facility to which the Machine belongs.
+After you have defined much of the critical information in Machines Types, a Machine is a fairly straightforward configuration. Simply name your Machine, identify the asset from FactoryTX that defines this Machine, and select the Machine Type and Facility to which the Machine belongs.
 
 **To configure a Machine:**
 
