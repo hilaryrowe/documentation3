@@ -40,10 +40,10 @@ The second step in creating a Machine Type is to make sure that you correctly de
    * Under Max Cycle Time, accept the default of 10000 ms or set a new time.  
      ![](/configuring-models/configuring-a-machine-type/Machine Type9.png)
 
-5. If you select One Cycle Per Record, to establish the boundaries based on that one record, under Max Cycle Time, accept the default of 10000 ms or set a new time.  
+5. If you select One Cycle Per Record, on the Cycles page, to establish the boundaries based on that one record, under Max Cycle Time, accept the default of 10000 ms or set a new time.  
    ![](/configuring-models/configuring-a-machine-type/Machine Type10.png)
 
-6. If you select Time Interval, under Cycle Duration, accept the default of 60000 Milliseconds or set a new time.  
+6. If you select Time Interval, on the Cycles page, under Cycle Duration, accept the default of 60000 Milliseconds or set a new time.  
    ![](/configuring-models/configuring-a-machine-type/Machine Type11.png)
 
 
