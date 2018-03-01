@@ -20,7 +20,7 @@ For any of these methods, you can classify a list of reasons that machines could
    **NOTE: **This field is optional. It is used for Machine Types with very long cycles. You can provide a Boolean raw data field, and when it goes to TRUE, a downtime will be created during the cycle, without breaking the cycle in two.  
    ![](/configuring-models/configuring-a-machine-type/Machine Type13.png)
 
-3. Under Raw Data Code Field, type a field from the raw data that contains downtimes codes. For example: ALARMS.  
+3. Under Raw Data Code Field, type a field from the raw data that contains downtime codes. For example: ALARMS.  
    ![](/configuring-models/configuring-a-machine-type/Machine Type14.png)
 
 4. Click the plus \(+\) button to map those codes to custom downtime reasons.
@@ -38,7 +38,7 @@ For any of these methods, you can classify a list of reasons that machines could
      ![](/configuring-models/configuring-a-machine-type/Machine Type15.png)
 
 6. This will add your Raw Data Code Field to the list below. Planned or Unplanned are determined based on whether the downtimes occur during a specified shift, break, or outside of a shift.  
-   ![](/configuring-models/configuring-a-machine-type/Machine Type16.png)  
+   ![](/configuring-models/configuring-a-machine-type/Machine Type16.png)
 
 
 
